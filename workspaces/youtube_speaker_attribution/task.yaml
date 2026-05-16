@@ -1,0 +1,23 @@
+schema_version: 0.1
+workspace_id: youtube_speaker_attribution
+name: YouTube Speaker Attribution
+description: Generate timestamped podcast transcripts with conservative real-person attribution.
+
+default_dataset: small_gold
+default_strategy: review_heavy_low_false_assignment
+
+paths:
+  intake: intake
+  contracts: contracts
+  datasets: datasets
+  harnesses: harnesses
+  experiments: experiments
+  runs: runs
+  codex_tasks: codex_tasks
+  reports: reports
+
+promotion_policy:
+  require_human_review: true
+  require_regression_pass: true
+  require_output_contract_preserved: true
+  require_safety_contract_preserved: true

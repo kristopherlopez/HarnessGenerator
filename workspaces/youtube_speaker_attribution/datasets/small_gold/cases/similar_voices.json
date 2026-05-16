@@ -1,0 +1,43 @@
+{
+  "case_id": "similar_voices",
+  "media_uri": "mock://similar_voices.wav",
+  "known_people_set_id": "seed_podcast",
+  "media_type": "audio",
+  "conditions": {
+    "speaker_count": 2,
+    "has_unknown_speakers": false,
+    "overlap_level": "none",
+    "face_visibility": "none",
+    "audio_quality": "medium"
+  },
+  "segments": [
+    {
+      "segment_id": "seg_001",
+      "start": 70.0,
+      "end": 76.0,
+      "text": "That pattern shows up in the second example too.",
+      "true_person_id": "person_guest_c",
+      "true_display_name": "Guest C",
+      "speaker_type": "known",
+      "evidence_candidates": [
+        {
+          "person_id": "person_guest_c",
+          "display_name": "Guest C",
+          "confidence": 0.81,
+          "evidence_types": ["voice"],
+          "duration_seconds": 6.0,
+          "provenance": ["voice_profile:guest_c:v1"]
+        },
+        {
+          "person_id": "person_guest_b",
+          "display_name": "Guest B",
+          "confidence": 0.79,
+          "evidence_types": ["voice"],
+          "duration_seconds": 6.0,
+          "provenance": ["voice_profile:guest_b:v1"]
+        }
+      ]
+    }
+  ]
+}
+

@@ -1,0 +1,34 @@
+[project]
+name = "harnessgenerator"
+version = "0.1.0"
+description = "Recursive harness generator for safe speaker-attributed transcription experiments."
+requires-python = ">=3.12"
+dependencies = [
+  "pydantic>=2.8",
+  "pyyaml>=6.0",
+]
+
+[dependency-groups]
+dev = [
+  "mypy>=1.10",
+  "pytest>=8.2",
+  "ruff>=0.5",
+  "types-PyYAML>=6.0",
+]
+
+[tool.ruff]
+line-length = 100
+target-version = "py312"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B"]
+
+[tool.mypy]
+python_version = "3.12"
+strict = true
+warn_unused_configs = true
+packages = ["app", "evals"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]

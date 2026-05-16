@@ -1,0 +1,221 @@
+{
+  "case_id": "youtube_gG1Lq2pIgGM_part_010",
+  "source": {
+    "input_type": "youtube_url",
+    "youtube_url": "https://www.youtube.com/watch?v=gG1Lq2pIgGM",
+    "source_id": "youtube_gG1Lq2pIgGM",
+    "title": "Taumalolo BREAKS Cowboys ALL TIME RECORD! Hughes, Gray and Gutherson return | Round 10 Preview",
+    "channel": "Bloke In A Bar",
+    "notes": "Seeded from YouTube URL.",
+    "parent_case_id": "youtube_gG1Lq2pIgGM"
+  },
+  "media": {
+    "media_type": "video",
+    "media_uri": "media/youtube_gG1Lq2pIgGM/segments/youtube_gG1Lq2pIgGM_part_010.mp4",
+    "clip_start": 3000.015,
+    "clip_end": 3046.876,
+    "duration": 46.861,
+    "parent_media_uri": "media/youtube_gG1Lq2pIgGM.mp4",
+    "parent_segments_manifest": "media/youtube_gG1Lq2pIgGM/segments_manifest.json",
+    "segment_index": 10
+  },
+  "media_uri": "media/youtube_gG1Lq2pIgGM/segments/youtube_gG1Lq2pIgGM_part_010.mp4",
+  "known_people_set_id": "seed_podcast",
+  "media_type": "video",
+  "conditions": {
+    "speaker_count": 2,
+    "has_unknown_speakers": true,
+    "overlap_level": "unknown",
+    "face_visibility": "unknown",
+    "audio_quality": "unknown"
+  },
+  "speakers": [
+    {
+      "person_id": "provisional_deepgram_speaker_0",
+      "display_name": "Speaker 0",
+      "speaker_type": "unknown",
+      "aliases": [
+        "deepgram:0"
+      ],
+      "notes": "Machine diarized provisional speaker. Human review required before promotion."
+    },
+    {
+      "person_id": "provisional_deepgram_speaker_2",
+      "display_name": "Speaker 2",
+      "speaker_type": "unknown",
+      "aliases": [
+        "deepgram:2"
+      ],
+      "notes": "Machine diarized provisional speaker. Human review required before promotion."
+    }
+  ],
+  "segments": [
+    {
+      "segment_id": "youtube_gG1Lq2pIgGM_part_010_seg_0001",
+      "start": 0.08,
+      "end": 11.68,
+      "text": "Can't believe the rate is a three seventy three. I don't mind that. Rate is plus 10 and half. That's juicy. That's juicy. And, like, look, I'm I'm you know, Penrith favorites to win sure. As well. Could be an ambush. Could be an ambush.",
+      "true_person_id": "provisional_deepgram_speaker_0",
+      "true_display_name": "Speaker 0",
+      "speaker_type": "unknown",
+      "confidence": 0.8889,
+      "evidence_candidates": [
+        {
+          "person_id": "provisional_deepgram_speaker_0",
+          "display_name": "Speaker 0",
+          "confidence": 0.0,
+          "evidence_types": [
+            "diarized_transcription"
+          ],
+          "duration_seconds": 11.6,
+          "provenance": [
+            "deepgram:nova-3:diarize:latest",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_010.json"
+          ]
+        }
+      ],
+      "notes": "Machine-generated draft from Deepgram diarized utterances; not human reviewed. provider=deepgram_diarized_transcription model=nova-3 diarize_model=latest provider_speaker=0 provider_utterance_id=3d81a402-4dd7-4c57-bb9b-23bd31b0f874"
+    },
+    {
+      "segment_id": "youtube_gG1Lq2pIgGM_part_010_seg_0002",
+      "start": 11.92,
+      "end": 23.055,
+      "text": "Yeah. If I was to be getting upset, it'd be it'd be this one for I agree. I think it's gonna be crackhead. Round for me. Cracking match. I'll go Panthers, but I think it's gonna be a cracking match cracking match. Yeah. I'm gonna go to the Raiders. Okay.",
+      "true_person_id": "provisional_deepgram_speaker_0",
+      "true_display_name": "Speaker 0",
+      "speaker_type": "unknown",
+      "confidence": 0.908,
+      "evidence_candidates": [
+        {
+          "person_id": "provisional_deepgram_speaker_0",
+          "display_name": "Speaker 0",
+          "confidence": 0.0,
+          "evidence_types": [
+            "diarized_transcription"
+          ],
+          "duration_seconds": 11.135,
+          "provenance": [
+            "deepgram:nova-3:diarize:latest",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_010.json"
+          ]
+        }
+      ],
+      "notes": "Machine-generated draft from Deepgram diarized utterances; not human reviewed. provider=deepgram_diarized_transcription model=nova-3 diarize_model=latest provider_speaker=0 provider_utterance_id=5c11809a-39e9-4298-b5f8-27c3ab62e733"
+    },
+    {
+      "segment_id": "youtube_gG1Lq2pIgGM_part_010_seg_0003",
+      "start": 23.375,
+      "end": 24.575,
+      "text": "Okay. I'm",
+      "true_person_id": "provisional_deepgram_speaker_0",
+      "true_display_name": "Speaker 0",
+      "speaker_type": "unknown",
+      "confidence": 0.9769,
+      "evidence_candidates": [
+        {
+          "person_id": "provisional_deepgram_speaker_0",
+          "display_name": "Speaker 0",
+          "confidence": 0.0,
+          "evidence_types": [
+            "diarized_transcription"
+          ],
+          "duration_seconds": 1.2,
+          "provenance": [
+            "deepgram:nova-3:diarize:latest",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_010.json"
+          ]
+        }
+      ],
+      "notes": "Machine-generated draft from Deepgram diarized utterances; not human reviewed. provider=deepgram_diarized_transcription model=nova-3 diarize_model=latest provider_speaker=0 provider_utterance_id=d69b99e8-211b-4ab3-923d-bafd9d956cce"
+    },
+    {
+      "segment_id": "youtube_gG1Lq2pIgGM_part_010_seg_0004",
+      "start": 24.975,
+      "end": 34.38,
+      "text": "You know I'm gonna go to Raiders. Okay. Down at home. Alright. That's back in my day. Done and dusted, guys. Make sure to grab a jersey. Make sure to meet us at the Caxton Hotel",
+      "true_person_id": "provisional_deepgram_speaker_0",
+      "true_display_name": "Speaker 0",
+      "speaker_type": "unknown",
+      "confidence": 0.9392,
+      "evidence_candidates": [
+        {
+          "person_id": "provisional_deepgram_speaker_0",
+          "display_name": "Speaker 0",
+          "confidence": 0.0,
+          "evidence_types": [
+            "diarized_transcription"
+          ],
+          "duration_seconds": 9.405,
+          "provenance": [
+            "deepgram:nova-3:diarize:latest",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_010.json"
+          ]
+        }
+      ],
+      "notes": "Machine-generated draft from Deepgram diarized utterances; not human reviewed. provider=deepgram_diarized_transcription model=nova-3 diarize_model=latest provider_speaker=0 provider_utterance_id=cd2c06e1-f4fc-497c-91fd-0c06b3820dd2"
+    },
+    {
+      "segment_id": "youtube_gG1Lq2pIgGM_part_010_seg_0005",
+      "start": 34.46,
+      "end": 38.62,
+      "text": "car park. We're doing a live show next week between eleven and one on Saturday.",
+      "true_person_id": "provisional_deepgram_speaker_0",
+      "true_display_name": "Speaker 0",
+      "speaker_type": "unknown",
+      "confidence": 0.9429,
+      "evidence_candidates": [
+        {
+          "person_id": "provisional_deepgram_speaker_0",
+          "display_name": "Speaker 0",
+          "confidence": 0.0,
+          "evidence_types": [
+            "diarized_transcription"
+          ],
+          "duration_seconds": 4.16,
+          "provenance": [
+            "deepgram:nova-3:diarize:latest",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_010.json"
+          ]
+        }
+      ],
+      "notes": "Machine-generated draft from Deepgram diarized utterances; not human reviewed. provider=deepgram_diarized_transcription model=nova-3 diarize_model=latest provider_speaker=0 provider_utterance_id=744c095f-e540-4a68-a491-4686e8edbfd8"
+    },
+    {
+      "segment_id": "youtube_gG1Lq2pIgGM_part_010_seg_0006",
+      "start": 39.215,
+      "end": 46.815,
+      "text": "And as usual, we'll go and fuck ourselves. Thank you. What's gambling really costing you? For free and confidential support, visit gamblinghelponline.org.au.",
+      "true_person_id": "provisional_deepgram_speaker_2",
+      "true_display_name": "Speaker 2",
+      "speaker_type": "unknown",
+      "confidence": 0.9924,
+      "evidence_candidates": [
+        {
+          "person_id": "provisional_deepgram_speaker_2",
+          "display_name": "Speaker 2",
+          "confidence": 0.0,
+          "evidence_types": [
+            "diarized_transcription"
+          ],
+          "duration_seconds": 7.6,
+          "provenance": [
+            "deepgram:nova-3:diarize:latest",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_010.json"
+          ]
+        }
+      ],
+      "notes": "Machine-generated draft from Deepgram diarized utterances; not human reviewed. provider=deepgram_diarized_transcription model=nova-3 diarize_model=latest provider_speaker=2 provider_utterance_id=871c03be-2b31-4586-88e5-8b2792cbd828"
+    }
+  ],
+  "annotation": {
+    "status": "draft",
+    "reviewed_by": "",
+    "review_level": "rough",
+    "notes": "Machine-populated 6 transcript segments and 2 provisional speakers from deepgram_diarized_transcription. Speaker identities are anonymous diarization labels until reviewed.",
+    "provider": "deepgram_diarized_transcription",
+    "provider_model": "nova-3",
+    "provider_output": "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_010.json",
+    "human_review_required": true,
+    "provider_diarize_model": "latest"
+  }
+}

@@ -1,0 +1,29 @@
+primary_metric:
+  name: false_assignment_rate
+  lower_is_better: true
+
+secondary_metrics:
+  - name: identity_accuracy
+    lower_is_better: false
+  - name: known_person_precision
+    lower_is_better: false
+  - name: known_person_recall
+    lower_is_better: false
+  - name: unknown_detection_recall
+    lower_is_better: false
+  - name: false_merge_rate
+    lower_is_better: true
+  - name: false_split_rate
+    lower_is_better: true
+  - name: needs_review_rate
+    lower_is_better: true
+  - name: latency_seconds_per_media_hour
+    lower_is_better: true
+
+selection_rules:
+  winner_must:
+    - preserve_output_contract
+    - pass_regression_cases
+    - not_increase_false_assignment_rate_above_limit
+    - not_increase_false_merge_rate_above_limit
+

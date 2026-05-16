@@ -1,0 +1,36 @@
+{
+  "case_id": "youtube_gG1Lq2pIgGM",
+  "source": {
+    "input_type": "youtube_url",
+    "youtube_url": "https://www.youtube.com/watch?v=gG1Lq2pIgGM",
+    "source_id": "youtube_gG1Lq2pIgGM",
+    "title": "Taumalolo BREAKS Cowboys ALL TIME RECORD! Hughes, Gray and Gutherson return | Round 10 Preview",
+    "channel": "Bloke In A Bar",
+    "notes": "Seeded from YouTube URL."
+  },
+  "media": {
+    "media_type": "video",
+    "media_uri": "media/youtube_gG1Lq2pIgGM.mp4",
+    "clip_start": 0.0,
+    "clip_end": 3046.876,
+    "segments_manifest": "media/youtube_gG1Lq2pIgGM/segments_manifest.json"
+  },
+  "media_uri": "media/youtube_gG1Lq2pIgGM.mp4",
+  "known_people_set_id": "seed_podcast",
+  "media_type": "video",
+  "conditions": {
+    "speaker_count": 0,
+    "has_unknown_speakers": true,
+    "overlap_level": "unknown",
+    "face_visibility": "unknown",
+    "audio_quality": "unknown"
+  },
+  "speakers": [],
+  "segments": [],
+  "annotation": {
+    "status": "draft",
+    "reviewed_by": "",
+    "review_level": "rough",
+    "notes": "Needs transcript, diarization, and reviewed speaker labels."
+  }
+}

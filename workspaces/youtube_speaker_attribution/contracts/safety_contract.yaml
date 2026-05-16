@@ -1,0 +1,23 @@
+identity_safety:
+  prefer_unknown_over_wrong_identity: true
+  require_non_llm_identity_evidence: true
+  require_evidence_provenance: true
+  human_review_authoritative: true
+  prohibit_transcript_only_identity_assignment: true
+
+privacy:
+  public_api_must_not_expose:
+    - raw_face_embeddings
+    - raw_voice_embeddings
+    - face_crops
+    - raw_frames
+    - private_reference_clips
+
+test_safety:
+  prohibit_live_external_apis_in_tests: true
+  require_mocked_providers: true
+
+change_control:
+  safety_contract_changes_require_explicit_task: true
+  output_contract_changes_require_explicit_task: true
+

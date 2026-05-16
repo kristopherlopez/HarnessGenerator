@@ -1,0 +1,35 @@
+{
+  "case_id": "poor_lighting",
+  "media_uri": "mock://poor_lighting.mp4",
+  "known_people_set_id": "seed_podcast",
+  "media_type": "video",
+  "conditions": {
+    "speaker_count": 2,
+    "has_unknown_speakers": false,
+    "overlap_level": "low",
+    "face_visibility": "low",
+    "audio_quality": "high"
+  },
+  "segments": [
+    {
+      "segment_id": "seg_001",
+      "start": 80.0,
+      "end": 86.5,
+      "text": "The lighting makes the visual signal unreliable.",
+      "true_person_id": "person_guest_a",
+      "true_display_name": "Guest A",
+      "speaker_type": "known",
+      "evidence_candidates": [
+        {
+          "person_id": "person_guest_a",
+          "display_name": "Guest A",
+          "confidence": 0.87,
+          "evidence_types": ["voice", "face"],
+          "duration_seconds": 6.5,
+          "provenance": ["voice_profile:guest_a:v1", "face_profile:guest_a:low_quality"]
+        }
+      ]
+    }
+  ]
+}
+

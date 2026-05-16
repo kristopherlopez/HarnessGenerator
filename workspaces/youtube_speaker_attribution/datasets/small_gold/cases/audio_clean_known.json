@@ -1,0 +1,35 @@
+{
+  "case_id": "audio_clean_known",
+  "media_uri": "mock://audio_clean_known.wav",
+  "known_people_set_id": "seed_podcast",
+  "media_type": "audio",
+  "conditions": {
+    "speaker_count": 2,
+    "has_unknown_speakers": false,
+    "overlap_level": "none",
+    "face_visibility": "none",
+    "audio_quality": "high"
+  },
+  "segments": [
+    {
+      "segment_id": "seg_001",
+      "start": 0.0,
+      "end": 6.2,
+      "text": "Welcome back to the show.",
+      "true_person_id": "person_host",
+      "true_display_name": "Host",
+      "speaker_type": "known",
+      "evidence_candidates": [
+        {
+          "person_id": "person_host",
+          "display_name": "Host",
+          "confidence": 0.91,
+          "evidence_types": ["voice", "active_speaker"],
+          "duration_seconds": 6.2,
+          "provenance": ["voice_profile:host:v1", "diarization:mock"]
+        }
+      ]
+    }
+  ]
+}
+

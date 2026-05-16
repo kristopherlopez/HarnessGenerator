@@ -1,0 +1,17 @@
+{
+  "name": "small_gold",
+  "description": "Synthetic bootstrap fixtures for safe identity-resolution evaluation.",
+  "cases": [
+    "audio_clean_known.json",
+    "video_two_visible.json",
+    "video_call_four_known.json",
+    "panel_overlap.json",
+    "audio_unknown_guest.json",
+    "video_off_camera.json",
+    "short_interjection.json",
+    "similar_voices.json",
+    "poor_lighting.json",
+    "repeat_person_cross_media.json"
+  ]
+}
+

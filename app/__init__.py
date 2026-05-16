@@ -1,0 +1,2 @@
+"""HarnessGenerator application package."""
+

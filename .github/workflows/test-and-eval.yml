@@ -1,0 +1,43 @@
+name: test-and-eval
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+jobs:
+  test-and-eval:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install uv
+        uses: astral-sh/setup-uv@v5
+
+      - name: Install dependencies
+        run: uv sync
+
+      - name: Lint
+        run: uv run ruff check .
+
+      - name: Type check
+        run: uv run mypy app evals
+
+      - name: Unit tests
+        run: uv run pytest
+
+      - name: Validate bootstrap contracts
+        run: uv run python -m app.bootstrap.readiness --workspace workspaces/youtube_speaker_attribution
+
+      - name: Run evals
+        run: uv run python -m evals.run_eval --workspace workspaces/youtube_speaker_attribution --dataset small_gold
+
+      - name: Compare strategies
+        run: uv run python -m evals.compare_strategies --workspace workspaces/youtube_speaker_attribution --dataset small_gold
+
+      - name: Check regressions
+        run: uv run python -m evals.check_regression --workspace workspaces/youtube_speaker_attribution
+
+      - name: Generate candidate harness changes
+        run: uv run python -m app.harness_optimizer.candidates --workspace workspaces/youtube_speaker_attribution

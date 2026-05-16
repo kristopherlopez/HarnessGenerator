@@ -1,0 +1,35 @@
+{
+  "case_id": "audio_unknown_guest",
+  "media_uri": "mock://audio_unknown_guest.wav",
+  "known_people_set_id": "seed_podcast",
+  "media_type": "audio",
+  "conditions": {
+    "speaker_count": 3,
+    "has_unknown_speakers": true,
+    "overlap_level": "none",
+    "face_visibility": "none",
+    "audio_quality": "high"
+  },
+  "segments": [
+    {
+      "segment_id": "seg_001",
+      "start": 40.0,
+      "end": 45.0,
+      "text": "Thanks for letting me join at the last minute.",
+      "true_person_id": "unknown",
+      "true_display_name": "Unknown Speaker",
+      "speaker_type": "unknown",
+      "evidence_candidates": [
+        {
+          "person_id": "person_guest_c",
+          "display_name": "Guest C",
+          "confidence": 0.72,
+          "evidence_types": ["voice"],
+          "duration_seconds": 5.0,
+          "provenance": ["voice_profile:guest_c:v1"]
+        }
+      ]
+    }
+  ]
+}
+

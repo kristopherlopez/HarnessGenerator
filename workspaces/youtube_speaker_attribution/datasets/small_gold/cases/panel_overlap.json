@@ -1,0 +1,43 @@
+{
+  "case_id": "panel_overlap",
+  "media_uri": "mock://panel_overlap.mp4",
+  "known_people_set_id": "seed_panel",
+  "media_type": "video",
+  "conditions": {
+    "speaker_count": 5,
+    "has_unknown_speakers": false,
+    "overlap_level": "high",
+    "face_visibility": "medium",
+    "audio_quality": "medium"
+  },
+  "segments": [
+    {
+      "segment_id": "seg_001",
+      "start": 31.4,
+      "end": 34.1,
+      "text": "I think there are two separate issues here.",
+      "true_person_id": "person_guest_b",
+      "true_display_name": "Guest B",
+      "speaker_type": "known",
+      "evidence_candidates": [
+        {
+          "person_id": "person_guest_b",
+          "display_name": "Guest B",
+          "confidence": 0.74,
+          "evidence_types": ["voice"],
+          "duration_seconds": 2.7,
+          "provenance": ["voice_profile:guest_b:v1"]
+        },
+        {
+          "person_id": "person_guest_c",
+          "display_name": "Guest C",
+          "confidence": 0.70,
+          "evidence_types": ["voice"],
+          "duration_seconds": 2.7,
+          "provenance": ["voice_profile:guest_c:v1"]
+        }
+      ]
+    }
+  ]
+}
+

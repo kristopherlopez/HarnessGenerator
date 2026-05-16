@@ -1,0 +1,55 @@
+# Example task specification for HarnessGenerator.
+schema_version: 0.1
+name: example_structured_qa
+description: Structured question answering with deterministic labels.
+
+dataset:
+  format: jsonl
+  path: data/example_structured_qa.jsonl
+  splits:
+    dev: data/splits/dev.jsonl
+    validation: data/splits/validation.jsonl
+    test: data/splits/test.jsonl
+
+input_schema:
+  question: string
+  context: string
+
+output_schema:
+  answer: string
+
+scoring:
+  primary_metric: exact_match
+  secondary_metrics:
+    - cost_usd
+    - latency_ms
+    - model_calls
+    - malformed_output_rate
+
+budget:
+  max_cost_usd_per_run: 10.00
+  max_model_calls_per_task: 8
+  max_wall_clock_seconds_per_task: 120
+  max_output_tokens_per_task: 4096
+
+models:
+  default:
+    provider: openai
+    model: configurable-model-name
+    temperature: 0.2
+  comparison:
+    - provider: anthropic
+      model: configurable-model-name
+      temperature: 0.2
+
+tools:
+  allow_network: false
+  allow_filesystem_write: false
+  allowed_tools: []
+
+optimization:
+  search_level: prompt_and_config
+  max_candidates: 20
+  selection_metric: task_score_minus_budget_penalty
+  archive_dir: runs
+

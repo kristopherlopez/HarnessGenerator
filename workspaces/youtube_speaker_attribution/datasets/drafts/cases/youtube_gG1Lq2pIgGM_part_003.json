@@ -1,0 +1,854 @@
+{
+  "case_id": "youtube_gG1Lq2pIgGM_part_003",
+  "source": {
+    "input_type": "youtube_url",
+    "youtube_url": "https://www.youtube.com/watch?v=gG1Lq2pIgGM",
+    "source_id": "youtube_gG1Lq2pIgGM",
+    "title": "Taumalolo BREAKS Cowboys ALL TIME RECORD! Hughes, Gray and Gutherson return | Round 10 Preview",
+    "channel": "Bloke In A Bar",
+    "notes": "Seeded from YouTube URL.",
+    "parent_case_id": "youtube_gG1Lq2pIgGM"
+  },
+  "media": {
+    "media_type": "video",
+    "media_uri": "media/youtube_gG1Lq2pIgGM/segments/youtube_gG1Lq2pIgGM_part_003.mp4",
+    "clip_start": 900.015,
+    "clip_end": 1200.015,
+    "duration": 300.0,
+    "parent_media_uri": "media/youtube_gG1Lq2pIgGM.mp4",
+    "parent_segments_manifest": "media/youtube_gG1Lq2pIgGM/segments_manifest.json",
+    "segment_index": 3
+  },
+  "media_uri": "media/youtube_gG1Lq2pIgGM/segments/youtube_gG1Lq2pIgGM_part_003.mp4",
+  "known_people_set_id": "seed_podcast",
+  "media_type": "video",
+  "conditions": {
+    "speaker_count": 3,
+    "has_unknown_speakers": true,
+    "overlap_level": "unknown",
+    "face_visibility": "unknown",
+    "audio_quality": "unknown"
+  },
+  "speakers": [
+    {
+      "person_id": "provisional_deepgram_speaker_0",
+      "display_name": "Speaker 0",
+      "speaker_type": "unknown",
+      "aliases": [
+        "deepgram:0"
+      ],
+      "notes": "Machine diarized provisional speaker. Human review required before promotion."
+    },
+    {
+      "person_id": "provisional_deepgram_speaker_1",
+      "display_name": "Speaker 1",
+      "speaker_type": "unknown",
+      "aliases": [
+        "deepgram:1"
+      ],
+      "notes": "Machine diarized provisional speaker. Human review required before promotion."
+    },
+    {
+      "person_id": "provisional_deepgram_speaker_2",
+      "display_name": "Speaker 2",
+      "speaker_type": "unknown",
+      "aliases": [
+        "deepgram:2"
+      ],
+      "notes": "Machine diarized provisional speaker. Human review required before promotion."
+    }
+  ],
+  "segments": [
+    {
+      "segment_id": "youtube_gG1Lq2pIgGM_part_003_seg_0001",
+      "start": 0.0,
+      "end": 3.2,
+      "text": "Down a bit. You got your weights at, you know, one. Mhmm.",
+      "true_person_id": "provisional_deepgram_speaker_0",
+      "true_display_name": "Speaker 0",
+      "speaker_type": "unknown",
+      "confidence": 0.9651,
+      "evidence_candidates": [
+        {
+          "person_id": "provisional_deepgram_speaker_0",
+          "display_name": "Speaker 0",
+          "confidence": 0.0,
+          "evidence_types": [
+            "diarized_transcription"
+          ],
+          "duration_seconds": 3.2,
+          "provenance": [
+            "deepgram:nova-3:diarize:latest",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_003.json"
+          ]
+        }
+      ],
+      "notes": "Machine-generated draft from Deepgram diarized utterances; not human reviewed. provider=deepgram_diarized_transcription model=nova-3 diarize_model=latest provider_speaker=0 provider_utterance_id=fe9e3741-1ebb-4a6d-97dc-27101b7acbb7"
+    },
+    {
+      "segment_id": "youtube_gG1Lq2pIgGM_part_003_seg_0002",
+      "start": 3.68,
+      "end": 7.2,
+      "text": "Surely, get your video done by you know, then your weights done by three.",
+      "true_person_id": "provisional_deepgram_speaker_0",
+      "true_display_name": "Speaker 0",
+      "speaker_type": "unknown",
+      "confidence": 0.9261,
+      "evidence_candidates": [
+        {
+          "person_id": "provisional_deepgram_speaker_0",
+          "display_name": "Speaker 0",
+          "confidence": 0.0,
+          "evidence_types": [
+            "diarized_transcription"
+          ],
+          "duration_seconds": 3.52,
+          "provenance": [
+            "deepgram:nova-3:diarize:latest",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_003.json"
+          ]
+        }
+      ],
+      "notes": "Machine-generated draft from Deepgram diarized utterances; not human reviewed. provider=deepgram_diarized_transcription model=nova-3 diarize_model=latest provider_speaker=0 provider_utterance_id=858da2ec-8678-42e0-9fba-c52f1de17665"
+    },
+    {
+      "segment_id": "youtube_gG1Lq2pIgGM_part_003_seg_0003",
+      "start": 7.44,
+      "end": 26.455,
+      "text": "Surely, you're doing your video between three and five. Yeah. Yeah. You know? Yeah. I've I've never experienced being there past five. Oh, really? Could you Have you got what have you experienced anything like that? Not so much like we always talk about random training shit and wild fitness stuff, but have you experienced anything like that? No. Not really. Like, the the wildest stuff is just obviously the army camps. Yeah.",
+      "true_person_id": "provisional_deepgram_speaker_1",
+      "true_display_name": "Speaker 1",
+      "speaker_type": "unknown",
+      "confidence": 0.9519,
+      "evidence_candidates": [
+        {
+          "person_id": "provisional_deepgram_speaker_1",
+          "display_name": "Speaker 1",
+          "confidence": 0.0,
+          "evidence_types": [
+            "diarized_transcription"
+          ],
+          "duration_seconds": 19.015,
+          "provenance": [
+            "deepgram:nova-3:diarize:latest",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_003.json"
+          ]
+        }
+      ],
+      "notes": "Machine-generated draft from Deepgram diarized utterances; not human reviewed. provider=deepgram_diarized_transcription model=nova-3 diarize_model=latest provider_speaker=1 provider_utterance_id=10e2a8d8-98cf-4fcb-933e-ccb1e26fa5d2"
+    },
+    {
+      "segment_id": "youtube_gG1Lq2pIgGM_part_003_seg_0004",
+      "start": 27.095,
+      "end": 27.415,
+      "text": "You know?",
+      "true_person_id": "provisional_deepgram_speaker_2",
+      "true_display_name": "Speaker 2",
+      "speaker_type": "unknown",
+      "confidence": 0.9659,
+      "evidence_candidates": [
+        {
+          "person_id": "provisional_deepgram_speaker_2",
+          "display_name": "Speaker 2",
+          "confidence": 0.0,
+          "evidence_types": [
+            "diarized_transcription"
+          ],
+          "duration_seconds": 0.32,
+          "provenance": [
+            "deepgram:nova-3:diarize:latest",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_003.json"
+          ]
+        }
+      ],
+      "notes": "Machine-generated draft from Deepgram diarized utterances; not human reviewed. provider=deepgram_diarized_transcription model=nova-3 diarize_model=latest provider_speaker=2 provider_utterance_id=e07bedbe-aa3d-4f5a-be7b-e4fc299abfed"
+    },
+    {
+      "segment_id": "youtube_gG1Lq2pIgGM_part_003_seg_0005",
+      "start": 28.38,
+      "end": 34.38,
+      "text": "You hear that like I mean, the work program, I I still say it to this day. That was the hardest thing I've ever experienced, bro. Like, honestly.",
+      "true_person_id": "provisional_deepgram_speaker_1",
+      "true_display_name": "Speaker 1",
+      "speaker_type": "unknown",
+      "confidence": 0.8895,
+      "evidence_candidates": [
+        {
+          "person_id": "provisional_deepgram_speaker_1",
+          "display_name": "Speaker 1",
+          "confidence": 0.0,
+          "evidence_types": [
+            "diarized_transcription"
+          ],
+          "duration_seconds": 6.0,
+          "provenance": [
+            "deepgram:nova-3:diarize:latest",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_003.json"
+          ]
+        }
+      ],
+      "notes": "Machine-generated draft from Deepgram diarized utterances; not human reviewed. provider=deepgram_diarized_transcription model=nova-3 diarize_model=latest provider_speaker=1 provider_utterance_id=6f14e057-7ec9-4542-a487-e8cd05f02f0f"
+    },
+    {
+      "segment_id": "youtube_gG1Lq2pIgGM_part_003_seg_0006",
+      "start": 34.62,
+      "end": 52.405,
+      "text": "Wait till five smart, bro. It's so smart. It's the best. It works. But Yeah. Waits at 5AM, seven till 02:30 as a laborer, and then you trained on the field from four. Oh, that's the only time I've trained past 05:00. Yeah. But you're doing a full time job at the same time. Yeah. It's such a smart thing because it just it just puts into focus",
+      "true_person_id": "provisional_deepgram_speaker_1",
+      "true_display_name": "Speaker 1",
+      "speaker_type": "unknown",
+      "confidence": 0.9576,
+      "evidence_candidates": [
+        {
+          "person_id": "provisional_deepgram_speaker_1",
+          "display_name": "Speaker 1",
+          "confidence": 0.0,
+          "evidence_types": [
+            "diarized_transcription"
+          ],
+          "duration_seconds": 17.785,
+          "provenance": [
+            "deepgram:nova-3:diarize:latest",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_003.json"
+          ]
+        }
+      ],
+      "notes": "Machine-generated draft from Deepgram diarized utterances; not human reviewed. provider=deepgram_diarized_transcription model=nova-3 diarize_model=latest provider_speaker=1 provider_utterance_id=cc08a0d9-30a2-43f0-a86e-19a6083776ed"
+    },
+    {
+      "segment_id": "youtube_gG1Lq2pIgGM_part_003_seg_0007",
+      "start": 52.645,
+      "end": 69.1,
+      "text": "that this is what you could be doing. So next time when you're struggling in fitness and you're soaking Week three, you're like, how good is this? Yeah. Life is good. It's such a smart concept. I'm actually do do a thing there as well. I don't know if any other clubs do this, but we they go to Geelong Grammar, the really well known boarding school. There's",
+      "true_person_id": "provisional_deepgram_speaker_1",
+      "true_display_name": "Speaker 1",
+      "speaker_type": "unknown",
+      "confidence": 0.9688,
+      "evidence_candidates": [
+        {
+          "person_id": "provisional_deepgram_speaker_1",
+          "display_name": "Speaker 1",
+          "confidence": 0.0,
+          "evidence_types": [
+            "diarized_transcription"
+          ],
+          "duration_seconds": 16.455,
+          "provenance": [
+            "deepgram:nova-3:diarize:latest",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_003.json"
+          ]
+        }
+      ],
+      "notes": "Machine-generated draft from Deepgram diarized utterances; not human reviewed. provider=deepgram_diarized_transcription model=nova-3 diarize_model=latest provider_speaker=1 provider_utterance_id=48b326f5-6e23-4a97-a4d0-f0f612ee6574"
+    },
+    {
+      "segment_id": "youtube_gG1Lq2pIgGM_part_003_seg_0008",
+      "start": 69.1,
+      "end": 75.245,
+      "text": "no students there, but two weeks there, and that is, but that's 24 fucking seven. Oh, really? Like,",
+      "true_person_id": "provisional_deepgram_speaker_1",
+      "true_display_name": "Speaker 1",
+      "speaker_type": "unknown",
+      "confidence": 0.9453,
+      "evidence_candidates": [
+        {
+          "person_id": "provisional_deepgram_speaker_1",
+          "display_name": "Speaker 1",
+          "confidence": 0.0,
+          "evidence_types": [
+            "diarized_transcription"
+          ],
+          "duration_seconds": 6.145,
+          "provenance": [
+            "deepgram:nova-3:diarize:latest",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_003.json"
+          ]
+        }
+      ],
+      "notes": "Machine-generated draft from Deepgram diarized utterances; not human reviewed. provider=deepgram_diarized_transcription model=nova-3 diarize_model=latest provider_speaker=1 provider_utterance_id=305df931-f7cf-4574-ae96-ff2c1b2f1e96"
+    },
+    {
+      "segment_id": "youtube_gG1Lq2pIgGM_part_003_seg_0009",
+      "start": 75.485,
+      "end": 94.7,
+      "text": "you're training at the crack of dawn. Yep. You have session session session, and then every night, you're in the meeting room, and you're like, you're planning for the next year. You're deciding on themes. You're doing all this stuff. So it does feel like a month of training in two weeks, but it it is valuable, but it's full on. Yeah. The whole two weeks. Yep. Every single year? Yep. Two weeks. You get the",
+      "true_person_id": "provisional_deepgram_speaker_1",
+      "true_display_name": "Speaker 1",
+      "speaker_type": "unknown",
+      "confidence": 0.9498,
+      "evidence_candidates": [
+        {
+          "person_id": "provisional_deepgram_speaker_1",
+          "display_name": "Speaker 1",
+          "confidence": 0.0,
+          "evidence_types": [
+            "diarized_transcription"
+          ],
+          "duration_seconds": 19.215,
+          "provenance": [
+            "deepgram:nova-3:diarize:latest",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_003.json"
+          ]
+        }
+      ],
+      "notes": "Machine-generated draft from Deepgram diarized utterances; not human reviewed. provider=deepgram_diarized_transcription model=nova-3 diarize_model=latest provider_speaker=1 provider_utterance_id=2a699f74-1b74-4ae1-a684-711ab418bdb0"
+    },
+    {
+      "segment_id": "youtube_gG1Lq2pIgGM_part_003_seg_0010",
+      "start": 95.1,
+      "end": 96.14,
+      "text": "weekend off,",
+      "true_person_id": "provisional_deepgram_speaker_1",
+      "true_display_name": "Speaker 1",
+      "speaker_type": "unknown",
+      "confidence": 0.924,
+      "evidence_candidates": [
+        {
+          "person_id": "provisional_deepgram_speaker_1",
+          "display_name": "Speaker 1",
+          "confidence": 0.0,
+          "evidence_types": [
+            "diarized_transcription"
+          ],
+          "duration_seconds": 1.04,
+          "provenance": [
+            "deepgram:nova-3:diarize:latest",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_003.json"
+          ]
+        }
+      ],
+      "notes": "Machine-generated draft from Deepgram diarized utterances; not human reviewed. provider=deepgram_diarized_transcription model=nova-3 diarize_model=latest provider_speaker=1 provider_utterance_id=6b47b2c0-4308-438d-a999-d71006a973bf"
+    },
+    {
+      "segment_id": "youtube_gG1Lq2pIgGM_part_003_seg_0011",
+      "start": 97.18,
+      "end": 100.14,
+      "text": "and, yeah, you stay there full time. Yeah. Wow. Okay.",
+      "true_person_id": "provisional_deepgram_speaker_1",
+      "true_display_name": "Speaker 1",
+      "speaker_type": "unknown",
+      "confidence": 0.9824,
+      "evidence_candidates": [
+        {
+          "person_id": "provisional_deepgram_speaker_1",
+          "display_name": "Speaker 1",
+          "confidence": 0.0,
+          "evidence_types": [
+            "diarized_transcription"
+          ],
+          "duration_seconds": 2.96,
+          "provenance": [
+            "deepgram:nova-3:diarize:latest",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_003.json"
+          ]
+        }
+      ],
+      "notes": "Machine-generated draft from Deepgram diarized utterances; not human reviewed. provider=deepgram_diarized_transcription model=nova-3 diarize_model=latest provider_speaker=1 provider_utterance_id=8cd105cb-a349-4dbc-ada9-e7d0bed84c85"
+    },
+    {
+      "segment_id": "youtube_gG1Lq2pIgGM_part_003_seg_0012",
+      "start": 100.725,
+      "end": 101.525,
+      "text": "Jeez.",
+      "true_person_id": "provisional_deepgram_speaker_2",
+      "true_display_name": "Speaker 2",
+      "speaker_type": "unknown",
+      "confidence": 0.9148,
+      "evidence_candidates": [
+        {
+          "person_id": "provisional_deepgram_speaker_2",
+          "display_name": "Speaker 2",
+          "confidence": 0.0,
+          "evidence_types": [
+            "diarized_transcription"
+          ],
+          "duration_seconds": 0.8,
+          "provenance": [
+            "deepgram:nova-3:diarize:latest",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_003.json"
+          ]
+        }
+      ],
+      "notes": "Machine-generated draft from Deepgram diarized utterances; not human reviewed. provider=deepgram_diarized_transcription model=nova-3 diarize_model=latest provider_speaker=2 provider_utterance_id=3bdba627-3340-4952-8199-4722781ae9ab"
+    },
+    {
+      "segment_id": "youtube_gG1Lq2pIgGM_part_003_seg_0013",
+      "start": 101.925,
+      "end": 103.205,
+      "text": "Yeah. I usually",
+      "true_person_id": "provisional_deepgram_speaker_0",
+      "true_display_name": "Speaker 0",
+      "speaker_type": "unknown",
+      "confidence": 0.8387,
+      "evidence_candidates": [
+        {
+          "person_id": "provisional_deepgram_speaker_0",
+          "display_name": "Speaker 0",
+          "confidence": 0.0,
+          "evidence_types": [
+            "diarized_transcription"
+          ],
+          "duration_seconds": 1.28,
+          "provenance": [
+            "deepgram:nova-3:diarize:latest",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_003.json"
+          ]
+        }
+      ],
+      "notes": "Machine-generated draft from Deepgram diarized utterances; not human reviewed. provider=deepgram_diarized_transcription model=nova-3 diarize_model=latest provider_speaker=0 provider_utterance_id=a4206b73-5edf-4e43-b81e-6d7babdc157d"
+    },
+    {
+      "segment_id": "youtube_gG1Lq2pIgGM_part_003_seg_0014",
+      "start": 103.845,
+      "end": 117.21,
+      "text": "usually, the camps that we would do would be, like, a week, a week and a half, and you do all that thing. You talk about, like, what's our what's our motto for the year? You know, what's you know, what kind of team do we wanna be? Where are we gonna finish? Are we top four this year? All that kind of stuff.",
+      "true_person_id": "provisional_deepgram_speaker_0",
+      "true_display_name": "Speaker 0",
+      "speaker_type": "unknown",
+      "confidence": 0.9731,
+      "evidence_candidates": [
+        {
+          "person_id": "provisional_deepgram_speaker_0",
+          "display_name": "Speaker 0",
+          "confidence": 0.0,
+          "evidence_types": [
+            "diarized_transcription"
+          ],
+          "duration_seconds": 13.365,
+          "provenance": [
+            "deepgram:nova-3:diarize:latest",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_003.json"
+          ]
+        }
+      ],
+      "notes": "Machine-generated draft from Deepgram diarized utterances; not human reviewed. provider=deepgram_diarized_transcription model=nova-3 diarize_model=latest provider_speaker=0 provider_utterance_id=a1cd5050-490b-4462-8cc7-952a551567a2"
+    },
+    {
+      "segment_id": "youtube_gG1Lq2pIgGM_part_003_seg_0015",
+      "start": 118.33,
+      "end": 124.09,
+      "text": "But, yeah, in regards to, like I mean, I've told the story a million times, so I won't go into it. But the craziest thing is obviously",
+      "true_person_id": "provisional_deepgram_speaker_0",
+      "true_display_name": "Speaker 0",
+      "speaker_type": "unknown",
+      "confidence": 0.9621,
+      "evidence_candidates": [
+        {
+          "person_id": "provisional_deepgram_speaker_0",
+          "display_name": "Speaker 0",
+          "confidence": 0.0,
+          "evidence_types": [
+            "diarized_transcription"
+          ],
+          "duration_seconds": 5.76,
+          "provenance": [
+            "deepgram:nova-3:diarize:latest",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_003.json"
+          ]
+        }
+      ],
+      "notes": "Machine-generated draft from Deepgram diarized utterances; not human reviewed. provider=deepgram_diarized_transcription model=nova-3 diarize_model=latest provider_speaker=0 provider_utterance_id=cc5c5013-2a43-4eeb-b7e6-794f50da99f1"
+    },
+    {
+      "segment_id": "youtube_gG1Lq2pIgGM_part_003_seg_0016",
+      "start": 124.25,
+      "end": 133.155,
+      "text": "being told as a rookie, come to the first grade. We're going away. Bring your board shorts. We're going to Sunshine Coast to get to know the the squad. So I thought it was a holiday.",
+      "true_person_id": "provisional_deepgram_speaker_0",
+      "true_display_name": "Speaker 0",
+      "speaker_type": "unknown",
+      "confidence": 0.9668,
+      "evidence_candidates": [
+        {
+          "person_id": "provisional_deepgram_speaker_0",
+          "display_name": "Speaker 0",
+          "confidence": 0.0,
+          "evidence_types": [
+            "diarized_transcription"
+          ],
+          "duration_seconds": 8.905,
+          "provenance": [
+            "deepgram:nova-3:diarize:latest",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_003.json"
+          ]
+        }
+      ],
+      "notes": "Machine-generated draft from Deepgram diarized utterances; not human reviewed. provider=deepgram_diarized_transcription model=nova-3 diarize_model=latest provider_speaker=0 provider_utterance_id=6da5e15b-3a73-499a-90a7-7320929f3257"
+    },
+    {
+      "segment_id": "youtube_gG1Lq2pIgGM_part_003_seg_0017",
+      "start": 133.715,
+      "end": 140.675,
+      "text": "Thought it was a holiday because I haven't that's what the the coach said. Rocked up, and army drill sergeant started coming screaming through the whole Broncos thing.",
+      "true_person_id": "provisional_deepgram_speaker_0",
+      "true_display_name": "Speaker 0",
+      "speaker_type": "unknown",
+      "confidence": 0.8763,
+      "evidence_candidates": [
+        {
+          "person_id": "provisional_deepgram_speaker_0",
+          "display_name": "Speaker 0",
+          "confidence": 0.0,
+          "evidence_types": [
+            "diarized_transcription"
+          ],
+          "duration_seconds": 6.96,
+          "provenance": [
+            "deepgram:nova-3:diarize:latest",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_003.json"
+          ]
+        }
+      ],
+      "notes": "Machine-generated draft from Deepgram diarized utterances; not human reviewed. provider=deepgram_diarized_transcription model=nova-3 diarize_model=latest provider_speaker=0 provider_utterance_id=5a598f78-5365-4540-a92f-842ff987d961"
+    },
+    {
+      "segment_id": "youtube_gG1Lq2pIgGM_part_003_seg_0018",
+      "start": 140.915,
+      "end": 171.075,
+      "text": "Barrow's gone, like, talking shit going, who the fuck? Like, just Oh, I can imagine him talking shit to so much shit. Because, like, we thought it was a G. And then before we knew it, we were fucking naked out on the field putting on army fatigues and Naked? Mate, stripped down our undies and then, yeah, putting stuff on. Then they took all our phones, and they had to message our partners that they'll be back soon, but we've got them. Yeah. We got I got stitched out one year at the raiders. We I I actually don't think we knew what we were doing. So we drove out on a bus to middle of nowhere, and then boom, aggressive",
+      "true_person_id": "provisional_deepgram_speaker_2",
+      "true_display_name": "Speaker 2",
+      "speaker_type": "unknown",
+      "confidence": 0.9126,
+      "evidence_candidates": [
+        {
+          "person_id": "provisional_deepgram_speaker_2",
+          "display_name": "Speaker 2",
+          "confidence": 0.0,
+          "evidence_types": [
+            "diarized_transcription"
+          ],
+          "duration_seconds": 30.16,
+          "provenance": [
+            "deepgram:nova-3:diarize:latest",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_003.json"
+          ]
+        }
+      ],
+      "notes": "Machine-generated draft from Deepgram diarized utterances; not human reviewed. provider=deepgram_diarized_transcription model=nova-3 diarize_model=latest provider_speaker=2 provider_utterance_id=0732ee19-ee40-47ad-9bc1-e8614484bc11"
+    },
+    {
+      "segment_id": "youtube_gG1Lq2pIgGM_part_003_seg_0019",
+      "start": 171.395,
+      "end": 173.21,
+      "text": "army guys blindfolded",
+      "true_person_id": "provisional_deepgram_speaker_1",
+      "true_display_name": "Speaker 1",
+      "speaker_type": "unknown",
+      "confidence": 0.8821,
+      "evidence_candidates": [
+        {
+          "person_id": "provisional_deepgram_speaker_1",
+          "display_name": "Speaker 1",
+          "confidence": 0.0,
+          "evidence_types": [
+            "diarized_transcription"
+          ],
+          "duration_seconds": 1.815,
+          "provenance": [
+            "deepgram:nova-3:diarize:latest",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_003.json"
+          ]
+        }
+      ],
+      "notes": "Machine-generated draft from Deepgram diarized utterances; not human reviewed. provider=deepgram_diarized_transcription model=nova-3 diarize_model=latest provider_speaker=1 provider_utterance_id=9bbfd68b-f57e-4df5-8a30-3a2b0fe143a5"
+    },
+    {
+      "segment_id": "youtube_gG1Lq2pIgGM_part_003_seg_0020",
+      "start": 173.21,
+      "end": 173.93,
+      "text": "all of us,",
+      "true_person_id": "provisional_deepgram_speaker_1",
+      "true_display_name": "Speaker 1",
+      "speaker_type": "unknown",
+      "confidence": 0.9679,
+      "evidence_candidates": [
+        {
+          "person_id": "provisional_deepgram_speaker_1",
+          "display_name": "Speaker 1",
+          "confidence": 0.0,
+          "evidence_types": [
+            "diarized_transcription"
+          ],
+          "duration_seconds": 0.72,
+          "provenance": [
+            "deepgram:nova-3:diarize:latest",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_003.json"
+          ]
+        }
+      ],
+      "notes": "Machine-generated draft from Deepgram diarized utterances; not human reviewed. provider=deepgram_diarized_transcription model=nova-3 diarize_model=latest provider_speaker=1 provider_utterance_id=e9dee041-757d-4a94-a246-bfdf1e4a33bd"
+    },
+    {
+      "segment_id": "youtube_gG1Lq2pIgGM_part_003_seg_0021",
+      "start": 174.25,
+      "end": 186.57,
+      "text": "and they hand walk you, like, say, 20 meters stop. Yeah. And then you don't know what's going on. Walk you up another 20 meters. Eventually, ten minutes in, now you're knee deep in water, and you're blindfolded the whole time. This goes on for, like, two hours. Like, what are we doing?",
+      "true_person_id": "provisional_deepgram_speaker_1",
+      "true_display_name": "Speaker 1",
+      "speaker_type": "unknown",
+      "confidence": 0.9611,
+      "evidence_candidates": [
+        {
+          "person_id": "provisional_deepgram_speaker_1",
+          "display_name": "Speaker 1",
+          "confidence": 0.0,
+          "evidence_types": [
+            "diarized_transcription"
+          ],
+          "duration_seconds": 12.32,
+          "provenance": [
+            "deepgram:nova-3:diarize:latest",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_003.json"
+          ]
+        }
+      ],
+      "notes": "Machine-generated draft from Deepgram diarized utterances; not human reviewed. provider=deepgram_diarized_transcription model=nova-3 diarize_model=latest provider_speaker=1 provider_utterance_id=12ad67d4-14bf-4e45-a6b6-4e7752e42642"
+    },
+    {
+      "segment_id": "youtube_gG1Lq2pIgGM_part_003_seg_0022",
+      "start": 187.425,
+      "end": 194.385,
+      "text": "It's not like preplanned army camps. It's like, alright. Man, this is so I think it was, like, a third or fourth army camp. I'll never forget. So",
+      "true_person_id": "provisional_deepgram_speaker_0",
+      "true_display_name": "Speaker 0",
+      "speaker_type": "unknown",
+      "confidence": 0.898,
+      "evidence_candidates": [
+        {
+          "person_id": "provisional_deepgram_speaker_0",
+          "display_name": "Speaker 0",
+          "confidence": 0.0,
+          "evidence_types": [
+            "diarized_transcription"
+          ],
+          "duration_seconds": 6.96,
+          "provenance": [
+            "deepgram:nova-3:diarize:latest",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_003.json"
+          ]
+        }
+      ],
+      "notes": "Machine-generated draft from Deepgram diarized utterances; not human reviewed. provider=deepgram_diarized_transcription model=nova-3 diarize_model=latest provider_speaker=0 provider_utterance_id=59f7a504-e762-4e6f-a33c-3739354707fd"
+    },
+    {
+      "segment_id": "youtube_gG1Lq2pIgGM_part_003_seg_0023",
+      "start": 195.825,
+      "end": 212.53,
+      "text": "being one of the younger guys, like, you know, when you're keen as, like, you're just like, you're you're always first to everything. Like, your your attitude is, like, top notch. Like, you because you're you're not on the big money. You're you're still trying to make it and everything. Anyway, so there was this they're like, alright, guys. Set up camp. Could we we walk, like, 30 or 40 kilometers?",
+      "true_person_id": "provisional_deepgram_speaker_0",
+      "true_display_name": "Speaker 0",
+      "speaker_type": "unknown",
+      "confidence": 0.9371,
+      "evidence_candidates": [
+        {
+          "person_id": "provisional_deepgram_speaker_0",
+          "display_name": "Speaker 0",
+          "confidence": 0.0,
+          "evidence_types": [
+            "diarized_transcription"
+          ],
+          "duration_seconds": 16.705,
+          "provenance": [
+            "deepgram:nova-3:diarize:latest",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_003.json"
+          ]
+        }
+      ],
+      "notes": "Machine-generated draft from Deepgram diarized utterances; not human reviewed. provider=deepgram_diarized_transcription model=nova-3 diarize_model=latest provider_speaker=0 provider_utterance_id=9f45ff21-b5e7-4be3-869c-ad269ecdacde"
+    },
+    {
+      "segment_id": "youtube_gG1Lq2pIgGM_part_003_seg_0024",
+      "start": 213.065,
+      "end": 249.345,
+      "text": "And then I so they made us set up the camp, like, on this hill. So, like, me, I think it was Jack Reed. Like, we fuck. We're up there. We're setting the camp up going mad. We were the ones that set the whole camp up. Anyway, the whole team just, like, comes in and sets all their shit down so much so that there was no room left in the camp. We had to sleep outside on the hill in the rain, and we were the ones that set it up. Yes. Oh. So we're on this hill in this mud and this drops in our eyes just going, this is fucking the worst thing ever. Just Did you ever get chafed in an army camp? Well, the first one, but then you start wearing skins and you get prepared. That one I was saying about the raiders, I had chafed. It's like I put my inner thighs on a hot plate. It was the worst thing ever. Oh, yeah. Yeah. So",
+      "true_person_id": "provisional_deepgram_speaker_0",
+      "true_display_name": "Speaker 0",
+      "speaker_type": "unknown",
+      "confidence": 0.9427,
+      "evidence_candidates": [
+        {
+          "person_id": "provisional_deepgram_speaker_0",
+          "display_name": "Speaker 0",
+          "confidence": 0.0,
+          "evidence_types": [
+            "diarized_transcription"
+          ],
+          "duration_seconds": 36.28,
+          "provenance": [
+            "deepgram:nova-3:diarize:latest",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_003.json"
+          ]
+        }
+      ],
+      "notes": "Machine-generated draft from Deepgram diarized utterances; not human reviewed. provider=deepgram_diarized_transcription model=nova-3 diarize_model=latest provider_speaker=0 provider_utterance_id=6e04b64c-7341-4471-9ea1-2685ab5d78d1"
+    },
+    {
+      "segment_id": "youtube_gG1Lq2pIgGM_part_003_seg_0025",
+      "start": 250.065,
+      "end": 253.185,
+      "text": "army camps. But, yeah, outside of that, I'm I think",
+      "true_person_id": "provisional_deepgram_speaker_0",
+      "true_display_name": "Speaker 0",
+      "speaker_type": "unknown",
+      "confidence": 0.9016,
+      "evidence_candidates": [
+        {
+          "person_id": "provisional_deepgram_speaker_0",
+          "display_name": "Speaker 0",
+          "confidence": 0.0,
+          "evidence_types": [
+            "diarized_transcription"
+          ],
+          "duration_seconds": 3.12,
+          "provenance": [
+            "deepgram:nova-3:diarize:latest",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_003.json"
+          ]
+        }
+      ],
+      "notes": "Machine-generated draft from Deepgram diarized utterances; not human reviewed. provider=deepgram_diarized_transcription model=nova-3 diarize_model=latest provider_speaker=0 provider_utterance_id=7ab5f7cd-9e05-4aa4-83c7-e13cd2336b99"
+    },
+    {
+      "segment_id": "youtube_gG1Lq2pIgGM_part_003_seg_0026",
+      "start": 253.585,
+      "end": 256.44,
+      "text": "I everything's been pretty old. There was a big time in 2005",
+      "true_person_id": "provisional_deepgram_speaker_0",
+      "true_display_name": "Speaker 0",
+      "speaker_type": "unknown",
+      "confidence": 0.9317,
+      "evidence_candidates": [
+        {
+          "person_id": "provisional_deepgram_speaker_0",
+          "display_name": "Speaker 0",
+          "confidence": 0.0,
+          "evidence_types": [
+            "diarized_transcription"
+          ],
+          "duration_seconds": 2.855,
+          "provenance": [
+            "deepgram:nova-3:diarize:latest",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_003.json"
+          ]
+        }
+      ],
+      "notes": "Machine-generated draft from Deepgram diarized utterances; not human reviewed. provider=deepgram_diarized_transcription model=nova-3 diarize_model=latest provider_speaker=0 provider_utterance_id=188e7c1b-a03c-4f4e-8add-581b46d04dcd"
+    },
+    {
+      "segment_id": "youtube_gG1Lq2pIgGM_part_003_seg_0027",
+      "start": 256.44,
+      "end": 257.0,
+      "text": "when",
+      "true_person_id": "provisional_deepgram_speaker_0",
+      "true_display_name": "Speaker 0",
+      "speaker_type": "unknown",
+      "confidence": 0.998,
+      "evidence_candidates": [
+        {
+          "person_id": "provisional_deepgram_speaker_0",
+          "display_name": "Speaker 0",
+          "confidence": 0.0,
+          "evidence_types": [
+            "diarized_transcription"
+          ],
+          "duration_seconds": 0.56,
+          "provenance": [
+            "deepgram:nova-3:diarize:latest",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_003.json"
+          ]
+        }
+      ],
+      "notes": "Machine-generated draft from Deepgram diarized utterances; not human reviewed. provider=deepgram_diarized_transcription model=nova-3 diarize_model=latest provider_speaker=0 provider_utterance_id=fe247d12-8f86-4992-9561-3f6b80e6184a"
+    },
+    {
+      "segment_id": "youtube_gG1Lq2pIgGM_part_003_seg_0028",
+      "start": 257.32,
+      "end": 262.6,
+      "text": "got a big shake up at the Broncos, and a guy called Dean Benton came in and Oh, yeah. Changed everything.",
+      "true_person_id": "provisional_deepgram_speaker_0",
+      "true_display_name": "Speaker 0",
+      "speaker_type": "unknown",
+      "confidence": 0.8734,
+      "evidence_candidates": [
+        {
+          "person_id": "provisional_deepgram_speaker_0",
+          "display_name": "Speaker 0",
+          "confidence": 0.0,
+          "evidence_types": [
+            "diarized_transcription"
+          ],
+          "duration_seconds": 5.28,
+          "provenance": [
+            "deepgram:nova-3:diarize:latest",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_003.json"
+          ]
+        }
+      ],
+      "notes": "Machine-generated draft from Deepgram diarized utterances; not human reviewed. provider=deepgram_diarized_transcription model=nova-3 diarize_model=latest provider_speaker=0 provider_utterance_id=5e2d7021-2ce8-412b-afab-7248f5922990"
+    },
+    {
+      "segment_id": "youtube_gG1Lq2pIgGM_part_003_seg_0029",
+      "start": 262.92,
+      "end": 284.41,
+      "text": "He he He's got a he's got a reputation. Mate, he he does, but he's actually He's at the Storm, wasn't he? Oh, I'm not sure. I'm not sure. He's Australian rugby back in the day when they killed it. Yeah. He was for a bit at the storm. So initially, he was a massive hard ass, and he would set this really strong like, this barrier between so every time and, eventually, we started taking the piss, but every time he'd walk in, the boys were like, how you going, mate? He'd be like, I'm not your mate, and just, like, walk off. Just do shit like that.",
+      "true_person_id": "provisional_deepgram_speaker_0",
+      "true_display_name": "Speaker 0",
+      "speaker_type": "unknown",
+      "confidence": 0.9186,
+      "evidence_candidates": [
+        {
+          "person_id": "provisional_deepgram_speaker_0",
+          "display_name": "Speaker 0",
+          "confidence": 0.0,
+          "evidence_types": [
+            "diarized_transcription"
+          ],
+          "duration_seconds": 21.49,
+          "provenance": [
+            "deepgram:nova-3:diarize:latest",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_003.json"
+          ]
+        }
+      ],
+      "notes": "Machine-generated draft from Deepgram diarized utterances; not human reviewed. provider=deepgram_diarized_transcription model=nova-3 diarize_model=latest provider_speaker=0 provider_utterance_id=328cdfaf-c103-42bd-b065-b2fd01bb7b4c"
+    },
+    {
+      "segment_id": "youtube_gG1Lq2pIgGM_part_003_seg_0030",
+      "start": 284.89,
+      "end": 301.259,
+      "text": "But it works. It works. They wanted to back in the day sounded pretty horrific. What was that guy's name? Oh. Real hard man. Like Ronnie Palmer? No. No. No. No. That's a funny story about Ronnie. But, no, he was and it's like, no music in the gym. No air con. Initially, we had no",
+      "true_person_id": "provisional_deepgram_speaker_1",
+      "true_display_name": "Speaker 1",
+      "speaker_type": "unknown",
+      "confidence": 0.923,
+      "evidence_candidates": [
+        {
+          "person_id": "provisional_deepgram_speaker_1",
+          "display_name": "Speaker 1",
+          "confidence": 0.0,
+          "evidence_types": [
+            "diarized_transcription"
+          ],
+          "duration_seconds": 16.369,
+          "provenance": [
+            "deepgram:nova-3:diarize:latest",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_003.json"
+          ]
+        }
+      ],
+      "notes": "Machine-generated draft from Deepgram diarized utterances; not human reviewed. provider=deepgram_diarized_transcription model=nova-3 diarize_model=latest provider_speaker=1 provider_utterance_id=7ea92a24-be0f-4826-903f-5f37a1738936"
+    }
+  ],
+  "annotation": {
+    "status": "draft",
+    "reviewed_by": "",
+    "review_level": "rough",
+    "notes": "Machine-populated 30 transcript segments and 3 provisional speakers from deepgram_diarized_transcription. Speaker identities are anonymous diarization labels until reviewed.",
+    "provider": "deepgram_diarized_transcription",
+    "provider_model": "nova-3",
+    "provider_output": "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_003.json",
+    "human_review_required": true,
+    "provider_diarize_model": "latest"
+  }
+}

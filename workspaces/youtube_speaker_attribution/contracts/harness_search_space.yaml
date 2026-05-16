@@ -1,0 +1,99 @@
+change_surfaces:
+  pipeline_structure:
+    - chunking_policy
+    - transcription_then_diarization
+    - diarization_then_alignment
+    - uncertainty_second_pass
+    - episode_level_reconciliation
+
+  evidence_strategy:
+    - voice_only_match
+    - face_only_match
+    - voice_face_fusion
+    - active_speaker_detection
+    - cluster_then_match
+    - match_then_cluster
+    - registry_evidence_weighting
+
+  thresholds_and_policies:
+    - assignment_threshold
+    - review_threshold
+    - unknown_threshold
+    - top_candidate_margin
+    - minimum_voice_duration
+    - face_quality_minimum
+    - overlap_handling_policy
+
+  model_and_tool_routing:
+    - transcription_provider_selection
+    - diarization_provider_selection
+    - cheap_easy_case_route
+    - strong_ambiguous_case_route
+    - local_provider_route
+    - api_provider_route
+
+  prompt_and_process_design:
+    - speaker_resolution_prompt
+    - conflict_explanation_prompt
+    - review_summary_prompt
+    - episode_wide_consistency_prompt
+    - segment_level_reasoning_prompt
+
+  verification:
+    - impossible_speaker_switch_check
+    - inconsistent_identity_check
+    - provenance_required_check
+    - short_utterance_guard
+    - registry_conflict_check
+    - contract_compliance_check
+
+  budget_allocation:
+    - spend_more_on_ambiguous_spans
+    - stop_early_on_high_confidence
+    - retry_only_on_recoverable_failures
+    - cap_review_items
+    - cost_per_media_hour_limit
+
+staged_unlocks:
+  phase_1_fixture_loop:
+    - thresholds_and_policies
+    - evidence_strategy
+    - verification
+
+  phase_2_prompt_config_loop:
+    - prompt_and_process_design
+    - thresholds_and_policies
+    - evidence_strategy
+    - verification
+
+  phase_3_media_provider_loop:
+    - pipeline_structure
+    - model_and_tool_routing
+    - budget_allocation
+
+  phase_4_generated_code_loop:
+    - pipeline_structure
+    - evidence_strategy
+    - thresholds_and_policies
+    - model_and_tool_routing
+    - prompt_and_process_design
+    - verification
+    - budget_allocation
+
+prohibited_changes_without_explicit_task:
+  - safety_contract
+  - output_contract
+  - public_api_schema
+  - hidden_label_access
+  - live_external_api_tests
+  - biometric_public_response_fields
+  - human_review_override_rules
+
+candidate_requirements:
+  - declare_change_surface
+  - preserve_output_contract
+  - preserve_safety_contract
+  - include_eval_before_after
+  - include_regression_test
+  - include_budget_impact_when_provider_or_retry_behavior_changes
+  - include_trace_or_failure_report_reference

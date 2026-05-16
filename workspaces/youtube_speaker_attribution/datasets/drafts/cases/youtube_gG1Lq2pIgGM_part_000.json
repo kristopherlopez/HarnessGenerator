@@ -1,0 +1,1079 @@
+{
+  "case_id": "youtube_gG1Lq2pIgGM_part_000",
+  "source": {
+    "input_type": "youtube_url",
+    "youtube_url": "https://www.youtube.com/watch?v=gG1Lq2pIgGM",
+    "source_id": "youtube_gG1Lq2pIgGM",
+    "title": "Taumalolo BREAKS Cowboys ALL TIME RECORD! Hughes, Gray and Gutherson return | Round 10 Preview",
+    "channel": "Bloke In A Bar",
+    "notes": "Seeded from YouTube URL.",
+    "parent_case_id": "youtube_gG1Lq2pIgGM"
+  },
+  "media": {
+    "media_type": "video",
+    "media_uri": "media/youtube_gG1Lq2pIgGM/segments/youtube_gG1Lq2pIgGM_part_000.mp4",
+    "clip_start": 0.0,
+    "clip_end": 300.015,
+    "duration": 300.015,
+    "parent_media_uri": "media/youtube_gG1Lq2pIgGM.mp4",
+    "parent_segments_manifest": "media/youtube_gG1Lq2pIgGM/segments_manifest.json",
+    "segment_index": 0
+  },
+  "media_uri": "media/youtube_gG1Lq2pIgGM/segments/youtube_gG1Lq2pIgGM_part_000.mp4",
+  "known_people_set_id": "seed_podcast",
+  "media_type": "video",
+  "conditions": {
+    "speaker_count": 2,
+    "has_unknown_speakers": true,
+    "overlap_level": "unknown",
+    "face_visibility": "unknown",
+    "audio_quality": "unknown"
+  },
+  "speakers": [
+    {
+      "person_id": "provisional_deepgram_speaker_1",
+      "display_name": "Speaker 1",
+      "speaker_type": "unknown",
+      "aliases": [
+        "deepgram:1"
+      ],
+      "notes": "Machine diarized provisional speaker. Human review required before promotion."
+    },
+    {
+      "person_id": "provisional_deepgram_speaker_0",
+      "display_name": "Speaker 0",
+      "speaker_type": "unknown",
+      "aliases": [
+        "deepgram:0"
+      ],
+      "notes": "Machine diarized provisional speaker. Human review required before promotion."
+    }
+  ],
+  "segments": [
+    {
+      "segment_id": "youtube_gG1Lq2pIgGM_part_000_seg_0001",
+      "start": 0.96,
+      "end": 9.2,
+      "text": "Just a bloke in a bar. What is up, ladies and gentlemen? Welcome to back in my day. Don't forget, bloke jersey is still on sale. We've got about 15%",
+      "true_person_id": "provisional_deepgram_speaker_1",
+      "true_display_name": "Speaker 1",
+      "speaker_type": "unknown",
+      "confidence": 0.9375,
+      "evidence_candidates": [
+        {
+          "person_id": "provisional_deepgram_speaker_1",
+          "display_name": "Speaker 1",
+          "confidence": 0.0,
+          "evidence_types": [
+            "diarized_transcription"
+          ],
+          "duration_seconds": 8.24,
+          "provenance": [
+            "deepgram:nova-3:diarize:latest",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_000.json"
+          ]
+        }
+      ],
+      "notes": "Machine-generated draft from Deepgram diarized utterances; not human reviewed. provider=deepgram_diarized_transcription model=nova-3 diarize_model=latest provider_speaker=1 provider_utterance_id=ef8c3249-73b6-469b-8b88-96b7e734faad"
+    },
+    {
+      "segment_id": "youtube_gG1Lq2pIgGM_part_000_seg_0002",
+      "start": 9.2,
+      "end": 12.48,
+      "text": "of the jerseys left. They're nearly all gone. Bloke.shop,",
+      "true_person_id": "provisional_deepgram_speaker_1",
+      "true_display_name": "Speaker 1",
+      "speaker_type": "unknown",
+      "confidence": 0.979,
+      "evidence_candidates": [
+        {
+          "person_id": "provisional_deepgram_speaker_1",
+          "display_name": "Speaker 1",
+          "confidence": 0.0,
+          "evidence_types": [
+            "diarized_transcription"
+          ],
+          "duration_seconds": 3.28,
+          "provenance": [
+            "deepgram:nova-3:diarize:latest",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_000.json"
+          ]
+        }
+      ],
+      "notes": "Machine-generated draft from Deepgram diarized utterances; not human reviewed. provider=deepgram_diarized_transcription model=nova-3 diarize_model=latest provider_speaker=1 provider_utterance_id=0a3fb922-b6b2-424d-b289-db141dca8096"
+    },
+    {
+      "segment_id": "youtube_gG1Lq2pIgGM_part_000_seg_0003",
+      "start": 12.48,
+      "end": 13.68,
+      "text": "only $99.",
+      "true_person_id": "provisional_deepgram_speaker_1",
+      "true_display_name": "Speaker 1",
+      "speaker_type": "unknown",
+      "confidence": 0.989,
+      "evidence_candidates": [
+        {
+          "person_id": "provisional_deepgram_speaker_1",
+          "display_name": "Speaker 1",
+          "confidence": 0.0,
+          "evidence_types": [
+            "diarized_transcription"
+          ],
+          "duration_seconds": 1.2,
+          "provenance": [
+            "deepgram:nova-3:diarize:latest",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_000.json"
+          ]
+        }
+      ],
+      "notes": "Machine-generated draft from Deepgram diarized utterances; not human reviewed. provider=deepgram_diarized_transcription model=nova-3 diarize_model=latest provider_speaker=1 provider_utterance_id=70fc8111-5079-4039-9145-7ce67b6a7499"
+    },
+    {
+      "segment_id": "youtube_gG1Lq2pIgGM_part_000_seg_0004",
+      "start": 13.68,
+      "end": 41.57,
+      "text": "We'll never do this design again. And, also, the Magic Round meetup, we do it every single year. It's in the Caxton Car Park. We're doing a live show. We're doing NRL hottest one hundred with the roasty, with NRL roast. So that'll be a live show. It'll be awesome. Get down there. Everyone's gonna be there. Come down and say hi. It's a good way for us to say thank you for all the support. We're so lucky to do what we do. But the big door, how you going, mate? We cut a bit of fatty. We've cut some fatty. Mate, I'm just I'm a rose with just the one thorn today. No. Not the three thorns.",
+      "true_person_id": "provisional_deepgram_speaker_1",
+      "true_display_name": "Speaker 1",
+      "speaker_type": "unknown",
+      "confidence": 0.9523,
+      "evidence_candidates": [
+        {
+          "person_id": "provisional_deepgram_speaker_1",
+          "display_name": "Speaker 1",
+          "confidence": 0.0,
+          "evidence_types": [
+            "diarized_transcription"
+          ],
+          "duration_seconds": 27.89,
+          "provenance": [
+            "deepgram:nova-3:diarize:latest",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_000.json"
+          ]
+        }
+      ],
+      "notes": "Machine-generated draft from Deepgram diarized utterances; not human reviewed. provider=deepgram_diarized_transcription model=nova-3 diarize_model=latest provider_speaker=1 provider_utterance_id=82b8984a-867d-4461-9bda-e28b0b0b1dbe"
+    },
+    {
+      "segment_id": "youtube_gG1Lq2pIgGM_part_000_seg_0005",
+      "start": 42.93,
+      "end": 49.095,
+      "text": "Okay. That's fucking that's unfair. That's unfair. And don't ever wear a singlet again, please. Have some respect for the fucking table, mate.",
+      "true_person_id": "provisional_deepgram_speaker_1",
+      "true_display_name": "Speaker 1",
+      "speaker_type": "unknown",
+      "confidence": 0.9858,
+      "evidence_candidates": [
+        {
+          "person_id": "provisional_deepgram_speaker_1",
+          "display_name": "Speaker 1",
+          "confidence": 0.0,
+          "evidence_types": [
+            "diarized_transcription"
+          ],
+          "duration_seconds": 6.165,
+          "provenance": [
+            "deepgram:nova-3:diarize:latest",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_000.json"
+          ]
+        }
+      ],
+      "notes": "Machine-generated draft from Deepgram diarized utterances; not human reviewed. provider=deepgram_diarized_transcription model=nova-3 diarize_model=latest provider_speaker=1 provider_utterance_id=6c70f333-fac5-4760-97ef-dd441e87faed"
+    },
+    {
+      "segment_id": "youtube_gG1Lq2pIgGM_part_000_seg_0006",
+      "start": 49.655,
+      "end": 55.015,
+      "text": "Yeah. The boys aren't here. Jack's he's got a bunch on, obviously, with Magic Round. He's doing everything backstage.",
+      "true_person_id": "provisional_deepgram_speaker_1",
+      "true_display_name": "Speaker 1",
+      "speaker_type": "unknown",
+      "confidence": 0.942,
+      "evidence_candidates": [
+        {
+          "person_id": "provisional_deepgram_speaker_1",
+          "display_name": "Speaker 1",
+          "confidence": 0.0,
+          "evidence_types": [
+            "diarized_transcription"
+          ],
+          "duration_seconds": 5.36,
+          "provenance": [
+            "deepgram:nova-3:diarize:latest",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_000.json"
+          ]
+        }
+      ],
+      "notes": "Machine-generated draft from Deepgram diarized utterances; not human reviewed. provider=deepgram_diarized_transcription model=nova-3 diarize_model=latest provider_speaker=1 provider_utterance_id=40a8969e-a2fa-44bd-ab52-0b7fcd1137aa"
+    },
+    {
+      "segment_id": "youtube_gG1Lq2pIgGM_part_000_seg_0007",
+      "start": 55.095,
+      "end": 63.96,
+      "text": "And, Renny, I think he's looking for the blueprint. He's out there looking. He's searching. He may never come back. He may never come back. And the boys are busy, but they'll be back.",
+      "true_person_id": "provisional_deepgram_speaker_1",
+      "true_display_name": "Speaker 1",
+      "speaker_type": "unknown",
+      "confidence": 0.9424,
+      "evidence_candidates": [
+        {
+          "person_id": "provisional_deepgram_speaker_1",
+          "display_name": "Speaker 1",
+          "confidence": 0.0,
+          "evidence_types": [
+            "diarized_transcription"
+          ],
+          "duration_seconds": 8.865,
+          "provenance": [
+            "deepgram:nova-3:diarize:latest",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_000.json"
+          ]
+        }
+      ],
+      "notes": "Machine-generated draft from Deepgram diarized utterances; not human reviewed. provider=deepgram_diarized_transcription model=nova-3 diarize_model=latest provider_speaker=1 provider_utterance_id=154f35b9-5ed7-4f4b-9059-31c0e64d7a1e"
+    },
+    {
+      "segment_id": "youtube_gG1Lq2pIgGM_part_000_seg_0008",
+      "start": 64.68,
+      "end": 69.96,
+      "text": "If they're not back or next week I mean, I'm it depends with Magic Ground, but definitely back the week after.",
+      "true_person_id": "provisional_deepgram_speaker_1",
+      "true_display_name": "Speaker 1",
+      "speaker_type": "unknown",
+      "confidence": 0.9614,
+      "evidence_candidates": [
+        {
+          "person_id": "provisional_deepgram_speaker_1",
+          "display_name": "Speaker 1",
+          "confidence": 0.0,
+          "evidence_types": [
+            "diarized_transcription"
+          ],
+          "duration_seconds": 5.28,
+          "provenance": [
+            "deepgram:nova-3:diarize:latest",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_000.json"
+          ]
+        }
+      ],
+      "notes": "Machine-generated draft from Deepgram diarized utterances; not human reviewed. provider=deepgram_diarized_transcription model=nova-3 diarize_model=latest provider_speaker=1 provider_utterance_id=f739da74-a409-49ee-8b40-4713869a4c76"
+    },
+    {
+      "segment_id": "youtube_gG1Lq2pIgGM_part_000_seg_0009",
+      "start": 70.855,
+      "end": 76.695,
+      "text": "Alright. Some big news, guys. Tamalolo breaks the Cowboys record this week. Do you reckon Tamalolo,",
+      "true_person_id": "provisional_deepgram_speaker_1",
+      "true_display_name": "Speaker 1",
+      "speaker_type": "unknown",
+      "confidence": 0.9033,
+      "evidence_candidates": [
+        {
+          "person_id": "provisional_deepgram_speaker_1",
+          "display_name": "Speaker 1",
+          "confidence": 0.0,
+          "evidence_types": [
+            "diarized_transcription"
+          ],
+          "duration_seconds": 5.84,
+          "provenance": [
+            "deepgram:nova-3:diarize:latest",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_000.json"
+          ]
+        }
+      ],
+      "notes": "Machine-generated draft from Deepgram diarized utterances; not human reviewed. provider=deepgram_diarized_transcription model=nova-3 diarize_model=latest provider_speaker=1 provider_utterance_id=0102e82f-9478-4f25-a650-d34611dfb080"
+    },
+    {
+      "segment_id": "youtube_gG1Lq2pIgGM_part_000_seg_0010",
+      "start": 77.735,
+      "end": 78.615,
+      "text": "is he",
+      "true_person_id": "provisional_deepgram_speaker_1",
+      "true_display_name": "Speaker 1",
+      "speaker_type": "unknown",
+      "confidence": 0.9951,
+      "evidence_candidates": [
+        {
+          "person_id": "provisional_deepgram_speaker_1",
+          "display_name": "Speaker 1",
+          "confidence": 0.0,
+          "evidence_types": [
+            "diarized_transcription"
+          ],
+          "duration_seconds": 0.88,
+          "provenance": [
+            "deepgram:nova-3:diarize:latest",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_000.json"
+          ]
+        }
+      ],
+      "notes": "Machine-generated draft from Deepgram diarized utterances; not human reviewed. provider=deepgram_diarized_transcription model=nova-3 diarize_model=latest provider_speaker=1 provider_utterance_id=c47c8967-0174-4ab5-891a-a31aa61c9f44"
+    },
+    {
+      "segment_id": "youtube_gG1Lq2pIgGM_part_000_seg_0011",
+      "start": 78.855,
+      "end": 81.655,
+      "text": "would he be in your greatest ever 17?",
+      "true_person_id": "provisional_deepgram_speaker_1",
+      "true_display_name": "Speaker 1",
+      "speaker_type": "unknown",
+      "confidence": 0.9991,
+      "evidence_candidates": [
+        {
+          "person_id": "provisional_deepgram_speaker_1",
+          "display_name": "Speaker 1",
+          "confidence": 0.0,
+          "evidence_types": [
+            "diarized_transcription"
+          ],
+          "duration_seconds": 2.8,
+          "provenance": [
+            "deepgram:nova-3:diarize:latest",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_000.json"
+          ]
+        }
+      ],
+      "notes": "Machine-generated draft from Deepgram diarized utterances; not human reviewed. provider=deepgram_diarized_transcription model=nova-3 diarize_model=latest provider_speaker=1 provider_utterance_id=c2f3cbfd-8cd3-4372-8f31-a6047a88d27f"
+    },
+    {
+      "segment_id": "youtube_gG1Lq2pIgGM_part_000_seg_0012",
+      "start": 81.895,
+      "end": 102.295,
+      "text": "Bro, it's so weird this conversation. Don't you feel like whenever these chats come up, why does Tom O'Lello get why does he get overlooked kind of? I I don't know. You know what I mean? Don't he make the origin thing? The origin thing maybe? Yeah. Like, he he's such a gun player. He definitely had a period of time there where he was one of the most or if not the most dominant forward. It's",
+      "true_person_id": "provisional_deepgram_speaker_0",
+      "true_display_name": "Speaker 0",
+      "speaker_type": "unknown",
+      "confidence": 0.9487,
+      "evidence_candidates": [
+        {
+          "person_id": "provisional_deepgram_speaker_0",
+          "display_name": "Speaker 0",
+          "confidence": 0.0,
+          "evidence_types": [
+            "diarized_transcription"
+          ],
+          "duration_seconds": 20.4,
+          "provenance": [
+            "deepgram:nova-3:diarize:latest",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_000.json"
+          ]
+        }
+      ],
+      "notes": "Machine-generated draft from Deepgram diarized utterances; not human reviewed. provider=deepgram_diarized_transcription model=nova-3 diarize_model=latest provider_speaker=0 provider_utterance_id=ce8e49f5-10cd-4a90-952d-8e0f91e0e81f"
+    },
+    {
+      "segment_id": "youtube_gG1Lq2pIgGM_part_000_seg_0013",
+      "start": 102.295,
+      "end": 106.615,
+      "text": "just hard. I've I do feel like there has been a pretty big period of time before,",
+      "true_person_id": "provisional_deepgram_speaker_0",
+      "true_display_name": "Speaker 0",
+      "speaker_type": "unknown",
+      "confidence": 0.9935,
+      "evidence_candidates": [
+        {
+          "person_id": "provisional_deepgram_speaker_0",
+          "display_name": "Speaker 0",
+          "confidence": 0.0,
+          "evidence_types": [
+            "diarized_transcription"
+          ],
+          "duration_seconds": 4.32,
+          "provenance": [
+            "deepgram:nova-3:diarize:latest",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_000.json"
+          ]
+        }
+      ],
+      "notes": "Machine-generated draft from Deepgram diarized utterances; not human reviewed. provider=deepgram_diarized_transcription model=nova-3 diarize_model=latest provider_speaker=0 provider_utterance_id=2584bbc7-0f22-4bb4-8708-4dc446c42b95"
+    },
+    {
+      "segment_id": "youtube_gG1Lq2pIgGM_part_000_seg_0014",
+      "start": 107.53,
+      "end": 113.05,
+      "text": "like, since he's been the guy. Mhmm. So that kinda throws me off a little bit. But if we're looking at all time generationally",
+      "true_person_id": "provisional_deepgram_speaker_0",
+      "true_display_name": "Speaker 0",
+      "speaker_type": "unknown",
+      "confidence": 0.966,
+      "evidence_candidates": [
+        {
+          "person_id": "provisional_deepgram_speaker_0",
+          "display_name": "Speaker 0",
+          "confidence": 0.0,
+          "evidence_types": [
+            "diarized_transcription"
+          ],
+          "duration_seconds": 5.52,
+          "provenance": [
+            "deepgram:nova-3:diarize:latest",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_000.json"
+          ]
+        }
+      ],
+      "notes": "Machine-generated draft from Deepgram diarized utterances; not human reviewed. provider=deepgram_diarized_transcription model=nova-3 diarize_model=latest provider_speaker=0 provider_utterance_id=dc07deed-d7d8-4361-86a4-7b38a4af2fa5"
+    },
+    {
+      "segment_id": "youtube_gG1Lq2pIgGM_part_000_seg_0015",
+      "start": 113.21,
+      "end": 130.945,
+      "text": "Mhmm. He's gotta be in the 17. Well, tell me another forward before Payne Haas that was that did what Tamela looks as him. No. They wasn't. They just they haven't been like it. You know, Webke wasn't putting up those numbers. Don't get me wrong. There's more to rugby league than just the numbers. And, also, they're type than Webke. I'm just saying. Type of player. Yeah. Like, I you know, the Webkeys are great example.",
+      "true_person_id": "provisional_deepgram_speaker_1",
+      "true_display_name": "Speaker 1",
+      "speaker_type": "unknown",
+      "confidence": 0.8878,
+      "evidence_candidates": [
+        {
+          "person_id": "provisional_deepgram_speaker_1",
+          "display_name": "Speaker 1",
+          "confidence": 0.0,
+          "evidence_types": [
+            "diarized_transcription"
+          ],
+          "duration_seconds": 17.735,
+          "provenance": [
+            "deepgram:nova-3:diarize:latest",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_000.json"
+          ]
+        }
+      ],
+      "notes": "Machine-generated draft from Deepgram diarized utterances; not human reviewed. provider=deepgram_diarized_transcription model=nova-3 diarize_model=latest provider_speaker=1 provider_utterance_id=046b8363-d917-4a78-8753-ff54fb62ebaa"
+    },
+    {
+      "segment_id": "youtube_gG1Lq2pIgGM_part_000_seg_0016",
+      "start": 131.345,
+      "end": 132.225,
+      "text": "The Petros,",
+      "true_person_id": "provisional_deepgram_speaker_0",
+      "true_display_name": "Speaker 0",
+      "speaker_type": "unknown",
+      "confidence": 0.9565,
+      "evidence_candidates": [
+        {
+          "person_id": "provisional_deepgram_speaker_0",
+          "display_name": "Speaker 0",
+          "confidence": 0.0,
+          "evidence_types": [
+            "diarized_transcription"
+          ],
+          "duration_seconds": 0.88,
+          "provenance": [
+            "deepgram:nova-3:diarize:latest",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_000.json"
+          ]
+        }
+      ],
+      "notes": "Machine-generated draft from Deepgram diarized utterances; not human reviewed. provider=deepgram_diarized_transcription model=nova-3 diarize_model=latest provider_speaker=0 provider_utterance_id=e9856d03-6493-4d90-a76c-160acfdf5687"
+    },
+    {
+      "segment_id": "youtube_gG1Lq2pIgGM_part_000_seg_0017",
+      "start": 132.225,
+      "end": 154.655,
+      "text": "all those Broncos, they were guns, but they weren't they didn't have the what he had. Yeah. Was, like, x factor. Weapon. Absolute weapon. Because the score of fucking 80 meter taller. Throw a little step in there, like, it's a gun. So, yeah, he will be the most capped. I think also because he's formed at least this year has been great, but the last couple of years hasn't been great. So, like, we're recently bias gets a little bit. But if you were there around the days where he was flying, like, bro,",
+      "true_person_id": "provisional_deepgram_speaker_1",
+      "true_display_name": "Speaker 1",
+      "speaker_type": "unknown",
+      "confidence": 0.9044,
+      "evidence_candidates": [
+        {
+          "person_id": "provisional_deepgram_speaker_1",
+          "display_name": "Speaker 1",
+          "confidence": 0.0,
+          "evidence_types": [
+            "diarized_transcription"
+          ],
+          "duration_seconds": 22.43,
+          "provenance": [
+            "deepgram:nova-3:diarize:latest",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_000.json"
+          ]
+        }
+      ],
+      "notes": "Machine-generated draft from Deepgram diarized utterances; not human reviewed. provider=deepgram_diarized_transcription model=nova-3 diarize_model=latest provider_speaker=1 provider_utterance_id=db0218a4-139f-4ad0-ab51-1d2ba34ba082"
+    },
+    {
+      "segment_id": "youtube_gG1Lq2pIgGM_part_000_seg_0018",
+      "start": 155.055,
+      "end": 161.775,
+      "text": "he would just carry that team on his back and fuck it. That everything was around him. Everything was around him. There'll be a moment in time where he gets his flowers",
+      "true_person_id": "provisional_deepgram_speaker_1",
+      "true_display_name": "Speaker 1",
+      "speaker_type": "unknown",
+      "confidence": 0.9872,
+      "evidence_candidates": [
+        {
+          "person_id": "provisional_deepgram_speaker_1",
+          "display_name": "Speaker 1",
+          "confidence": 0.0,
+          "evidence_types": [
+            "diarized_transcription"
+          ],
+          "duration_seconds": 6.72,
+          "provenance": [
+            "deepgram:nova-3:diarize:latest",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_000.json"
+          ]
+        }
+      ],
+      "notes": "Machine-generated draft from Deepgram diarized utterances; not human reviewed. provider=deepgram_diarized_transcription model=nova-3 diarize_model=latest provider_speaker=1 provider_utterance_id=a5d38288-907b-4590-955b-be2ee8664592"
+    },
+    {
+      "segment_id": "youtube_gG1Lq2pIgGM_part_000_seg_0019",
+      "start": 162.73,
+      "end": 174.17,
+      "text": "for, you know, what he did for the Pacific Nations movement, which I think is That's another thing. That's a legacy. Yeah. That's another thing as well. Absolutely. Yeah. I didn't even think of that. Like, that was a huge moment in rugby league. It changed it changed rugby league forever. Literally. Literally forever.",
+      "true_person_id": "provisional_deepgram_speaker_1",
+      "true_display_name": "Speaker 1",
+      "speaker_type": "unknown",
+      "confidence": 0.9702,
+      "evidence_candidates": [
+        {
+          "person_id": "provisional_deepgram_speaker_1",
+          "display_name": "Speaker 1",
+          "confidence": 0.0,
+          "evidence_types": [
+            "diarized_transcription"
+          ],
+          "duration_seconds": 11.44,
+          "provenance": [
+            "deepgram:nova-3:diarize:latest",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_000.json"
+          ]
+        }
+      ],
+      "notes": "Machine-generated draft from Deepgram diarized utterances; not human reviewed. provider=deepgram_diarized_transcription model=nova-3 diarize_model=latest provider_speaker=1 provider_utterance_id=155c5047-d683-41cd-b3cd-7e4263b1ac69"
+    },
+    {
+      "segment_id": "youtube_gG1Lq2pIgGM_part_000_seg_0020",
+      "start": 174.735,
+      "end": 177.135,
+      "text": "So massive congratulations to Tamalolo.",
+      "true_person_id": "provisional_deepgram_speaker_1",
+      "true_display_name": "Speaker 1",
+      "speaker_type": "unknown",
+      "confidence": 0.9158,
+      "evidence_candidates": [
+        {
+          "person_id": "provisional_deepgram_speaker_1",
+          "display_name": "Speaker 1",
+          "confidence": 0.0,
+          "evidence_types": [
+            "diarized_transcription"
+          ],
+          "duration_seconds": 2.4,
+          "provenance": [
+            "deepgram:nova-3:diarize:latest",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_000.json"
+          ]
+        }
+      ],
+      "notes": "Machine-generated draft from Deepgram diarized utterances; not human reviewed. provider=deepgram_diarized_transcription model=nova-3 diarize_model=latest provider_speaker=1 provider_utterance_id=2b168ca1-c4af-4c1a-a111-08aed608fe61"
+    },
+    {
+      "segment_id": "youtube_gG1Lq2pIgGM_part_000_seg_0021",
+      "start": 177.535,
+      "end": 178.175,
+      "text": "Incredible",
+      "true_person_id": "provisional_deepgram_speaker_0",
+      "true_display_name": "Speaker 0",
+      "speaker_type": "unknown",
+      "confidence": 0.999,
+      "evidence_candidates": [
+        {
+          "person_id": "provisional_deepgram_speaker_0",
+          "display_name": "Speaker 0",
+          "confidence": 0.0,
+          "evidence_types": [
+            "diarized_transcription"
+          ],
+          "duration_seconds": 0.64,
+          "provenance": [
+            "deepgram:nova-3:diarize:latest",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_000.json"
+          ]
+        }
+      ],
+      "notes": "Machine-generated draft from Deepgram diarized utterances; not human reviewed. provider=deepgram_diarized_transcription model=nova-3 diarize_model=latest provider_speaker=0 provider_utterance_id=c8dfdb44-2ab1-4872-8311-d395741f4386"
+    },
+    {
+      "segment_id": "youtube_gG1Lq2pIgGM_part_000_seg_0022",
+      "start": 178.415,
+      "end": 181.135,
+      "text": "He won a daily m as well. I forgot about that. Yeah.",
+      "true_person_id": "provisional_deepgram_speaker_0",
+      "true_display_name": "Speaker 0",
+      "speaker_type": "unknown",
+      "confidence": 0.8699,
+      "evidence_candidates": [
+        {
+          "person_id": "provisional_deepgram_speaker_0",
+          "display_name": "Speaker 0",
+          "confidence": 0.0,
+          "evidence_types": [
+            "diarized_transcription"
+          ],
+          "duration_seconds": 2.72,
+          "provenance": [
+            "deepgram:nova-3:diarize:latest",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_000.json"
+          ]
+        }
+      ],
+      "notes": "Machine-generated draft from Deepgram diarized utterances; not human reviewed. provider=deepgram_diarized_transcription model=nova-3 diarize_model=latest provider_speaker=0 provider_utterance_id=03ddd0ba-0a88-4327-9105-3f7e237fccc7"
+    },
+    {
+      "segment_id": "youtube_gG1Lq2pIgGM_part_000_seg_0023",
+      "start": 181.295,
+      "end": 184.175,
+      "text": "And and, also, it wasn't didn't it wasn't a equal with",
+      "true_person_id": "provisional_deepgram_speaker_1",
+      "true_display_name": "Speaker 1",
+      "speaker_type": "unknown",
+      "confidence": 0.8465,
+      "evidence_candidates": [
+        {
+          "person_id": "provisional_deepgram_speaker_1",
+          "display_name": "Speaker 1",
+          "confidence": 0.0,
+          "evidence_types": [
+            "diarized_transcription"
+          ],
+          "duration_seconds": 2.88,
+          "provenance": [
+            "deepgram:nova-3:diarize:latest",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_000.json"
+          ]
+        }
+      ],
+      "notes": "Machine-generated draft from Deepgram diarized utterances; not human reviewed. provider=deepgram_diarized_transcription model=nova-3 diarize_model=latest provider_speaker=1 provider_utterance_id=51de2693-7d9c-437a-8623-28c9aff3eec1"
+    },
+    {
+      "segment_id": "youtube_gG1Lq2pIgGM_part_000_seg_0024",
+      "start": 184.415,
+      "end": 185.935,
+      "text": "Gronk. Yes. 16.",
+      "true_person_id": "provisional_deepgram_speaker_1",
+      "true_display_name": "Speaker 1",
+      "speaker_type": "unknown",
+      "confidence": 0.8803,
+      "evidence_candidates": [
+        {
+          "person_id": "provisional_deepgram_speaker_1",
+          "display_name": "Speaker 1",
+          "confidence": 0.0,
+          "evidence_types": [
+            "diarized_transcription"
+          ],
+          "duration_seconds": 1.52,
+          "provenance": [
+            "deepgram:nova-3:diarize:latest",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_000.json"
+          ]
+        }
+      ],
+      "notes": "Machine-generated draft from Deepgram diarized utterances; not human reviewed. provider=deepgram_diarized_transcription model=nova-3 diarize_model=latest provider_speaker=1 provider_utterance_id=bfd3ad18-163e-43f4-8deb-4ad64472cee0"
+    },
+    {
+      "segment_id": "youtube_gG1Lq2pIgGM_part_000_seg_0025",
+      "start": 186.175,
+      "end": 188.69,
+      "text": "Dallium locked three three times.",
+      "true_person_id": "provisional_deepgram_speaker_1",
+      "true_display_name": "Speaker 1",
+      "speaker_type": "unknown",
+      "confidence": 0.841,
+      "evidence_candidates": [
+        {
+          "person_id": "provisional_deepgram_speaker_1",
+          "display_name": "Speaker 1",
+          "confidence": 0.0,
+          "evidence_types": [
+            "diarized_transcription"
+          ],
+          "duration_seconds": 2.515,
+          "provenance": [
+            "deepgram:nova-3:diarize:latest",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_000.json"
+          ]
+        }
+      ],
+      "notes": "Machine-generated draft from Deepgram diarized utterances; not human reviewed. provider=deepgram_diarized_transcription model=nova-3 diarize_model=latest provider_speaker=1 provider_utterance_id=ec2a91d1-ddef-43b5-a490-6fc49f008f9e"
+    },
+    {
+      "segment_id": "youtube_gG1Lq2pIgGM_part_000_seg_0026",
+      "start": 188.85,
+      "end": 191.17,
+      "text": "How many forwards have won the Dailym?",
+      "true_person_id": "provisional_deepgram_speaker_0",
+      "true_display_name": "Speaker 0",
+      "speaker_type": "unknown",
+      "confidence": 0.9453,
+      "evidence_candidates": [
+        {
+          "person_id": "provisional_deepgram_speaker_0",
+          "display_name": "Speaker 0",
+          "confidence": 0.0,
+          "evidence_types": [
+            "diarized_transcription"
+          ],
+          "duration_seconds": 2.32,
+          "provenance": [
+            "deepgram:nova-3:diarize:latest",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_000.json"
+          ]
+        }
+      ],
+      "notes": "Machine-generated draft from Deepgram diarized utterances; not human reviewed. provider=deepgram_diarized_transcription model=nova-3 diarize_model=latest provider_speaker=0 provider_utterance_id=c0eac0b2-4382-4218-a960-3487ec56f556"
+    },
+    {
+      "segment_id": "youtube_gG1Lq2pIgGM_part_000_seg_0027",
+      "start": 191.65,
+      "end": 208.675,
+      "text": "It's gotta be a selection. It's very little. Yeah. Like, if you're not counting Camp Smith like Hookers, Gavin Miller in 1989, it's also at 30 six, thirty seven years ago, and Ray Price won as well, but, yeah, not many. Oh. Which are like, again Well, there we go. Now we're we've really changed the chat. Yeah. So incredible player, incredible athlete.",
+      "true_person_id": "provisional_deepgram_speaker_0",
+      "true_display_name": "Speaker 0",
+      "speaker_type": "unknown",
+      "confidence": 0.9187,
+      "evidence_candidates": [
+        {
+          "person_id": "provisional_deepgram_speaker_0",
+          "display_name": "Speaker 0",
+          "confidence": 0.0,
+          "evidence_types": [
+            "diarized_transcription"
+          ],
+          "duration_seconds": 17.025,
+          "provenance": [
+            "deepgram:nova-3:diarize:latest",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_000.json"
+          ]
+        }
+      ],
+      "notes": "Machine-generated draft from Deepgram diarized utterances; not human reviewed. provider=deepgram_diarized_transcription model=nova-3 diarize_model=latest provider_speaker=0 provider_utterance_id=0aad8cd4-7d45-4261-a856-439d87f720bb"
+    },
+    {
+      "segment_id": "youtube_gG1Lq2pIgGM_part_000_seg_0028",
+      "start": 209.315,
+      "end": 213.075,
+      "text": "What what a what a record to get. Alrighty. Metcast management seeks",
+      "true_person_id": "provisional_deepgram_speaker_1",
+      "true_display_name": "Speaker 1",
+      "speaker_type": "unknown",
+      "confidence": 0.9435,
+      "evidence_candidates": [
+        {
+          "person_id": "provisional_deepgram_speaker_1",
+          "display_name": "Speaker 1",
+          "confidence": 0.0,
+          "evidence_types": [
+            "diarized_transcription"
+          ],
+          "duration_seconds": 3.76,
+          "provenance": [
+            "deepgram:nova-3:diarize:latest",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_000.json"
+          ]
+        }
+      ],
+      "notes": "Machine-generated draft from Deepgram diarized utterances; not human reviewed. provider=deepgram_diarized_transcription model=nova-3 diarize_model=latest provider_speaker=1 provider_utterance_id=420a046e-44da-4bd4-ae3e-388e9dc99814"
+    },
+    {
+      "segment_id": "youtube_gG1Lq2pIgGM_part_000_seg_0029",
+      "start": 213.155,
+      "end": 214.675,
+      "text": "meeting about Warriors future.",
+      "true_person_id": "provisional_deepgram_speaker_1",
+      "true_display_name": "Speaker 1",
+      "speaker_type": "unknown",
+      "confidence": 0.9222,
+      "evidence_candidates": [
+        {
+          "person_id": "provisional_deepgram_speaker_1",
+          "display_name": "Speaker 1",
+          "confidence": 0.0,
+          "evidence_types": [
+            "diarized_transcription"
+          ],
+          "duration_seconds": 1.52,
+          "provenance": [
+            "deepgram:nova-3:diarize:latest",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_000.json"
+          ]
+        }
+      ],
+      "notes": "Machine-generated draft from Deepgram diarized utterances; not human reviewed. provider=deepgram_diarized_transcription model=nova-3 diarize_model=latest provider_speaker=1 provider_utterance_id=3f2b449d-c0c7-41ae-a5cc-aa886b5a7ea4"
+    },
+    {
+      "segment_id": "youtube_gG1Lq2pIgGM_part_000_seg_0030",
+      "start": 216.03,
+      "end": 223.71,
+      "text": "Oh, man. I'll I'll read the dot points, but ugh. Okay. Look. Metcalf's management will seek preliminary discussions with the Warriors about the club's long term plans for halfback position.",
+      "true_person_id": "provisional_deepgram_speaker_1",
+      "true_display_name": "Speaker 1",
+      "speaker_type": "unknown",
+      "confidence": 0.9547,
+      "evidence_candidates": [
+        {
+          "person_id": "provisional_deepgram_speaker_1",
+          "display_name": "Speaker 1",
+          "confidence": 0.0,
+          "evidence_types": [
+            "diarized_transcription"
+          ],
+          "duration_seconds": 7.68,
+          "provenance": [
+            "deepgram:nova-3:diarize:latest",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_000.json"
+          ]
+        }
+      ],
+      "notes": "Machine-generated draft from Deepgram diarized utterances; not human reviewed. provider=deepgram_diarized_transcription model=nova-3 diarize_model=latest provider_speaker=1 provider_utterance_id=89a65c4b-dcdb-44c7-acc7-7b08ef749cab"
+    },
+    {
+      "segment_id": "youtube_gG1Lq2pIgGM_part_000_seg_0031",
+      "start": 223.95,
+      "end": 234.055,
+      "text": "Despite previously being regarded as the premier playmaker, you know, we know the drill. Tanner Boy's been going great. According to Code Sports, those close to Metcalf claim he wants primarily to play halfback, not five eight.",
+      "true_person_id": "provisional_deepgram_speaker_1",
+      "true_display_name": "Speaker 1",
+      "speaker_type": "unknown",
+      "confidence": 0.9278,
+      "evidence_candidates": [
+        {
+          "person_id": "provisional_deepgram_speaker_1",
+          "display_name": "Speaker 1",
+          "confidence": 0.0,
+          "evidence_types": [
+            "diarized_transcription"
+          ],
+          "duration_seconds": 10.105,
+          "provenance": [
+            "deepgram:nova-3:diarize:latest",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_000.json"
+          ]
+        }
+      ],
+      "notes": "Machine-generated draft from Deepgram diarized utterances; not human reviewed. provider=deepgram_diarized_transcription model=nova-3 diarize_model=latest provider_speaker=1 provider_utterance_id=556d892e-a4be-4637-8f97-6712e633dc1a"
+    },
+    {
+      "segment_id": "youtube_gG1Lq2pIgGM_part_000_seg_0032",
+      "start": 234.535,
+      "end": 240.615,
+      "text": "The warriors are also in contract negotiation with Boyd to extend him, who looks pretty sure to resign.",
+      "true_person_id": "provisional_deepgram_speaker_1",
+      "true_display_name": "Speaker 1",
+      "speaker_type": "unknown",
+      "confidence": 0.9583,
+      "evidence_candidates": [
+        {
+          "person_id": "provisional_deepgram_speaker_1",
+          "display_name": "Speaker 1",
+          "confidence": 0.0,
+          "evidence_types": [
+            "diarized_transcription"
+          ],
+          "duration_seconds": 6.08,
+          "provenance": [
+            "deepgram:nova-3:diarize:latest",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_000.json"
+          ]
+        }
+      ],
+      "notes": "Machine-generated draft from Deepgram diarized utterances; not human reviewed. provider=deepgram_diarized_transcription model=nova-3 diarize_model=latest provider_speaker=1 provider_utterance_id=5aedf4f2-e1a4-4516-9a68-1c6cf4d64565"
+    },
+    {
+      "segment_id": "youtube_gG1Lq2pIgGM_part_000_seg_0033",
+      "start": 240.695,
+      "end": 248.92,
+      "text": "There's no suggestion. Metcalf, who recently signed a three extension at the club, is looking to leave the the warriors. I think also I read that he's happy to play five eight in the short term.",
+      "true_person_id": "provisional_deepgram_speaker_1",
+      "true_display_name": "Speaker 1",
+      "speaker_type": "unknown",
+      "confidence": 0.9679,
+      "evidence_candidates": [
+        {
+          "person_id": "provisional_deepgram_speaker_1",
+          "display_name": "Speaker 1",
+          "confidence": 0.0,
+          "evidence_types": [
+            "diarized_transcription"
+          ],
+          "duration_seconds": 8.225,
+          "provenance": [
+            "deepgram:nova-3:diarize:latest",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_000.json"
+          ]
+        }
+      ],
+      "notes": "Machine-generated draft from Deepgram diarized utterances; not human reviewed. provider=deepgram_diarized_transcription model=nova-3 diarize_model=latest provider_speaker=1 provider_utterance_id=a3eff26e-43a1-4d6c-ac3a-b62facec7e34"
+    },
+    {
+      "segment_id": "youtube_gG1Lq2pIgGM_part_000_seg_0034",
+      "start": 249.88,
+      "end": 253.56,
+      "text": "I gotta be honest, like, look, unless there's more to it that I don't know,",
+      "true_person_id": "provisional_deepgram_speaker_1",
+      "true_display_name": "Speaker 1",
+      "speaker_type": "unknown",
+      "confidence": 0.9319,
+      "evidence_candidates": [
+        {
+          "person_id": "provisional_deepgram_speaker_1",
+          "display_name": "Speaker 1",
+          "confidence": 0.0,
+          "evidence_types": [
+            "diarized_transcription"
+          ],
+          "duration_seconds": 3.68,
+          "provenance": [
+            "deepgram:nova-3:diarize:latest",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_000.json"
+          ]
+        }
+      ],
+      "notes": "Machine-generated draft from Deepgram diarized utterances; not human reviewed. provider=deepgram_diarized_transcription model=nova-3 diarize_model=latest provider_speaker=1 provider_utterance_id=2b8c2c9d-e032-4829-9726-83a4167c6a7d"
+    },
+    {
+      "segment_id": "youtube_gG1Lq2pIgGM_part_000_seg_0035",
+      "start": 254.04,
+      "end": 259.48,
+      "text": "I don't like this, man. Like, he's only really been back for, what, three three or four games.",
+      "true_person_id": "provisional_deepgram_speaker_1",
+      "true_display_name": "Speaker 1",
+      "speaker_type": "unknown",
+      "confidence": 0.9723,
+      "evidence_candidates": [
+        {
+          "person_id": "provisional_deepgram_speaker_1",
+          "display_name": "Speaker 1",
+          "confidence": 0.0,
+          "evidence_types": [
+            "diarized_transcription"
+          ],
+          "duration_seconds": 5.44,
+          "provenance": [
+            "deepgram:nova-3:diarize:latest",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_000.json"
+          ]
+        }
+      ],
+      "notes": "Machine-generated draft from Deepgram diarized utterances; not human reviewed. provider=deepgram_diarized_transcription model=nova-3 diarize_model=latest provider_speaker=1 provider_utterance_id=ea6ac7aa-5e1a-4d85-a77a-1249ea3697e5"
+    },
+    {
+      "segment_id": "youtube_gG1Lq2pIgGM_part_000_seg_0036",
+      "start": 259.72,
+      "end": 261.16,
+      "text": "It's so hard, bro. Like,",
+      "true_person_id": "provisional_deepgram_speaker_0",
+      "true_display_name": "Speaker 0",
+      "speaker_type": "unknown",
+      "confidence": 0.9917,
+      "evidence_candidates": [
+        {
+          "person_id": "provisional_deepgram_speaker_0",
+          "display_name": "Speaker 0",
+          "confidence": 0.0,
+          "evidence_types": [
+            "diarized_transcription"
+          ],
+          "duration_seconds": 1.44,
+          "provenance": [
+            "deepgram:nova-3:diarize:latest",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_000.json"
+          ]
+        }
+      ],
+      "notes": "Machine-generated draft from Deepgram diarized utterances; not human reviewed. provider=deepgram_diarized_transcription model=nova-3 diarize_model=latest provider_speaker=0 provider_utterance_id=8c92d8b8-af9f-4c3b-98ff-fc655c8008ca"
+    },
+    {
+      "segment_id": "youtube_gG1Lq2pIgGM_part_000_seg_0037",
+      "start": 262.575,
+      "end": 270.655,
+      "text": "I I don't know. I I don't know how I feel about it, but this is just the reality of the game at the moment. There's so much movement. We've got new teams popping up every year,",
+      "true_person_id": "provisional_deepgram_speaker_0",
+      "true_display_name": "Speaker 0",
+      "speaker_type": "unknown",
+      "confidence": 0.9811,
+      "evidence_candidates": [
+        {
+          "person_id": "provisional_deepgram_speaker_0",
+          "display_name": "Speaker 0",
+          "confidence": 0.0,
+          "evidence_types": [
+            "diarized_transcription"
+          ],
+          "duration_seconds": 8.08,
+          "provenance": [
+            "deepgram:nova-3:diarize:latest",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_000.json"
+          ]
+        }
+      ],
+      "notes": "Machine-generated draft from Deepgram diarized utterances; not human reviewed. provider=deepgram_diarized_transcription model=nova-3 diarize_model=latest provider_speaker=0 provider_utterance_id=3ff4a21d-a52f-411d-b567-5f16d44726b0"
+    },
+    {
+      "segment_id": "youtube_gG1Lq2pIgGM_part_000_seg_0038",
+      "start": 270.975,
+      "end": 283.67,
+      "text": "and it has actually changed in terms of there is a bit of leverage. Like, players can find other opportunities a lot easier than they could five, ten years ago. Yeah. I mean, we've spoken about it before, but if I'm the Perth Bears,",
+      "true_person_id": "provisional_deepgram_speaker_0",
+      "true_display_name": "Speaker 0",
+      "speaker_type": "unknown",
+      "confidence": 0.9825,
+      "evidence_candidates": [
+        {
+          "person_id": "provisional_deepgram_speaker_0",
+          "display_name": "Speaker 0",
+          "confidence": 0.0,
+          "evidence_types": [
+            "diarized_transcription"
+          ],
+          "duration_seconds": 12.695,
+          "provenance": [
+            "deepgram:nova-3:diarize:latest",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_000.json"
+          ]
+        }
+      ],
+      "notes": "Machine-generated draft from Deepgram diarized utterances; not human reviewed. provider=deepgram_diarized_transcription model=nova-3 diarize_model=latest provider_speaker=0 provider_utterance_id=32dab538-610e-4ce1-b1a0-247f73c3f445"
+    },
+    {
+      "segment_id": "youtube_gG1Lq2pIgGM_part_000_seg_0039",
+      "start": 283.99,
+      "end": 301.855,
+      "text": "I am watching this very closely. I'm not saying he's gonna leave, but at end of the day, you've got a warriors that are absolutely humming. I just think it would be a pretty uncomfortable moment for him right now coming off the ACL, coming back. He's he's being judged heavily on every performance. And it's just like",
+      "true_person_id": "provisional_deepgram_speaker_0",
+      "true_display_name": "Speaker 0",
+      "speaker_type": "unknown",
+      "confidence": 0.9554,
+      "evidence_candidates": [
+        {
+          "person_id": "provisional_deepgram_speaker_0",
+          "display_name": "Speaker 0",
+          "confidence": 0.0,
+          "evidence_types": [
+            "diarized_transcription"
+          ],
+          "duration_seconds": 17.865,
+          "provenance": [
+            "deepgram:nova-3:diarize:latest",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_000.json"
+          ]
+        }
+      ],
+      "notes": "Machine-generated draft from Deepgram diarized utterances; not human reviewed. provider=deepgram_diarized_transcription model=nova-3 diarize_model=latest provider_speaker=0 provider_utterance_id=edddcaa6-2390-45e1-be12-10d6d8649c0f"
+    }
+  ],
+  "annotation": {
+    "status": "draft",
+    "reviewed_by": "",
+    "review_level": "rough",
+    "notes": "Machine-populated 39 transcript segments and 2 provisional speakers from deepgram_diarized_transcription. Speaker identities are anonymous diarization labels until reviewed.",
+    "provider": "deepgram_diarized_transcription",
+    "provider_model": "nova-3",
+    "provider_output": "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_000.json",
+    "human_review_required": true,
+    "provider_diarize_model": "latest"
+  }
+}

@@ -1,0 +1,43 @@
+transcript_segment:
+  required_fields:
+    - segment_id
+    - start
+    - end
+    - text
+    - speaker_id
+    - person_id
+    - display_name
+    - confidence
+    - resolution_status
+    - evidence_summary
+    - review
+
+resolution_status:
+  allowed_values:
+    - resolved
+    - unknown
+    - needs_review
+
+speaker:
+  required_fields:
+    - speaker_id
+    - person_id
+    - display_name
+    - confidence
+    - total_speaking_time_seconds
+    - segments_count
+    - status
+
+evidence_summary:
+  required_fields:
+    - evidence_types
+    - strongest_signal
+    - provenance
+    - conflicts
+
+review:
+  required_fields:
+    - required
+    - reason
+    - human_reviewed
+

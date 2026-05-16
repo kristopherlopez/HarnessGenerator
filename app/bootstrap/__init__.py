@@ -1,0 +1,2 @@
+"""Bootstrap contract loading."""
+

@@ -1,0 +1,31 @@
+media_input:
+  required_fields:
+    - case_id
+    - media_uri
+    - media_type
+    - known_people_set_id
+
+media_type:
+  allowed_values:
+    - audio
+    - video
+    - caption_file
+
+optional_fields:
+  - youtube_url
+  - title
+  - description
+  - known_speakers
+  - speaker_hints
+  - reference_speaker_clips
+  - conditions
+
+conditions:
+  allowed_fields:
+    - speaker_count
+    - has_unknown_speakers
+    - overlap_level
+    - face_visibility
+    - audio_quality
+    - lighting_quality
+

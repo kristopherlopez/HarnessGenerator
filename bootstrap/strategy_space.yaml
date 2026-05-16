@@ -1,0 +1,39 @@
+candidate_generation:
+  - voice_knn
+  - face_knn
+  - voice_centroid_match
+  - face_centroid_match
+  - local_voice_clustering
+  - local_face_clustering
+  - classifier_top_k
+  - hybrid_top_k
+
+resolution_strategies:
+  - baseline_unknown
+  - risky_top_candidate
+  - voice_only_knn
+  - face_only_knn
+  - voice_face_weighted_sum
+  - cluster_then_match
+  - match_then_cluster
+  - active_speaker_first
+  - graph_fusion_conservative
+  - graph_fusion_aggressive
+  - classifier_rerank
+  - review_heavy_low_false_assignment
+
+threshold_search:
+  enabled: true
+  parameters:
+    voice_candidate_min: [0.50, 0.60, 0.70, 0.80]
+    face_candidate_min: [0.40, 0.50, 0.60, 0.70]
+    assignment_threshold: [0.75, 0.80, 0.85, 0.90, 0.95]
+    review_threshold: [0.50, 0.60, 0.70]
+    margin_threshold: [0.03, 0.05, 0.08, 0.10, 0.15]
+    min_voice_duration_seconds: [1.0, 2.0, 2.5, 3.0, 5.0]
+
+selection_policy:
+  optimize_for: lowest_false_assignment_rate
+  constraints:
+    max_false_assignment_rate: 0.02
+    max_review_rate: 0.25

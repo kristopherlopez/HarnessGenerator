@@ -1,0 +1,57 @@
+{
+  "case_id": "youtube_REPLACE_ME",
+  "source": {
+    "input_type": "youtube_url",
+    "youtube_url": "https://www.youtube.com/watch?v=REPLACE_ME",
+    "source_id": "youtube_REPLACE_ME",
+    "title": "",
+    "channel": "",
+    "notes": ""
+  },
+  "media": {
+    "media_type": "video",
+    "media_uri": "media/youtube_REPLACE_ME.mp4",
+    "clip_start": 0.0,
+    "clip_end": 300.0
+  },
+  "known_people_set_id": "seed_podcast",
+  "conditions": {
+    "speaker_count": 0,
+    "has_unknown_speakers": true,
+    "overlap_level": "unknown",
+    "face_visibility": "unknown",
+    "audio_quality": "unknown"
+  },
+  "speakers": [
+    {
+      "person_id": "person_replace_me",
+      "display_name": "Replace Me",
+      "speaker_type": "known",
+      "aliases": [],
+      "role": "",
+      "notes": ""
+    }
+  ],
+  "segments": [
+    {
+      "segment_id": "seg_001",
+      "start": 0.0,
+      "end": 5.0,
+      "text": "Replace with reviewed transcript text.",
+      "true_person_id": "person_replace_me",
+      "true_display_name": "Replace Me",
+      "speaker_type": "known",
+      "overlap": false,
+      "inaudible": false,
+      "notes": "",
+      "evidence_candidates": []
+    }
+  ],
+  "annotation": {
+    "status": "draft",
+    "reviewed_by": "",
+    "review_level": "rough",
+    "notes": ""
+  }
+}
+

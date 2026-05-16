@@ -1,0 +1,35 @@
+{
+  "case_id": "video_off_camera",
+  "media_uri": "mock://video_off_camera.mp4",
+  "known_people_set_id": "seed_podcast",
+  "media_type": "video",
+  "conditions": {
+    "speaker_count": 3,
+    "has_unknown_speakers": false,
+    "overlap_level": "low",
+    "face_visibility": "low",
+    "audio_quality": "high"
+  },
+  "segments": [
+    {
+      "segment_id": "seg_001",
+      "start": 50.0,
+      "end": 55.4,
+      "text": "Can we go back to that earlier point?",
+      "true_person_id": "person_host",
+      "true_display_name": "Host",
+      "speaker_type": "known",
+      "evidence_candidates": [
+        {
+          "person_id": "person_host",
+          "display_name": "Host",
+          "confidence": 0.82,
+          "evidence_types": ["voice"],
+          "duration_seconds": 5.4,
+          "provenance": ["voice_profile:host:v1"]
+        }
+      ]
+    }
+  ]
+}
+

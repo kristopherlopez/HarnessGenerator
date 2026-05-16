@@ -1,0 +1,102 @@
+# Example task specification for YouTube podcast speaker attribution.
+schema_version: 0.1
+name: youtube_podcast_speaker_attribution
+description: Generate timestamped podcast transcripts with accurate speaker attribution.
+
+dataset:
+  format: jsonl
+  manifest: data/youtube_podcast_attribution/episodes.jsonl
+  splits:
+    dev: data/youtube_podcast_attribution/splits/dev.jsonl
+    validation: data/youtube_podcast_attribution/splits/validation.jsonl
+    test: data/youtube_podcast_attribution/splits/test.jsonl
+
+input_schema:
+  episode_id: string
+  source_type: enum[youtube_url, local_audio, local_video, caption_file]
+  source_uri: string
+  title: string
+  description: string
+  known_speakers: list[string]
+  speaker_hints: object
+  reference_speaker_clips: list[string]
+
+output_schema:
+  speakers:
+    id: string
+    name: string
+    confidence: number
+  segments:
+    start: number
+    end: number
+    speaker_id: string
+    speaker_name: string
+    text: string
+    confidence: number
+  needs_review:
+    start: number
+    end: number
+    reason: string
+
+ingestion:
+  prefer_local_media: true
+  allow_youtube_caption_api: true
+  allow_unofficial_downloaders: false
+  normalized_audio:
+    sample_rate_hz: 16000
+    channels: mono
+    format: wav
+
+providers:
+  transcription:
+    - provider: openai
+      model: gpt-4o-transcribe-diarize
+      response_format: diarized_json
+    - provider: local
+      model: configurable-whisper-compatible-model
+  diarization:
+    - provider: openai
+      model: gpt-4o-transcribe-diarize
+    - provider: pyannote
+      model: configurable-pyannote-model
+  speaker_resolution:
+    provider: openai
+    model: configurable-reasoning-model
+    temperature: 0.1
+
+scoring:
+  primary_metric: speaker_attributed_word_accuracy
+  secondary_metrics:
+    - word_error_rate
+    - diarization_error_rate
+    - speaker_confusion_rate
+    - segment_boundary_f1
+    - unknown_speaker_rate
+    - human_review_rate
+    - cost_usd_per_audio_hour
+    - latency_seconds_per_audio_hour
+  alignment:
+    timestamp_tolerance_seconds: 1.0
+    normalize_text: true
+
+budget:
+  max_cost_usd_per_audio_hour: 5.00
+  max_wall_clock_seconds_per_audio_hour: 900
+  max_model_calls_per_episode: 20
+  max_review_segments_per_episode: 50
+
+tools:
+  allow_network: true
+  allow_filesystem_write: true
+  allowed_tools:
+    - youtube_caption_api
+    - ffmpeg
+    - transcription_provider
+    - diarization_provider
+    - speaker_resolution_model
+
+optimization:
+  search_level: prompt_and_config
+  max_candidates: 10
+  selection_metric: speaker_attributed_word_accuracy_minus_budget_penalty
+  archive_dir: runs/youtube_podcast_speaker_attribution

@@ -1,0 +1,69 @@
+tools:
+  transcription:
+    interface: TranscriptionProvider
+    implementations:
+      - name: deepgram
+        enabled: true
+        cacheable: true
+      - name: openai_diarized_transcription
+        enabled: true
+        cacheable: true
+      - name: local_whisper_compatible
+        enabled: false
+        cacheable: true
+    returns:
+      - words
+      - word_timings
+      - utterances
+      - confidence
+
+  diarization:
+    interface: DiarizationProvider
+    implementations:
+      - name: pyannote
+        enabled: true
+        cacheable: true
+      - name: openai_diarized_transcription
+        enabled: true
+        cacheable: true
+    returns:
+      - speaker_segments
+      - speaker_labels
+
+  face_embedding:
+    interface: FaceEmbeddingProvider
+    implementations:
+      - name: insightface
+        enabled: true
+        cacheable: true
+    returns:
+      - face_embeddings
+      - quality_score
+      - model_version
+
+  voice_embedding:
+    interface: VoiceEmbeddingProvider
+    implementations:
+      - name: pyannote_embedding
+        enabled: true
+        cacheable: true
+      - name: default_voice_embedding_model
+        enabled: false
+        cacheable: true
+    returns:
+      - voice_embeddings
+      - quality_score
+      - duration_seconds
+
+  llm:
+    interface: LlmReasoner
+    allowed_uses:
+      - explain_conflict
+      - summarize_review_item
+      - classify_failure_mode
+      - generate_codex_task
+      - map_speaker_labels_when_supported_by_non_llm_evidence
+    prohibited_uses:
+      - final_identity_assignment_without_evidence
+      - overwrite_human_review
+      - infer_identity_from_transcript_alone

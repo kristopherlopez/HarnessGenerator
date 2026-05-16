@@ -1,0 +1,35 @@
+{
+  "case_id": "repeat_person_cross_media",
+  "media_uri": "mock://repeat_person_cross_media.mp4",
+  "known_people_set_id": "seed_podcast",
+  "media_type": "video",
+  "conditions": {
+    "speaker_count": 2,
+    "has_unknown_speakers": false,
+    "overlap_level": "none",
+    "face_visibility": "high",
+    "audio_quality": "high"
+  },
+  "segments": [
+    {
+      "segment_id": "seg_001",
+      "start": 90.0,
+      "end": 96.0,
+      "text": "This is the same point I made last episode.",
+      "true_person_id": "person_guest_a",
+      "true_display_name": "Guest A",
+      "speaker_type": "known",
+      "evidence_candidates": [
+        {
+          "person_id": "person_guest_a",
+          "display_name": "Guest A",
+          "confidence": 0.93,
+          "evidence_types": ["voice", "face"],
+          "duration_seconds": 6.0,
+          "provenance": ["voice_profile:guest_a:v1", "face_profile:guest_a:v1"]
+        }
+      ]
+    }
+  ]
+}
+

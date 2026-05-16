@@ -1,0 +1,1 @@
+{"source_id":"podcast_001","youtube_url":"https://www.youtube.com/watch?v=REPLACE_ME","title":"Episode title","expected_speakers":["Host Name","Guest Name"],"useful_ranges":[{"start":0,"end":300,"reason":"clean two-speaker section"}],"status":"queued","notes":"Replace this example with real intake rows in youtube_links.jsonl."}

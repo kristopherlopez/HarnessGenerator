@@ -1,0 +1,22 @@
+schema_version: 0.1
+harness_id: baseline_unknown
+workspace_id: youtube_speaker_attribution
+status: promoted_baseline
+strategy: baseline_unknown
+parent: null
+
+change_surface: verification
+change_option: baseline_unknown
+
+description: Never assigns a real-person identity automatically.
+
+contracts:
+  output: ../../contracts/output_contract.yaml
+  safety: ../../contracts/safety_contract.yaml
+  metrics: ../../contracts/metric_contract.yaml
+
+expected_behavior:
+  false_assignment_rate: 0.0
+  known_person_recall: 0.0
+  unknown_detection_recall: 1.0
+

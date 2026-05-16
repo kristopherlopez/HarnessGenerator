@@ -1,0 +1,24 @@
+domain: multimodal_identity_resolution_for_speaker_attributed_transcription
+
+goal:
+  produce_attributed_transcript_from_audio_or_video: true
+
+population:
+  known_speakers_estimate_min: 200
+  known_speakers_estimate_max: 300
+  supports_unknown_speakers: true
+  supports_new_person_discovery: true
+
+identity_policy:
+  prefer_unknown_over_wrong_identity: true
+  require_evidence_provenance: true
+  human_review_overrides_machine: true
+
+primary_risk: false_assignment_to_real_person
+
+secondary_risks:
+  - false_merge
+  - false_split
+  - registry_poisoning
+  - biometric_data_leakage
+

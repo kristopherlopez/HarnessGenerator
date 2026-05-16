@@ -1,0 +1,107 @@
+{
+  "source_id": "youtube_gG1Lq2pIgGM",
+  "youtube_url": "https://www.youtube.com/watch?v=gG1Lq2pIgGM",
+  "source_media": "workspaces/youtube_speaker_attribution/datasets/drafts/media/youtube_gG1Lq2pIgGM/source.mp4",
+  "segment_seconds": 300,
+  "segments": [
+    {
+      "index": 0,
+      "segment_id": "youtube_gG1Lq2pIgGM_part_000",
+      "media_uri": "workspaces/youtube_speaker_attribution/datasets/drafts/media/youtube_gG1Lq2pIgGM/segments/youtube_gG1Lq2pIgGM_part_000.mp4",
+      "start": 0.0,
+      "end": 300.015,
+      "duration": 300.015,
+      "status": "needs_transcription"
+    },
+    {
+      "index": 1,
+      "segment_id": "youtube_gG1Lq2pIgGM_part_001",
+      "media_uri": "workspaces/youtube_speaker_attribution/datasets/drafts/media/youtube_gG1Lq2pIgGM/segments/youtube_gG1Lq2pIgGM_part_001.mp4",
+      "start": 300.015,
+      "end": 600.015,
+      "duration": 300.0,
+      "status": "needs_transcription"
+    },
+    {
+      "index": 2,
+      "segment_id": "youtube_gG1Lq2pIgGM_part_002",
+      "media_uri": "workspaces/youtube_speaker_attribution/datasets/drafts/media/youtube_gG1Lq2pIgGM/segments/youtube_gG1Lq2pIgGM_part_002.mp4",
+      "start": 600.015,
+      "end": 900.015,
+      "duration": 300.0,
+      "status": "needs_transcription"
+    },
+    {
+      "index": 3,
+      "segment_id": "youtube_gG1Lq2pIgGM_part_003",
+      "media_uri": "workspaces/youtube_speaker_attribution/datasets/drafts/media/youtube_gG1Lq2pIgGM/segments/youtube_gG1Lq2pIgGM_part_003.mp4",
+      "start": 900.015,
+      "end": 1200.015,
+      "duration": 300.0,
+      "status": "needs_transcription"
+    },
+    {
+      "index": 4,
+      "segment_id": "youtube_gG1Lq2pIgGM_part_004",
+      "media_uri": "workspaces/youtube_speaker_attribution/datasets/drafts/media/youtube_gG1Lq2pIgGM/segments/youtube_gG1Lq2pIgGM_part_004.mp4",
+      "start": 1200.015,
+      "end": 1500.015,
+      "duration": 300.0,
+      "status": "needs_transcription"
+    },
+    {
+      "index": 5,
+      "segment_id": "youtube_gG1Lq2pIgGM_part_005",
+      "media_uri": "workspaces/youtube_speaker_attribution/datasets/drafts/media/youtube_gG1Lq2pIgGM/segments/youtube_gG1Lq2pIgGM_part_005.mp4",
+      "start": 1500.015,
+      "end": 1800.015,
+      "duration": 300.0,
+      "status": "needs_transcription"
+    },
+    {
+      "index": 6,
+      "segment_id": "youtube_gG1Lq2pIgGM_part_006",
+      "media_uri": "workspaces/youtube_speaker_attribution/datasets/drafts/media/youtube_gG1Lq2pIgGM/segments/youtube_gG1Lq2pIgGM_part_006.mp4",
+      "start": 1800.015,
+      "end": 2100.015,
+      "duration": 300.0,
+      "status": "needs_transcription"
+    },
+    {
+      "index": 7,
+      "segment_id": "youtube_gG1Lq2pIgGM_part_007",
+      "media_uri": "workspaces/youtube_speaker_attribution/datasets/drafts/media/youtube_gG1Lq2pIgGM/segments/youtube_gG1Lq2pIgGM_part_007.mp4",
+      "start": 2100.015,
+      "end": 2400.015,
+      "duration": 300.0,
+      "status": "needs_transcription"
+    },
+    {
+      "index": 8,
+      "segment_id": "youtube_gG1Lq2pIgGM_part_008",
+      "media_uri": "workspaces/youtube_speaker_attribution/datasets/drafts/media/youtube_gG1Lq2pIgGM/segments/youtube_gG1Lq2pIgGM_part_008.mp4",
+      "start": 2400.015,
+      "end": 2700.015,
+      "duration": 300.0,
+      "status": "needs_transcription"
+    },
+    {
+      "index": 9,
+      "segment_id": "youtube_gG1Lq2pIgGM_part_009",
+      "media_uri": "workspaces/youtube_speaker_attribution/datasets/drafts/media/youtube_gG1Lq2pIgGM/segments/youtube_gG1Lq2pIgGM_part_009.mp4",
+      "start": 2700.015,
+      "end": 3000.015,
+      "duration": 300.0,
+      "status": "needs_transcription"
+    },
+    {
+      "index": 10,
+      "segment_id": "youtube_gG1Lq2pIgGM_part_010",
+      "media_uri": "workspaces/youtube_speaker_attribution/datasets/drafts/media/youtube_gG1Lq2pIgGM/segments/youtube_gG1Lq2pIgGM_part_010.mp4",
+      "start": 3000.015,
+      "end": 3046.876,
+      "duration": 46.861,
+      "status": "needs_transcription"
+    }
+  ]
+}

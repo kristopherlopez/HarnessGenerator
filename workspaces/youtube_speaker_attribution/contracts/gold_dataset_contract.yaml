@@ -1,0 +1,78 @@
+gold_case:
+  required_fields:
+    - case_id
+    - source
+    - media
+    - known_people_set_id
+    - conditions
+    - speakers
+    - segments
+    - annotation
+
+source:
+  required_fields:
+    - input_type
+    - youtube_url
+    - source_id
+  optional_fields:
+    - title
+    - channel
+    - published_at
+    - notes
+
+media:
+  required_fields:
+    - media_type
+    - media_uri
+  optional_fields:
+    - clip_start
+    - clip_end
+    - local_file_sha256
+
+speaker:
+  required_fields:
+    - person_id
+    - display_name
+    - speaker_type
+  speaker_type_allowed_values:
+    - known
+    - unknown
+  optional_fields:
+    - aliases
+    - role
+    - notes
+
+segment:
+  required_fields:
+    - segment_id
+    - start
+    - end
+    - text
+    - true_person_id
+    - true_display_name
+    - speaker_type
+  speaker_type_allowed_values:
+    - known
+    - unknown
+  optional_fields:
+    - confidence
+    - overlap
+    - inaudible
+    - notes
+    - evidence_candidates
+
+annotation:
+  required_fields:
+    - status
+    - reviewed_by
+    - review_level
+  status_allowed_values:
+    - draft
+    - reviewed
+    - promoted_to_small_gold
+  review_level_allowed_values:
+    - rough
+    - segment_timing_reviewed
+    - speaker_labels_reviewed
+    - gold
+

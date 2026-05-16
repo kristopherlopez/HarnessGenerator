@@ -1,0 +1,38 @@
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# Generated experiment artifacts
+runs/
+artifacts/
+traces/
+reports/generated/
+workspaces/**/runs/**
+!workspaces/**/runs/.gitkeep
+workspaces/**/reports/*.json
+!workspaces/**/reports/.gitkeep
+workspaces/**/codex_tasks/generated/**
+!workspaces/**/codex_tasks/generated/.gitkeep
+workspaces/**/datasets/**/media/**/*.mp4
+workspaces/**/datasets/**/media/**/*.mkv
+workspaces/**/datasets/**/media/**/*.mov
+workspaces/**/datasets/**/media/**/*.webm
+workspaces/**/datasets/**/media/**/*.wav
+workspaces/**/datasets/**/media/**/*.mp3
+workspaces/**/datasets/**/provider_outputs/**
+
+# Local editor and OS files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db

@@ -1,0 +1,22 @@
+schema_version: 0.1
+harness_id: review_heavy_low_false_assignment
+workspace_id: youtube_speaker_attribution
+status: promoted_candidate
+strategy: review_heavy_low_false_assignment
+parent: baseline_unknown
+
+change_surface: thresholds_and_policies
+change_option: review_threshold
+
+description: Conservative resolver that assigns identity only when evidence is strong.
+
+contracts:
+  output: ../../contracts/output_contract.yaml
+  safety: ../../contracts/safety_contract.yaml
+  metrics: ../../contracts/metric_contract.yaml
+
+expected_behavior:
+  false_assignment_rate: 0.0
+  known_person_precision: 1.0
+  review_bias: prefer_unknown_or_review_over_wrong_identity
+

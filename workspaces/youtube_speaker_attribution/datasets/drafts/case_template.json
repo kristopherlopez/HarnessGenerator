@@ -1,0 +1,27 @@
+{
+  "case_id": "podcast_001",
+  "media_uri": "media/podcast_001.mp4",
+  "youtube_url": "https://www.youtube.com/watch?v=REPLACE_ME",
+  "known_people_set_id": "seed_podcast",
+  "media_type": "video",
+  "conditions": {
+    "speaker_count": 2,
+    "has_unknown_speakers": false,
+    "overlap_level": "low",
+    "face_visibility": "medium",
+    "audio_quality": "high"
+  },
+  "segments": [
+    {
+      "segment_id": "seg_001",
+      "start": 0.0,
+      "end": 5.0,
+      "text": "Replace with reviewed transcript text.",
+      "true_person_id": "person_replace_me",
+      "true_display_name": "Replace Me",
+      "speaker_type": "known",
+      "evidence_candidates": []
+    }
+  ]
+}
+

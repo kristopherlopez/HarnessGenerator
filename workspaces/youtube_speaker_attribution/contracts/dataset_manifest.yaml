@@ -1,0 +1,39 @@
+datasets:
+  small_gold:
+    path: datasets/small_gold
+    purpose: bootstrap labelled fixtures
+    required: true
+
+  silver:
+    path: datasets/silver
+    purpose: auto-generated labels awaiting review
+    required: false
+
+  known_plus_unknown:
+    path: datasets/known_plus_unknown
+    purpose: unknown-speaker and false-assignment evaluation
+    required: false
+
+  adversarial:
+    path: datasets/adversarial
+    purpose: difficult attribution cases
+    required: false
+
+  regression_cases:
+    path: datasets/regression_cases
+    purpose: previously fixed failures
+    required: false
+
+minimum_bootstrap_cases: 10
+
+case_requirements:
+  - audio-only with two known speakers
+  - video with two visible known speakers
+  - video call with four known speakers
+  - panel with overlapping speech
+  - audio-only with one unknown speaker
+  - video with off-camera speaker
+  - short interjections
+  - similar voices
+  - poor lighting
+  - same person across two media files

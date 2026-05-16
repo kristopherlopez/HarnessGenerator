@@ -1,0 +1,43 @@
+{
+  "case_id": "video_call_four_known",
+  "media_uri": "mock://video_call_four_known.mp4",
+  "known_people_set_id": "seed_team",
+  "media_type": "video",
+  "conditions": {
+    "speaker_count": 4,
+    "has_unknown_speakers": false,
+    "overlap_level": "low",
+    "face_visibility": "high",
+    "audio_quality": "medium"
+  },
+  "segments": [
+    {
+      "segment_id": "seg_001",
+      "start": 20.0,
+      "end": 26.0,
+      "text": "Let's walk through the plan for today.",
+      "true_person_id": "person_producer",
+      "true_display_name": "Producer",
+      "speaker_type": "known",
+      "evidence_candidates": [
+        {
+          "person_id": "person_producer",
+          "display_name": "Producer",
+          "confidence": 0.89,
+          "evidence_types": ["voice", "face"],
+          "duration_seconds": 6.0,
+          "provenance": ["voice_profile:producer:v1", "face_profile:producer:v1"]
+        },
+        {
+          "person_id": "person_guest_b",
+          "display_name": "Guest B",
+          "confidence": 0.68,
+          "evidence_types": ["face"],
+          "duration_seconds": 6.0,
+          "provenance": ["face_profile:guest_b:v1"]
+        }
+      ]
+    }
+  ]
+}
+
