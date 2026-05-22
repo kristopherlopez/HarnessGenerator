@@ -175,6 +175,7 @@ uv run mypy app evals
 Run the first recursive harness cycle:
 
 ```powershell
+uv run python -m app.workspaces.readiness --workspace workspaces/youtube_speaker_attribution
 uv run python -m app.bootstrap.readiness --workspace workspaces/youtube_speaker_attribution
 uv run python -m evals.run_eval --workspace workspaces/youtube_speaker_attribution --dataset small_gold
 uv run python -m evals.compare_strategies --workspace workspaces/youtube_speaker_attribution --dataset small_gold

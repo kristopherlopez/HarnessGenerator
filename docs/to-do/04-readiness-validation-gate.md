@@ -12,13 +12,13 @@ Prevent HarnessGenerator from running candidate generation or optimization again
   - `fixture_ready`
   - `baseline_ready`
   - `optimization_ready`
-- [ ] Extend or replace `app.bootstrap.readiness` with a workspace readiness command, for example:
+- [x] Extend or replace `app.bootstrap.readiness` with a workspace readiness command, for example:
 
 ```powershell
 uv run python -m app.workspaces.readiness --workspace workspaces/example_task
 ```
 
-- [ ] Validate `task.yaml`:
+- [x] Validate `task.yaml`:
   - workspace id is present
   - default dataset is present
   - default baseline or strategy is present
@@ -56,6 +56,15 @@ uv run python -m app.workspaces.readiness --workspace workspaces/example_task
 - Readiness output tells the user exactly what remains to be configured.
 - The YouTube workspace passes the new readiness gate.
 - A scaffolded incomplete workspace fails with actionable messages.
+
+## Initial Slice Completed
+
+- Added `uv run python -m app.workspaces.readiness --workspace ...`.
+- Validates `task.yaml`, declared paths, merged contract loading, default dataset manifest, default strategy declaration, and reports writability.
+- Writes `workspace_readiness.json`.
+- Includes tests for the YouTube workspace and incomplete workspaces.
+
+Remaining work includes staged readiness states, deeper dataset and baseline/scorer validation, Markdown reports, command blocking, and an explicit development override.
 
 ## Suggested Verification
 

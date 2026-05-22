@@ -85,6 +85,7 @@ See [project_boundaries.md](project_boundaries.md) for the full boundary map and
 Every task-specific command should accept `--workspace`:
 
 ```powershell
+uv run python -m app.workspaces.readiness --workspace workspaces/youtube_speaker_attribution
 uv run python -m evals.run_eval --workspace workspaces/youtube_speaker_attribution --dataset small_gold
 ```
 
