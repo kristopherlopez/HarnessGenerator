@@ -23,6 +23,22 @@ Exit criteria:
 - One labelled fixture benchmark can be run from a saved config.
 - Baseline identity-resolution metrics are reproducible.
 
+## Phase 1A: Workspace Onboarding And Readiness
+
+- Document generic engine boundaries versus first-workspace assumptions.
+- Define the required pieces a workspace must provide before optimization.
+- Add a workspace scaffold workflow.
+- Add a workspace readiness validator.
+- Add a tiny non-YouTube fixture workspace for generic engine tests.
+- Block eval optimization and candidate generation for incomplete workspaces.
+
+Exit criteria:
+
+- A new workspace can be scaffolded without copying the YouTube workspace.
+- Readiness reports explain missing contracts, datasets, baselines, scorers, or safety policy.
+- The YouTube workspace and a fake non-YouTube workspace both pass their appropriate readiness checks.
+- Candidate generation refuses an unready workspace.
+
 ## Phase 2: Prompt-Level Optimization
 
 - Add strategy comparison using `bootstrap/strategy_space.yaml`.

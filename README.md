@@ -4,6 +4,14 @@ HarnessGenerator is a planned framework for automatically designing, evaluating,
 
 This project is inspired by Poetiq's public descriptions of its Meta-System, but it is not affiliated with Poetiq and should not be treated as a reproduction of their private implementation.
 
+## Project Boundary
+
+HarnessGenerator is the reusable engine. `workspaces/youtube_speaker_attribution` is the first task workspace and MVP benchmark.
+
+The current runnable loop is seeded around YouTube speaker attribution, so some root-level contracts and modules still contain first-workspace assumptions. The target architecture is a generic engine with task adapters, workspace-specific contracts, workspace-specific metrics, and workspace-specific candidate templates.
+
+See [docs/project_boundaries.md](docs/project_boundaries.md) for the generic vs workspace-specific map and the list of pieces a workspace must provide before optimization should run.
+
 ## Why This Exists
 
 Poetiq's public writing argues that model performance depends heavily on the system wrapped around the model: what questions are asked, which intermediate artifacts are created, how candidate answers are checked, how tools are used, and when the process stops. Their recent benchmark posts describe automatically created harnesses that improve multiple underlying models without fine-tuning or privileged model access.
@@ -76,6 +84,8 @@ The first benchmark family is YouTube podcast speaker attribution:
 
 See [docs/task-family-youtube-speaker-attribution.md](docs/task-family-youtube-speaker-attribution.md) for the benchmark design.
 
+This is the first workspace, not the permanent shape of every HarnessGenerator task. Future workspaces should supply their own input/output contracts, dataset adapter, scoring logic, failure taxonomy, candidate templates, tool policy, and readiness checks.
+
 ## Repository Map
 
 ```text
@@ -102,6 +112,7 @@ See [docs/task-family-youtube-speaker-attribution.md](docs/task-family-youtube-s
 │   ├── failure_modes.md
 │   ├── harness_optimization_space.md
 │   ├── product-requirements.md
+│   ├── project_boundaries.md
 │   ├── research-notes.md
 │   ├── registry_design.md
 │   ├── resolver_strategies.md
@@ -141,6 +152,8 @@ This repository currently contains the first runnable bootstrap loop:
 - generated Codex task output
 - workspace-first organization for task-specific artifacts
 
+This loop should be treated as the first workspace implementation, not proof that the generic engine is fully task-agnostic yet. The extraction work is tracked in `docs/to-do/`.
+
 It does not yet ingest real YouTube, audio, or video media.
 
 ## Quick Start
@@ -176,9 +189,12 @@ uv run python -m app.harness_optimizer.next_task --workspace workspaces/youtube_
 2. Build a labelled fixture eval runner for identity-resolution strategies.
 3. Compare `baseline_unknown` against one conservative resolver under the metric contract.
 4. Add failure mining and generated Codex tasks.
-5. Add trace capture and experiment reports.
-6. Add real media ingestion and provider adapters behind mocked tests.
-7. Expand the search space to resolver strategies, threshold search, verification, and model routing.
+5. Add a first-class workspace scaffold and readiness gate.
+6. Add a fake non-YouTube workspace fixture to prove generic behavior.
+7. Introduce task adapters for dataset loading, harness lookup, scoring, failure mining, and candidate templates.
+8. Add trace capture and experiment reports.
+9. Add real media ingestion and provider adapters behind mocked tests.
+10. Expand the search space to resolver strategies, threshold search, verification, and model routing.
 
 The harness change surfaces are defined in
 [docs/harness_optimization_space.md](docs/harness_optimization_space.md) and

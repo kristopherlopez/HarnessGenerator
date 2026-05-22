@@ -6,12 +6,12 @@ Make it unambiguous that HarnessGenerator is the reusable engine, while YouTube 
 
 ## Checklist
 
-- [ ] Update root documentation to distinguish:
+- [x] Update root documentation to distinguish:
   - generic HarnessGenerator concepts
   - current YouTube speaker-attribution workspace
   - currently mixed areas that need extraction
-- [ ] Add a "What a workspace must provide" section to the project docs.
-- [ ] Add a "Generic vs workspace-specific" map for:
+- [x] Add a "What a workspace must provide" section to the project docs.
+- [x] Add a "Generic vs workspace-specific" map for:
   - contracts
   - datasets
   - harnesses
@@ -20,10 +20,10 @@ Make it unambiguous that HarnessGenerator is the reusable engine, while YouTube 
   - failure mining
   - candidate generation
   - provider/tool policy
-- [ ] Clarify that root-level defaults are not supposed to encode one task family permanently.
-- [ ] Mark task-family docs such as resolver strategies and speaker-attribution failure modes as YouTube-workspace docs, or move them under `workspaces/youtube_speaker_attribution/docs/`.
-- [ ] Update the roadmap to include workspace onboarding and readiness gating before optimization.
-- [ ] Add a glossary for:
+- [x] Clarify that root-level defaults are not supposed to encode one task family permanently.
+- [x] Mark task-family docs such as resolver strategies and speaker-attribution failure modes as YouTube-workspace docs, or move them under `workspaces/youtube_speaker_attribution/docs/`.
+- [x] Update the roadmap to include workspace onboarding and readiness gating before optimization.
+- [x] Add a glossary for:
   - workspace
   - task family
   - task adapter
