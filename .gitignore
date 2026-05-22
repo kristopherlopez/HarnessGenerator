@@ -14,6 +14,8 @@ __pycache__/
 
 # Generated experiment artifacts
 runs/
+!tests/fixtures/workspaces/**/runs/
+!tests/fixtures/workspaces/**/runs/.gitkeep
 artifacts/
 traces/
 reports/generated/
