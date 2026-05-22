@@ -169,7 +169,10 @@ def draft_case_from_deepgram_response(
     utterances = _response_utterances(response)
     provider_ref = _relative_to_workspace(workspace, provider_output_path)
     speaker_ids = _speaker_ids(utterances)
-    speaker_map = {speaker: _speaker_record(speaker) for speaker in speaker_ids}
+    speaker_map = {
+        speaker: _speaker_record(speaker, fallback_person_id=index)
+        for index, speaker in enumerate(speaker_ids, start=1)
+    }
 
     segments: list[dict[str, Any]] = []
     for index, utterance in enumerate(utterances, start=1):
@@ -183,7 +186,7 @@ def draft_case_from_deepgram_response(
         transcript_confidence = _confidence(utterance)
         segments.append(
             {
-                "segment_id": f"{case['case_id']}_seg_{index:04d}",
+                "segment_id": index,
                 "start": start,
                 "end": end,
                 "text": text,
@@ -303,10 +306,9 @@ def _speaker_ids(utterances: Sequence[Mapping[str, Any]]) -> list[str]:
     return speakers
 
 
-def _speaker_record(raw_speaker: str) -> dict[str, Any]:
-    normalized = _speaker_slug(raw_speaker)
+def _speaker_record(raw_speaker: str, fallback_person_id: int) -> dict[str, Any]:
     return {
-        "person_id": f"provisional_deepgram_{normalized}",
+        "person_id": fallback_person_id,
         "display_name": _speaker_display_name(raw_speaker),
         "speaker_type": "unknown",
         "aliases": [f"deepgram:{raw_speaker}"],
@@ -416,6 +418,10 @@ def _case_media_path(workspace: Path, case: Mapping[str, Any]) -> Path:
     drafts_path = workspace / "datasets" / "drafts" / media_path
     if drafts_path.exists():
         return drafts_path
+    source_id = _source_id(case)
+    source_path = workspace / "datasets" / "drafts" / "media" / source_id / "source.mp4"
+    if source_path.exists():
+        return source_path
     return workspace / media_path
 
 

@@ -32,7 +32,7 @@ def test_propose_candidates_uses_phase_allowed_surfaces(tmp_path: Path) -> None:
                 "failures": [
                     {
                         "case_id": "video_off_camera",
-                        "segment_id": "seg_001",
+                        "segment_id": 1,
                         "failure_type": "missed_known_identity",
                     }
                 ]

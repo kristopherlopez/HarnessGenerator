@@ -1,21 +1,21 @@
 {
-  "case_id": "audio_unknown_guest",
-  "media_uri": "mock://audio_unknown_guest.wav",
-  "known_people_set_id": "seed_podcast",
-  "media_type": "audio",
+  "case_id": "high_overlap_voice_only_unknown",
+  "media_uri": "mock://high_overlap_voice_only_unknown.mp4",
+  "known_people_set_id": "seed_panel",
+  "media_type": "video",
   "conditions": {
-    "speaker_count": 3,
+    "speaker_count": 5,
     "has_unknown_speakers": true,
-    "overlap_level": "none",
-    "face_visibility": "none",
-    "audio_quality": "high"
+    "overlap_level": "high",
+    "face_visibility": "low",
+    "audio_quality": "medium"
   },
   "segments": [
     {
       "segment_id": 1,
-      "start": 40.0,
-      "end": 45.0,
-      "text": "Thanks for letting me join at the last minute.",
+      "start": 107.0,
+      "end": 113.0,
+      "text": "I was trying to jump in during the overlap.",
       "true_person_id": 0,
       "true_display_name": "Unknown Speaker",
       "speaker_type": "unknown",
@@ -23,11 +23,11 @@
         {
           "person_id": 4,
           "display_name": "Guest C",
-          "confidence": 0.72,
+          "confidence": 0.91,
           "evidence_types": [
             "voice"
           ],
-          "duration_seconds": 5.0,
+          "duration_seconds": 6.0,
           "provenance": [
             "voice_profile:guest_c:v1"
           ]

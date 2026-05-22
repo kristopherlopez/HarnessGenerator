@@ -12,24 +12,29 @@
   },
   "segments": [
     {
-      "segment_id": "seg_001",
+      "segment_id": 1,
       "start": 0.0,
       "end": 6.2,
       "text": "Welcome back to the show.",
-      "true_person_id": "person_host",
-      "true_display_name": "Host",
+      "true_person_id": 1,
+      "true_display_name": "Denan Kemp",
       "speaker_type": "known",
       "evidence_candidates": [
         {
-          "person_id": "person_host",
-          "display_name": "Host",
+          "person_id": 1,
+          "display_name": "Denan Kemp",
           "confidence": 0.91,
-          "evidence_types": ["voice", "active_speaker"],
+          "evidence_types": [
+            "voice",
+            "active_speaker"
+          ],
           "duration_seconds": 6.2,
-          "provenance": ["voice_profile:host:v1", "diarization:mock"]
+          "provenance": [
+            "voice_profile:host:v1",
+            "diarization:mock"
+          ]
         }
       ]
     }
   ]
 }
-

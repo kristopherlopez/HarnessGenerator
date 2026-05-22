@@ -19,11 +19,11 @@ Use `datasets/small_gold/gold_case_template.json` as the template.
 
 Each segment must include:
 
-- `segment_id`
+- `segment_id` as an integer unique within the case
 - `start`
 - `end`
 - `text`
-- `true_person_id`
+- `true_person_id` as an integer (`0` means unresolved/unknown)
 - `true_display_name`
 - `speaker_type`
 
@@ -31,7 +31,7 @@ For unknown speakers:
 
 ```json
 {
-  "true_person_id": "unknown",
+  "true_person_id": 0,
   "true_display_name": "Unknown Speaker",
   "speaker_type": "unknown"
 }
@@ -54,4 +54,3 @@ Gold cases use `true_person_id` and `true_display_name`.
 Harness predictions use `person_id`, `display_name`, `confidence`, `resolution_status`, `evidence_summary`, and `review`.
 
 The evaluator compares predictions against gold labels.
-

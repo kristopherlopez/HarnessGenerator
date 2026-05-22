@@ -1,6 +1,6 @@
 {
-  "case_id": "panel_overlap",
-  "media_uri": "mock://panel_overlap.mp4",
+  "case_id": "high_overlap_active_speaker",
+  "media_uri": "mock://high_overlap_active_speaker.mp4",
   "known_people_set_id": "seed_panel",
   "media_type": "video",
   "conditions": {
@@ -13,9 +13,9 @@
   "segments": [
     {
       "segment_id": 1,
-      "start": 31.4,
-      "end": 34.1,
-      "text": "I think there are two separate issues here.",
+      "start": 100.0,
+      "end": 106.0,
+      "text": "Let me separate the overlap from the point I am making.",
       "true_person_id": 3,
       "true_display_name": "Guest B",
       "speaker_type": "known",
@@ -23,25 +23,15 @@
         {
           "person_id": 3,
           "display_name": "Guest B",
-          "confidence": 0.74,
+          "confidence": 0.9,
           "evidence_types": [
-            "voice"
+            "voice",
+            "active_speaker"
           ],
-          "duration_seconds": 2.7,
+          "duration_seconds": 6.0,
           "provenance": [
-            "voice_profile:guest_b:v1"
-          ]
-        },
-        {
-          "person_id": 4,
-          "display_name": "Guest C",
-          "confidence": 0.7,
-          "evidence_types": [
-            "voice"
-          ],
-          "duration_seconds": 2.7,
-          "provenance": [
-            "voice_profile:guest_c:v1"
+            "voice_profile:guest_b:v1",
+            "active_speaker:mock"
           ]
         }
       ]

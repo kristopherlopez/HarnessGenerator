@@ -23,8 +23,11 @@ def build_failure_report(strategy: str, rows: list[SegmentScoringRow]) -> dict[s
             "true_person_id": row.true_person_id,
             "predicted_person_id": row.predicted_person_id,
             "resolution_status": row.resolution_status,
+            "review_reason": row.review_reason,
+            "evidence_conflicts": row.evidence_conflicts,
+            "evidence_provenance": row.evidence_provenance,
             "condition": row.condition,
-            "suspected_cause": _suspected_cause(row.failure_type),
+            "suspected_cause": _suspected_cause(row),
         }
         for row in rows
         if row.failure_type is not None
@@ -42,12 +45,16 @@ def build_failure_report(strategy: str, rows: list[SegmentScoringRow]) -> dict[s
     }
 
 
-def _suspected_cause(failure_type: str | None) -> str:
-    if failure_type == "false_assignment":
+def _suspected_cause(row: SegmentScoringRow) -> str:
+    if row.failure_type == "false_assignment":
         return "resolver accepted weak or conflicting identity evidence"
-    if failure_type == "missed_known_identity":
+    if (
+        row.failure_type == "missed_known_identity"
+        and "ambiguous_voice_candidate_margin" in row.evidence_conflicts
+    ):
+        return "voice candidates were close; human review required"
+    if row.failure_type == "missed_known_identity":
         return "strategy was too conservative or lacked sufficient evidence"
-    if failure_type == "unknown_forced_to_known":
+    if row.failure_type == "unknown_forced_to_known":
         return "open-set unknown handling failed"
     return "unknown"
-

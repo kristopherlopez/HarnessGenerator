@@ -12,24 +12,27 @@
   },
   "segments": [
     {
-      "segment_id": "seg_001",
+      "segment_id": 1,
       "start": 50.0,
       "end": 55.4,
       "text": "Can we go back to that earlier point?",
-      "true_person_id": "person_host",
-      "true_display_name": "Host",
+      "true_person_id": 1,
+      "true_display_name": "Denan Kemp",
       "speaker_type": "known",
       "evidence_candidates": [
         {
-          "person_id": "person_host",
-          "display_name": "Host",
+          "person_id": 1,
+          "display_name": "Denan Kemp",
           "confidence": 0.82,
-          "evidence_types": ["voice"],
+          "evidence_types": [
+            "voice"
+          ],
           "duration_seconds": 5.4,
-          "provenance": ["voice_profile:host:v1"]
+          "provenance": [
+            "voice_profile:host:v1"
+          ]
         }
       ]
     }
   ]
 }
-

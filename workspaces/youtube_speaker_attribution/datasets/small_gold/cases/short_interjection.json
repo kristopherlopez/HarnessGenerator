@@ -12,24 +12,27 @@
   },
   "segments": [
     {
-      "segment_id": "seg_001",
+      "segment_id": 1,
       "start": 61.0,
       "end": 62.1,
       "text": "Exactly.",
-      "true_person_id": "unknown",
+      "true_person_id": 0,
       "true_display_name": "Unknown Speaker",
       "speaker_type": "unknown",
       "evidence_candidates": [
         {
-          "person_id": "person_guest_a",
+          "person_id": 2,
           "display_name": "Guest A",
           "confidence": 0.88,
-          "evidence_types": ["voice"],
+          "evidence_types": [
+            "voice"
+          ],
           "duration_seconds": 1.1,
-          "provenance": ["voice_profile:guest_a:v1"]
+          "provenance": [
+            "voice_profile:guest_a:v1"
+          ]
         }
       ]
     }
   ]
 }
-

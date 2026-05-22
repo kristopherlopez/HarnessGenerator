@@ -13,15 +13,14 @@
   },
   "segments": [
     {
-      "segment_id": "seg_001",
+      "segment_id": 1,
       "start": 0.0,
       "end": 5.0,
       "text": "Replace with reviewed transcript text.",
-      "true_person_id": "person_replace_me",
-      "true_display_name": "Replace Me",
+      "true_person_id": 1,
+      "true_display_name": "Denan Kemp",
       "speaker_type": "known",
       "evidence_candidates": []
     }
   ]
 }
-

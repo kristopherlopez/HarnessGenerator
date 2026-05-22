@@ -150,14 +150,14 @@ def _build_draft_case(
 ) -> dict[str, Any]:
     speakers = [
         {
-            "person_id": _person_id_from_name(name),
+            "person_id": index,
             "display_name": name,
             "speaker_type": "known",
             "aliases": [],
             "role": "",
             "notes": "Expected speaker from intake.",
         }
-        for name in expected_speakers
+        for index, name in enumerate(expected_speakers, start=1)
     ]
     return {
         "case_id": source_id,
@@ -196,12 +196,6 @@ def _build_draft_case(
     }
 
 
-def _person_id_from_name(name: str) -> str:
-    normalized = "".join(char.lower() if char.isalnum() else "_" for char in name.strip())
-    normalized = "_".join(part for part in normalized.split("_") if part)
-    return f"person_{normalized}" if normalized else "person_unknown"
-
-
 def main() -> None:
     parser = argparse.ArgumentParser(description="Seed a workspace draft case from a YouTube URL.")
     parser.add_argument("youtube_url")
@@ -231,4 +225,3 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
-

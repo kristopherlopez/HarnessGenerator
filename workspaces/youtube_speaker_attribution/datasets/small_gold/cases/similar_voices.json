@@ -12,32 +12,39 @@
   },
   "segments": [
     {
-      "segment_id": "seg_001",
+      "segment_id": 1,
       "start": 70.0,
       "end": 76.0,
       "text": "That pattern shows up in the second example too.",
-      "true_person_id": "person_guest_c",
+      "true_person_id": 4,
       "true_display_name": "Guest C",
       "speaker_type": "known",
       "evidence_candidates": [
         {
-          "person_id": "person_guest_c",
+          "person_id": 4,
           "display_name": "Guest C",
           "confidence": 0.81,
-          "evidence_types": ["voice"],
+          "evidence_types": [
+            "voice"
+          ],
           "duration_seconds": 6.0,
-          "provenance": ["voice_profile:guest_c:v1"]
+          "provenance": [
+            "voice_profile:guest_c:v1"
+          ]
         },
         {
-          "person_id": "person_guest_b",
+          "person_id": 3,
           "display_name": "Guest B",
           "confidence": 0.79,
-          "evidence_types": ["voice"],
+          "evidence_types": [
+            "voice"
+          ],
           "duration_seconds": 6.0,
-          "provenance": ["voice_profile:guest_b:v1"]
+          "provenance": [
+            "voice_profile:guest_b:v1"
+          ]
         }
       ]
     }
   ]
 }
-

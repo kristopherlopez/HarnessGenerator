@@ -397,11 +397,11 @@ A case should look like this:
 "ground_truth": {
 "segments": [
 {
-"segment_id": "seg_001",
+"segment_id": 1,
 "start": 0.82,
 "end": 4.91,
 "text": "Let's walk through the plan for today.",
-"true_person_id": "person_kris",
+"true_person_id": 1,
 "speaker_type": "known"
 }
 ]

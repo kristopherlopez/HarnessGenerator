@@ -1,4 +1,7 @@
 transcript_segment:
+  field_types:
+    segment_id: integer
+    person_id: integer
   required_fields:
     - segment_id
     - start
@@ -19,6 +22,8 @@ resolution_status:
     - needs_review
 
 speaker:
+  field_types:
+    person_id: integer
   required_fields:
     - speaker_id
     - person_id
@@ -40,4 +45,3 @@ review:
     - required
     - reason
     - human_reviewed
-

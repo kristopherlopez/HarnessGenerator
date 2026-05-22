@@ -6,9 +6,23 @@ strategy: review_heavy_low_false_assignment
 parent: baseline_unknown
 
 change_surface: thresholds_and_policies
-change_option: review_threshold
+change_option: overlap_handling_policy
 
 description: Conservative resolver that assigns identity only when evidence is strong.
+
+resolver_config:
+  assignment_threshold: 0.85
+  voice_only_assignment_threshold: 0.80
+  review_threshold: 0.60
+  max_review_rate: 0.25
+  minimum_review_slots: 1
+  overlap_handling_policy: require_corroborating_signal_on_high_overlap
+  high_overlap_levels: [high]
+  margin_threshold: 0.08
+  voice_only_margin_threshold: 0.10
+  min_voice_duration_seconds: 2.5
+  min_voice_only_duration_seconds: 5.0
+  ambiguous_voice_conflict_status: needs_review
 
 contracts:
   output: ../../contracts/output_contract.yaml
@@ -18,5 +32,6 @@ contracts:
 expected_behavior:
   false_assignment_rate: 0.0
   known_person_precision: 1.0
+  known_person_recall: 0.7777777778
+  needs_review_rate: 0.25
   review_bias: prefer_unknown_or_review_over_wrong_identity
-

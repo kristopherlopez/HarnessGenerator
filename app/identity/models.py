@@ -5,10 +5,12 @@ from typing import Any, Literal
 from pydantic import BaseModel, Field, model_validator
 
 ResolutionStatus = Literal["resolved", "unknown", "needs_review"]
+type SegmentId = int | str
+type PersonId = int
 
 
 class EvidenceCandidate(BaseModel):
-    person_id: str
+    person_id: PersonId
     display_name: str
     confidence: float = Field(ge=0.0, le=1.0)
     evidence_types: list[str]
@@ -17,11 +19,11 @@ class EvidenceCandidate(BaseModel):
 
 
 class SegmentCase(BaseModel):
-    segment_id: str
+    segment_id: SegmentId
     start: float
     end: float
     text: str
-    true_person_id: str
+    true_person_id: PersonId
     true_display_name: str
     speaker_type: Literal["known", "unknown"]
     evidence_candidates: list[EvidenceCandidate] = Field(default_factory=list)
@@ -65,12 +67,12 @@ class ReviewState(BaseModel):
 
 
 class SegmentPrediction(BaseModel):
-    segment_id: str
+    segment_id: SegmentId
     start: float
     end: float
     text: str
     speaker_id: str
-    person_id: str
+    person_id: PersonId
     display_name: str
     confidence: float = Field(ge=0.0, le=1.0)
     resolution_status: ResolutionStatus

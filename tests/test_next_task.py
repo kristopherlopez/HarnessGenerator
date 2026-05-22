@@ -31,7 +31,7 @@ def test_generate_next_task_prioritizes_false_assignment(tmp_path: Path) -> None
                 "failures": [
                     {
                         "case_id": "short_interjection",
-                        "segment_id": "seg_001",
+                        "segment_id": 1,
                         "failure_type": "false_assignment",
                         "suspected_cause": "short voice segment accepted",
                     }
@@ -45,7 +45,7 @@ def test_generate_next_task_prioritizes_false_assignment(tmp_path: Path) -> None
 
     task = output.read_text(encoding="utf-8")
     assert "improve false assignment" in task
-    assert "short_interjection seg_001" in task
+    assert "short_interjection 1" in task
     assert "Allowed Harness Change Surfaces" in task
     assert "thresholds_and_policies" in task
     assert "contracts/safety_contract.yaml" in task

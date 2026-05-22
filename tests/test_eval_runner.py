@@ -13,7 +13,7 @@ DATASET = Path("workspaces/youtube_speaker_attribution/datasets/small_gold")
 def test_load_small_gold_dataset() -> None:
     cases = load_dataset(DATASET)
 
-    assert len(cases) == 10
+    assert len(cases) == 12
     assert all(case.segments for case in cases)
 
 
@@ -31,6 +31,22 @@ def test_run_eval_writes_report(tmp_path: Path) -> None:
     assert report["metrics"]["identity_accuracy"] > 0.5
     assert report_path.exists()
     assert failure_report_path.exists()
+
+    failure_report = json.loads(failure_report_path.read_text(encoding="utf-8"))
+    similar_voice_failure = next(
+        failure
+        for failure in failure_report["failures"]
+        if failure["case_id"] == "similar_voices"
+    )
+    assert similar_voice_failure["resolution_status"] == "needs_review"
+    assert similar_voice_failure["review_reason"] == "ambiguous_voice_candidate_margin"
+    assert similar_voice_failure["evidence_conflicts"] == [
+        "ambiguous_voice_candidate_margin"
+    ]
+    assert (
+        similar_voice_failure["suspected_cause"]
+        == "voice candidates were close; human review required"
+    )
 
 
 def test_gold_template_shape_can_validate() -> None:

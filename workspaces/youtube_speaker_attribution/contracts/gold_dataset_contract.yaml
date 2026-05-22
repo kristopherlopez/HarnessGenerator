@@ -30,6 +30,8 @@ media:
     - local_file_sha256
 
 speaker:
+  field_types:
+    person_id: integer
   required_fields:
     - person_id
     - display_name
@@ -43,6 +45,9 @@ speaker:
     - notes
 
 segment:
+  field_types:
+    segment_id: integer
+    true_person_id: integer
   required_fields:
     - segment_id
     - start
@@ -75,4 +80,3 @@ annotation:
     - segment_timing_reviewed
     - speaker_labels_reviewed
     - gold
-

@@ -12,24 +12,29 @@
   },
   "segments": [
     {
-      "segment_id": "seg_001",
+      "segment_id": 1,
       "start": 90.0,
       "end": 96.0,
       "text": "This is the same point I made last episode.",
-      "true_person_id": "person_guest_a",
+      "true_person_id": 2,
       "true_display_name": "Guest A",
       "speaker_type": "known",
       "evidence_candidates": [
         {
-          "person_id": "person_guest_a",
+          "person_id": 2,
           "display_name": "Guest A",
           "confidence": 0.93,
-          "evidence_types": ["voice", "face"],
+          "evidence_types": [
+            "voice",
+            "face"
+          ],
           "duration_seconds": 6.0,
-          "provenance": ["voice_profile:guest_a:v1", "face_profile:guest_a:v1"]
+          "provenance": [
+            "voice_profile:guest_a:v1",
+            "face_profile:guest_a:v1"
+          ]
         }
       ]
     }
   ]
 }
-

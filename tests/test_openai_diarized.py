@@ -38,5 +38,8 @@ def test_diarized_response_populates_draft_case(tmp_path: Path) -> None:
         "Speaker A",
         "Speaker B",
     ]
+    assert [speaker["person_id"] for speaker in updated["speakers"]] == [1, 2]
+    assert [segment["true_person_id"] for segment in updated["segments"]] == [1, 2]
+    assert [segment["segment_id"] for segment in updated["segments"]] == [1, 2]
     assert updated["segments"][0]["speaker_type"] == "unknown"
     assert updated["annotation"]["human_review_required"] is True

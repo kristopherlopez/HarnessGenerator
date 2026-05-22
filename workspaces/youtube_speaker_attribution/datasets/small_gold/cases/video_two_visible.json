@@ -12,24 +12,29 @@
   },
   "segments": [
     {
-      "segment_id": "seg_001",
+      "segment_id": 1,
       "start": 10.0,
       "end": 17.5,
       "text": "The central question is what evidence we trust.",
-      "true_person_id": "person_guest_a",
+      "true_person_id": 2,
       "true_display_name": "Guest A",
       "speaker_type": "known",
       "evidence_candidates": [
         {
-          "person_id": "person_guest_a",
+          "person_id": 2,
           "display_name": "Guest A",
           "confidence": 0.94,
-          "evidence_types": ["voice", "face"],
+          "evidence_types": [
+            "voice",
+            "face"
+          ],
           "duration_seconds": 7.5,
-          "provenance": ["voice_profile:guest_a:v1", "face_profile:guest_a:v1"]
+          "provenance": [
+            "voice_profile:guest_a:v1",
+            "face_profile:guest_a:v1"
+          ]
         }
       ]
     }
   ]
 }
-

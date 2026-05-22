@@ -6,6 +6,8 @@
     "video_two_visible.json",
     "video_call_four_known.json",
     "panel_overlap.json",
+    "high_overlap_active_speaker.json",
+    "high_overlap_voice_only_unknown.json",
     "audio_unknown_guest.json",
     "video_off_camera.json",
     "short_interjection.json",
@@ -14,4 +16,3 @@
     "repeat_person_cross_media.json"
   ]
 }
-

@@ -140,7 +140,10 @@ def draft_case_from_diarized_response(
     response_segments = _response_segments(response)
     provider_ref = _relative_to_workspace(workspace, provider_output_path)
     speaker_ids = _speaker_ids(response_segments)
-    speaker_map = {speaker: _speaker_record(speaker) for speaker in speaker_ids}
+    speaker_map = {
+        speaker: _speaker_record(speaker, person_id=index)
+        for index, speaker in enumerate(speaker_ids, start=1)
+    }
 
     segments: list[dict[str, Any]] = []
     for index, raw_segment in enumerate(response_segments, start=1):
@@ -153,7 +156,7 @@ def draft_case_from_diarized_response(
             continue
         segments.append(
             {
-                "segment_id": f"{case['case_id']}_seg_{index:04d}",
+                "segment_id": index,
                 "start": start,
                 "end": end,
                 "text": text,
@@ -244,10 +247,9 @@ def _speaker_ids(response_segments: Sequence[Mapping[str, Any]]) -> list[str]:
     return speakers
 
 
-def _speaker_record(raw_speaker: str) -> dict[str, Any]:
-    normalized = _speaker_slug(raw_speaker)
+def _speaker_record(raw_speaker: str, person_id: int) -> dict[str, Any]:
     return {
-        "person_id": f"provisional_openai_{normalized}",
+        "person_id": person_id,
         "display_name": _speaker_display_name(raw_speaker),
         "speaker_type": "unknown",
         "aliases": [f"openai:{raw_speaker}"],

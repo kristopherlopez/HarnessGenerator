@@ -2,16 +2,21 @@ from __future__ import annotations
 
 from dataclasses import dataclass
 
-from app.identity.models import CasePrediction, EvalCase, SegmentPrediction
+from app.identity.models import CasePrediction, EvalCase, PersonId, SegmentId, SegmentPrediction
+
+UNKNOWN_PERSON_ID = 0
 
 
 @dataclass(frozen=True)
 class SegmentScoringRow:
     case_id: str
-    segment_id: str
-    true_person_id: str
-    predicted_person_id: str
+    segment_id: SegmentId
+    true_person_id: PersonId
+    predicted_person_id: PersonId
     resolution_status: str
+    review_reason: str
+    evidence_conflicts: list[str]
+    evidence_provenance: list[str]
     is_false_assignment: bool
     is_correct_identity: bool
     failure_type: str | None
@@ -36,13 +41,13 @@ def score_predictions(
     if total == 0:
         raise ValueError("Cannot score an empty prediction set")
 
-    known_total = sum(1 for row in rows if row.true_person_id != "unknown")
-    unknown_total = sum(1 for row in rows if row.true_person_id == "unknown")
+    known_total = sum(1 for row in rows if row.true_person_id != UNKNOWN_PERSON_ID)
+    unknown_total = sum(1 for row in rows if row.true_person_id == UNKNOWN_PERSON_ID)
     resolved_total = sum(1 for row in rows if row.resolution_status == "resolved")
     correct_resolved_known = sum(
         1
         for row in rows
-        if row.true_person_id != "unknown"
+        if row.true_person_id != UNKNOWN_PERSON_ID
         and row.resolution_status == "resolved"
         and row.predicted_person_id == row.true_person_id
     )
@@ -51,7 +56,8 @@ def score_predictions(
     unknown_correct = sum(
         1
         for row in rows
-        if row.true_person_id == "unknown" and row.resolution_status in {"unknown", "needs_review"}
+        if row.true_person_id == UNKNOWN_PERSON_ID
+        and row.resolution_status in {"unknown", "needs_review"}
     )
 
     metrics = {
@@ -73,7 +79,7 @@ def score_predictions(
 
 def _score_segment(
     case: EvalCase,
-    true_person_id: str,
+    true_person_id: PersonId,
     prediction: SegmentPrediction,
 ) -> SegmentScoringRow:
     predicted_person_id = prediction.person_id
@@ -81,15 +87,15 @@ def _score_segment(
     is_false_assignment = resolved and predicted_person_id != true_person_id
     is_correct_identity = (
         predicted_person_id == true_person_id
-        if true_person_id != "unknown"
+        if true_person_id != UNKNOWN_PERSON_ID
         else prediction.resolution_status in {"unknown", "needs_review"}
     )
     failure_type: str | None = None
     if is_false_assignment:
         failure_type = "false_assignment"
-    elif true_person_id != "unknown" and prediction.resolution_status != "resolved":
+    elif true_person_id != UNKNOWN_PERSON_ID and prediction.resolution_status != "resolved":
         failure_type = "missed_known_identity"
-    elif true_person_id == "unknown" and prediction.resolution_status == "resolved":
+    elif true_person_id == UNKNOWN_PERSON_ID and prediction.resolution_status == "resolved":
         failure_type = "unknown_forced_to_known"
 
     return SegmentScoringRow(
@@ -98,6 +104,9 @@ def _score_segment(
         true_person_id=true_person_id,
         predicted_person_id=predicted_person_id,
         resolution_status=prediction.resolution_status,
+        review_reason=prediction.review.reason,
+        evidence_conflicts=prediction.evidence_summary.conflicts,
+        evidence_provenance=prediction.evidence_summary.provenance,
         is_false_assignment=is_false_assignment,
         is_correct_identity=is_correct_identity,
         failure_type=failure_type,
