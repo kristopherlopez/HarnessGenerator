@@ -5,9 +5,11 @@ from pathlib import Path
 
 import yaml
 
+from app.bootstrap.contracts import load_bootstrap_contracts
 from app.workspaces.readiness import validate_workspace_readiness
 
 YOUTUBE_WORKSPACE = Path("workspaces/youtube_speaker_attribution")
+SIMPLE_QA_WORKSPACE = Path("tests/fixtures/workspaces/simple_qa")
 
 
 def test_youtube_workspace_passes_basic_readiness(tmp_path: Path) -> None:
@@ -28,6 +30,26 @@ def test_youtube_workspace_passes_basic_readiness(tmp_path: Path) -> None:
 
     payload = json.loads(output.read_text(encoding="utf-8"))
     assert payload["status"] == "optimization_ready"
+
+
+def test_simple_qa_workspace_passes_basic_readiness_without_identity_contracts(
+    tmp_path: Path,
+) -> None:
+    output = tmp_path / "workspace_readiness.json"
+    report = validate_workspace_readiness(SIMPLE_QA_WORKSPACE, output_path=output)
+
+    assert report.ready
+    assert report.status == "optimization_ready"
+
+    contracts = load_bootstrap_contracts(workspace=SIMPLE_QA_WORKSPACE)
+    assert contracts.domain.identity_policy == {}
+    assert contracts.output.transcript_segment is None
+    assert contracts.output.speaker is None
+    assert contracts.output.output_schema == {
+        "answer": "string",
+        "confidence": "number",
+    }
+    assert contracts.strategy.resolution_strategies == ["baseline_context_answer"]
 
 
 def test_incomplete_workspace_fails_with_actionable_messages(tmp_path: Path) -> None:
@@ -68,4 +90,3 @@ def test_workspace_readiness_requires_task_manifest(tmp_path: Path) -> None:
 
     assert not report.ready
     assert any(check.name == "task_manifest" for check in report.checks)
-

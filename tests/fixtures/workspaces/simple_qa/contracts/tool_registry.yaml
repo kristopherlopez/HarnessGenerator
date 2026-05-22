@@ -1,0 +1,7 @@
+tools:
+  llm:
+    interface: LlmReasoner
+    allowed_uses:
+      - answer_question
+    prohibited_uses:
+      - read_hidden_labels

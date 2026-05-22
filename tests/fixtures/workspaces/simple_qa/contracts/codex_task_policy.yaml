@@ -1,0 +1,16 @@
+generated_task_must_include:
+  - title
+  - observed_failure
+  - affected_cases
+  - suspected_cause
+  - required_change
+  - acceptance_criteria
+  - required_tests
+  - required_eval_command
+  - safety_checks
+
+generated_task_must_not:
+  - ask_for_broad_rewrite
+  - change_public_api_without_explicit_permission
+  - weaken_safety_contract
+  - use_live_external_apis_in_tests

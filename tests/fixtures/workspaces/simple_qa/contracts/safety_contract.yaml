@@ -1,0 +1,7 @@
+data_safety:
+  hidden_labels_candidate_visible: false
+  prohibit_live_external_apis_in_tests: true
+
+change_control:
+  output_contract_changes_require_explicit_task: true
+  safety_contract_changes_require_explicit_task: true

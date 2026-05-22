@@ -1,0 +1,20 @@
+change_surfaces:
+  prompt_and_process_design:
+    - answer_prompt
+  verification:
+    - output_contract_compliance_check
+
+staged_unlocks:
+  phase_1_fixture_loop:
+    - prompt_and_process_design
+    - verification
+
+prohibited_changes_without_explicit_task:
+  - output_contract
+  - hidden_label_access
+  - live_external_api_tests
+
+candidate_requirements:
+  - declare_change_surface
+  - preserve_output_contract
+  - include_eval_before_after

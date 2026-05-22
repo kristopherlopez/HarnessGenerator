@@ -1,0 +1,10 @@
+domain: simple_structured_qa
+
+goal:
+  answer_questions_from_context: true
+
+primary_risk: incorrect_answer
+
+secondary_risks:
+  - malformed_output
+  - hidden_label_leakage

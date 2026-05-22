@@ -1,0 +1,4 @@
+{
+  "cases": ["capital_france.json"],
+  "split": "dev"
+}

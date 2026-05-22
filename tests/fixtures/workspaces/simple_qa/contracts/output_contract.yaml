@@ -1,0 +1,7 @@
+required_fields:
+  - answer
+  - confidence
+
+output_schema:
+  answer: string
+  confidence: number

@@ -4,7 +4,7 @@ from pathlib import Path
 from typing import Any
 
 import yaml
-from pydantic import BaseModel, Field, ValidationError, field_validator
+from pydantic import BaseModel, Field, ValidationError, field_validator, model_validator
 
 REQUIRED_CONTRACT_FILES = {
     "domain": "domain_contract.yaml",
@@ -23,8 +23,8 @@ REQUIRED_CONTRACT_FILES = {
 class DomainContract(BaseModel):
     domain: str
     goal: dict[str, bool]
-    population: dict[str, Any]
-    identity_policy: dict[str, bool]
+    population: dict[str, Any] = Field(default_factory=dict)
+    identity_policy: dict[str, bool] = Field(default_factory=dict)
     primary_risk: str
     secondary_risks: list[str]
 
@@ -34,15 +34,22 @@ class FieldListContract(BaseModel):
 
 
 class OutputContract(BaseModel):
-    transcript_segment: FieldListContract
-    resolution_status: dict[str, list[str]]
-    speaker: FieldListContract
-    evidence_summary: FieldListContract
-    review: FieldListContract
+    transcript_segment: FieldListContract | None = None
+    resolution_status: dict[str, list[str]] | None = None
+    speaker: FieldListContract | None = None
+    evidence_summary: FieldListContract | None = None
+    review: FieldListContract | None = None
+    output_schema: dict[str, Any] | None = None
+    required_fields: list[str] = Field(default_factory=list)
 
     @field_validator("resolution_status")
     @classmethod
-    def validate_resolution_status(cls, value: dict[str, list[str]]) -> dict[str, list[str]]:
+    def validate_resolution_status(
+        cls,
+        value: dict[str, list[str]] | None,
+    ) -> dict[str, list[str]] | None:
+        if value is None:
+            return None
         allowed = set(value.get("allowed_values", []))
         required = {"resolved", "unknown", "needs_review"}
         missing = required - allowed
@@ -50,6 +57,24 @@ class OutputContract(BaseModel):
             missing_text = ", ".join(sorted(missing))
             raise ValueError(f"resolution_status is missing allowed values: {missing_text}")
         return value
+
+    @model_validator(mode="after")
+    def validate_output_shape(self) -> OutputContract:
+        speaker_fields = [
+            self.transcript_segment,
+            self.resolution_status,
+            self.speaker,
+            self.evidence_summary,
+            self.review,
+        ]
+        if all(item is not None for item in speaker_fields):
+            return self
+        if self.output_schema is not None or self.required_fields:
+            return self
+        raise ValueError(
+            "output_contract.yaml must define either speaker-attribution fields "
+            "or a generic output_schema/required_fields contract"
+        )
 
 
 class Metric(BaseModel):
@@ -65,9 +90,20 @@ class MetricContract(BaseModel):
 
 class StrategySpaceContract(BaseModel):
     candidate_generation: list[str]
-    resolution_strategies: list[str]
-    threshold_search: dict[str, Any]
+    resolution_strategies: list[str] = Field(default_factory=list)
+    strategies: list[str] = Field(default_factory=list)
+    threshold_search: dict[str, Any] = Field(default_factory=dict)
     selection_policy: dict[str, Any]
+
+    @model_validator(mode="after")
+    def populate_compatibility_strategy_names(self) -> StrategySpaceContract:
+        if not self.resolution_strategies and self.strategies:
+            self.resolution_strategies = self.strategies
+        if not self.strategies and self.resolution_strategies:
+            self.strategies = self.resolution_strategies
+        if not self.resolution_strategies:
+            raise ValueError("strategy_space.yaml must define strategies")
+        return self
 
 
 class HarnessSearchSpaceContract(BaseModel):

@@ -1,0 +1,14 @@
+primary_metric:
+  name: exact_match
+  lower_is_better: false
+
+secondary_metrics:
+  - name: malformed_output_rate
+    lower_is_better: true
+  - name: latency_ms
+    lower_is_better: true
+
+selection_rules:
+  winner_must:
+    - preserve_output_contract
+    - pass_regression_cases

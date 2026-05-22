@@ -6,8 +6,8 @@ Add automated checks that keep generic engine work and workspace-specific behavi
 
 ## Checklist
 
-- [ ] Add a small generic fake workspace used only for tests.
-- [ ] Add tests that run readiness on:
+- [x] Add a small generic fake workspace used only for tests.
+- [x] Add tests that run readiness on:
   - the fake workspace
   - the YouTube workspace
   - an intentionally incomplete workspace
@@ -36,6 +36,12 @@ Add automated checks that keep generic engine work and workspace-specific behavi
 - A YouTube workspace change cannot accidentally introduce generic engine assumptions without test failure.
 - Incomplete workspaces cannot pass readiness.
 - CI output tells maintainers which layer failed.
+
+## Initial Slice Completed
+
+- Added `tests/fixtures/workspaces/simple_qa` as a non-YouTube readiness fixture.
+- Confirmed the fake workspace can pass readiness with a generic `output_schema` and without speaker/identity output fields.
+- Kept full fake-workspace eval support for the later adapter-interface work.
 
 ## Suggested Verification
 

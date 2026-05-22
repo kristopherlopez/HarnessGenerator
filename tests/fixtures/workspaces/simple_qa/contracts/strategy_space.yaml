@@ -1,0 +1,10 @@
+candidate_generation:
+  - prompt_template
+
+strategies:
+  - baseline_context_answer
+
+selection_policy:
+  optimize_for: exact_match
+  constraints:
+    max_malformed_output_rate: 0.0

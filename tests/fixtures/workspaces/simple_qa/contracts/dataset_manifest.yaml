@@ -1,0 +1,7 @@
+datasets:
+  tiny:
+    path: datasets/tiny
+    purpose: generic readiness fixture
+    required: true
+
+minimum_bootstrap_cases: 1

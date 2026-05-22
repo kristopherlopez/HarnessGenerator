@@ -1,0 +1,16 @@
+schema_version: 0.1
+workspace_id: simple_qa
+name: Simple QA
+description: Tiny deterministic non-YouTube workspace for generic readiness tests.
+
+default_dataset: tiny
+default_strategy: baseline_context_answer
+
+paths:
+  contracts: contracts
+  datasets: datasets
+  harnesses: harnesses
+  experiments: experiments
+  runs: runs
+  codex_tasks: codex_tasks
+  reports: reports
