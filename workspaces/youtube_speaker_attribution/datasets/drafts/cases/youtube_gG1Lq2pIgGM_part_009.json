@@ -31,8 +31,8 @@
   },
   "speakers": [
     {
-      "person_id": "provisional_deepgram_speaker_0",
-      "display_name": "Speaker 0",
+      "person_id": 1,
+      "display_name": "Denan Kemp",
       "speaker_type": "unknown",
       "aliases": [
         "deepgram:0"
@@ -40,8 +40,8 @@
       "notes": "Machine diarized provisional speaker. Human review required before promotion."
     },
     {
-      "person_id": "provisional_deepgram_speaker_1",
-      "display_name": "Speaker 1",
+      "person_id": 2,
+      "display_name": "Sandor Earl",
       "speaker_type": "unknown",
       "aliases": [
         "deepgram:1"
@@ -49,7 +49,7 @@
       "notes": "Machine diarized provisional speaker. Human review required before promotion."
     },
     {
-      "person_id": "provisional_deepgram_speaker_2",
+      "person_id": 3,
       "display_name": "Speaker 2",
       "speaker_type": "unknown",
       "aliases": [
@@ -60,18 +60,18 @@
   ],
   "segments": [
     {
-      "segment_id": "youtube_gG1Lq2pIgGM_part_009_seg_0001",
+      "segment_id": 1,
       "start": 0.0,
       "end": 0.8,
       "text": "Four.",
-      "true_person_id": "provisional_deepgram_speaker_0",
-      "true_display_name": "Speaker 0",
+      "true_person_id": 1,
+      "true_display_name": "Denan Kemp",
       "speaker_type": "unknown",
       "confidence": 0.5925,
       "evidence_candidates": [
         {
-          "person_id": "provisional_deepgram_speaker_0",
-          "display_name": "Speaker 0",
+          "person_id": 1,
+          "display_name": "Denan Kemp",
           "confidence": 0.0,
           "evidence_types": [
             "diarized_transcription"
@@ -86,18 +86,18 @@
       "notes": "Machine-generated draft from Deepgram diarized utterances; not human reviewed. provider=deepgram_diarized_transcription model=nova-3 diarize_model=latest provider_speaker=0 provider_utterance_id=959f0726-d573-473b-9295-bad3b930e5a6"
     },
     {
-      "segment_id": "youtube_gG1Lq2pIgGM_part_009_seg_0002",
+      "segment_id": 2,
       "start": 1.36,
       "end": 9.92,
       "text": "Penrith like, obviously, Penrith dominated mill in the year, but Penrith have been have they've looked human at least recently. Even though they've been getting wins, they've looked human.",
-      "true_person_id": "provisional_deepgram_speaker_0",
-      "true_display_name": "Speaker 0",
+      "true_person_id": 1,
+      "true_display_name": "Denan Kemp",
       "speaker_type": "unknown",
       "confidence": 0.9336,
       "evidence_candidates": [
         {
-          "person_id": "provisional_deepgram_speaker_0",
-          "display_name": "Speaker 0",
+          "person_id": 1,
+          "display_name": "Denan Kemp",
           "confidence": 0.0,
           "evidence_types": [
             "diarized_transcription"
@@ -112,18 +112,18 @@
       "notes": "Machine-generated draft from Deepgram diarized utterances; not human reviewed. provider=deepgram_diarized_transcription model=nova-3 diarize_model=latest provider_speaker=0 provider_utterance_id=a81831f6-1136-4efc-bfcb-db919d6a4f43"
     },
     {
-      "segment_id": "youtube_gG1Lq2pIgGM_part_009_seg_0003",
+      "segment_id": 3,
       "start": 10.8,
       "end": 14.32,
       "text": "Titans, it's just a bad effort. It's just a bad effort. Okay. Cowboys, eels,",
-      "true_person_id": "provisional_deepgram_speaker_0",
-      "true_display_name": "Speaker 0",
+      "true_person_id": 1,
+      "true_display_name": "Denan Kemp",
       "speaker_type": "unknown",
       "confidence": 0.929,
       "evidence_candidates": [
         {
-          "person_id": "provisional_deepgram_speaker_0",
-          "display_name": "Speaker 0",
+          "person_id": 1,
+          "display_name": "Denan Kemp",
           "confidence": 0.0,
           "evidence_types": [
             "diarized_transcription"
@@ -138,18 +138,18 @@
       "notes": "Machine-generated draft from Deepgram diarized utterances; not human reviewed. provider=deepgram_diarized_transcription model=nova-3 diarize_model=latest provider_speaker=0 provider_utterance_id=17a47f94-e485-4c7e-97b1-a901a75af4a4"
     },
     {
-      "segment_id": "youtube_gG1Lq2pIgGM_part_009_seg_0004",
+      "segment_id": 4,
       "start": 15.065,
       "end": 16.505,
       "text": "man, so, like,",
-      "true_person_id": "provisional_deepgram_speaker_0",
-      "true_display_name": "Speaker 0",
+      "true_person_id": 1,
+      "true_display_name": "Denan Kemp",
       "speaker_type": "unknown",
       "confidence": 0.8836,
       "evidence_candidates": [
         {
-          "person_id": "provisional_deepgram_speaker_0",
-          "display_name": "Speaker 0",
+          "person_id": 1,
+          "display_name": "Denan Kemp",
           "confidence": 0.0,
           "evidence_types": [
             "diarized_transcription"
@@ -164,18 +164,18 @@
       "notes": "Machine-generated draft from Deepgram diarized utterances; not human reviewed. provider=deepgram_diarized_transcription model=nova-3 diarize_model=latest provider_speaker=0 provider_utterance_id=9a97a7cd-6508-484c-b642-4361e96f4ab1"
     },
     {
-      "segment_id": "youtube_gG1Lq2pIgGM_part_009_seg_0005",
+      "segment_id": 5,
       "start": 16.745,
       "end": 30.025,
       "text": "so disappointing for the eels this year. Like, I I was I was hyped on them. I didn't expect them to, like, be top four or anything like that, but and look. They've been smashed with injuries. Smashed with injuries. Smashed with injuries, but they've still been it's been a sloppy year. Yeah. Been a sloppy year.",
-      "true_person_id": "provisional_deepgram_speaker_0",
-      "true_display_name": "Speaker 0",
+      "true_person_id": 1,
+      "true_display_name": "Denan Kemp",
       "speaker_type": "unknown",
       "confidence": 0.9708,
       "evidence_candidates": [
         {
-          "person_id": "provisional_deepgram_speaker_0",
-          "display_name": "Speaker 0",
+          "person_id": 1,
+          "display_name": "Denan Kemp",
           "confidence": 0.0,
           "evidence_types": [
             "diarized_transcription"
@@ -190,18 +190,18 @@
       "notes": "Machine-generated draft from Deepgram diarized utterances; not human reviewed. provider=deepgram_diarized_transcription model=nova-3 diarize_model=latest provider_speaker=0 provider_utterance_id=e82324d8-898d-459c-a372-a4059b413a67"
     },
     {
-      "segment_id": "youtube_gG1Lq2pIgGM_part_009_seg_0006",
+      "segment_id": 6,
       "start": 30.64,
       "end": 32.4,
       "text": "Cowboys, they're flying high.",
-      "true_person_id": "provisional_deepgram_speaker_0",
-      "true_display_name": "Speaker 0",
+      "true_person_id": 1,
+      "true_display_name": "Denan Kemp",
       "speaker_type": "unknown",
       "confidence": 0.9974,
       "evidence_candidates": [
         {
-          "person_id": "provisional_deepgram_speaker_0",
-          "display_name": "Speaker 0",
+          "person_id": 1,
+          "display_name": "Denan Kemp",
           "confidence": 0.0,
           "evidence_types": [
             "diarized_transcription"
@@ -216,18 +216,18 @@
       "notes": "Machine-generated draft from Deepgram diarized utterances; not human reviewed. provider=deepgram_diarized_transcription model=nova-3 diarize_model=latest provider_speaker=0 provider_utterance_id=99f28721-590f-4fc3-8741-bfe27811be82"
     },
     {
-      "segment_id": "youtube_gG1Lq2pIgGM_part_009_seg_0007",
+      "segment_id": 7,
       "start": 32.72,
       "end": 52.115,
       "text": "It's it's almost like a danger game for them because this is like this is a game where the cowboys will come out and play terribly or something. Look. I'm back in the cowboys to win. I think they've been outstanding on Todd Peyton. They're probably gonna have to extend him soon. If they keep winning games, gonna have to give him at least a year, surely. Yeah. Oh, I mean, huge turnaround. What was it, you know, ten weeks ago, we were having a very different conversation with And,",
-      "true_person_id": "provisional_deepgram_speaker_0",
-      "true_display_name": "Speaker 0",
+      "true_person_id": 1,
+      "true_display_name": "Denan Kemp",
       "speaker_type": "unknown",
       "confidence": 0.9491,
       "evidence_candidates": [
         {
-          "person_id": "provisional_deepgram_speaker_0",
-          "display_name": "Speaker 0",
+          "person_id": 1,
+          "display_name": "Denan Kemp",
           "confidence": 0.0,
           "evidence_types": [
             "diarized_transcription"
@@ -242,18 +242,18 @@
       "notes": "Machine-generated draft from Deepgram diarized utterances; not human reviewed. provider=deepgram_diarized_transcription model=nova-3 diarize_model=latest provider_speaker=0 provider_utterance_id=db79f41a-8dfe-4281-860f-75ffdbec50cc"
     },
     {
-      "segment_id": "youtube_gG1Lq2pIgGM_part_009_seg_0008",
+      "segment_id": 8,
       "start": 52.675,
       "end": 55.075,
       "text": "I mean, at home, a night calm game up there,",
-      "true_person_id": "provisional_deepgram_speaker_1",
-      "true_display_name": "Speaker 1",
+      "true_person_id": 2,
+      "true_display_name": "Sandor Earl",
       "speaker_type": "unknown",
       "confidence": 0.846,
       "evidence_candidates": [
         {
-          "person_id": "provisional_deepgram_speaker_1",
-          "display_name": "Speaker 1",
+          "person_id": 2,
+          "display_name": "Sandor Earl",
           "confidence": 0.0,
           "evidence_types": [
             "diarized_transcription"
@@ -268,18 +268,18 @@
       "notes": "Machine-generated draft from Deepgram diarized utterances; not human reviewed. provider=deepgram_diarized_transcription model=nova-3 diarize_model=latest provider_speaker=1 provider_utterance_id=73da1c83-9f15-4cc2-a9d7-a9495cb1c8c7"
     },
     {
-      "segment_id": "youtube_gG1Lq2pIgGM_part_009_seg_0009",
+      "segment_id": 9,
       "start": 55.475,
       "end": 62.45,
       "text": "it's always tough against the cows. Yeah. So I'm gonna go cows. Okay. Knights versus the Saint George Illawarra Dragons.",
-      "true_person_id": "provisional_deepgram_speaker_0",
-      "true_display_name": "Speaker 0",
+      "true_person_id": 1,
+      "true_display_name": "Denan Kemp",
       "speaker_type": "unknown",
       "confidence": 0.9512,
       "evidence_candidates": [
         {
-          "person_id": "provisional_deepgram_speaker_0",
-          "display_name": "Speaker 0",
+          "person_id": 1,
+          "display_name": "Denan Kemp",
           "confidence": 0.0,
           "evidence_types": [
             "diarized_transcription"
@@ -294,18 +294,18 @@
       "notes": "Machine-generated draft from Deepgram diarized utterances; not human reviewed. provider=deepgram_diarized_transcription model=nova-3 diarize_model=latest provider_speaker=0 provider_utterance_id=8fc9dd80-3189-42ea-ac03-2d66c47e2df5"
     },
     {
-      "segment_id": "youtube_gG1Lq2pIgGM_part_009_seg_0010",
+      "segment_id": 10,
       "start": 64.05,
       "end": 77.985,
       "text": "Look. The knights have just got so many boys back. They looked red hot last week. I mean, defense wise, they were terrible, but I will say very rarely are gonna you know, how many teams have a red hot Latril just steaming down the wing? You know, there is that. Is this the Gong or Cogra?",
-      "true_person_id": "provisional_deepgram_speaker_0",
-      "true_display_name": "Speaker 0",
+      "true_person_id": 1,
+      "true_display_name": "Denan Kemp",
       "speaker_type": "unknown",
       "confidence": 0.9322,
       "evidence_candidates": [
         {
-          "person_id": "provisional_deepgram_speaker_0",
-          "display_name": "Speaker 0",
+          "person_id": 1,
+          "display_name": "Denan Kemp",
           "confidence": 0.0,
           "evidence_types": [
             "diarized_transcription"
@@ -320,17 +320,17 @@
       "notes": "Machine-generated draft from Deepgram diarized utterances; not human reviewed. provider=deepgram_diarized_transcription model=nova-3 diarize_model=latest provider_speaker=0 provider_utterance_id=8deda58a-00ad-4a76-b75a-5b8202dc71d0"
     },
     {
-      "segment_id": "youtube_gG1Lq2pIgGM_part_009_seg_0011",
+      "segment_id": 11,
       "start": 78.145,
       "end": 79.905,
       "text": "I think Gong. Yeah.",
-      "true_person_id": "provisional_deepgram_speaker_2",
+      "true_person_id": 3,
       "true_display_name": "Speaker 2",
       "speaker_type": "unknown",
       "confidence": 0.9215,
       "evidence_candidates": [
         {
-          "person_id": "provisional_deepgram_speaker_2",
+          "person_id": 3,
           "display_name": "Speaker 2",
           "confidence": 0.0,
           "evidence_types": [
@@ -346,18 +346,18 @@
       "notes": "Machine-generated draft from Deepgram diarized utterances; not human reviewed. provider=deepgram_diarized_transcription model=nova-3 diarize_model=latest provider_speaker=2 provider_utterance_id=b8589107-f1be-4365-b918-e2b9294d2b05"
     },
     {
-      "segment_id": "youtube_gG1Lq2pIgGM_part_009_seg_0012",
+      "segment_id": 12,
       "start": 80.705,
       "end": 81.825,
       "text": "I mean, I just",
-      "true_person_id": "provisional_deepgram_speaker_1",
-      "true_display_name": "Speaker 1",
+      "true_person_id": 2,
+      "true_display_name": "Sandor Earl",
       "speaker_type": "unknown",
       "confidence": 0.9568,
       "evidence_candidates": [
         {
-          "person_id": "provisional_deepgram_speaker_1",
-          "display_name": "Speaker 1",
+          "person_id": 2,
+          "display_name": "Sandor Earl",
           "confidence": 0.0,
           "evidence_types": [
             "diarized_transcription"
@@ -372,18 +372,18 @@
       "notes": "Machine-generated draft from Deepgram diarized utterances; not human reviewed. provider=deepgram_diarized_transcription model=nova-3 diarize_model=latest provider_speaker=1 provider_utterance_id=ba3475be-5a4e-4d2d-9e25-8a45689adba6"
     },
     {
-      "segment_id": "youtube_gG1Lq2pIgGM_part_009_seg_0013",
+      "segment_id": 13,
       "start": 82.88,
       "end": 85.6,
       "text": "I don't want the door the dragons to get tailed up.",
-      "true_person_id": "provisional_deepgram_speaker_1",
-      "true_display_name": "Speaker 1",
+      "true_person_id": 2,
+      "true_display_name": "Sandor Earl",
       "speaker_type": "unknown",
       "confidence": 0.8242,
       "evidence_candidates": [
         {
-          "person_id": "provisional_deepgram_speaker_1",
-          "display_name": "Speaker 1",
+          "person_id": 2,
+          "display_name": "Sandor Earl",
           "confidence": 0.0,
           "evidence_types": [
             "diarized_transcription"
@@ -398,17 +398,17 @@
       "notes": "Machine-generated draft from Deepgram diarized utterances; not human reviewed. provider=deepgram_diarized_transcription model=nova-3 diarize_model=latest provider_speaker=1 provider_utterance_id=0feb3184-c309-4c46-96f9-8062072d7b7e"
     },
     {
-      "segment_id": "youtube_gG1Lq2pIgGM_part_009_seg_0014",
+      "segment_id": 14,
       "start": 86.08,
       "end": 88.08,
       "text": "Dylan Egan's back as well, which is good.",
-      "true_person_id": "provisional_deepgram_speaker_2",
+      "true_person_id": 3,
       "true_display_name": "Speaker 2",
       "speaker_type": "unknown",
       "confidence": 0.9601,
       "evidence_candidates": [
         {
-          "person_id": "provisional_deepgram_speaker_2",
+          "person_id": 3,
           "display_name": "Speaker 2",
           "confidence": 0.0,
           "evidence_types": [
@@ -424,18 +424,18 @@
       "notes": "Machine-generated draft from Deepgram diarized utterances; not human reviewed. provider=deepgram_diarized_transcription model=nova-3 diarize_model=latest provider_speaker=2 provider_utterance_id=30a5278a-a830-4d7d-8cef-0587f368e3f9"
     },
     {
-      "segment_id": "youtube_gG1Lq2pIgGM_part_009_seg_0015",
+      "segment_id": 15,
       "start": 88.88,
       "end": 90.48,
       "text": "You get Egan last year? Yep.",
-      "true_person_id": "provisional_deepgram_speaker_1",
-      "true_display_name": "Speaker 1",
+      "true_person_id": 2,
+      "true_display_name": "Sandor Earl",
       "speaker_type": "unknown",
       "confidence": 0.7132,
       "evidence_candidates": [
         {
-          "person_id": "provisional_deepgram_speaker_1",
-          "display_name": "Speaker 1",
+          "person_id": 2,
+          "display_name": "Sandor Earl",
           "confidence": 0.0,
           "evidence_types": [
             "diarized_transcription"
@@ -450,18 +450,18 @@
       "notes": "Machine-generated draft from Deepgram diarized utterances; not human reviewed. provider=deepgram_diarized_transcription model=nova-3 diarize_model=latest provider_speaker=1 provider_utterance_id=e40c165b-467e-4e9a-9811-8684bacefccd"
     },
     {
-      "segment_id": "youtube_gG1Lq2pIgGM_part_009_seg_0016",
+      "segment_id": 16,
       "start": 90.72,
       "end": 93.68,
       "text": "Yeah. Nights are gonna be too good, bro. What are you going here, buddy?",
-      "true_person_id": "provisional_deepgram_speaker_1",
-      "true_display_name": "Speaker 1",
+      "true_person_id": 2,
+      "true_display_name": "Sandor Earl",
       "speaker_type": "unknown",
       "confidence": 0.9235,
       "evidence_candidates": [
         {
-          "person_id": "provisional_deepgram_speaker_1",
-          "display_name": "Speaker 1",
+          "person_id": 2,
+          "display_name": "Sandor Earl",
           "confidence": 0.0,
           "evidence_types": [
             "diarized_transcription"
@@ -476,18 +476,18 @@
       "notes": "Machine-generated draft from Deepgram diarized utterances; not human reviewed. provider=deepgram_diarized_transcription model=nova-3 diarize_model=latest provider_speaker=1 provider_utterance_id=dc03b3bc-90c4-400c-888b-0a81496c0c7f"
     },
     {
-      "segment_id": "youtube_gG1Lq2pIgGM_part_009_seg_0017",
+      "segment_id": 17,
       "start": 94.0,
       "end": 94.88,
       "text": "Nights by plenty,",
-      "true_person_id": "provisional_deepgram_speaker_1",
-      "true_display_name": "Speaker 1",
+      "true_person_id": 2,
+      "true_display_name": "Sandor Earl",
       "speaker_type": "unknown",
       "confidence": 0.9234,
       "evidence_candidates": [
         {
-          "person_id": "provisional_deepgram_speaker_1",
-          "display_name": "Speaker 1",
+          "person_id": 2,
+          "display_name": "Sandor Earl",
           "confidence": 0.0,
           "evidence_types": [
             "diarized_transcription"
@@ -502,18 +502,18 @@
       "notes": "Machine-generated draft from Deepgram diarized utterances; not human reviewed. provider=deepgram_diarized_transcription model=nova-3 diarize_model=latest provider_speaker=1 provider_utterance_id=6375654a-ff6e-42d0-8654-f7262b39f73a"
     },
     {
-      "segment_id": "youtube_gG1Lq2pIgGM_part_009_seg_0018",
+      "segment_id": 18,
       "start": 95.495,
       "end": 96.935,
       "text": "unfortunately, for dragons.",
-      "true_person_id": "provisional_deepgram_speaker_1",
-      "true_display_name": "Speaker 1",
+      "true_person_id": 2,
+      "true_display_name": "Sandor Earl",
       "speaker_type": "unknown",
       "confidence": 0.9415,
       "evidence_candidates": [
         {
-          "person_id": "provisional_deepgram_speaker_1",
-          "display_name": "Speaker 1",
+          "person_id": 2,
+          "display_name": "Sandor Earl",
           "confidence": 0.0,
           "evidence_types": [
             "diarized_transcription"
@@ -528,18 +528,18 @@
       "notes": "Machine-generated draft from Deepgram diarized utterances; not human reviewed. provider=deepgram_diarized_transcription model=nova-3 diarize_model=latest provider_speaker=1 provider_utterance_id=890d71ee-18d7-42db-9206-af9c4625a45b"
     },
     {
-      "segment_id": "youtube_gG1Lq2pIgGM_part_009_seg_0019",
+      "segment_id": 19,
       "start": 97.255,
       "end": 99.015,
       "text": "Okay. Rabbitose versus sharks.",
-      "true_person_id": "provisional_deepgram_speaker_0",
-      "true_display_name": "Speaker 0",
+      "true_person_id": 1,
+      "true_display_name": "Denan Kemp",
       "speaker_type": "unknown",
       "confidence": 0.8871,
       "evidence_candidates": [
         {
-          "person_id": "provisional_deepgram_speaker_0",
-          "display_name": "Speaker 0",
+          "person_id": 1,
+          "display_name": "Denan Kemp",
           "confidence": 0.0,
           "evidence_types": [
             "diarized_transcription"
@@ -554,18 +554,18 @@
       "notes": "Machine-generated draft from Deepgram diarized utterances; not human reviewed. provider=deepgram_diarized_transcription model=nova-3 diarize_model=latest provider_speaker=0 provider_utterance_id=3601126f-ae3c-4c6c-ac56-a5b230307b80"
     },
     {
-      "segment_id": "youtube_gG1Lq2pIgGM_part_009_seg_0020",
+      "segment_id": 20,
       "start": 100.135,
       "end": 101.895,
       "text": "Huge game, this actually.",
-      "true_person_id": "provisional_deepgram_speaker_0",
-      "true_display_name": "Speaker 0",
+      "true_person_id": 1,
+      "true_display_name": "Denan Kemp",
       "speaker_type": "unknown",
       "confidence": 0.879,
       "evidence_candidates": [
         {
-          "person_id": "provisional_deepgram_speaker_0",
-          "display_name": "Speaker 0",
+          "person_id": 1,
+          "display_name": "Denan Kemp",
           "confidence": 0.0,
           "evidence_types": [
             "diarized_transcription"
@@ -580,18 +580,18 @@
       "notes": "Machine-generated draft from Deepgram diarized utterances; not human reviewed. provider=deepgram_diarized_transcription model=nova-3 diarize_model=latest provider_speaker=0 provider_utterance_id=b96f3df9-050b-4d1e-b5e2-3ea8e8f704df"
     },
     {
-      "segment_id": "youtube_gG1Lq2pIgGM_part_009_seg_0021",
+      "segment_id": 21,
       "start": 102.295,
       "end": 104.935,
       "text": "This is. Yeah. Because, you know, Rabbitose",
-      "true_person_id": "provisional_deepgram_speaker_0",
-      "true_display_name": "Speaker 0",
+      "true_person_id": 1,
+      "true_display_name": "Denan Kemp",
       "speaker_type": "unknown",
       "confidence": 0.9765,
       "evidence_candidates": [
         {
-          "person_id": "provisional_deepgram_speaker_0",
-          "display_name": "Speaker 0",
+          "person_id": 1,
+          "display_name": "Denan Kemp",
           "confidence": 0.0,
           "evidence_types": [
             "diarized_transcription"
@@ -606,18 +606,18 @@
       "notes": "Machine-generated draft from Deepgram diarized utterances; not human reviewed. provider=deepgram_diarized_transcription model=nova-3 diarize_model=latest provider_speaker=0 provider_utterance_id=d89f23d3-b771-46ea-bc8e-ef409b4b6968"
     },
     {
-      "segment_id": "youtube_gG1Lq2pIgGM_part_009_seg_0022",
+      "segment_id": 22,
       "start": 105.175,
       "end": 106.615,
       "text": "A win here, it's like",
-      "true_person_id": "provisional_deepgram_speaker_1",
-      "true_display_name": "Speaker 1",
+      "true_person_id": 2,
+      "true_display_name": "Sandor Earl",
       "speaker_type": "unknown",
       "confidence": 0.9493,
       "evidence_candidates": [
         {
-          "person_id": "provisional_deepgram_speaker_1",
-          "display_name": "Speaker 1",
+          "person_id": 2,
+          "display_name": "Sandor Earl",
           "confidence": 0.0,
           "evidence_types": [
             "diarized_transcription"
@@ -632,18 +632,18 @@
       "notes": "Machine-generated draft from Deepgram diarized utterances; not human reviewed. provider=deepgram_diarized_transcription model=nova-3 diarize_model=latest provider_speaker=1 provider_utterance_id=92d9c8b8-a9dd-4bb9-8bca-b2ed97a93f66"
     },
     {
-      "segment_id": "youtube_gG1Lq2pIgGM_part_009_seg_0023",
+      "segment_id": 23,
       "start": 107.335,
       "end": 112.42,
       "text": "Well, what what what how would you rate Rabbito season so far? Attack? Attack's",
-      "true_person_id": "provisional_deepgram_speaker_0",
-      "true_display_name": "Speaker 0",
+      "true_person_id": 1,
+      "true_display_name": "Denan Kemp",
       "speaker_type": "unknown",
       "confidence": 0.9033,
       "evidence_candidates": [
         {
-          "person_id": "provisional_deepgram_speaker_0",
-          "display_name": "Speaker 0",
+          "person_id": 1,
+          "display_name": "Denan Kemp",
           "confidence": 0.0,
           "evidence_types": [
             "diarized_transcription"
@@ -658,17 +658,17 @@
       "notes": "Machine-generated draft from Deepgram diarized utterances; not human reviewed. provider=deepgram_diarized_transcription model=nova-3 diarize_model=latest provider_speaker=0 provider_utterance_id=c5ee67bf-624e-48f8-bdb8-b2583c759506"
     },
     {
-      "segment_id": "youtube_gG1Lq2pIgGM_part_009_seg_0024",
+      "segment_id": 24,
       "start": 112.42,
       "end": 149.85,
       "text": "been awesome. Actually, we're the best attack in the comp. Got the most points per game. Defense has been terrible, and it's been and, like, someone said to me the other day, because I keep saying the defense has been bad, someone bought a storm game. See, I didn't get a chance to defend against Melbourne because Melbourne kept dropping the ball before they even got over halfway. Like, every other game, the defense has been very average, sometimes poor. Last week, was poor. Then you can't like, I think the Knights are a top eight team, but you can't let the knights score 42 points. So they gotta they gotta fix up their defense big time. So, yeah, I'm I'm mostly happy because they're winning games, and it's, you know, way better than the last two years. But, you know, if we wanna be contenders, we gotta we gotta start defending. Yeah. And and sharkies,",
-      "true_person_id": "provisional_deepgram_speaker_2",
+      "true_person_id": 3,
       "true_display_name": "Speaker 2",
       "speaker_type": "unknown",
       "confidence": 0.9439,
       "evidence_candidates": [
         {
-          "person_id": "provisional_deepgram_speaker_2",
+          "person_id": 3,
           "display_name": "Speaker 2",
           "confidence": 0.0,
           "evidence_types": [
@@ -684,18 +684,18 @@
       "notes": "Machine-generated draft from Deepgram diarized utterances; not human reviewed. provider=deepgram_diarized_transcription model=nova-3 diarize_model=latest provider_speaker=2 provider_utterance_id=20152daf-f71d-476a-afe7-6c40f0d4084e"
     },
     {
-      "segment_id": "youtube_gG1Lq2pIgGM_part_009_seg_0025",
+      "segment_id": 25,
       "start": 150.305,
       "end": 152.465,
       "text": "you you'd hope that they're gonna at least",
-      "true_person_id": "provisional_deepgram_speaker_0",
-      "true_display_name": "Speaker 0",
+      "true_person_id": 1,
+      "true_display_name": "Denan Kemp",
       "speaker_type": "unknown",
       "confidence": 0.9548,
       "evidence_candidates": [
         {
-          "person_id": "provisional_deepgram_speaker_0",
-          "display_name": "Speaker 0",
+          "person_id": 1,
+          "display_name": "Denan Kemp",
           "confidence": 0.0,
           "evidence_types": [
             "diarized_transcription"
@@ -710,18 +710,18 @@
       "notes": "Machine-generated draft from Deepgram diarized utterances; not human reviewed. provider=deepgram_diarized_transcription model=nova-3 diarize_model=latest provider_speaker=0 provider_utterance_id=eead1e5d-c802-4f78-bfae-7479eb2f001c"
     },
     {
-      "segment_id": "youtube_gG1Lq2pIgGM_part_009_seg_0026",
+      "segment_id": 26,
       "start": 152.865,
       "end": 162.385,
       "text": "they're not gonna beat themselves the way the storm did. Like, they're gonna be consistent, gritty, tough, and their attack is pretty good, the Sharkies. Well, their their left attack is on fire. Like, Eero",
-      "true_person_id": "provisional_deepgram_speaker_0",
-      "true_display_name": "Speaker 0",
+      "true_person_id": 1,
+      "true_display_name": "Denan Kemp",
       "speaker_type": "unknown",
       "confidence": 0.9646,
       "evidence_candidates": [
         {
-          "person_id": "provisional_deepgram_speaker_0",
-          "display_name": "Speaker 0",
+          "person_id": 1,
+          "display_name": "Denan Kemp",
           "confidence": 0.0,
           "evidence_types": [
             "diarized_transcription"
@@ -736,17 +736,17 @@
       "notes": "Machine-generated draft from Deepgram diarized utterances; not human reviewed. provider=deepgram_diarized_transcription model=nova-3 diarize_model=latest provider_speaker=0 provider_utterance_id=7bc11ade-79e6-4c90-9ef4-31f5208e5c63"
     },
     {
-      "segment_id": "youtube_gG1Lq2pIgGM_part_009_seg_0027",
+      "segment_id": 27,
       "start": 162.9,
       "end": 169.14,
       "text": "Eros got a hatchet class, I'm pretty sure, like, their that left side is killing it, and that right side for South is",
-      "true_person_id": "provisional_deepgram_speaker_2",
+      "true_person_id": 3,
       "true_display_name": "Speaker 2",
       "speaker_type": "unknown",
       "confidence": 0.8211,
       "evidence_candidates": [
         {
-          "person_id": "provisional_deepgram_speaker_2",
+          "person_id": 3,
           "display_name": "Speaker 2",
           "confidence": 0.0,
           "evidence_types": [
@@ -762,17 +762,17 @@
       "notes": "Machine-generated draft from Deepgram diarized utterances; not human reviewed. provider=deepgram_diarized_transcription model=nova-3 diarize_model=latest provider_speaker=2 provider_utterance_id=e207c8db-0992-485d-bad6-746a673379de"
     },
     {
-      "segment_id": "youtube_gG1Lq2pIgGM_part_009_seg_0028",
+      "segment_id": 28,
       "start": 169.54,
       "end": 182.855,
       "text": "disrupted now. Jack Whiting's gone. Campbell Graham's coming in. Edward Cosby's coming. So Sharks are gonna go left. South's obviously gonna go left as well against Sivotala Kai and Harati, so I expect plenty of points, but, yeah, it's a massive game. Thoughts on Ward replacing Humphreys?",
-      "true_person_id": "provisional_deepgram_speaker_2",
+      "true_person_id": 3,
       "true_display_name": "Speaker 2",
       "speaker_type": "unknown",
       "confidence": 0.8945,
       "evidence_candidates": [
         {
-          "person_id": "provisional_deepgram_speaker_2",
+          "person_id": 3,
           "display_name": "Speaker 2",
           "confidence": 0.0,
           "evidence_types": [
@@ -788,17 +788,17 @@
       "notes": "Machine-generated draft from Deepgram diarized utterances; not human reviewed. provider=deepgram_diarized_transcription model=nova-3 diarize_model=latest provider_speaker=2 provider_utterance_id=8582287b-3af5-44cb-9ff3-011e655b73f8"
     },
     {
-      "segment_id": "youtube_gG1Lq2pIgGM_part_009_seg_0029",
+      "segment_id": 29,
       "start": 182.935,
       "end": 186.375,
       "text": "I don't mind it. I think Humphreys had a poor game last week defensively.",
-      "true_person_id": "provisional_deepgram_speaker_2",
+      "true_person_id": 3,
       "true_display_name": "Speaker 2",
       "speaker_type": "unknown",
       "confidence": 0.9971,
       "evidence_candidates": [
         {
-          "person_id": "provisional_deepgram_speaker_2",
+          "person_id": 3,
           "display_name": "Speaker 2",
           "confidence": 0.0,
           "evidence_types": [
@@ -814,17 +814,17 @@
       "notes": "Machine-generated draft from Deepgram diarized utterances; not human reviewed. provider=deepgram_diarized_transcription model=nova-3 diarize_model=latest provider_speaker=2 provider_utterance_id=bfaf03b1-434c-43fe-a77b-529b38b6e91c"
     },
     {
-      "segment_id": "youtube_gG1Lq2pIgGM_part_009_seg_0030",
+      "segment_id": 30,
       "start": 187.335,
       "end": 191.45,
       "text": "Yeah. That's that's no surprise. It's very different halfback. So it's",
-      "true_person_id": "provisional_deepgram_speaker_2",
+      "true_person_id": 3,
       "true_display_name": "Speaker 2",
       "speaker_type": "unknown",
       "confidence": 0.9277,
       "evidence_candidates": [
         {
-          "person_id": "provisional_deepgram_speaker_2",
+          "person_id": 3,
           "display_name": "Speaker 2",
           "confidence": 0.0,
           "evidence_types": [
@@ -840,17 +840,17 @@
       "notes": "Machine-generated draft from Deepgram diarized utterances; not human reviewed. provider=deepgram_diarized_transcription model=nova-3 diarize_model=latest provider_speaker=2 provider_utterance_id=f020f950-4707-41f6-9a84-8fec25cd98dc"
     },
     {
-      "segment_id": "youtube_gG1Lq2pIgGM_part_009_seg_0031",
+      "segment_id": 31,
       "start": 191.45,
       "end": 193.29,
       "text": "it's it's very, very, very interesting.",
-      "true_person_id": "provisional_deepgram_speaker_2",
+      "true_person_id": 3,
       "true_display_name": "Speaker 2",
       "speaker_type": "unknown",
       "confidence": 0.9758,
       "evidence_candidates": [
         {
-          "person_id": "provisional_deepgram_speaker_2",
+          "person_id": 3,
           "display_name": "Speaker 2",
           "confidence": 0.0,
           "evidence_types": [
@@ -866,17 +866,17 @@
       "notes": "Machine-generated draft from Deepgram diarized utterances; not human reviewed. provider=deepgram_diarized_transcription model=nova-3 diarize_model=latest provider_speaker=2 provider_utterance_id=03b7f162-9b8a-4c6a-9bed-6c4d71b49f87"
     },
     {
-      "segment_id": "youtube_gG1Lq2pIgGM_part_009_seg_0032",
+      "segment_id": 32,
       "start": 193.69,
       "end": 198.01,
       "text": "Ward was good in his one game. He he played this even before he got injured. Might have been two games. But,",
-      "true_person_id": "provisional_deepgram_speaker_2",
+      "true_person_id": 3,
       "true_display_name": "Speaker 2",
       "speaker_type": "unknown",
       "confidence": 0.8938,
       "evidence_candidates": [
         {
-          "person_id": "provisional_deepgram_speaker_2",
+          "person_id": 3,
           "display_name": "Speaker 2",
           "confidence": 0.0,
           "evidence_types": [
@@ -892,17 +892,17 @@
       "notes": "Machine-generated draft from Deepgram diarized utterances; not human reviewed. provider=deepgram_diarized_transcription model=nova-3 diarize_model=latest provider_speaker=2 provider_utterance_id=99577e34-e8ac-4527-a5ba-aeb0f10fd967"
     },
     {
-      "segment_id": "youtube_gG1Lq2pIgGM_part_009_seg_0033",
+      "segment_id": 33,
       "start": 198.41,
       "end": 199.45,
       "text": "yeah, I",
-      "true_person_id": "provisional_deepgram_speaker_2",
+      "true_person_id": 3,
       "true_display_name": "Speaker 2",
       "speaker_type": "unknown",
       "confidence": 0.9774,
       "evidence_candidates": [
         {
-          "person_id": "provisional_deepgram_speaker_2",
+          "person_id": 3,
           "display_name": "Speaker 2",
           "confidence": 0.0,
           "evidence_types": [
@@ -918,18 +918,18 @@
       "notes": "Machine-generated draft from Deepgram diarized utterances; not human reviewed. provider=deepgram_diarized_transcription model=nova-3 diarize_model=latest provider_speaker=2 provider_utterance_id=ec34f23b-4967-402e-a16c-f504fe92d12e"
     },
     {
-      "segment_id": "youtube_gG1Lq2pIgGM_part_009_seg_0034",
+      "segment_id": 34,
       "start": 200.89,
       "end": 209.215,
       "text": "wouldn't have done it, but I'm not upset that they did. What do reckon it's harder to turn around, say, at this point of the season? Attack or defense?",
-      "true_person_id": "provisional_deepgram_speaker_1",
-      "true_display_name": "Speaker 1",
+      "true_person_id": 2,
+      "true_display_name": "Sandor Earl",
       "speaker_type": "unknown",
       "confidence": 0.9613,
       "evidence_candidates": [
         {
-          "person_id": "provisional_deepgram_speaker_1",
-          "display_name": "Speaker 1",
+          "person_id": 2,
+          "display_name": "Sandor Earl",
           "confidence": 0.0,
           "evidence_types": [
             "diarized_transcription"
@@ -944,18 +944,18 @@
       "notes": "Machine-generated draft from Deepgram diarized utterances; not human reviewed. provider=deepgram_diarized_transcription model=nova-3 diarize_model=latest provider_speaker=1 provider_utterance_id=87e25dbd-ba0f-45dd-8262-39524ffdf94b"
     },
     {
-      "segment_id": "youtube_gG1Lq2pIgGM_part_009_seg_0035",
+      "segment_id": 35,
       "start": 210.575,
       "end": 212.015,
       "text": "Oh, that's a tough one.",
-      "true_person_id": "provisional_deepgram_speaker_0",
-      "true_display_name": "Speaker 0",
+      "true_person_id": 1,
+      "true_display_name": "Denan Kemp",
       "speaker_type": "unknown",
       "confidence": 0.9975,
       "evidence_candidates": [
         {
-          "person_id": "provisional_deepgram_speaker_0",
-          "display_name": "Speaker 0",
+          "person_id": 1,
+          "display_name": "Denan Kemp",
           "confidence": 0.0,
           "evidence_types": [
             "diarized_transcription"
@@ -970,18 +970,18 @@
       "notes": "Machine-generated draft from Deepgram diarized utterances; not human reviewed. provider=deepgram_diarized_transcription model=nova-3 diarize_model=latest provider_speaker=0 provider_utterance_id=ebb7f5e8-7134-4602-bb3d-ed78123ad961"
     },
     {
-      "segment_id": "youtube_gG1Lq2pIgGM_part_009_seg_0036",
+      "segment_id": 36,
       "start": 214.175,
       "end": 217.215,
       "text": "Probably attack. Because, like, defense is a lot of his attitude.",
-      "true_person_id": "provisional_deepgram_speaker_0",
-      "true_display_name": "Speaker 0",
+      "true_person_id": 1,
+      "true_display_name": "Denan Kemp",
       "speaker_type": "unknown",
       "confidence": 0.9092,
       "evidence_candidates": [
         {
-          "person_id": "provisional_deepgram_speaker_0",
-          "display_name": "Speaker 0",
+          "person_id": 1,
+          "display_name": "Denan Kemp",
           "confidence": 0.0,
           "evidence_types": [
             "diarized_transcription"
@@ -996,18 +996,18 @@
       "notes": "Machine-generated draft from Deepgram diarized utterances; not human reviewed. provider=deepgram_diarized_transcription model=nova-3 diarize_model=latest provider_speaker=0 provider_utterance_id=23ee9bb1-3d77-492a-9a8c-79933ed2718a"
     },
     {
-      "segment_id": "youtube_gG1Lq2pIgGM_part_009_seg_0037",
+      "segment_id": 37,
       "start": 217.855,
       "end": 227.02,
       "text": "In saying that, if your system just shit, they're not there. It's not you can't just train into it. Like, in the maybe defense you become a bit more conservative. Yeah. I mean, ask the bulldogs. Like,",
-      "true_person_id": "provisional_deepgram_speaker_1",
-      "true_display_name": "Speaker 1",
+      "true_person_id": 2,
+      "true_display_name": "Sandor Earl",
       "speaker_type": "unknown",
       "confidence": 0.8499,
       "evidence_candidates": [
         {
-          "person_id": "provisional_deepgram_speaker_1",
-          "display_name": "Speaker 1",
+          "person_id": 2,
+          "display_name": "Sandor Earl",
           "confidence": 0.0,
           "evidence_types": [
             "diarized_transcription"
@@ -1022,17 +1022,17 @@
       "notes": "Machine-generated draft from Deepgram diarized utterances; not human reviewed. provider=deepgram_diarized_transcription model=nova-3 diarize_model=latest provider_speaker=1 provider_utterance_id=04254fbb-faae-4da4-a741-338094cf622a"
     },
     {
-      "segment_id": "youtube_gG1Lq2pIgGM_part_009_seg_0038",
+      "segment_id": 38,
       "start": 227.42,
       "end": 236.795,
       "text": "their their attack is their attack has been nowhere. And their defense is and their defense was good. But it's Now it's now it's bad as well. Fucking crazy. Alright. Manly Seagulls versus Broncos.",
-      "true_person_id": "provisional_deepgram_speaker_2",
+      "true_person_id": 3,
       "true_display_name": "Speaker 2",
       "speaker_type": "unknown",
       "confidence": 0.9261,
       "evidence_candidates": [
         {
-          "person_id": "provisional_deepgram_speaker_2",
+          "person_id": 3,
           "display_name": "Speaker 2",
           "confidence": 0.0,
           "evidence_types": [
@@ -1048,18 +1048,18 @@
       "notes": "Machine-generated draft from Deepgram diarized utterances; not human reviewed. provider=deepgram_diarized_transcription model=nova-3 diarize_model=latest provider_speaker=2 provider_utterance_id=105dc4f2-cf6c-43b7-95c6-ab36ce517de4"
     },
     {
-      "segment_id": "youtube_gG1Lq2pIgGM_part_009_seg_0039",
+      "segment_id": 39,
       "start": 237.515,
       "end": 250.36,
       "text": "Oh, I gotta go. I gotta go, Manly. You're the train? Yeah. I'm gone, man. I went Broncos last week, mate. Look what happens. Dog, mate. You're a dog. Dog, mate. It's a spot bet. Just because I don't believe the earth is flat doesn't mean you have to bet against my teammate.",
-      "true_person_id": "provisional_deepgram_speaker_0",
-      "true_display_name": "Speaker 0",
+      "true_person_id": 1,
+      "true_display_name": "Denan Kemp",
       "speaker_type": "unknown",
       "confidence": 0.8873,
       "evidence_candidates": [
         {
-          "person_id": "provisional_deepgram_speaker_0",
-          "display_name": "Speaker 0",
+          "person_id": 1,
+          "display_name": "Denan Kemp",
           "confidence": 0.0,
           "evidence_types": [
             "diarized_transcription"
@@ -1074,18 +1074,18 @@
       "notes": "Machine-generated draft from Deepgram diarized utterances; not human reviewed. provider=deepgram_diarized_transcription model=nova-3 diarize_model=latest provider_speaker=0 provider_utterance_id=af872bf8-047d-4df0-89ee-90311387cff2"
     },
     {
-      "segment_id": "youtube_gG1Lq2pIgGM_part_009_seg_0040",
+      "segment_id": 40,
       "start": 251.16,
       "end": 254.04,
       "text": "Oh, no. I'm I'm just I'm on the false train, mate. Yeah.",
-      "true_person_id": "provisional_deepgram_speaker_1",
-      "true_display_name": "Speaker 1",
+      "true_person_id": 2,
+      "true_display_name": "Sandor Earl",
       "speaker_type": "unknown",
       "confidence": 0.9028,
       "evidence_candidates": [
         {
-          "person_id": "provisional_deepgram_speaker_1",
-          "display_name": "Speaker 1",
+          "person_id": 2,
+          "display_name": "Sandor Earl",
           "confidence": 0.0,
           "evidence_types": [
             "diarized_transcription"
@@ -1100,18 +1100,18 @@
       "notes": "Machine-generated draft from Deepgram diarized utterances; not human reviewed. provider=deepgram_diarized_transcription model=nova-3 diarize_model=latest provider_speaker=1 provider_utterance_id=cd304351-4faa-44b2-b08d-931960012805"
     },
     {
-      "segment_id": "youtube_gG1Lq2pIgGM_part_009_seg_0041",
+      "segment_id": 41,
       "start": 254.28,
       "end": 257.64,
       "text": "Well, we gotta sort out the fence out. First half wasn't good enough last week.",
-      "true_person_id": "provisional_deepgram_speaker_0",
-      "true_display_name": "Speaker 0",
+      "true_person_id": 1,
+      "true_display_name": "Denan Kemp",
       "speaker_type": "unknown",
       "confidence": 0.9006,
       "evidence_candidates": [
         {
-          "person_id": "provisional_deepgram_speaker_0",
-          "display_name": "Speaker 0",
+          "person_id": 1,
+          "display_name": "Denan Kemp",
           "confidence": 0.0,
           "evidence_types": [
             "diarized_transcription"
@@ -1126,18 +1126,18 @@
       "notes": "Machine-generated draft from Deepgram diarized utterances; not human reviewed. provider=deepgram_diarized_transcription model=nova-3 diarize_model=latest provider_speaker=0 provider_utterance_id=f86294e3-3edf-469d-96eb-05609d1215ad"
     },
     {
-      "segment_id": "youtube_gG1Lq2pIgGM_part_009_seg_0042",
+      "segment_id": 42,
       "start": 258.28,
       "end": 263.205,
       "text": "Need a bit more grit, determination. It's it's just tough, though. Like, our front row is Talti Czajewski",
-      "true_person_id": "provisional_deepgram_speaker_0",
-      "true_display_name": "Speaker 0",
+      "true_person_id": 1,
+      "true_display_name": "Denan Kemp",
       "speaker_type": "unknown",
       "confidence": 0.9085,
       "evidence_candidates": [
         {
-          "person_id": "provisional_deepgram_speaker_0",
-          "display_name": "Speaker 0",
+          "person_id": 1,
+          "display_name": "Denan Kemp",
           "confidence": 0.0,
           "evidence_types": [
             "diarized_transcription"
@@ -1152,18 +1152,18 @@
       "notes": "Machine-generated draft from Deepgram diarized utterances; not human reviewed. provider=deepgram_diarized_transcription model=nova-3 diarize_model=latest provider_speaker=0 provider_utterance_id=e652143c-17f6-42f2-a13b-e7a1f54faab9"
     },
     {
-      "segment_id": "youtube_gG1Lq2pIgGM_part_009_seg_0043",
+      "segment_id": 43,
       "start": 263.285,
       "end": 265.445,
       "text": "until we get that, you know, back.",
-      "true_person_id": "provisional_deepgram_speaker_0",
-      "true_display_name": "Speaker 0",
+      "true_person_id": 1,
+      "true_display_name": "Denan Kemp",
       "speaker_type": "unknown",
       "confidence": 0.9405,
       "evidence_candidates": [
         {
-          "person_id": "provisional_deepgram_speaker_0",
-          "display_name": "Speaker 0",
+          "person_id": 1,
+          "display_name": "Denan Kemp",
           "confidence": 0.0,
           "evidence_types": [
             "diarized_transcription"
@@ -1178,18 +1178,18 @@
       "notes": "Machine-generated draft from Deepgram diarized utterances; not human reviewed. provider=deepgram_diarized_transcription model=nova-3 diarize_model=latest provider_speaker=0 provider_utterance_id=98e0fa6b-2549-4def-b834-aa34f67a1874"
     },
     {
-      "segment_id": "youtube_gG1Lq2pIgGM_part_009_seg_0044",
+      "segment_id": 44,
       "start": 265.845,
       "end": 276.91,
       "text": "You come off a very tough loss against the panthers, and you get a scout like the broncos. Like, we're starting to have a different conversation about the eagles. Yeah. Absolutely. No. We're still missing a few players, but it'd still be a scout nonetheless. Absolutely.",
-      "true_person_id": "provisional_deepgram_speaker_1",
-      "true_display_name": "Speaker 1",
+      "true_person_id": 2,
+      "true_display_name": "Sandor Earl",
       "speaker_type": "unknown",
       "confidence": 0.9771,
       "evidence_candidates": [
         {
-          "person_id": "provisional_deepgram_speaker_1",
-          "display_name": "Speaker 1",
+          "person_id": 2,
+          "display_name": "Sandor Earl",
           "confidence": 0.0,
           "evidence_types": [
             "diarized_transcription"
@@ -1204,18 +1204,18 @@
       "notes": "Machine-generated draft from Deepgram diarized utterances; not human reviewed. provider=deepgram_diarized_transcription model=nova-3 diarize_model=latest provider_speaker=1 provider_utterance_id=371716ad-df18-4e10-8e4b-6829f050abc1"
     },
     {
-      "segment_id": "youtube_gG1Lq2pIgGM_part_009_seg_0045",
+      "segment_id": 45,
       "start": 277.47,
       "end": 280.03,
       "text": "Okay. Storm, tigers. I'm going storm.",
-      "true_person_id": "provisional_deepgram_speaker_0",
-      "true_display_name": "Speaker 0",
+      "true_person_id": 1,
+      "true_display_name": "Denan Kemp",
       "speaker_type": "unknown",
       "confidence": 0.9104,
       "evidence_candidates": [
         {
-          "person_id": "provisional_deepgram_speaker_0",
-          "display_name": "Speaker 0",
+          "person_id": 1,
+          "display_name": "Denan Kemp",
           "confidence": 0.0,
           "evidence_types": [
             "diarized_transcription"
@@ -1230,18 +1230,18 @@
       "notes": "Machine-generated draft from Deepgram diarized utterances; not human reviewed. provider=deepgram_diarized_transcription model=nova-3 diarize_model=latest provider_speaker=0 provider_utterance_id=067c2e57-5bc0-42bb-8b7e-3b47363c6527"
     },
     {
-      "segment_id": "youtube_gG1Lq2pIgGM_part_009_seg_0046",
+      "segment_id": 46,
       "start": 280.75,
       "end": 284.03,
       "text": "I'm actually going storm touch up. Storm by plenty.",
-      "true_person_id": "provisional_deepgram_speaker_1",
-      "true_display_name": "Speaker 1",
+      "true_person_id": 2,
+      "true_display_name": "Sandor Earl",
       "speaker_type": "unknown",
       "confidence": 0.93,
       "evidence_candidates": [
         {
-          "person_id": "provisional_deepgram_speaker_1",
-          "display_name": "Speaker 1",
+          "person_id": 2,
+          "display_name": "Sandor Earl",
           "confidence": 0.0,
           "evidence_types": [
             "diarized_transcription"
@@ -1256,17 +1256,17 @@
       "notes": "Machine-generated draft from Deepgram diarized utterances; not human reviewed. provider=deepgram_diarized_transcription model=nova-3 diarize_model=latest provider_speaker=1 provider_utterance_id=b8bcc19d-9442-46e5-9589-6143ec802454"
     },
     {
-      "segment_id": "youtube_gG1Lq2pIgGM_part_009_seg_0047",
+      "segment_id": 47,
       "start": 284.03,
       "end": 287.79,
       "text": "I I think it's gonna be a bad day for the Tigers are missing Sony players. Like",
-      "true_person_id": "provisional_deepgram_speaker_2",
+      "true_person_id": 3,
       "true_display_name": "Speaker 2",
       "speaker_type": "unknown",
       "confidence": 0.9075,
       "evidence_candidates": [
         {
-          "person_id": "provisional_deepgram_speaker_2",
+          "person_id": 3,
           "display_name": "Speaker 2",
           "confidence": 0.0,
           "evidence_types": [
@@ -1282,18 +1282,18 @@
       "notes": "Machine-generated draft from Deepgram diarized utterances; not human reviewed. provider=deepgram_diarized_transcription model=nova-3 diarize_model=latest provider_speaker=2 provider_utterance_id=81d1acf8-5c81-4825-b078-3c21fbdfe27d"
     },
     {
-      "segment_id": "youtube_gG1Lq2pIgGM_part_009_seg_0048",
+      "segment_id": 48,
       "start": 288.825,
       "end": 298.025,
       "text": "I just think they'll break it. This has to be the one. It's at home as well, isn't it? It's fucking They're home. Jerome Hughes is back. I did I said I wasn't gonna do it, but, yeah, I'll go to store. Yeah.",
-      "true_person_id": "provisional_deepgram_speaker_1",
-      "true_display_name": "Speaker 1",
+      "true_person_id": 2,
+      "true_display_name": "Sandor Earl",
       "speaker_type": "unknown",
       "confidence": 0.9375,
       "evidence_candidates": [
         {
-          "person_id": "provisional_deepgram_speaker_1",
-          "display_name": "Speaker 1",
+          "person_id": 2,
+          "display_name": "Sandor Earl",
           "confidence": 0.0,
           "evidence_types": [
             "diarized_transcription"
@@ -1308,18 +1308,18 @@
       "notes": "Machine-generated draft from Deepgram diarized utterances; not human reviewed. provider=deepgram_diarized_transcription model=nova-3 diarize_model=latest provider_speaker=1 provider_utterance_id=e91c38f5-201a-4429-be94-cbebd67745e7"
     },
     {
-      "segment_id": "youtube_gG1Lq2pIgGM_part_009_seg_0049",
+      "segment_id": 49,
       "start": 298.345,
       "end": 299.625,
       "text": "Raiders' pants is be the one.",
-      "true_person_id": "provisional_deepgram_speaker_1",
-      "true_display_name": "Speaker 1",
+      "true_person_id": 2,
+      "true_display_name": "Sandor Earl",
       "speaker_type": "unknown",
       "confidence": 0.7787,
       "evidence_candidates": [
         {
-          "person_id": "provisional_deepgram_speaker_1",
-          "display_name": "Speaker 1",
+          "person_id": 2,
+          "display_name": "Sandor Earl",
           "confidence": 0.0,
           "evidence_types": [
             "diarized_transcription"

@@ -31,8 +31,8 @@
   },
   "speakers": [
     {
-      "person_id": "provisional_deepgram_speaker_0",
-      "display_name": "Speaker 0",
+      "person_id": 1,
+      "display_name": "Denan Kemp",
       "speaker_type": "unknown",
       "aliases": [
         "deepgram:0"
@@ -40,8 +40,8 @@
       "notes": "Machine diarized provisional speaker. Human review required before promotion."
     },
     {
-      "person_id": "provisional_deepgram_speaker_1",
-      "display_name": "Speaker 1",
+      "person_id": 2,
+      "display_name": "Sandor Earl",
       "speaker_type": "unknown",
       "aliases": [
         "deepgram:1"
@@ -49,7 +49,7 @@
       "notes": "Machine diarized provisional speaker. Human review required before promotion."
     },
     {
-      "person_id": "provisional_deepgram_speaker_2",
+      "person_id": 3,
       "display_name": "Speaker 2",
       "speaker_type": "unknown",
       "aliases": [
@@ -60,18 +60,18 @@
   ],
   "segments": [
     {
-      "segment_id": "youtube_gG1Lq2pIgGM_part_007_seg_0001",
+      "segment_id": 1,
       "start": 0.0,
       "end": 1.04,
       "text": "Oh, that's a good start.",
-      "true_person_id": "provisional_deepgram_speaker_0",
-      "true_display_name": "Speaker 0",
+      "true_person_id": 1,
+      "true_display_name": "Denan Kemp",
       "speaker_type": "unknown",
       "confidence": 0.8746,
       "evidence_candidates": [
         {
-          "person_id": "provisional_deepgram_speaker_0",
-          "display_name": "Speaker 0",
+          "person_id": 1,
+          "display_name": "Denan Kemp",
           "confidence": 0.0,
           "evidence_types": [
             "diarized_transcription"
@@ -86,18 +86,18 @@
       "notes": "Machine-generated draft from Deepgram diarized utterances; not human reviewed. provider=deepgram_diarized_transcription model=nova-3 diarize_model=latest provider_speaker=0 provider_utterance_id=5a7ce6d8-045d-4e7d-876c-4549c5090830"
     },
     {
-      "segment_id": "youtube_gG1Lq2pIgGM_part_007_seg_0002",
+      "segment_id": 2,
       "start": 1.44,
       "end": 2.4,
       "text": "Aruga?",
-      "true_person_id": "provisional_deepgram_speaker_0",
-      "true_display_name": "Speaker 0",
+      "true_person_id": 1,
+      "true_display_name": "Denan Kemp",
       "speaker_type": "unknown",
       "confidence": 0.6191,
       "evidence_candidates": [
         {
-          "person_id": "provisional_deepgram_speaker_0",
-          "display_name": "Speaker 0",
+          "person_id": 1,
+          "display_name": "Denan Kemp",
           "confidence": 0.0,
           "evidence_types": [
             "diarized_transcription"
@@ -112,18 +112,18 @@
       "notes": "Machine-generated draft from Deepgram diarized utterances; not human reviewed. provider=deepgram_diarized_transcription model=nova-3 diarize_model=latest provider_speaker=0 provider_utterance_id=2b8a09d9-751a-441a-b0f7-7909ca70712c"
     },
     {
-      "segment_id": "youtube_gG1Lq2pIgGM_part_007_seg_0003",
+      "segment_id": 3,
       "start": 2.88,
       "end": 4.64,
       "text": "What the fuck?",
-      "true_person_id": "provisional_deepgram_speaker_1",
-      "true_display_name": "Speaker 1",
+      "true_person_id": 2,
+      "true_display_name": "Sandor Earl",
       "speaker_type": "unknown",
       "confidence": 0.8042,
       "evidence_candidates": [
         {
-          "person_id": "provisional_deepgram_speaker_1",
-          "display_name": "Speaker 1",
+          "person_id": 2,
+          "display_name": "Sandor Earl",
           "confidence": 0.0,
           "evidence_types": [
             "diarized_transcription"
@@ -138,17 +138,17 @@
       "notes": "Machine-generated draft from Deepgram diarized utterances; not human reviewed. provider=deepgram_diarized_transcription model=nova-3 diarize_model=latest provider_speaker=1 provider_utterance_id=7985b9d6-256f-4062-aaaa-aa8690d3021d"
     },
     {
-      "segment_id": "youtube_gG1Lq2pIgGM_part_007_seg_0004",
+      "segment_id": 4,
       "start": 6.48,
       "end": 10.64,
       "text": "The fuck? Is that lad from Lord of the Rings? Oh, Aragorn. Oh my god.",
-      "true_person_id": "provisional_deepgram_speaker_2",
+      "true_person_id": 3,
       "true_display_name": "Speaker 2",
       "speaker_type": "unknown",
       "confidence": 0.9149,
       "evidence_candidates": [
         {
-          "person_id": "provisional_deepgram_speaker_2",
+          "person_id": 3,
           "display_name": "Speaker 2",
           "confidence": 0.0,
           "evidence_types": [
@@ -164,18 +164,18 @@
       "notes": "Machine-generated draft from Deepgram diarized utterances; not human reviewed. provider=deepgram_diarized_transcription model=nova-3 diarize_model=latest provider_speaker=2 provider_utterance_id=bf862b3a-fe48-4bd4-854f-c73e80d2e996"
     },
     {
-      "segment_id": "youtube_gG1Lq2pIgGM_part_007_seg_0005",
+      "segment_id": 5,
       "start": 13.275,
       "end": 18.555,
       "text": "Oh, fuck. Well, my algo my algo at the moment, there's a there's a channel called scary interesting,",
-      "true_person_id": "provisional_deepgram_speaker_0",
-      "true_display_name": "Speaker 0",
+      "true_person_id": 1,
+      "true_display_name": "Denan Kemp",
       "speaker_type": "unknown",
       "confidence": 0.9328,
       "evidence_candidates": [
         {
-          "person_id": "provisional_deepgram_speaker_0",
-          "display_name": "Speaker 0",
+          "person_id": 1,
+          "display_name": "Denan Kemp",
           "confidence": 0.0,
           "evidence_types": [
             "diarized_transcription"
@@ -190,18 +190,18 @@
       "notes": "Machine-generated draft from Deepgram diarized utterances; not human reviewed. provider=deepgram_diarized_transcription model=nova-3 diarize_model=latest provider_speaker=0 provider_utterance_id=16ddb22b-8548-40a6-8df0-baf4bf0d13e4"
     },
     {
-      "segment_id": "youtube_gG1Lq2pIgGM_part_007_seg_0006",
+      "segment_id": 6,
       "start": 18.635,
       "end": 19.675,
       "text": "and it's like",
-      "true_person_id": "provisional_deepgram_speaker_0",
-      "true_display_name": "Speaker 0",
+      "true_person_id": 1,
+      "true_display_name": "Denan Kemp",
       "speaker_type": "unknown",
       "confidence": 0.9116,
       "evidence_candidates": [
         {
-          "person_id": "provisional_deepgram_speaker_0",
-          "display_name": "Speaker 0",
+          "person_id": 1,
+          "display_name": "Denan Kemp",
           "confidence": 0.0,
           "evidence_types": [
             "diarized_transcription"
@@ -216,18 +216,18 @@
       "notes": "Machine-generated draft from Deepgram diarized utterances; not human reviewed. provider=deepgram_diarized_transcription model=nova-3 diarize_model=latest provider_speaker=0 provider_utterance_id=cad15418-6d76-49b4-a919-f4b5b5103cc4"
     },
     {
-      "segment_id": "youtube_gG1Lq2pIgGM_part_007_seg_0007",
+      "segment_id": 7,
       "start": 20.155,
       "end": 25.435,
       "text": "stories about people that get, like, trapped in caves and, like Oh, I hate but that's",
-      "true_person_id": "provisional_deepgram_speaker_0",
-      "true_display_name": "Speaker 0",
+      "true_person_id": 1,
+      "true_display_name": "Denan Kemp",
       "speaker_type": "unknown",
       "confidence": 0.9356,
       "evidence_candidates": [
         {
-          "person_id": "provisional_deepgram_speaker_0",
-          "display_name": "Speaker 0",
+          "person_id": 1,
+          "display_name": "Denan Kemp",
           "confidence": 0.0,
           "evidence_types": [
             "diarized_transcription"
@@ -242,18 +242,18 @@
       "notes": "Machine-generated draft from Deepgram diarized utterances; not human reviewed. provider=deepgram_diarized_transcription model=nova-3 diarize_model=latest provider_speaker=0 provider_utterance_id=e0f82e3e-1596-4b3d-8480-56761164bbff"
     },
     {
-      "segment_id": "youtube_gG1Lq2pIgGM_part_007_seg_0008",
+      "segment_id": 8,
       "start": 26.0,
       "end": 35.68,
       "text": "I'm I am low key claustrophobic. Bro, you need to watch this called the nutty putty cave dive thing. Just type in nutty putty cave. It is the most famous",
-      "true_person_id": "provisional_deepgram_speaker_0",
-      "true_display_name": "Speaker 0",
+      "true_person_id": 1,
+      "true_display_name": "Denan Kemp",
       "speaker_type": "unknown",
       "confidence": 0.9685,
       "evidence_candidates": [
         {
-          "person_id": "provisional_deepgram_speaker_0",
-          "display_name": "Speaker 0",
+          "person_id": 1,
+          "display_name": "Denan Kemp",
           "confidence": 0.0,
           "evidence_types": [
             "diarized_transcription"
@@ -268,18 +268,18 @@
       "notes": "Machine-generated draft from Deepgram diarized utterances; not human reviewed. provider=deepgram_diarized_transcription model=nova-3 diarize_model=latest provider_speaker=0 provider_utterance_id=1f35d70b-003e-449d-8798-03d963179dad"
     },
     {
-      "segment_id": "youtube_gG1Lq2pIgGM_part_007_seg_0009",
+      "segment_id": 9,
       "start": 36.56,
       "end": 58.4,
       "text": "story of a guy getting stuck in a cave and you know? And it's actually you know what? They were just released only a few days ago, actual footage from the rescue of all the attempted rescue from the nutty putty thing. Remember that movie back in the day where the guy he got Very? Caught no. He was in the desert. Oh, yes. Caught with a rock, and he eventually cut his arm off. Hundred and twenty seven hours.",
-      "true_person_id": "provisional_deepgram_speaker_0",
-      "true_display_name": "Speaker 0",
+      "true_person_id": 1,
+      "true_display_name": "Denan Kemp",
       "speaker_type": "unknown",
       "confidence": 0.9382,
       "evidence_candidates": [
         {
-          "person_id": "provisional_deepgram_speaker_0",
-          "display_name": "Speaker 0",
+          "person_id": 1,
+          "display_name": "Denan Kemp",
           "confidence": 0.0,
           "evidence_types": [
             "diarized_transcription"
@@ -294,18 +294,18 @@
       "notes": "Machine-generated draft from Deepgram diarized utterances; not human reviewed. provider=deepgram_diarized_transcription model=nova-3 diarize_model=latest provider_speaker=0 provider_utterance_id=6eebecac-bd10-42db-ac49-81acac4cc9d7"
     },
     {
-      "segment_id": "youtube_gG1Lq2pIgGM_part_007_seg_0010",
+      "segment_id": 10,
       "start": 59.2,
       "end": 63.6,
       "text": "Jeez. Could you do that? Could you do that, you reckon, if you had to? I always say",
-      "true_person_id": "provisional_deepgram_speaker_1",
-      "true_display_name": "Speaker 1",
+      "true_person_id": 2,
+      "true_display_name": "Sandor Earl",
       "speaker_type": "unknown",
       "confidence": 0.9843,
       "evidence_candidates": [
         {
-          "person_id": "provisional_deepgram_speaker_1",
-          "display_name": "Speaker 1",
+          "person_id": 2,
+          "display_name": "Sandor Earl",
           "confidence": 0.0,
           "evidence_types": [
             "diarized_transcription"
@@ -320,17 +320,17 @@
       "notes": "Machine-generated draft from Deepgram diarized utterances; not human reviewed. provider=deepgram_diarized_transcription model=nova-3 diarize_model=latest provider_speaker=1 provider_utterance_id=2c607f48-3a67-4995-8916-49457b7d55bb"
     },
     {
-      "segment_id": "youtube_gG1Lq2pIgGM_part_007_seg_0011",
+      "segment_id": 11,
       "start": 64.24,
       "end": 72.165,
       "text": "it's like a running joke with my missus, but I will say, like, if I had to, that's my line. Because if you say if you apply if I had to to anything, there's nothing you wouldn't do. I",
-      "true_person_id": "provisional_deepgram_speaker_2",
+      "true_person_id": 3,
       "true_display_name": "Speaker 2",
       "speaker_type": "unknown",
       "confidence": 0.9554,
       "evidence_candidates": [
         {
-          "person_id": "provisional_deepgram_speaker_2",
+          "person_id": 3,
           "display_name": "Speaker 2",
           "confidence": 0.0,
           "evidence_types": [
@@ -346,17 +346,17 @@
       "notes": "Machine-generated draft from Deepgram diarized utterances; not human reviewed. provider=deepgram_diarized_transcription model=nova-3 diarize_model=latest provider_speaker=2 provider_utterance_id=e3beea61-2a95-47e7-8107-32d4d8a4dec7"
     },
     {
-      "segment_id": "youtube_gG1Lq2pIgGM_part_007_seg_0012",
+      "segment_id": 12,
       "start": 72.325,
       "end": 72.805,
       "text": "mean,",
-      "true_person_id": "provisional_deepgram_speaker_2",
+      "true_person_id": 3,
       "true_display_name": "Speaker 2",
       "speaker_type": "unknown",
       "confidence": 0.998,
       "evidence_candidates": [
         {
-          "person_id": "provisional_deepgram_speaker_2",
+          "person_id": 3,
           "display_name": "Speaker 2",
           "confidence": 0.0,
           "evidence_types": [
@@ -372,18 +372,18 @@
       "notes": "Machine-generated draft from Deepgram diarized utterances; not human reviewed. provider=deepgram_diarized_transcription model=nova-3 diarize_model=latest provider_speaker=2 provider_utterance_id=bbdcee01-5dc4-4ac9-8643-d33549615f5e"
     },
     {
-      "segment_id": "youtube_gG1Lq2pIgGM_part_007_seg_0013",
+      "segment_id": 13,
       "start": 73.205,
       "end": 74.485,
       "text": "would you? I would.",
-      "true_person_id": "provisional_deepgram_speaker_0",
-      "true_display_name": "Speaker 0",
+      "true_person_id": 1,
+      "true_display_name": "Denan Kemp",
       "speaker_type": "unknown",
       "confidence": 0.9969,
       "evidence_candidates": [
         {
-          "person_id": "provisional_deepgram_speaker_0",
-          "display_name": "Speaker 0",
+          "person_id": 1,
+          "display_name": "Denan Kemp",
           "confidence": 0.0,
           "evidence_types": [
             "diarized_transcription"
@@ -398,18 +398,18 @@
       "notes": "Machine-generated draft from Deepgram diarized utterances; not human reviewed. provider=deepgram_diarized_transcription model=nova-3 diarize_model=latest provider_speaker=0 provider_utterance_id=d06f9dc3-7085-4139-b31e-30686febbc4c"
     },
     {
-      "segment_id": "youtube_gG1Lq2pIgGM_part_007_seg_0014",
+      "segment_id": 14,
       "start": 74.725,
       "end": 77.445,
       "text": "I'd try to. I'd try. I'd try, but",
-      "true_person_id": "provisional_deepgram_speaker_0",
-      "true_display_name": "Speaker 0",
+      "true_person_id": 1,
+      "true_display_name": "Denan Kemp",
       "speaker_type": "unknown",
       "confidence": 0.9112,
       "evidence_candidates": [
         {
-          "person_id": "provisional_deepgram_speaker_0",
-          "display_name": "Speaker 0",
+          "person_id": 1,
+          "display_name": "Denan Kemp",
           "confidence": 0.0,
           "evidence_types": [
             "diarized_transcription"
@@ -424,17 +424,17 @@
       "notes": "Machine-generated draft from Deepgram diarized utterances; not human reviewed. provider=deepgram_diarized_transcription model=nova-3 diarize_model=latest provider_speaker=0 provider_utterance_id=15d1e288-7bdf-4911-a5f8-e1788b0d76b7"
     },
     {
-      "segment_id": "youtube_gG1Lq2pIgGM_part_007_seg_0015",
+      "segment_id": 15,
       "start": 78.1,
       "end": 86.26,
       "text": "that's pushing yourselves through some Imagine, like, you think about, like, a a little pinprick hurts. You get in and you make the first cut, and so you're in devastating pain.",
-      "true_person_id": "provisional_deepgram_speaker_2",
+      "true_person_id": 3,
       "true_display_name": "Speaker 2",
       "speaker_type": "unknown",
       "confidence": 0.9161,
       "evidence_candidates": [
         {
-          "person_id": "provisional_deepgram_speaker_2",
+          "person_id": 3,
           "display_name": "Speaker 2",
           "confidence": 0.0,
           "evidence_types": [
@@ -450,18 +450,18 @@
       "notes": "Machine-generated draft from Deepgram diarized utterances; not human reviewed. provider=deepgram_diarized_transcription model=nova-3 diarize_model=latest provider_speaker=2 provider_utterance_id=f24abb25-849f-49fb-9610-44eae5acd68e"
     },
     {
-      "segment_id": "youtube_gG1Lq2pIgGM_part_007_seg_0016",
+      "segment_id": 16,
       "start": 86.58,
       "end": 97.705,
       "text": "You've gotta get how many layers there, and then you gotta cut through the bone. That's what I mean. That's what I'm saying. He would have done it with, like, a pocket knife. Like an army camp, sweetheart. He would have done it a pocket knife too. Like, wouldn't have been sharp.",
-      "true_person_id": "provisional_deepgram_speaker_0",
-      "true_display_name": "Speaker 0",
+      "true_person_id": 1,
+      "true_display_name": "Denan Kemp",
       "speaker_type": "unknown",
       "confidence": 0.9172,
       "evidence_candidates": [
         {
-          "person_id": "provisional_deepgram_speaker_0",
-          "display_name": "Speaker 0",
+          "person_id": 1,
+          "display_name": "Denan Kemp",
           "confidence": 0.0,
           "evidence_types": [
             "diarized_transcription"
@@ -476,18 +476,18 @@
       "notes": "Machine-generated draft from Deepgram diarized utterances; not human reviewed. provider=deepgram_diarized_transcription model=nova-3 diarize_model=latest provider_speaker=0 provider_utterance_id=3e94e6f3-7858-468a-a600-cc3b554443b9"
     },
     {
-      "segment_id": "youtube_gG1Lq2pIgGM_part_007_seg_0017",
+      "segment_id": 17,
       "start": 98.185,
       "end": 98.985,
       "text": "Like,",
-      "true_person_id": "provisional_deepgram_speaker_0",
-      "true_display_name": "Speaker 0",
+      "true_person_id": 1,
+      "true_display_name": "Denan Kemp",
       "speaker_type": "unknown",
       "confidence": 0.8132,
       "evidence_candidates": [
         {
-          "person_id": "provisional_deepgram_speaker_0",
-          "display_name": "Speaker 0",
+          "person_id": 1,
+          "display_name": "Denan Kemp",
           "confidence": 0.0,
           "evidence_types": [
             "diarized_transcription"
@@ -502,18 +502,18 @@
       "notes": "Machine-generated draft from Deepgram diarized utterances; not human reviewed. provider=deepgram_diarized_transcription model=nova-3 diarize_model=latest provider_speaker=0 provider_utterance_id=6e9465c0-936a-4e20-8575-de2859f2cd83"
     },
     {
-      "segment_id": "youtube_gG1Lq2pIgGM_part_007_seg_0018",
+      "segment_id": 18,
       "start": 99.465,
       "end": 105.545,
       "text": "have you seen that movie called Buried? It's Ryan Reynolds is in it. He gets he wakes up, and the whole movie is just in a",
-      "true_person_id": "provisional_deepgram_speaker_0",
-      "true_display_name": "Speaker 0",
+      "true_person_id": 1,
+      "true_display_name": "Denan Kemp",
       "speaker_type": "unknown",
       "confidence": 0.9871,
       "evidence_candidates": [
         {
-          "person_id": "provisional_deepgram_speaker_0",
-          "display_name": "Speaker 0",
+          "person_id": 1,
+          "display_name": "Denan Kemp",
           "confidence": 0.0,
           "evidence_types": [
             "diarized_transcription"
@@ -528,18 +528,18 @@
       "notes": "Machine-generated draft from Deepgram diarized utterances; not human reviewed. provider=deepgram_diarized_transcription model=nova-3 diarize_model=latest provider_speaker=0 provider_utterance_id=56a500fa-5b7f-4734-b8d3-b81afdb4b5c6"
     },
     {
-      "segment_id": "youtube_gG1Lq2pIgGM_part_007_seg_0019",
+      "segment_id": 19,
       "start": 106.19,
       "end": 106.99,
       "text": "a coffin.",
-      "true_person_id": "provisional_deepgram_speaker_0",
-      "true_display_name": "Speaker 0",
+      "true_person_id": 1,
+      "true_display_name": "Denan Kemp",
       "speaker_type": "unknown",
       "confidence": 0.9384,
       "evidence_candidates": [
         {
-          "person_id": "provisional_deepgram_speaker_0",
-          "display_name": "Speaker 0",
+          "person_id": 1,
+          "display_name": "Denan Kemp",
           "confidence": 0.0,
           "evidence_types": [
             "diarized_transcription"
@@ -554,18 +554,18 @@
       "notes": "Machine-generated draft from Deepgram diarized utterances; not human reviewed. provider=deepgram_diarized_transcription model=nova-3 diarize_model=latest provider_speaker=0 provider_utterance_id=78ace5b1-e965-4750-8e6d-e795b9ef1b80"
     },
     {
-      "segment_id": "youtube_gG1Lq2pIgGM_part_007_seg_0020",
+      "segment_id": 20,
       "start": 107.23,
       "end": 109.95,
       "text": "And he wakes up spoiler alert. So he wakes up in it,",
-      "true_person_id": "provisional_deepgram_speaker_0",
-      "true_display_name": "Speaker 0",
+      "true_person_id": 1,
+      "true_display_name": "Denan Kemp",
       "speaker_type": "unknown",
       "confidence": 0.9755,
       "evidence_candidates": [
         {
-          "person_id": "provisional_deepgram_speaker_0",
-          "display_name": "Speaker 0",
+          "person_id": 1,
+          "display_name": "Denan Kemp",
           "confidence": 0.0,
           "evidence_types": [
             "diarized_transcription"
@@ -580,18 +580,18 @@
       "notes": "Machine-generated draft from Deepgram diarized utterances; not human reviewed. provider=deepgram_diarized_transcription model=nova-3 diarize_model=latest provider_speaker=0 provider_utterance_id=51709714-12c0-40a3-864f-53f3c1140f41"
     },
     {
-      "segment_id": "youtube_gG1Lq2pIgGM_part_007_seg_0021",
+      "segment_id": 21,
       "start": 110.59,
       "end": 116.11,
       "text": "and he's got a phone next to him. And he's been buried in he's like a contractor in Afghanistan or some shit on Middle East.",
-      "true_person_id": "provisional_deepgram_speaker_0",
-      "true_display_name": "Speaker 0",
+      "true_person_id": 1,
+      "true_display_name": "Denan Kemp",
       "speaker_type": "unknown",
       "confidence": 0.9338,
       "evidence_candidates": [
         {
-          "person_id": "provisional_deepgram_speaker_0",
-          "display_name": "Speaker 0",
+          "person_id": 1,
+          "display_name": "Denan Kemp",
           "confidence": 0.0,
           "evidence_types": [
             "diarized_transcription"
@@ -606,18 +606,18 @@
       "notes": "Machine-generated draft from Deepgram diarized utterances; not human reviewed. provider=deepgram_diarized_transcription model=nova-3 diarize_model=latest provider_speaker=0 provider_utterance_id=46b8a639-ba87-49d9-b0f6-4d9f8d55eff6"
     },
     {
-      "segment_id": "youtube_gG1Lq2pIgGM_part_007_seg_0022",
+      "segment_id": 22,
       "start": 116.99,
       "end": 136.31,
       "text": "And, yeah, the whole movie's in the coffin. He's been buried alive, And, basically, they're trying to save him, and he's like, they're trying to direct to him. It it builds up all the way spoiler it builds up all the to the end where it's like, we're coming. We're coming. We're digging. You can hear on the phone, they're digging. Digging. He doesn't get out. They're digging and digging, and and it's starting to fill up. It's starting to fill up. And then, like, in the last ten seconds, the phone goes, oh, no.",
-      "true_person_id": "provisional_deepgram_speaker_0",
-      "true_display_name": "Speaker 0",
+      "true_person_id": 1,
+      "true_display_name": "Denan Kemp",
       "speaker_type": "unknown",
       "confidence": 0.9472,
       "evidence_candidates": [
         {
-          "person_id": "provisional_deepgram_speaker_0",
-          "display_name": "Speaker 0",
+          "person_id": 1,
+          "display_name": "Denan Kemp",
           "confidence": 0.0,
           "evidence_types": [
             "diarized_transcription"
@@ -632,17 +632,17 @@
       "notes": "Machine-generated draft from Deepgram diarized utterances; not human reviewed. provider=deepgram_diarized_transcription model=nova-3 diarize_model=latest provider_speaker=0 provider_utterance_id=d3b5e4ac-3262-4011-9da7-c6f110b566f1"
     },
     {
-      "segment_id": "youtube_gG1Lq2pIgGM_part_007_seg_0023",
+      "segment_id": 23,
       "start": 136.71,
       "end": 145.67,
       "text": "They've dug the wrong person up, and so he dies. Oh. Yeah. Hectic. How about that finish? It's called Barry. I just watched a doco on Netflix about,",
-      "true_person_id": "provisional_deepgram_speaker_2",
+      "true_person_id": 3,
       "true_display_name": "Speaker 2",
       "speaker_type": "unknown",
       "confidence": 0.8797,
       "evidence_candidates": [
         {
-          "person_id": "provisional_deepgram_speaker_2",
+          "person_id": 3,
           "display_name": "Speaker 2",
           "confidence": 0.0,
           "evidence_types": [
@@ -658,17 +658,17 @@
       "notes": "Machine-generated draft from Deepgram diarized utterances; not human reviewed. provider=deepgram_diarized_transcription model=nova-3 diarize_model=latest provider_speaker=2 provider_utterance_id=252a90b3-8159-4b4d-8d93-259d5a244935"
     },
     {
-      "segment_id": "youtube_gG1Lq2pIgGM_part_007_seg_0024",
+      "segment_id": 24,
       "start": 146.31,
       "end": 149.985,
       "text": "you know, like a cult. Yes. So there's a there's a cult in Colorado.",
-      "true_person_id": "provisional_deepgram_speaker_2",
+      "true_person_id": 3,
       "true_display_name": "Speaker 2",
       "speaker_type": "unknown",
       "confidence": 0.9453,
       "evidence_candidates": [
         {
-          "person_id": "provisional_deepgram_speaker_2",
+          "person_id": 3,
           "display_name": "Speaker 2",
           "confidence": 0.0,
           "evidence_types": [
@@ -684,17 +684,17 @@
       "notes": "Machine-generated draft from Deepgram diarized utterances; not human reviewed. provider=deepgram_diarized_transcription model=nova-3 diarize_model=latest provider_speaker=2 provider_utterance_id=ee4ef1f6-05ce-49e9-b436-d8eec3c9d8fc"
     },
     {
-      "segment_id": "youtube_gG1Lq2pIgGM_part_007_seg_0025",
+      "segment_id": 25,
       "start": 150.385,
       "end": 156.465,
       "text": "It is mind blowing. Like, I just can't believe like, so, basically, a guy you know, it's",
-      "true_person_id": "provisional_deepgram_speaker_2",
+      "true_person_id": 3,
       "true_display_name": "Speaker 2",
       "speaker_type": "unknown",
       "confidence": 0.9689,
       "evidence_candidates": [
         {
-          "person_id": "provisional_deepgram_speaker_2",
+          "person_id": 3,
           "display_name": "Speaker 2",
           "confidence": 0.0,
           "evidence_types": [
@@ -710,17 +710,17 @@
       "notes": "Machine-generated draft from Deepgram diarized utterances; not human reviewed. provider=deepgram_diarized_transcription model=nova-3 diarize_model=latest provider_speaker=2 provider_utterance_id=6531364a-96f3-4e49-87e2-bab1b551aa66"
     },
     {
-      "segment_id": "youtube_gG1Lq2pIgGM_part_007_seg_0026",
+      "segment_id": 26,
       "start": 156.705,
       "end": 162.37,
       "text": "there's some it's some form of religion, but a guy just basically goes like, I've had a",
-      "true_person_id": "provisional_deepgram_speaker_2",
+      "true_person_id": 3,
       "true_display_name": "Speaker 2",
       "speaker_type": "unknown",
       "confidence": 0.9605,
       "evidence_candidates": [
         {
-          "person_id": "provisional_deepgram_speaker_2",
+          "person_id": 3,
           "display_name": "Speaker 2",
           "confidence": 0.0,
           "evidence_types": [
@@ -736,17 +736,17 @@
       "notes": "Machine-generated draft from Deepgram diarized utterances; not human reviewed. provider=deepgram_diarized_transcription model=nova-3 diarize_model=latest provider_speaker=2 provider_utterance_id=8d37015a-aa02-403d-896b-5fbec0f09835"
     },
     {
-      "segment_id": "youtube_gG1Lq2pIgGM_part_007_seg_0027",
+      "segment_id": 27,
       "start": 162.93,
       "end": 167.17,
       "text": "someone's called to me, and I am the prophet now. And him and his 20 wives,",
-      "true_person_id": "provisional_deepgram_speaker_2",
+      "true_person_id": 3,
       "true_display_name": "Speaker 2",
       "speaker_type": "unknown",
       "confidence": 0.9649,
       "evidence_candidates": [
         {
-          "person_id": "provisional_deepgram_speaker_2",
+          "person_id": 3,
           "display_name": "Speaker 2",
           "confidence": 0.0,
           "evidence_types": [
@@ -762,17 +762,17 @@
       "notes": "Machine-generated draft from Deepgram diarized utterances; not human reviewed. provider=deepgram_diarized_transcription model=nova-3 diarize_model=latest provider_speaker=2 provider_utterance_id=8e7c371c-49f9-468d-901b-45423ba8db01"
     },
     {
-      "segment_id": "youtube_gG1Lq2pIgGM_part_007_seg_0028",
+      "segment_id": 28,
       "start": 167.49,
       "end": 171.97,
       "text": "and the whole community is just like, this is our prophet. Anyway, he gets taken to jail.",
-      "true_person_id": "provisional_deepgram_speaker_2",
+      "true_person_id": 3,
       "true_display_name": "Speaker 2",
       "speaker_type": "unknown",
       "confidence": 0.9842,
       "evidence_candidates": [
         {
-          "person_id": "provisional_deepgram_speaker_2",
+          "person_id": 3,
           "display_name": "Speaker 2",
           "confidence": 0.0,
           "evidence_types": [
@@ -788,17 +788,17 @@
       "notes": "Machine-generated draft from Deepgram diarized utterances; not human reviewed. provider=deepgram_diarized_transcription model=nova-3 diarize_model=latest provider_speaker=2 provider_utterance_id=80564359-780a-4c8b-9bfd-391b0f9b8743"
     },
     {
-      "segment_id": "youtube_gG1Lq2pIgGM_part_007_seg_0029",
+      "segment_id": 29,
       "start": 172.13,
       "end": 177.805,
       "text": "I don't know if I'm spoiling it, but Foiler alert. He gets taken to jail. So he's done for all of these horrific things.",
-      "true_person_id": "provisional_deepgram_speaker_2",
+      "true_person_id": 3,
       "true_display_name": "Speaker 2",
       "speaker_type": "unknown",
       "confidence": 0.9594,
       "evidence_candidates": [
         {
-          "person_id": "provisional_deepgram_speaker_2",
+          "person_id": 3,
           "display_name": "Speaker 2",
           "confidence": 0.0,
           "evidence_types": [
@@ -814,17 +814,17 @@
       "notes": "Machine-generated draft from Deepgram diarized utterances; not human reviewed. provider=deepgram_diarized_transcription model=nova-3 diarize_model=latest provider_speaker=2 provider_utterance_id=334f7b9b-e18e-4f9b-9c16-d481c8418e26"
     },
     {
-      "segment_id": "youtube_gG1Lq2pIgGM_part_007_seg_0030",
+      "segment_id": 30,
       "start": 178.125,
       "end": 179.565,
       "text": "And then the other guy goes,",
-      "true_person_id": "provisional_deepgram_speaker_2",
+      "true_person_id": 3,
       "true_display_name": "Speaker 2",
       "speaker_type": "unknown",
       "confidence": 0.9992,
       "evidence_candidates": [
         {
-          "person_id": "provisional_deepgram_speaker_2",
+          "person_id": 3,
           "display_name": "Speaker 2",
           "confidence": 0.0,
           "evidence_types": [
@@ -840,17 +840,17 @@
       "notes": "Machine-generated draft from Deepgram diarized utterances; not human reviewed. provider=deepgram_diarized_transcription model=nova-3 diarize_model=latest provider_speaker=2 provider_utterance_id=584c7e81-7abd-4ace-ab75-46d99e1979d3"
     },
     {
-      "segment_id": "youtube_gG1Lq2pIgGM_part_007_seg_0031",
+      "segment_id": 31,
       "start": 179.965,
       "end": 181.565,
       "text": "he's spoken to me.",
-      "true_person_id": "provisional_deepgram_speaker_2",
+      "true_person_id": 3,
       "true_display_name": "Speaker 2",
       "speaker_type": "unknown",
       "confidence": 0.9966,
       "evidence_candidates": [
         {
-          "person_id": "provisional_deepgram_speaker_2",
+          "person_id": 3,
           "display_name": "Speaker 2",
           "confidence": 0.0,
           "evidence_types": [
@@ -866,18 +866,18 @@
       "notes": "Machine-generated draft from Deepgram diarized utterances; not human reviewed. provider=deepgram_diarized_transcription model=nova-3 diarize_model=latest provider_speaker=2 provider_utterance_id=5812e5bf-dbbc-473e-b5ee-e8ab1564e33b"
     },
     {
-      "segment_id": "youtube_gG1Lq2pIgGM_part_007_seg_0032",
+      "segment_id": 32,
       "start": 181.965,
       "end": 204.225,
       "text": "I'm the prophet now. And he rallies the next the next set of wives and just keeps going. You know what's crazy? It's like, how come all these cults, it's always they've got 20 wives? Yeah. You know? Like, why is there never a cult where it's like, I've just got one wife and, like, it's always the cults are always an excuse to have multiple women in their life. Like, that's always the core of it is sexual attraction from the opposite sex.",
-      "true_person_id": "provisional_deepgram_speaker_0",
-      "true_display_name": "Speaker 0",
+      "true_person_id": 1,
+      "true_display_name": "Denan Kemp",
       "speaker_type": "unknown",
       "confidence": 0.9524,
       "evidence_candidates": [
         {
-          "person_id": "provisional_deepgram_speaker_0",
-          "display_name": "Speaker 0",
+          "person_id": 1,
+          "display_name": "Denan Kemp",
           "confidence": 0.0,
           "evidence_types": [
             "diarized_transcription"
@@ -892,17 +892,17 @@
       "notes": "Machine-generated draft from Deepgram diarized utterances; not human reviewed. provider=deepgram_diarized_transcription model=nova-3 diarize_model=latest provider_speaker=0 provider_utterance_id=508c4bcf-df73-4115-985a-73398eb878e1"
     },
     {
-      "segment_id": "youtube_gG1Lq2pIgGM_part_007_seg_0033",
+      "segment_id": 33,
       "start": 204.545,
       "end": 221.23,
       "text": "Oh, yeah. And and the the the underlying story is, they've had a challenging life in terms of, you know, never been that guy or Yeah. You know, always been on the outer. I mean, my my angel, Becky, she's a sweetheart. She's very easy to deal with, but 20 of her, that's",
-      "true_person_id": "provisional_deepgram_speaker_2",
+      "true_person_id": 3,
       "true_display_name": "Speaker 2",
       "speaker_type": "unknown",
       "confidence": 0.9585,
       "evidence_candidates": [
         {
-          "person_id": "provisional_deepgram_speaker_2",
+          "person_id": 3,
           "display_name": "Speaker 2",
           "confidence": 0.0,
           "evidence_types": [
@@ -918,17 +918,17 @@
       "notes": "Machine-generated draft from Deepgram diarized utterances; not human reviewed. provider=deepgram_diarized_transcription model=nova-3 diarize_model=latest provider_speaker=2 provider_utterance_id=5840dbca-e0e4-4fd1-a3e2-321e08516086"
     },
     {
-      "segment_id": "youtube_gG1Lq2pIgGM_part_007_seg_0034",
+      "segment_id": 34,
       "start": 221.23,
       "end": 222.35,
       "text": "fucking challenging.",
-      "true_person_id": "provisional_deepgram_speaker_2",
+      "true_person_id": 3,
       "true_display_name": "Speaker 2",
       "speaker_type": "unknown",
       "confidence": 0.9968,
       "evidence_candidates": [
         {
-          "person_id": "provisional_deepgram_speaker_2",
+          "person_id": 3,
           "display_name": "Speaker 2",
           "confidence": 0.0,
           "evidence_types": [
@@ -944,18 +944,18 @@
       "notes": "Machine-generated draft from Deepgram diarized utterances; not human reviewed. provider=deepgram_diarized_transcription model=nova-3 diarize_model=latest provider_speaker=2 provider_utterance_id=ae49795e-fb0a-4850-9623-328750e280f1"
     },
     {
-      "segment_id": "youtube_gG1Lq2pIgGM_part_007_seg_0035",
+      "segment_id": 35,
       "start": 222.75,
       "end": 223.47,
       "text": "Right.",
-      "true_person_id": "provisional_deepgram_speaker_0",
-      "true_display_name": "Speaker 0",
+      "true_person_id": 1,
+      "true_display_name": "Denan Kemp",
       "speaker_type": "unknown",
       "confidence": 0.715,
       "evidence_candidates": [
         {
-          "person_id": "provisional_deepgram_speaker_0",
-          "display_name": "Speaker 0",
+          "person_id": 1,
+          "display_name": "Denan Kemp",
           "confidence": 0.0,
           "evidence_types": [
             "diarized_transcription"
@@ -970,18 +970,18 @@
       "notes": "Machine-generated draft from Deepgram diarized utterances; not human reviewed. provider=deepgram_diarized_transcription model=nova-3 diarize_model=latest provider_speaker=0 provider_utterance_id=4943acf6-66c3-4b89-8daf-ab99943ca250"
     },
     {
-      "segment_id": "youtube_gG1Lq2pIgGM_part_007_seg_0036",
+      "segment_id": 36,
       "start": 223.79,
       "end": 236.675,
       "text": "Right. I'll tell you what. Bro. It's I'm feeling you. I'm feeling you. Respectfully. Yeah. Look. Especially if you're if you actually are tending to your wife and loving her, doing that 20 times over, that'd be tough. That'd be tough gig. A lot of loving. A lot of loving.",
-      "true_person_id": "provisional_deepgram_speaker_0",
-      "true_display_name": "Speaker 0",
+      "true_person_id": 1,
+      "true_display_name": "Denan Kemp",
       "speaker_type": "unknown",
       "confidence": 0.9379,
       "evidence_candidates": [
         {
-          "person_id": "provisional_deepgram_speaker_0",
-          "display_name": "Speaker 0",
+          "person_id": 1,
+          "display_name": "Denan Kemp",
           "confidence": 0.0,
           "evidence_types": [
             "diarized_transcription"
@@ -996,18 +996,18 @@
       "notes": "Machine-generated draft from Deepgram diarized utterances; not human reviewed. provider=deepgram_diarized_transcription model=nova-3 diarize_model=latest provider_speaker=0 provider_utterance_id=00e51044-c854-4a87-abb4-86567e2ea383"
     },
     {
-      "segment_id": "youtube_gG1Lq2pIgGM_part_007_seg_0037",
+      "segment_id": 37,
       "start": 237.555,
       "end": 239.475,
       "text": "So what is your algo doing at the moment?",
-      "true_person_id": "provisional_deepgram_speaker_1",
-      "true_display_name": "Speaker 1",
+      "true_person_id": 2,
+      "true_display_name": "Sandor Earl",
       "speaker_type": "unknown",
       "confidence": 0.9548,
       "evidence_candidates": [
         {
-          "person_id": "provisional_deepgram_speaker_1",
-          "display_name": "Speaker 1",
+          "person_id": 2,
+          "display_name": "Sandor Earl",
           "confidence": 0.0,
           "evidence_types": [
             "diarized_transcription"
@@ -1022,18 +1022,18 @@
       "notes": "Machine-generated draft from Deepgram diarized utterances; not human reviewed. provider=deepgram_diarized_transcription model=nova-3 diarize_model=latest provider_speaker=1 provider_utterance_id=1a0cba91-67d9-4de4-be7c-cc10e3f22ddb"
     },
     {
-      "segment_id": "youtube_gG1Lq2pIgGM_part_007_seg_0038",
+      "segment_id": 38,
       "start": 240.77,
       "end": 242.77,
       "text": "This is probably more lighthearted.",
-      "true_person_id": "provisional_deepgram_speaker_1",
-      "true_display_name": "Speaker 1",
+      "true_person_id": 2,
+      "true_display_name": "Sandor Earl",
       "speaker_type": "unknown",
       "confidence": 0.8857,
       "evidence_candidates": [
         {
-          "person_id": "provisional_deepgram_speaker_1",
-          "display_name": "Speaker 1",
+          "person_id": 2,
+          "display_name": "Sandor Earl",
           "confidence": 0.0,
           "evidence_types": [
             "diarized_transcription"
@@ -1048,18 +1048,18 @@
       "notes": "Machine-generated draft from Deepgram diarized utterances; not human reviewed. provider=deepgram_diarized_transcription model=nova-3 diarize_model=latest provider_speaker=1 provider_utterance_id=66acf88e-cc4a-4f75-a258-0e25aad1a285"
     },
     {
-      "segment_id": "youtube_gG1Lq2pIgGM_part_007_seg_0039",
+      "segment_id": 39,
       "start": 242.77,
       "end": 243.41,
       "text": "Like,",
-      "true_person_id": "provisional_deepgram_speaker_1",
-      "true_display_name": "Speaker 1",
+      "true_person_id": 2,
+      "true_display_name": "Sandor Earl",
       "speaker_type": "unknown",
       "confidence": 0.9919,
       "evidence_candidates": [
         {
-          "person_id": "provisional_deepgram_speaker_1",
-          "display_name": "Speaker 1",
+          "person_id": 2,
+          "display_name": "Sandor Earl",
           "confidence": 0.0,
           "evidence_types": [
             "diarized_transcription"
@@ -1074,18 +1074,18 @@
       "notes": "Machine-generated draft from Deepgram diarized utterances; not human reviewed. provider=deepgram_diarized_transcription model=nova-3 diarize_model=latest provider_speaker=1 provider_utterance_id=1a846684-a109-4c4a-bc43-be2c0f5d9f87"
     },
     {
-      "segment_id": "youtube_gG1Lq2pIgGM_part_007_seg_0040",
+      "segment_id": 40,
       "start": 243.65,
       "end": 249.41,
       "text": "mine's just all family feud, but, like, all the dumb stupid answers that you know, the American family feud with Steve Harvey?",
-      "true_person_id": "provisional_deepgram_speaker_1",
-      "true_display_name": "Speaker 1",
+      "true_person_id": 2,
+      "true_display_name": "Sandor Earl",
       "speaker_type": "unknown",
       "confidence": 0.9157,
       "evidence_candidates": [
         {
-          "person_id": "provisional_deepgram_speaker_1",
-          "display_name": "Speaker 1",
+          "person_id": 2,
+          "display_name": "Sandor Earl",
           "confidence": 0.0,
           "evidence_types": [
             "diarized_transcription"
@@ -1100,18 +1100,18 @@
       "notes": "Machine-generated draft from Deepgram diarized utterances; not human reviewed. provider=deepgram_diarized_transcription model=nova-3 diarize_model=latest provider_speaker=1 provider_utterance_id=99a5a823-534a-4b2a-b5ad-c36ea0ed7acf"
     },
     {
-      "segment_id": "youtube_gG1Lq2pIgGM_part_007_seg_0041",
+      "segment_id": 41,
       "start": 250.37,
       "end": 258.095,
       "text": "And just the stupid answers people people give. It's so funny. I'm I'm obsessed with it. Sometimes I watch some good ones. Sometimes I watch Family Feud compilations on YouTube.",
-      "true_person_id": "provisional_deepgram_speaker_1",
-      "true_display_name": "Speaker 1",
+      "true_person_id": 2,
+      "true_display_name": "Sandor Earl",
       "speaker_type": "unknown",
       "confidence": 0.934,
       "evidence_candidates": [
         {
-          "person_id": "provisional_deepgram_speaker_1",
-          "display_name": "Speaker 1",
+          "person_id": 2,
+          "display_name": "Sandor Earl",
           "confidence": 0.0,
           "evidence_types": [
             "diarized_transcription"
@@ -1126,18 +1126,18 @@
       "notes": "Machine-generated draft from Deepgram diarized utterances; not human reviewed. provider=deepgram_diarized_transcription model=nova-3 diarize_model=latest provider_speaker=1 provider_utterance_id=43bb1886-54f2-4203-89b6-0cd22c58f770"
     },
     {
-      "segment_id": "youtube_gG1Lq2pIgGM_part_007_seg_0042",
+      "segment_id": 42,
       "start": 258.655,
       "end": 260.495,
       "text": "Oh, compil compilation.",
-      "true_person_id": "provisional_deepgram_speaker_0",
-      "true_display_name": "Speaker 0",
+      "true_person_id": 1,
+      "true_display_name": "Denan Kemp",
       "speaker_type": "unknown",
       "confidence": 0.8374,
       "evidence_candidates": [
         {
-          "person_id": "provisional_deepgram_speaker_0",
-          "display_name": "Speaker 0",
+          "person_id": 1,
+          "display_name": "Denan Kemp",
           "confidence": 0.0,
           "evidence_types": [
             "diarized_transcription"
@@ -1152,18 +1152,18 @@
       "notes": "Machine-generated draft from Deepgram diarized utterances; not human reviewed. provider=deepgram_diarized_transcription model=nova-3 diarize_model=latest provider_speaker=0 provider_utterance_id=c61e52ae-8a90-415e-bdc4-d6f019269824"
     },
     {
-      "segment_id": "youtube_gG1Lq2pIgGM_part_007_seg_0043",
+      "segment_id": 43,
       "start": 260.495,
       "end": 264.015,
       "text": "They're so funny. I highly recommend it. Okay. I'm a sucker for a",
-      "true_person_id": "provisional_deepgram_speaker_1",
-      "true_display_name": "Speaker 1",
+      "true_person_id": 2,
+      "true_display_name": "Sandor Earl",
       "speaker_type": "unknown",
       "confidence": 0.9719,
       "evidence_candidates": [
         {
-          "person_id": "provisional_deepgram_speaker_1",
-          "display_name": "Speaker 1",
+          "person_id": 2,
+          "display_name": "Sandor Earl",
           "confidence": 0.0,
           "evidence_types": [
             "diarized_transcription"
@@ -1178,17 +1178,17 @@
       "notes": "Machine-generated draft from Deepgram diarized utterances; not human reviewed. provider=deepgram_diarized_transcription model=nova-3 diarize_model=latest provider_speaker=1 provider_utterance_id=94cdf3a9-bac7-43e6-9d37-36292bbc2551"
     },
     {
-      "segment_id": "youtube_gG1Lq2pIgGM_part_007_seg_0044",
+      "segment_id": 44,
       "start": 264.655,
       "end": 265.935,
       "text": "compilation of",
-      "true_person_id": "provisional_deepgram_speaker_2",
+      "true_person_id": 3,
       "true_display_name": "Speaker 2",
       "speaker_type": "unknown",
       "confidence": 0.999,
       "evidence_candidates": [
         {
-          "person_id": "provisional_deepgram_speaker_2",
+          "person_id": 3,
           "display_name": "Speaker 2",
           "confidence": 0.0,
           "evidence_types": [
@@ -1204,17 +1204,17 @@
       "notes": "Machine-generated draft from Deepgram diarized utterances; not human reviewed. provider=deepgram_diarized_transcription model=nova-3 diarize_model=latest provider_speaker=2 provider_utterance_id=8748b763-a301-4c97-b5e2-c553364a0bcc"
     },
     {
-      "segment_id": "youtube_gG1Lq2pIgGM_part_007_seg_0045",
+      "segment_id": 45,
       "start": 267.27,
       "end": 285.345,
       "text": "the what's the what's the show where they go on Simon Cowell's in it? Oh, American Idol. Oh, no. No. No. Not American Idol. Oh, the golden buzzer one? Yes. Yeah. Yeah. Forget the show name. And such got talent or whatever? Yeah. American Idol. Yeah. Oh, brother. You I'm I'm I'm trapped for an hour. Go to YouTube. Yeah. It's actually that's what you're saying. So golden",
-      "true_person_id": "provisional_deepgram_speaker_2",
+      "true_person_id": 3,
       "true_display_name": "Speaker 2",
       "speaker_type": "unknown",
       "confidence": 0.917,
       "evidence_candidates": [
         {
-          "person_id": "provisional_deepgram_speaker_2",
+          "person_id": 3,
           "display_name": "Speaker 2",
           "confidence": 0.0,
           "evidence_types": [
@@ -1230,18 +1230,18 @@
       "notes": "Machine-generated draft from Deepgram diarized utterances; not human reviewed. provider=deepgram_diarized_transcription model=nova-3 diarize_model=latest provider_speaker=2 provider_utterance_id=9d9159b8-c7e2-4f81-948d-5d195e8bb0f8"
     },
     {
-      "segment_id": "youtube_gG1Lq2pIgGM_part_007_seg_0046",
+      "segment_id": 46,
       "start": 285.745,
       "end": 299.939,
       "text": "buzzer compilations on YouTube. Best. They they they make me emotional. I'll cry. You know, it's, like it's so weird. It's, every every singer is like they come in and they're like, you know, my whole family died in a tragic accident. My dog died yesterday. My cat died this morning. Like,",
-      "true_person_id": "provisional_deepgram_speaker_0",
-      "true_display_name": "Speaker 0",
+      "true_person_id": 1,
+      "true_display_name": "Denan Kemp",
       "speaker_type": "unknown",
       "confidence": 0.942,
       "evidence_candidates": [
         {
-          "person_id": "provisional_deepgram_speaker_0",
-          "display_name": "Speaker 0",
+          "person_id": 1,
+          "display_name": "Denan Kemp",
           "confidence": 0.0,
           "evidence_types": [
             "diarized_transcription"

@@ -1489,14 +1489,16 @@
     }
   ],
   "annotation": {
-    "status": "draft",
+    "status": "seed_gold",
     "reviewed_by": "",
-    "review_level": "rough",
-    "notes": "Machine-populated 39 transcript segments and 2 provisional speakers from deepgram_diarized_transcription. Speaker identities are anonymous diarization labels until reviewed.",
+    "review_level": "cleaned_seed",
+    "notes": "Human-cleaned seed case used to calibrate speaker rosters, provider speaker mappings, and review drafts for sibling media chunks.",
     "provider": "deepgram_diarized_transcription",
     "provider_model": "nova-3",
     "provider_output": "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_000.json",
     "human_review_required": true,
-    "provider_diarize_model": "latest"
+    "provider_diarize_model": "latest",
+    "source_dataset": "drafts",
+    "source_case": "youtube_gG1Lq2pIgGM_part_000.json"
   }
 }

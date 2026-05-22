@@ -1,0 +1,10 @@
+{
+  "name": "seed_gold",
+  "description": "Human-cleaned seed cases used for calibration before broader review.",
+  "cases": [
+    "youtube_gG1Lq2pIgGM_part_000.json",
+    "youtube_gG1Lq2pIgGM_part_001.json",
+    "youtube_gG1Lq2pIgGM_part_002.json",
+    "youtube_gG1Lq2pIgGM_part_003.json"
+  ]
+}

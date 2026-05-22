@@ -1,0 +1,4825 @@
+{
+  "case_id": "youtube_gG1Lq2pIgGM_part_005",
+  "source": {
+    "input_type": "youtube_url",
+    "youtube_url": "https://www.youtube.com/watch?v=gG1Lq2pIgGM",
+    "source_id": "youtube_gG1Lq2pIgGM",
+    "title": "Taumalolo BREAKS Cowboys ALL TIME RECORD! Hughes, Gray and Gutherson return | Round 10 Preview",
+    "channel": "Bloke In A Bar",
+    "notes": "Seeded from YouTube URL.",
+    "parent_case_id": "youtube_gG1Lq2pIgGM"
+  },
+  "media": {
+    "media_type": "video",
+    "media_uri": "media/youtube_gG1Lq2pIgGM/segments/youtube_gG1Lq2pIgGM_part_005.mp4",
+    "clip_start": 1500.015,
+    "clip_end": 1800.015,
+    "duration": 300.0,
+    "parent_media_uri": "media/youtube_gG1Lq2pIgGM.mp4",
+    "parent_segments_manifest": "media/youtube_gG1Lq2pIgGM/segments_manifest.json",
+    "segment_index": 5
+  },
+  "media_uri": "media/youtube_gG1Lq2pIgGM/segments/youtube_gG1Lq2pIgGM_part_005.mp4",
+  "known_people_set_id": "seed_podcast",
+  "media_type": "video",
+  "conditions": {
+    "speaker_count": 3,
+    "has_unknown_speakers": true,
+    "overlap_level": "unknown",
+    "face_visibility": "unknown",
+    "audio_quality": "unknown"
+  },
+  "speakers": [
+    {
+      "person_id": 1,
+      "display_name": "Denan Kemp",
+      "speaker_type": "known",
+      "aliases": [
+        "deepgram:1"
+      ],
+      "notes": "Machine diarized provisional speaker. Human review required before promotion."
+    },
+    {
+      "person_id": 2,
+      "display_name": "Sandor Earl",
+      "speaker_type": "known",
+      "aliases": [
+        "deepgram:0"
+      ],
+      "notes": "Machine diarized provisional speaker. Human review required before promotion."
+    },
+    {
+      "person_id": 3,
+      "display_name": "Matthew Buxton",
+      "speaker_type": "known",
+      "aliases": [],
+      "notes": "Human-identified speaker added during draft review."
+    }
+  ],
+  "segments": [
+    {
+      "segment_id": 1,
+      "start": 0.64,
+      "end": 1.92,
+      "text": "What was his role?",
+      "true_person_id": 2,
+      "true_display_name": "Sandor Earl",
+      "speaker_type": "known",
+      "confidence": 0.9433,
+      "evidence_candidates": [
+        {
+          "person_id": 2,
+          "display_name": "Sandor Earl",
+          "confidence": 0.9433,
+          "evidence_types": [
+            "diarized_transcription",
+            "seed_provider_speaker_map"
+          ],
+          "duration_seconds": 1.28,
+          "provenance": [
+            "deepgram:nova-3:deepgram_diarized_transcription",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_005.json"
+          ]
+        },
+        {
+          "person_id": 3,
+          "display_name": "Matthew Buxton",
+          "confidence": 0.0283,
+          "evidence_types": [
+            "diarized_transcription",
+            "seed_provider_speaker_map"
+          ],
+          "duration_seconds": 1.28,
+          "provenance": [
+            "deepgram:nova-3:deepgram_diarized_transcription",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_005.json"
+          ]
+        },
+        {
+          "person_id": 1,
+          "display_name": "Denan Kemp",
+          "confidence": 0.0275,
+          "evidence_types": [
+            "diarized_transcription",
+            "seed_provider_speaker_map"
+          ],
+          "duration_seconds": 1.28,
+          "provenance": [
+            "deepgram:nova-3:deepgram_diarized_transcription",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_005.json"
+          ]
+        }
+      ],
+      "notes": "Seed-proposed review segment; requires human confirmation. provider=deepgram_diarized_transcription provider_speaker=0 provider_utterance_id=1f9a2d32-5c9b-4bf6-819f-b21fd79ee596 provider_word_range=1-4 mapping_status=mapped"
+    },
+    {
+      "segment_id": 2,
+      "start": 2.16,
+      "end": 4.0,
+      "text": "He was the CEO of QRL,",
+      "true_person_id": 1,
+      "true_display_name": "Denan Kemp",
+      "speaker_type": "known",
+      "confidence": 0.8962,
+      "evidence_candidates": [
+        {
+          "person_id": 1,
+          "display_name": "Denan Kemp",
+          "confidence": 0.8962,
+          "evidence_types": [
+            "diarized_transcription",
+            "seed_provider_speaker_map"
+          ],
+          "duration_seconds": 1.84,
+          "provenance": [
+            "deepgram:nova-3:deepgram_diarized_transcription",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_005.json"
+          ]
+        },
+        {
+          "person_id": 2,
+          "display_name": "Sandor Earl",
+          "confidence": 0.0222,
+          "evidence_types": [
+            "diarized_transcription",
+            "seed_provider_speaker_map"
+          ],
+          "duration_seconds": 1.84,
+          "provenance": [
+            "deepgram:nova-3:deepgram_diarized_transcription",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_005.json"
+          ]
+        },
+        {
+          "person_id": 3,
+          "display_name": "Matthew Buxton",
+          "confidence": 0.0004,
+          "evidence_types": [
+            "diarized_transcription",
+            "seed_provider_speaker_map"
+          ],
+          "duration_seconds": 1.84,
+          "provenance": [
+            "deepgram:nova-3:deepgram_diarized_transcription",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_005.json"
+          ]
+        }
+      ],
+      "notes": "Seed-proposed review segment; requires human confirmation. provider=deepgram_diarized_transcription provider_speaker=1 provider_utterance_id=38c4c027-1f8a-4e80-8a33-dce26a125281 provider_word_range=1-6 mapping_status=mapped"
+    },
+    {
+      "segment_id": 3,
+      "start": 4.0,
+      "end": 4.64,
+      "text": "I think.",
+      "true_person_id": 1,
+      "true_display_name": "Denan Kemp",
+      "speaker_type": "known",
+      "confidence": 0.9747,
+      "evidence_candidates": [
+        {
+          "person_id": 1,
+          "display_name": "Denan Kemp",
+          "confidence": 0.9747,
+          "evidence_types": [
+            "diarized_transcription",
+            "seed_provider_speaker_map"
+          ],
+          "duration_seconds": 0.64,
+          "provenance": [
+            "deepgram:nova-3:deepgram_diarized_transcription",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_005.json"
+          ]
+        },
+        {
+          "person_id": 2,
+          "display_name": "Sandor Earl",
+          "confidence": 0.0242,
+          "evidence_types": [
+            "diarized_transcription",
+            "seed_provider_speaker_map"
+          ],
+          "duration_seconds": 0.64,
+          "provenance": [
+            "deepgram:nova-3:deepgram_diarized_transcription",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_005.json"
+          ]
+        },
+        {
+          "person_id": 3,
+          "display_name": "Matthew Buxton",
+          "confidence": 0.0004,
+          "evidence_types": [
+            "diarized_transcription",
+            "seed_provider_speaker_map"
+          ],
+          "duration_seconds": 0.64,
+          "provenance": [
+            "deepgram:nova-3:deepgram_diarized_transcription",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_005.json"
+          ]
+        }
+      ],
+      "notes": "Seed-proposed review segment; requires human confirmation. provider=deepgram_diarized_transcription provider_speaker=1 provider_utterance_id=6fa24045-c4c0-4494-b441-509b4bacc141 provider_word_range=1-2 mapping_status=mapped"
+    },
+    {
+      "segment_id": 4,
+      "start": 6.4,
+      "end": 8.32,
+      "text": "Mate, he's a mover and shaker as well.",
+      "true_person_id": 1,
+      "true_display_name": "Denan Kemp",
+      "speaker_type": "known",
+      "confidence": 0.9125,
+      "evidence_candidates": [
+        {
+          "person_id": 1,
+          "display_name": "Denan Kemp",
+          "confidence": 0.9125,
+          "evidence_types": [
+            "diarized_transcription",
+            "seed_provider_speaker_map"
+          ],
+          "duration_seconds": 1.92,
+          "provenance": [
+            "deepgram:nova-3:deepgram_diarized_transcription",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_005.json"
+          ]
+        },
+        {
+          "person_id": 2,
+          "display_name": "Sandor Earl",
+          "confidence": 0.0226,
+          "evidence_types": [
+            "diarized_transcription",
+            "seed_provider_speaker_map"
+          ],
+          "duration_seconds": 1.92,
+          "provenance": [
+            "deepgram:nova-3:deepgram_diarized_transcription",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_005.json"
+          ]
+        },
+        {
+          "person_id": 3,
+          "display_name": "Matthew Buxton",
+          "confidence": 0.0004,
+          "evidence_types": [
+            "diarized_transcription",
+            "seed_provider_speaker_map"
+          ],
+          "duration_seconds": 1.92,
+          "provenance": [
+            "deepgram:nova-3:deepgram_diarized_transcription",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_005.json"
+          ]
+        }
+      ],
+      "notes": "Seed-proposed review segment; requires human confirmation. provider=deepgram_diarized_transcription provider_speaker=1 provider_utterance_id=1135bf6a-fe7c-45cc-bf98-c3736c77b573 provider_word_range=1-8 mapping_status=mapped"
+    },
+    {
+      "segment_id": 5,
+      "start": 8.4,
+      "end": 9.759999,
+      "text": "Been b on him. A",
+      "true_person_id": 3,
+      "true_display_name": "Matthew Buxton",
+      "speaker_type": "known",
+      "confidence": 0.4169,
+      "evidence_candidates": [
+        {
+          "person_id": 3,
+          "display_name": "Matthew Buxton",
+          "confidence": 0.4169,
+          "evidence_types": [
+            "diarized_transcription",
+            "seed_provider_speaker_map"
+          ],
+          "duration_seconds": 1.359999,
+          "provenance": [
+            "deepgram:nova-3:deepgram_diarized_transcription",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_005.json"
+          ]
+        },
+        {
+          "person_id": 1,
+          "display_name": "Denan Kemp",
+          "confidence": 0.1158,
+          "evidence_types": [
+            "diarized_transcription",
+            "seed_provider_speaker_map"
+          ],
+          "duration_seconds": 1.359999,
+          "provenance": [
+            "deepgram:nova-3:deepgram_diarized_transcription",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_005.json"
+          ]
+        }
+      ],
+      "notes": "Seed-proposed review segment; requires human confirmation. provider=deepgram_diarized_transcription provider_speaker=2 provider_utterance_id=1135bf6a-fe7c-45cc-bf98-c3736c77b573 provider_word_range=9-13 mapping_status=mapped"
+    },
+    {
+      "segment_id": 6,
+      "start": 10.719999,
+      "end": 12.48,
+      "text": "few weeks just before Origin as well.",
+      "true_person_id": 3,
+      "true_display_name": "Matthew Buxton",
+      "speaker_type": "known",
+      "confidence": 0.7014,
+      "evidence_candidates": [
+        {
+          "person_id": 3,
+          "display_name": "Matthew Buxton",
+          "confidence": 0.7014,
+          "evidence_types": [
+            "diarized_transcription",
+            "seed_provider_speaker_map"
+          ],
+          "duration_seconds": 1.760001,
+          "provenance": [
+            "deepgram:nova-3:deepgram_diarized_transcription",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_005.json"
+          ]
+        },
+        {
+          "person_id": 1,
+          "display_name": "Denan Kemp",
+          "confidence": 0.1949,
+          "evidence_types": [
+            "diarized_transcription",
+            "seed_provider_speaker_map"
+          ],
+          "duration_seconds": 1.760001,
+          "provenance": [
+            "deepgram:nova-3:deepgram_diarized_transcription",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_005.json"
+          ]
+        }
+      ],
+      "notes": "Seed-proposed review segment; requires human confirmation. provider=deepgram_diarized_transcription provider_speaker=2 provider_utterance_id=b4b5143f-0c57-41f0-bce4-a9ecad172a56 provider_word_range=1-7 mapping_status=mapped"
+    },
+    {
+      "segment_id": 7,
+      "start": 14.965,
+      "end": 17.445,
+      "text": "Oh, no. He's expected to stay there till the July.",
+      "true_person_id": 3,
+      "true_display_name": "Matthew Buxton",
+      "speaker_type": "known",
+      "confidence": 0.7537,
+      "evidence_candidates": [
+        {
+          "person_id": 3,
+          "display_name": "Matthew Buxton",
+          "confidence": 0.7537,
+          "evidence_types": [
+            "diarized_transcription",
+            "seed_provider_speaker_map"
+          ],
+          "duration_seconds": 2.48,
+          "provenance": [
+            "deepgram:nova-3:deepgram_diarized_transcription",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_005.json"
+          ]
+        },
+        {
+          "person_id": 1,
+          "display_name": "Denan Kemp",
+          "confidence": 0.2094,
+          "evidence_types": [
+            "diarized_transcription",
+            "seed_provider_speaker_map"
+          ],
+          "duration_seconds": 2.48,
+          "provenance": [
+            "deepgram:nova-3:deepgram_diarized_transcription",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_005.json"
+          ]
+        }
+      ],
+      "notes": "Seed-proposed review segment; requires human confirmation. provider=deepgram_diarized_transcription provider_speaker=2 provider_utterance_id=26fa3d6c-c5f7-42a0-a0ba-f7d5142416ec provider_word_range=1-10 mapping_status=mapped"
+    },
+    {
+      "segment_id": 8,
+      "start": 18.725,
+      "end": 21.445,
+      "text": "Powerbroker has been left stunned by the departure.",
+      "true_person_id": 3,
+      "true_display_name": "Matthew Buxton",
+      "speaker_type": "known",
+      "confidence": 0.6873,
+      "evidence_candidates": [
+        {
+          "person_id": 3,
+          "display_name": "Matthew Buxton",
+          "confidence": 0.6873,
+          "evidence_types": [
+            "diarized_transcription",
+            "seed_provider_speaker_map"
+          ],
+          "duration_seconds": 2.72,
+          "provenance": [
+            "deepgram:nova-3:deepgram_diarized_transcription",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_005.json"
+          ]
+        },
+        {
+          "person_id": 1,
+          "display_name": "Denan Kemp",
+          "confidence": 0.1909,
+          "evidence_types": [
+            "diarized_transcription",
+            "seed_provider_speaker_map"
+          ],
+          "duration_seconds": 2.72,
+          "provenance": [
+            "deepgram:nova-3:deepgram_diarized_transcription",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_005.json"
+          ]
+        }
+      ],
+      "notes": "Seed-proposed review segment; requires human confirmation. provider=deepgram_diarized_transcription provider_speaker=2 provider_utterance_id=700fdecd-0616-4f78-910d-eec25b3441d6 provider_word_range=1-8 mapping_status=mapped"
+    },
+    {
+      "segment_id": 9,
+      "start": 22.005,
+      "end": 24.165,
+      "text": "Haven't been really given a reason.",
+      "true_person_id": 3,
+      "true_display_name": "Matthew Buxton",
+      "speaker_type": "known",
+      "confidence": 0.7745,
+      "evidence_candidates": [
+        {
+          "person_id": 3,
+          "display_name": "Matthew Buxton",
+          "confidence": 0.7745,
+          "evidence_types": [
+            "diarized_transcription",
+            "seed_provider_speaker_map"
+          ],
+          "duration_seconds": 2.16,
+          "provenance": [
+            "deepgram:nova-3:deepgram_diarized_transcription",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_005.json"
+          ]
+        },
+        {
+          "person_id": 1,
+          "display_name": "Denan Kemp",
+          "confidence": 0.2152,
+          "evidence_types": [
+            "diarized_transcription",
+            "seed_provider_speaker_map"
+          ],
+          "duration_seconds": 2.16,
+          "provenance": [
+            "deepgram:nova-3:deepgram_diarized_transcription",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_005.json"
+          ]
+        }
+      ],
+      "notes": "Seed-proposed review segment; requires human confirmation. provider=deepgram_diarized_transcription provider_speaker=2 provider_utterance_id=cbd62688-5d09-41cd-85c7-bfb74adb5216 provider_word_range=1-6 mapping_status=mapped"
+    },
+    {
+      "segment_id": 10,
+      "start": 25.045,
+      "end": 25.685,
+      "text": "So",
+      "true_person_id": 3,
+      "true_display_name": "Matthew Buxton",
+      "speaker_type": "known",
+      "confidence": 0.7589,
+      "evidence_candidates": [
+        {
+          "person_id": 3,
+          "display_name": "Matthew Buxton",
+          "confidence": 0.7589,
+          "evidence_types": [
+            "diarized_transcription",
+            "seed_provider_speaker_map"
+          ],
+          "duration_seconds": 0.64,
+          "provenance": [
+            "deepgram:nova-3:deepgram_diarized_transcription",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_005.json"
+          ]
+        },
+        {
+          "person_id": 1,
+          "display_name": "Denan Kemp",
+          "confidence": 0.2108,
+          "evidence_types": [
+            "diarized_transcription",
+            "seed_provider_speaker_map"
+          ],
+          "duration_seconds": 0.64,
+          "provenance": [
+            "deepgram:nova-3:deepgram_diarized_transcription",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_005.json"
+          ]
+        }
+      ],
+      "notes": "Seed-proposed review segment; requires human confirmation. provider=deepgram_diarized_transcription provider_speaker=2 provider_utterance_id=9e4c0154-9b4f-4e38-8b8a-433a33b1c786 provider_word_range=1-1 mapping_status=mapped"
+    },
+    {
+      "segment_id": 11,
+      "start": 26.244999,
+      "end": 29.605,
+      "text": "oh, speculation is rife that I can could take up a role with the Perth Bears.",
+      "true_person_id": 3,
+      "true_display_name": "Matthew Buxton",
+      "speaker_type": "known",
+      "confidence": 0.7189,
+      "evidence_candidates": [
+        {
+          "person_id": 3,
+          "display_name": "Matthew Buxton",
+          "confidence": 0.7189,
+          "evidence_types": [
+            "diarized_transcription",
+            "seed_provider_speaker_map"
+          ],
+          "duration_seconds": 3.360001,
+          "provenance": [
+            "deepgram:nova-3:deepgram_diarized_transcription",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_005.json"
+          ]
+        },
+        {
+          "person_id": 1,
+          "display_name": "Denan Kemp",
+          "confidence": 0.1997,
+          "evidence_types": [
+            "diarized_transcription",
+            "seed_provider_speaker_map"
+          ],
+          "duration_seconds": 3.360001,
+          "provenance": [
+            "deepgram:nova-3:deepgram_diarized_transcription",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_005.json"
+          ]
+        }
+      ],
+      "notes": "Seed-proposed review segment; requires human confirmation. provider=deepgram_diarized_transcription provider_speaker=2 provider_utterance_id=0c3fdea3-7e95-48e0-aaa1-10ed12c6ca70 provider_word_range=1-16 mapping_status=mapped"
+    },
+    {
+      "segment_id": 12,
+      "start": 31.04,
+      "end": 35.12,
+      "text": "Oh, that would make sense. That that would make sense. He's one of the smartest minds in rugby league.",
+      "true_person_id": 1,
+      "true_display_name": "Denan Kemp",
+      "speaker_type": "known",
+      "confidence": 0.8531,
+      "evidence_candidates": [
+        {
+          "person_id": 1,
+          "display_name": "Denan Kemp",
+          "confidence": 0.8531,
+          "evidence_types": [
+            "diarized_transcription",
+            "seed_provider_speaker_map"
+          ],
+          "duration_seconds": 4.08,
+          "provenance": [
+            "deepgram:nova-3:deepgram_diarized_transcription",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_005.json"
+          ]
+        },
+        {
+          "person_id": 2,
+          "display_name": "Sandor Earl",
+          "confidence": 0.0212,
+          "evidence_types": [
+            "diarized_transcription",
+            "seed_provider_speaker_map"
+          ],
+          "duration_seconds": 4.08,
+          "provenance": [
+            "deepgram:nova-3:deepgram_diarized_transcription",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_005.json"
+          ]
+        },
+        {
+          "person_id": 3,
+          "display_name": "Matthew Buxton",
+          "confidence": 0.0003,
+          "evidence_types": [
+            "diarized_transcription",
+            "seed_provider_speaker_map"
+          ],
+          "duration_seconds": 4.08,
+          "provenance": [
+            "deepgram:nova-3:deepgram_diarized_transcription",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_005.json"
+          ]
+        }
+      ],
+      "notes": "Seed-proposed review segment; requires human confirmation. provider=deepgram_diarized_transcription provider_speaker=1 provider_utterance_id=03fef5d7-daa8-4994-9c77-909bfc287f60 provider_word_range=1-19 mapping_status=mapped"
+    },
+    {
+      "segment_id": 13,
+      "start": 35.12,
+      "end": 41.52,
+      "text": "Although, I can That's just, yeah, that's just what someone said. It says, well placed sources say I can could leave the rugby league industry altogether. So not not too sure right now.",
+      "true_person_id": 3,
+      "true_display_name": "Matthew Buxton",
+      "speaker_type": "known",
+      "confidence": 0.7065,
+      "evidence_candidates": [
+        {
+          "person_id": 3,
+          "display_name": "Matthew Buxton",
+          "confidence": 0.7065,
+          "evidence_types": [
+            "diarized_transcription",
+            "seed_provider_speaker_map"
+          ],
+          "duration_seconds": 6.4,
+          "provenance": [
+            "deepgram:nova-3:deepgram_diarized_transcription",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_005.json"
+          ]
+        },
+        {
+          "person_id": 1,
+          "display_name": "Denan Kemp",
+          "confidence": 0.1963,
+          "evidence_types": [
+            "diarized_transcription",
+            "seed_provider_speaker_map"
+          ],
+          "duration_seconds": 6.4,
+          "provenance": [
+            "deepgram:nova-3:deepgram_diarized_transcription",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_005.json"
+          ]
+        }
+      ],
+      "notes": "Seed-proposed review segment; requires human confirmation. provider=deepgram_diarized_transcription provider_speaker=2 provider_utterance_id=03fef5d7-daa8-4994-9c77-909bfc287f60 provider_word_range=20-52 mapping_status=mapped"
+    },
+    {
+      "segment_id": 14,
+      "start": 41.52,
+      "end": 53.895,
+      "text": "Mate, if I'm if I'm a rugby league club, I'll calling him immediately. 100%. He's one of the smartest minds in rugby league. Jeez. I'd I'd wonder why with QRL, like, what what happened there? I'd I'd love to know what happened there, so I guess we'll wait and see. Fine.",
+      "true_person_id": 1,
+      "true_display_name": "Denan Kemp",
+      "speaker_type": "known",
+      "confidence": 0.9336,
+      "evidence_candidates": [
+        {
+          "person_id": 1,
+          "display_name": "Denan Kemp",
+          "confidence": 0.9336,
+          "evidence_types": [
+            "diarized_transcription",
+            "seed_provider_speaker_map"
+          ],
+          "duration_seconds": 12.375,
+          "provenance": [
+            "deepgram:nova-3:deepgram_diarized_transcription",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_005.json"
+          ]
+        },
+        {
+          "person_id": 2,
+          "display_name": "Sandor Earl",
+          "confidence": 0.0232,
+          "evidence_types": [
+            "diarized_transcription",
+            "seed_provider_speaker_map"
+          ],
+          "duration_seconds": 12.375,
+          "provenance": [
+            "deepgram:nova-3:deepgram_diarized_transcription",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_005.json"
+          ]
+        },
+        {
+          "person_id": 3,
+          "display_name": "Matthew Buxton",
+          "confidence": 0.0004,
+          "evidence_types": [
+            "diarized_transcription",
+            "seed_provider_speaker_map"
+          ],
+          "duration_seconds": 12.375,
+          "provenance": [
+            "deepgram:nova-3:deepgram_diarized_transcription",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_005.json"
+          ]
+        }
+      ],
+      "notes": "Seed-proposed review segment; requires human confirmation. provider=deepgram_diarized_transcription provider_speaker=1 provider_utterance_id=03fef5d7-daa8-4994-9c77-909bfc287f60 provider_word_range=53-103 mapping_status=mapped"
+    },
+    {
+      "segment_id": 15,
+      "start": 53.895,
+      "end": 59.46,
+      "text": "I it does feel like like, if especially if he's gonna see out the tenure there for the this last origin period, like,",
+      "true_person_id": 2,
+      "true_display_name": "Sandor Earl",
+      "speaker_type": "known",
+      "confidence": 0.858,
+      "evidence_candidates": [
+        {
+          "person_id": 2,
+          "display_name": "Sandor Earl",
+          "confidence": 0.858,
+          "evidence_types": [
+            "diarized_transcription",
+            "seed_provider_speaker_map"
+          ],
+          "duration_seconds": 5.565,
+          "provenance": [
+            "deepgram:nova-3:deepgram_diarized_transcription",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_005.json"
+          ]
+        },
+        {
+          "person_id": 3,
+          "display_name": "Matthew Buxton",
+          "confidence": 0.0257,
+          "evidence_types": [
+            "diarized_transcription",
+            "seed_provider_speaker_map"
+          ],
+          "duration_seconds": 5.565,
+          "provenance": [
+            "deepgram:nova-3:deepgram_diarized_transcription",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_005.json"
+          ]
+        },
+        {
+          "person_id": 1,
+          "display_name": "Denan Kemp",
+          "confidence": 0.025,
+          "evidence_types": [
+            "diarized_transcription",
+            "seed_provider_speaker_map"
+          ],
+          "duration_seconds": 5.565,
+          "provenance": [
+            "deepgram:nova-3:deepgram_diarized_transcription",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_005.json"
+          ]
+        }
+      ],
+      "notes": "Seed-proposed review segment; requires human confirmation. provider=deepgram_diarized_transcription provider_speaker=0 provider_utterance_id=03fef5d7-daa8-4994-9c77-909bfc287f60 provider_word_range=104-126 mapping_status=mapped"
+    },
+    {
+      "segment_id": 16,
+      "start": 59.859997,
+      "end": 62.019997,
+      "text": "if he's got an opportunity like that, then it makes sense.",
+      "true_person_id": 2,
+      "true_display_name": "Sandor Earl",
+      "speaker_type": "known",
+      "confidence": 0.8966,
+      "evidence_candidates": [
+        {
+          "person_id": 2,
+          "display_name": "Sandor Earl",
+          "confidence": 0.8966,
+          "evidence_types": [
+            "diarized_transcription",
+            "seed_provider_speaker_map"
+          ],
+          "duration_seconds": 2.16,
+          "provenance": [
+            "deepgram:nova-3:deepgram_diarized_transcription",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_005.json"
+          ]
+        },
+        {
+          "person_id": 3,
+          "display_name": "Matthew Buxton",
+          "confidence": 0.0269,
+          "evidence_types": [
+            "diarized_transcription",
+            "seed_provider_speaker_map"
+          ],
+          "duration_seconds": 2.16,
+          "provenance": [
+            "deepgram:nova-3:deepgram_diarized_transcription",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_005.json"
+          ]
+        },
+        {
+          "person_id": 1,
+          "display_name": "Denan Kemp",
+          "confidence": 0.0261,
+          "evidence_types": [
+            "diarized_transcription",
+            "seed_provider_speaker_map"
+          ],
+          "duration_seconds": 2.16,
+          "provenance": [
+            "deepgram:nova-3:deepgram_diarized_transcription",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_005.json"
+          ]
+        }
+      ],
+      "notes": "Seed-proposed review segment; requires human confirmation. provider=deepgram_diarized_transcription provider_speaker=0 provider_utterance_id=b2fca48e-8921-4e30-a23d-9fb9ab9dd540 provider_word_range=1-11 mapping_status=mapped"
+    },
+    {
+      "segment_id": 17,
+      "start": 62.019997,
+      "end": 66.5,
+      "text": "And maybe the word quit is probably wrong. It might be just like he's not renewing his contract or something like that. Hope he",
+      "true_person_id": 1,
+      "true_display_name": "Denan Kemp",
+      "speaker_type": "known",
+      "confidence": 0.9321,
+      "evidence_candidates": [
+        {
+          "person_id": 1,
+          "display_name": "Denan Kemp",
+          "confidence": 0.9321,
+          "evidence_types": [
+            "diarized_transcription",
+            "seed_provider_speaker_map"
+          ],
+          "duration_seconds": 4.480003,
+          "provenance": [
+            "deepgram:nova-3:deepgram_diarized_transcription",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_005.json"
+          ]
+        },
+        {
+          "person_id": 2,
+          "display_name": "Sandor Earl",
+          "confidence": 0.0231,
+          "evidence_types": [
+            "diarized_transcription",
+            "seed_provider_speaker_map"
+          ],
+          "duration_seconds": 4.480003,
+          "provenance": [
+            "deepgram:nova-3:deepgram_diarized_transcription",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_005.json"
+          ]
+        },
+        {
+          "person_id": 3,
+          "display_name": "Matthew Buxton",
+          "confidence": 0.0004,
+          "evidence_types": [
+            "diarized_transcription",
+            "seed_provider_speaker_map"
+          ],
+          "duration_seconds": 4.480003,
+          "provenance": [
+            "deepgram:nova-3:deepgram_diarized_transcription",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_005.json"
+          ]
+        }
+      ],
+      "notes": "Seed-proposed review segment; requires human confirmation. provider=deepgram_diarized_transcription provider_speaker=1 provider_utterance_id=b2fca48e-8921-4e30-a23d-9fb9ab9dd540 provider_word_range=12-35 mapping_status=mapped"
+    },
+    {
+      "segment_id": 18,
+      "start": 66.5,
+      "end": 69.78,
+      "text": "goes to Perth because he played for the Bears for four years. So there's there is a link there.",
+      "true_person_id": 3,
+      "true_display_name": "Matthew Buxton",
+      "speaker_type": "known",
+      "confidence": 0.7431,
+      "evidence_candidates": [
+        {
+          "person_id": 3,
+          "display_name": "Matthew Buxton",
+          "confidence": 0.7431,
+          "evidence_types": [
+            "diarized_transcription",
+            "seed_provider_speaker_map"
+          ],
+          "duration_seconds": 3.28,
+          "provenance": [
+            "deepgram:nova-3:deepgram_diarized_transcription",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_005.json"
+          ]
+        },
+        {
+          "person_id": 1,
+          "display_name": "Denan Kemp",
+          "confidence": 0.2064,
+          "evidence_types": [
+            "diarized_transcription",
+            "seed_provider_speaker_map"
+          ],
+          "duration_seconds": 3.28,
+          "provenance": [
+            "deepgram:nova-3:deepgram_diarized_transcription",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_005.json"
+          ]
+        }
+      ],
+      "notes": "Seed-proposed review segment; requires human confirmation. provider=deepgram_diarized_transcription provider_speaker=2 provider_utterance_id=b2fca48e-8921-4e30-a23d-9fb9ab9dd540 provider_word_range=36-54 mapping_status=mapped"
+    },
+    {
+      "segment_id": 19,
+      "start": 69.78,
+      "end": 70.899994,
+      "text": "That'd be mad.",
+      "true_person_id": 2,
+      "true_display_name": "Sandor Earl",
+      "speaker_type": "known",
+      "confidence": 0.8533,
+      "evidence_candidates": [
+        {
+          "person_id": 2,
+          "display_name": "Sandor Earl",
+          "confidence": 0.8533,
+          "evidence_types": [
+            "diarized_transcription",
+            "seed_provider_speaker_map"
+          ],
+          "duration_seconds": 1.119994,
+          "provenance": [
+            "deepgram:nova-3:deepgram_diarized_transcription",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_005.json"
+          ]
+        },
+        {
+          "person_id": 3,
+          "display_name": "Matthew Buxton",
+          "confidence": 0.0256,
+          "evidence_types": [
+            "diarized_transcription",
+            "seed_provider_speaker_map"
+          ],
+          "duration_seconds": 1.119994,
+          "provenance": [
+            "deepgram:nova-3:deepgram_diarized_transcription",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_005.json"
+          ]
+        },
+        {
+          "person_id": 1,
+          "display_name": "Denan Kemp",
+          "confidence": 0.0249,
+          "evidence_types": [
+            "diarized_transcription",
+            "seed_provider_speaker_map"
+          ],
+          "duration_seconds": 1.119994,
+          "provenance": [
+            "deepgram:nova-3:deepgram_diarized_transcription",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_005.json"
+          ]
+        }
+      ],
+      "notes": "Seed-proposed review segment; requires human confirmation. provider=deepgram_diarized_transcription provider_speaker=0 provider_utterance_id=b2fca48e-8921-4e30-a23d-9fb9ab9dd540 provider_word_range=55-57 mapping_status=mapped"
+    },
+    {
+      "segment_id": 20,
+      "start": 70.899994,
+      "end": 72.065,
+      "text": "Mate, they'd I'd have",
+      "true_person_id": 3,
+      "true_display_name": "Matthew Buxton",
+      "speaker_type": "known",
+      "confidence": 0.7198,
+      "evidence_candidates": [
+        {
+          "person_id": 3,
+          "display_name": "Matthew Buxton",
+          "confidence": 0.7198,
+          "evidence_types": [
+            "diarized_transcription",
+            "seed_provider_speaker_map"
+          ],
+          "duration_seconds": 1.165006,
+          "provenance": [
+            "deepgram:nova-3:deepgram_diarized_transcription",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_005.json"
+          ]
+        },
+        {
+          "person_id": 1,
+          "display_name": "Denan Kemp",
+          "confidence": 0.1999,
+          "evidence_types": [
+            "diarized_transcription",
+            "seed_provider_speaker_map"
+          ],
+          "duration_seconds": 1.165006,
+          "provenance": [
+            "deepgram:nova-3:deepgram_diarized_transcription",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_005.json"
+          ]
+        }
+      ],
+      "notes": "Seed-proposed review segment; requires human confirmation. provider=deepgram_diarized_transcription provider_speaker=2 provider_utterance_id=b2fca48e-8921-4e30-a23d-9fb9ab9dd540 provider_word_range=58-61 mapping_status=mapped"
+    },
+    {
+      "segment_id": 21,
+      "start": 72.065,
+      "end": 75.265,
+      "text": "a lot of hope for Perth if he was there. He's gun. He's a gun.",
+      "true_person_id": 1,
+      "true_display_name": "Denan Kemp",
+      "speaker_type": "known",
+      "confidence": 0.9506,
+      "evidence_candidates": [
+        {
+          "person_id": 1,
+          "display_name": "Denan Kemp",
+          "confidence": 0.9506,
+          "evidence_types": [
+            "diarized_transcription",
+            "seed_provider_speaker_map"
+          ],
+          "duration_seconds": 3.2,
+          "provenance": [
+            "deepgram:nova-3:deepgram_diarized_transcription",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_005.json"
+          ]
+        },
+        {
+          "person_id": 2,
+          "display_name": "Sandor Earl",
+          "confidence": 0.0236,
+          "evidence_types": [
+            "diarized_transcription",
+            "seed_provider_speaker_map"
+          ],
+          "duration_seconds": 3.2,
+          "provenance": [
+            "deepgram:nova-3:deepgram_diarized_transcription",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_005.json"
+          ]
+        },
+        {
+          "person_id": 3,
+          "display_name": "Matthew Buxton",
+          "confidence": 0.0004,
+          "evidence_types": [
+            "diarized_transcription",
+            "seed_provider_speaker_map"
+          ],
+          "duration_seconds": 3.2,
+          "provenance": [
+            "deepgram:nova-3:deepgram_diarized_transcription",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_005.json"
+          ]
+        }
+      ],
+      "notes": "Seed-proposed review segment; requires human confirmation. provider=deepgram_diarized_transcription provider_speaker=1 provider_utterance_id=b2fca48e-8921-4e30-a23d-9fb9ab9dd540 provider_word_range=62-76 mapping_status=mapped"
+    },
+    {
+      "segment_id": 22,
+      "start": 76.465,
+      "end": 82.305,
+      "text": "The Queensland back line. Okay. Let's have a talk let's have a talk about the Queensland back line. So we got Hammer the Hammer.",
+      "true_person_id": 1,
+      "true_display_name": "Denan Kemp",
+      "speaker_type": "known",
+      "confidence": 0.9202,
+      "evidence_candidates": [
+        {
+          "person_id": 1,
+          "display_name": "Denan Kemp",
+          "confidence": 0.9202,
+          "evidence_types": [
+            "diarized_transcription",
+            "seed_provider_speaker_map"
+          ],
+          "duration_seconds": 5.84,
+          "provenance": [
+            "deepgram:nova-3:deepgram_diarized_transcription",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_005.json"
+          ]
+        },
+        {
+          "person_id": 2,
+          "display_name": "Sandor Earl",
+          "confidence": 0.0228,
+          "evidence_types": [
+            "diarized_transcription",
+            "seed_provider_speaker_map"
+          ],
+          "duration_seconds": 5.84,
+          "provenance": [
+            "deepgram:nova-3:deepgram_diarized_transcription",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_005.json"
+          ]
+        },
+        {
+          "person_id": 3,
+          "display_name": "Matthew Buxton",
+          "confidence": 0.0004,
+          "evidence_types": [
+            "diarized_transcription",
+            "seed_provider_speaker_map"
+          ],
+          "duration_seconds": 5.84,
+          "provenance": [
+            "deepgram:nova-3:deepgram_diarized_transcription",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_005.json"
+          ]
+        }
+      ],
+      "notes": "Seed-proposed review segment; requires human confirmation. provider=deepgram_diarized_transcription provider_speaker=1 provider_utterance_id=6c7d3f54-e223-4856-ac5b-b378c11e947e provider_word_range=1-24 mapping_status=mapped"
+    },
+    {
+      "segment_id": 23,
+      "start": 83.185,
+      "end": 86.065,
+      "text": "He you know, obviously, he was won last year, played a bit of center. We've got",
+      "true_person_id": 1,
+      "true_display_name": "Denan Kemp",
+      "speaker_type": "known",
+      "confidence": 0.9102,
+      "evidence_candidates": [
+        {
+          "person_id": 1,
+          "display_name": "Denan Kemp",
+          "confidence": 0.9102,
+          "evidence_types": [
+            "diarized_transcription",
+            "seed_provider_speaker_map"
+          ],
+          "duration_seconds": 2.88,
+          "provenance": [
+            "deepgram:nova-3:deepgram_diarized_transcription",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_005.json"
+          ]
+        },
+        {
+          "person_id": 2,
+          "display_name": "Sandor Earl",
+          "confidence": 0.0226,
+          "evidence_types": [
+            "diarized_transcription",
+            "seed_provider_speaker_map"
+          ],
+          "duration_seconds": 2.88,
+          "provenance": [
+            "deepgram:nova-3:deepgram_diarized_transcription",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_005.json"
+          ]
+        },
+        {
+          "person_id": 3,
+          "display_name": "Matthew Buxton",
+          "confidence": 0.0004,
+          "evidence_types": [
+            "diarized_transcription",
+            "seed_provider_speaker_map"
+          ],
+          "duration_seconds": 2.88,
+          "provenance": [
+            "deepgram:nova-3:deepgram_diarized_transcription",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_005.json"
+          ]
+        }
+      ],
+      "notes": "Seed-proposed review segment; requires human confirmation. provider=deepgram_diarized_transcription provider_speaker=1 provider_utterance_id=9bc245b9-9fad-4a3f-bd7f-4fa6ef44a029 provider_word_range=1-16 mapping_status=mapped"
+    },
+    {
+      "segment_id": 24,
+      "start": 86.9,
+      "end": 88.979996,
+      "text": "oh, sorry. We've got some quotes for him.",
+      "true_person_id": 1,
+      "true_display_name": "Denan Kemp",
+      "speaker_type": "known",
+      "confidence": 0.8966,
+      "evidence_candidates": [
+        {
+          "person_id": 1,
+          "display_name": "Denan Kemp",
+          "confidence": 0.8966,
+          "evidence_types": [
+            "diarized_transcription",
+            "seed_provider_speaker_map"
+          ],
+          "duration_seconds": 2.079996,
+          "provenance": [
+            "deepgram:nova-3:deepgram_diarized_transcription",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_005.json"
+          ]
+        },
+        {
+          "person_id": 2,
+          "display_name": "Sandor Earl",
+          "confidence": 0.0222,
+          "evidence_types": [
+            "diarized_transcription",
+            "seed_provider_speaker_map"
+          ],
+          "duration_seconds": 2.079996,
+          "provenance": [
+            "deepgram:nova-3:deepgram_diarized_transcription",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_005.json"
+          ]
+        },
+        {
+          "person_id": 3,
+          "display_name": "Matthew Buxton",
+          "confidence": 0.0004,
+          "evidence_types": [
+            "diarized_transcription",
+            "seed_provider_speaker_map"
+          ],
+          "duration_seconds": 2.079996,
+          "provenance": [
+            "deepgram:nova-3:deepgram_diarized_transcription",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_005.json"
+          ]
+        }
+      ],
+      "notes": "Seed-proposed review segment; requires human confirmation. provider=deepgram_diarized_transcription provider_speaker=1 provider_utterance_id=38c899c7-a15c-4604-9469-c23b710b4aa2 provider_word_range=1-8 mapping_status=mapped"
+    },
+    {
+      "segment_id": 25,
+      "start": 89.38,
+      "end": 106.575,
+      "text": "Hopefully, I do get that call. This is from Hammer, and make the squad. It's wherever Billy wants me to play. I played all three positions last year, and wherever he needs me, I can do a job for the team. My preference would be center. I've played most of my games at level at center, and I know what it takes to be a center at that level. I'm not cutting out counting out wing. I've done the job there before my preference would be center.",
+      "true_person_id": 1,
+      "true_display_name": "Denan Kemp",
+      "speaker_type": "known",
+      "confidence": 0.9543,
+      "evidence_candidates": [
+        {
+          "person_id": 1,
+          "display_name": "Denan Kemp",
+          "confidence": 0.9543,
+          "evidence_types": [
+            "diarized_transcription",
+            "seed_provider_speaker_map"
+          ],
+          "duration_seconds": 17.195,
+          "provenance": [
+            "deepgram:nova-3:deepgram_diarized_transcription",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_005.json"
+          ]
+        },
+        {
+          "person_id": 2,
+          "display_name": "Sandor Earl",
+          "confidence": 0.0237,
+          "evidence_types": [
+            "diarized_transcription",
+            "seed_provider_speaker_map"
+          ],
+          "duration_seconds": 17.195,
+          "provenance": [
+            "deepgram:nova-3:deepgram_diarized_transcription",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_005.json"
+          ]
+        },
+        {
+          "person_id": 3,
+          "display_name": "Matthew Buxton",
+          "confidence": 0.0004,
+          "evidence_types": [
+            "diarized_transcription",
+            "seed_provider_speaker_map"
+          ],
+          "duration_seconds": 17.195,
+          "provenance": [
+            "deepgram:nova-3:deepgram_diarized_transcription",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_005.json"
+          ]
+        }
+      ],
+      "notes": "Seed-proposed review segment; requires human confirmation. provider=deepgram_diarized_transcription provider_speaker=1 provider_utterance_id=9ef4d73f-0340-4041-b7a7-f2d76a589925 provider_word_range=1-87 mapping_status=mapped"
+    },
+    {
+      "segment_id": 26,
+      "start": 106.814995,
+      "end": 108.015,
+      "text": "Was he in the wing last year?",
+      "true_person_id": 2,
+      "true_display_name": "Sandor Earl",
+      "speaker_type": "known",
+      "confidence": 0.8081,
+      "evidence_candidates": [
+        {
+          "person_id": 2,
+          "display_name": "Sandor Earl",
+          "confidence": 0.8081,
+          "evidence_types": [
+            "diarized_transcription",
+            "seed_provider_speaker_map"
+          ],
+          "duration_seconds": 1.200005,
+          "provenance": [
+            "deepgram:nova-3:deepgram_diarized_transcription",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_005.json"
+          ]
+        },
+        {
+          "person_id": 3,
+          "display_name": "Matthew Buxton",
+          "confidence": 0.0242,
+          "evidence_types": [
+            "diarized_transcription",
+            "seed_provider_speaker_map"
+          ],
+          "duration_seconds": 1.200005,
+          "provenance": [
+            "deepgram:nova-3:deepgram_diarized_transcription",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_005.json"
+          ]
+        },
+        {
+          "person_id": 1,
+          "display_name": "Denan Kemp",
+          "confidence": 0.0235,
+          "evidence_types": [
+            "diarized_transcription",
+            "seed_provider_speaker_map"
+          ],
+          "duration_seconds": 1.200005,
+          "provenance": [
+            "deepgram:nova-3:deepgram_diarized_transcription",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_005.json"
+          ]
+        }
+      ],
+      "notes": "Seed-proposed review segment; requires human confirmation. provider=deepgram_diarized_transcription provider_speaker=0 provider_utterance_id=9ef4d73f-0340-4041-b7a7-f2d76a589925 provider_word_range=88-94 mapping_status=mapped"
+    },
+    {
+      "segment_id": 27,
+      "start": 108.09499,
+      "end": 110.73499,
+      "text": "He did all three, like, so wing, center, and fullback.",
+      "true_person_id": 1,
+      "true_display_name": "Denan Kemp",
+      "speaker_type": "known",
+      "confidence": 0.8227,
+      "evidence_candidates": [
+        {
+          "person_id": 1,
+          "display_name": "Denan Kemp",
+          "confidence": 0.8227,
+          "evidence_types": [
+            "diarized_transcription",
+            "seed_provider_speaker_map"
+          ],
+          "duration_seconds": 2.64,
+          "provenance": [
+            "deepgram:nova-3:deepgram_diarized_transcription",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_005.json"
+          ]
+        },
+        {
+          "person_id": 2,
+          "display_name": "Sandor Earl",
+          "confidence": 0.0204,
+          "evidence_types": [
+            "diarized_transcription",
+            "seed_provider_speaker_map"
+          ],
+          "duration_seconds": 2.64,
+          "provenance": [
+            "deepgram:nova-3:deepgram_diarized_transcription",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_005.json"
+          ]
+        },
+        {
+          "person_id": 3,
+          "display_name": "Matthew Buxton",
+          "confidence": 0.0003,
+          "evidence_types": [
+            "diarized_transcription",
+            "seed_provider_speaker_map"
+          ],
+          "duration_seconds": 2.64,
+          "provenance": [
+            "deepgram:nova-3:deepgram_diarized_transcription",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_005.json"
+          ]
+        }
+      ],
+      "notes": "Seed-proposed review segment; requires human confirmation. provider=deepgram_diarized_transcription provider_speaker=1 provider_utterance_id=9ef4d73f-0340-4041-b7a7-f2d76a589925 provider_word_range=95-104 mapping_status=mapped"
+    },
+    {
+      "segment_id": 28,
+      "start": 110.975,
+      "end": 111.774994,
+      "text": "He's a gun center.",
+      "true_person_id": 1,
+      "true_display_name": "Denan Kemp",
+      "speaker_type": "known",
+      "confidence": 0.9545,
+      "evidence_candidates": [
+        {
+          "person_id": 1,
+          "display_name": "Denan Kemp",
+          "confidence": 0.9545,
+          "evidence_types": [
+            "diarized_transcription",
+            "seed_provider_speaker_map"
+          ],
+          "duration_seconds": 0.799994,
+          "provenance": [
+            "deepgram:nova-3:deepgram_diarized_transcription",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_005.json"
+          ]
+        },
+        {
+          "person_id": 2,
+          "display_name": "Sandor Earl",
+          "confidence": 0.0237,
+          "evidence_types": [
+            "diarized_transcription",
+            "seed_provider_speaker_map"
+          ],
+          "duration_seconds": 0.799994,
+          "provenance": [
+            "deepgram:nova-3:deepgram_diarized_transcription",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_005.json"
+          ]
+        },
+        {
+          "person_id": 3,
+          "display_name": "Matthew Buxton",
+          "confidence": 0.0004,
+          "evidence_types": [
+            "diarized_transcription",
+            "seed_provider_speaker_map"
+          ],
+          "duration_seconds": 0.799994,
+          "provenance": [
+            "deepgram:nova-3:deepgram_diarized_transcription",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_005.json"
+          ]
+        }
+      ],
+      "notes": "Seed-proposed review segment; requires human confirmation. provider=deepgram_diarized_transcription provider_speaker=1 provider_utterance_id=3aee40be-f64d-45e1-b472-41e37a95607f provider_word_range=1-4 mapping_status=mapped"
+    },
+    {
+      "segment_id": 29,
+      "start": 111.774994,
+      "end": 111.935,
+      "text": "What",
+      "true_person_id": 2,
+      "true_display_name": "Sandor Earl",
+      "speaker_type": "known",
+      "confidence": 0.6768,
+      "evidence_candidates": [
+        {
+          "person_id": 2,
+          "display_name": "Sandor Earl",
+          "confidence": 0.6768,
+          "evidence_types": [
+            "diarized_transcription",
+            "seed_provider_speaker_map"
+          ],
+          "duration_seconds": 0.160006,
+          "provenance": [
+            "deepgram:nova-3:deepgram_diarized_transcription",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_005.json"
+          ]
+        },
+        {
+          "person_id": 3,
+          "display_name": "Matthew Buxton",
+          "confidence": 0.0203,
+          "evidence_types": [
+            "diarized_transcription",
+            "seed_provider_speaker_map"
+          ],
+          "duration_seconds": 0.160006,
+          "provenance": [
+            "deepgram:nova-3:deepgram_diarized_transcription",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_005.json"
+          ]
+        },
+        {
+          "person_id": 1,
+          "display_name": "Denan Kemp",
+          "confidence": 0.0197,
+          "evidence_types": [
+            "diarized_transcription",
+            "seed_provider_speaker_map"
+          ],
+          "duration_seconds": 0.160006,
+          "provenance": [
+            "deepgram:nova-3:deepgram_diarized_transcription",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_005.json"
+          ]
+        }
+      ],
+      "notes": "Seed-proposed review segment; requires human confirmation. provider=deepgram_diarized_transcription provider_speaker=0 provider_utterance_id=3aee40be-f64d-45e1-b472-41e37a95607f provider_word_range=5-5 mapping_status=mapped"
+    },
+    {
+      "segment_id": 30,
+      "start": 111.935,
+      "end": 115.89001,
+      "text": "was the I think you'll take Shibisaki's center spot. Yes. Yeah.",
+      "true_person_id": 1,
+      "true_display_name": "Denan Kemp",
+      "speaker_type": "known",
+      "confidence": 0.9417,
+      "evidence_candidates": [
+        {
+          "person_id": 1,
+          "display_name": "Denan Kemp",
+          "confidence": 0.9417,
+          "evidence_types": [
+            "diarized_transcription",
+            "seed_provider_speaker_map"
+          ],
+          "duration_seconds": 3.95501,
+          "provenance": [
+            "deepgram:nova-3:deepgram_diarized_transcription",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_005.json"
+          ]
+        },
+        {
+          "person_id": 2,
+          "display_name": "Sandor Earl",
+          "confidence": 0.0234,
+          "evidence_types": [
+            "diarized_transcription",
+            "seed_provider_speaker_map"
+          ],
+          "duration_seconds": 3.95501,
+          "provenance": [
+            "deepgram:nova-3:deepgram_diarized_transcription",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_005.json"
+          ]
+        },
+        {
+          "person_id": 3,
+          "display_name": "Matthew Buxton",
+          "confidence": 0.0004,
+          "evidence_types": [
+            "diarized_transcription",
+            "seed_provider_speaker_map"
+          ],
+          "duration_seconds": 3.95501,
+          "provenance": [
+            "deepgram:nova-3:deepgram_diarized_transcription",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_005.json"
+          ]
+        }
+      ],
+      "notes": "Seed-proposed review segment; requires human confirmation. provider=deepgram_diarized_transcription provider_speaker=1 provider_utterance_id=3aee40be-f64d-45e1-b472-41e37a95607f provider_word_range=6-16 mapping_status=mapped"
+    },
+    {
+      "segment_id": 31,
+      "start": 115.89001,
+      "end": 116.850006,
+      "text": "Shibisaki play",
+      "true_person_id": 3,
+      "true_display_name": "Matthew Buxton",
+      "speaker_type": "known",
+      "confidence": 0.7317,
+      "evidence_candidates": [
+        {
+          "person_id": 3,
+          "display_name": "Matthew Buxton",
+          "confidence": 0.7317,
+          "evidence_types": [
+            "diarized_transcription",
+            "seed_provider_speaker_map"
+          ],
+          "duration_seconds": 0.959996,
+          "provenance": [
+            "deepgram:nova-3:deepgram_diarized_transcription",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_005.json"
+          ]
+        },
+        {
+          "person_id": 1,
+          "display_name": "Denan Kemp",
+          "confidence": 0.2033,
+          "evidence_types": [
+            "diarized_transcription",
+            "seed_provider_speaker_map"
+          ],
+          "duration_seconds": 0.959996,
+          "provenance": [
+            "deepgram:nova-3:deepgram_diarized_transcription",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_005.json"
+          ]
+        }
+      ],
+      "notes": "Seed-proposed review segment; requires human confirmation. provider=deepgram_diarized_transcription provider_speaker=2 provider_utterance_id=3aee40be-f64d-45e1-b472-41e37a95607f provider_word_range=17-18 mapping_status=mapped"
+    },
+    {
+      "segment_id": 32,
+      "start": 116.850006,
+      "end": 118.850006,
+      "text": "on the right side",
+      "true_person_id": 2,
+      "true_display_name": "Sandor Earl",
+      "speaker_type": "known",
+      "confidence": 0.9435,
+      "evidence_candidates": [
+        {
+          "person_id": 2,
+          "display_name": "Sandor Earl",
+          "confidence": 0.9435,
+          "evidence_types": [
+            "diarized_transcription",
+            "seed_provider_speaker_map"
+          ],
+          "duration_seconds": 2.0,
+          "provenance": [
+            "deepgram:nova-3:deepgram_diarized_transcription",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_005.json"
+          ]
+        },
+        {
+          "person_id": 3,
+          "display_name": "Matthew Buxton",
+          "confidence": 0.0283,
+          "evidence_types": [
+            "diarized_transcription",
+            "seed_provider_speaker_map"
+          ],
+          "duration_seconds": 2.0,
+          "provenance": [
+            "deepgram:nova-3:deepgram_diarized_transcription",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_005.json"
+          ]
+        },
+        {
+          "person_id": 1,
+          "display_name": "Denan Kemp",
+          "confidence": 0.0275,
+          "evidence_types": [
+            "diarized_transcription",
+            "seed_provider_speaker_map"
+          ],
+          "duration_seconds": 2.0,
+          "provenance": [
+            "deepgram:nova-3:deepgram_diarized_transcription",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_005.json"
+          ]
+        }
+      ],
+      "notes": "Seed-proposed review segment; requires human confirmation. provider=deepgram_diarized_transcription provider_speaker=0 provider_utterance_id=3aee40be-f64d-45e1-b472-41e37a95607f provider_word_range=19-22 mapping_status=mapped"
+    },
+    {
+      "segment_id": 33,
+      "start": 119.25,
+      "end": 120.21001,
+      "text": "of the wing?",
+      "true_person_id": 2,
+      "true_display_name": "Sandor Earl",
+      "speaker_type": "known",
+      "confidence": 0.8053,
+      "evidence_candidates": [
+        {
+          "person_id": 2,
+          "display_name": "Sandor Earl",
+          "confidence": 0.8053,
+          "evidence_types": [
+            "diarized_transcription",
+            "seed_provider_speaker_map"
+          ],
+          "duration_seconds": 0.96001,
+          "provenance": [
+            "deepgram:nova-3:deepgram_diarized_transcription",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_005.json"
+          ]
+        },
+        {
+          "person_id": 3,
+          "display_name": "Matthew Buxton",
+          "confidence": 0.0241,
+          "evidence_types": [
+            "diarized_transcription",
+            "seed_provider_speaker_map"
+          ],
+          "duration_seconds": 0.96001,
+          "provenance": [
+            "deepgram:nova-3:deepgram_diarized_transcription",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_005.json"
+          ]
+        },
+        {
+          "person_id": 1,
+          "display_name": "Denan Kemp",
+          "confidence": 0.0235,
+          "evidence_types": [
+            "diarized_transcription",
+            "seed_provider_speaker_map"
+          ],
+          "duration_seconds": 0.96001,
+          "provenance": [
+            "deepgram:nova-3:deepgram_diarized_transcription",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_005.json"
+          ]
+        }
+      ],
+      "notes": "Seed-proposed review segment; requires human confirmation. provider=deepgram_diarized_transcription provider_speaker=0 provider_utterance_id=02601b00-e1a6-4bad-8ee7-3015992eb32b provider_word_range=1-3 mapping_status=mapped"
+    },
+    {
+      "segment_id": 34,
+      "start": 120.53001,
+      "end": 125.33,
+      "text": "Because I remember it might have been the first game, but Jeezy had a racket game.",
+      "true_person_id": 2,
+      "true_display_name": "Sandor Earl",
+      "speaker_type": "known",
+      "confidence": 0.8588,
+      "evidence_candidates": [
+        {
+          "person_id": 2,
+          "display_name": "Sandor Earl",
+          "confidence": 0.8588,
+          "evidence_types": [
+            "diarized_transcription",
+            "seed_provider_speaker_map"
+          ],
+          "duration_seconds": 4.79999,
+          "provenance": [
+            "deepgram:nova-3:deepgram_diarized_transcription",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_005.json"
+          ]
+        },
+        {
+          "person_id": 3,
+          "display_name": "Matthew Buxton",
+          "confidence": 0.0257,
+          "evidence_types": [
+            "diarized_transcription",
+            "seed_provider_speaker_map"
+          ],
+          "duration_seconds": 4.79999,
+          "provenance": [
+            "deepgram:nova-3:deepgram_diarized_transcription",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_005.json"
+          ]
+        },
+        {
+          "person_id": 1,
+          "display_name": "Denan Kemp",
+          "confidence": 0.025,
+          "evidence_types": [
+            "diarized_transcription",
+            "seed_provider_speaker_map"
+          ],
+          "duration_seconds": 4.79999,
+          "provenance": [
+            "deepgram:nova-3:deepgram_diarized_transcription",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_005.json"
+          ]
+        }
+      ],
+      "notes": "Seed-proposed review segment; requires human confirmation. provider=deepgram_diarized_transcription provider_speaker=0 provider_utterance_id=12528bd3-57e3-4078-a587-6a13c6ccb665 provider_word_range=1-16 mapping_status=mapped"
+    },
+    {
+      "segment_id": 35,
+      "start": 125.33,
+      "end": 127.25,
+      "text": "Yeah. I mean, he's like in Origin,",
+      "true_person_id": 1,
+      "true_display_name": "Denan Kemp",
+      "speaker_type": "known",
+      "confidence": 0.7812,
+      "evidence_candidates": [
+        {
+          "person_id": 1,
+          "display_name": "Denan Kemp",
+          "confidence": 0.7812,
+          "evidence_types": [
+            "diarized_transcription",
+            "seed_provider_speaker_map"
+          ],
+          "duration_seconds": 1.92,
+          "provenance": [
+            "deepgram:nova-3:deepgram_diarized_transcription",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_005.json"
+          ]
+        },
+        {
+          "person_id": 2,
+          "display_name": "Sandor Earl",
+          "confidence": 0.0194,
+          "evidence_types": [
+            "diarized_transcription",
+            "seed_provider_speaker_map"
+          ],
+          "duration_seconds": 1.92,
+          "provenance": [
+            "deepgram:nova-3:deepgram_diarized_transcription",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_005.json"
+          ]
+        },
+        {
+          "person_id": 3,
+          "display_name": "Matthew Buxton",
+          "confidence": 0.0003,
+          "evidence_types": [
+            "diarized_transcription",
+            "seed_provider_speaker_map"
+          ],
+          "duration_seconds": 1.92,
+          "provenance": [
+            "deepgram:nova-3:deepgram_diarized_transcription",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_005.json"
+          ]
+        }
+      ],
+      "notes": "Seed-proposed review segment; requires human confirmation. provider=deepgram_diarized_transcription provider_speaker=1 provider_utterance_id=12528bd3-57e3-4078-a587-6a13c6ccb665 provider_word_range=17-23 mapping_status=mapped"
+    },
+    {
+      "segment_id": 36,
+      "start": 127.57001,
+      "end": 133.27501,
+      "text": "he's like when you actually just if you just isolate Origin form, he's like one of the best in the last five years.",
+      "true_person_id": 1,
+      "true_display_name": "Denan Kemp",
+      "speaker_type": "known",
+      "confidence": 0.9262,
+      "evidence_candidates": [
+        {
+          "person_id": 1,
+          "display_name": "Denan Kemp",
+          "confidence": 0.9262,
+          "evidence_types": [
+            "diarized_transcription",
+            "seed_provider_speaker_map"
+          ],
+          "duration_seconds": 5.705,
+          "provenance": [
+            "deepgram:nova-3:deepgram_diarized_transcription",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_005.json"
+          ]
+        },
+        {
+          "person_id": 2,
+          "display_name": "Sandor Earl",
+          "confidence": 0.023,
+          "evidence_types": [
+            "diarized_transcription",
+            "seed_provider_speaker_map"
+          ],
+          "duration_seconds": 5.705,
+          "provenance": [
+            "deepgram:nova-3:deepgram_diarized_transcription",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_005.json"
+          ]
+        },
+        {
+          "person_id": 3,
+          "display_name": "Matthew Buxton",
+          "confidence": 0.0004,
+          "evidence_types": [
+            "diarized_transcription",
+            "seed_provider_speaker_map"
+          ],
+          "duration_seconds": 5.705,
+          "provenance": [
+            "deepgram:nova-3:deepgram_diarized_transcription",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_005.json"
+          ]
+        }
+      ],
+      "notes": "Seed-proposed review segment; requires human confirmation. provider=deepgram_diarized_transcription provider_speaker=1 provider_utterance_id=09832eb6-4fdd-4b71-bbc6-1dd4866b9665 provider_word_range=1-23 mapping_status=mapped"
+    },
+    {
+      "segment_id": 37,
+      "start": 133.27501,
+      "end": 136.795,
+      "text": "But, also, some of those performances at left center, he took the absolute piss.",
+      "true_person_id": 2,
+      "true_display_name": "Sandor Earl",
+      "speaker_type": "known",
+      "confidence": 0.9043,
+      "evidence_candidates": [
+        {
+          "person_id": 2,
+          "display_name": "Sandor Earl",
+          "confidence": 0.9043,
+          "evidence_types": [
+            "diarized_transcription",
+            "seed_provider_speaker_map"
+          ],
+          "duration_seconds": 3.51999,
+          "provenance": [
+            "deepgram:nova-3:deepgram_diarized_transcription",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_005.json"
+          ]
+        },
+        {
+          "person_id": 3,
+          "display_name": "Matthew Buxton",
+          "confidence": 0.0271,
+          "evidence_types": [
+            "diarized_transcription",
+            "seed_provider_speaker_map"
+          ],
+          "duration_seconds": 3.51999,
+          "provenance": [
+            "deepgram:nova-3:deepgram_diarized_transcription",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_005.json"
+          ]
+        },
+        {
+          "person_id": 1,
+          "display_name": "Denan Kemp",
+          "confidence": 0.0263,
+          "evidence_types": [
+            "diarized_transcription",
+            "seed_provider_speaker_map"
+          ],
+          "duration_seconds": 3.51999,
+          "provenance": [
+            "deepgram:nova-3:deepgram_diarized_transcription",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_005.json"
+          ]
+        }
+      ],
+      "notes": "Seed-proposed review segment; requires human confirmation. provider=deepgram_diarized_transcription provider_speaker=0 provider_utterance_id=09832eb6-4fdd-4b71-bbc6-1dd4866b9665 provider_word_range=24-37 mapping_status=mapped"
+    },
+    {
+      "segment_id": 38,
+      "start": 136.795,
+      "end": 143.27501,
+      "text": "Yeah. Yeah. He's so good. How crazy is it? Like, you're a fullback at club, but you're like, no. I'd rather play scenario at Origin. Like, fuck. You know?",
+      "true_person_id": 1,
+      "true_display_name": "Denan Kemp",
+      "speaker_type": "known",
+      "confidence": 0.9125,
+      "evidence_candidates": [
+        {
+          "person_id": 1,
+          "display_name": "Denan Kemp",
+          "confidence": 0.9125,
+          "evidence_types": [
+            "diarized_transcription",
+            "seed_provider_speaker_map"
+          ],
+          "duration_seconds": 6.48001,
+          "provenance": [
+            "deepgram:nova-3:deepgram_diarized_transcription",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_005.json"
+          ]
+        },
+        {
+          "person_id": 2,
+          "display_name": "Sandor Earl",
+          "confidence": 0.0226,
+          "evidence_types": [
+            "diarized_transcription",
+            "seed_provider_speaker_map"
+          ],
+          "duration_seconds": 6.48001,
+          "provenance": [
+            "deepgram:nova-3:deepgram_diarized_transcription",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_005.json"
+          ]
+        },
+        {
+          "person_id": 3,
+          "display_name": "Matthew Buxton",
+          "confidence": 0.0004,
+          "evidence_types": [
+            "diarized_transcription",
+            "seed_provider_speaker_map"
+          ],
+          "duration_seconds": 6.48001,
+          "provenance": [
+            "deepgram:nova-3:deepgram_diarized_transcription",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_005.json"
+          ]
+        }
+      ],
+      "notes": "Seed-proposed review segment; requires human confirmation. provider=deepgram_diarized_transcription provider_speaker=1 provider_utterance_id=09832eb6-4fdd-4b71-bbc6-1dd4866b9665 provider_word_range=38-66 mapping_status=mapped"
+    },
+    {
+      "segment_id": 39,
+      "start": 143.27501,
+      "end": 150.27,
+      "text": "There's literally I don't even know how many I could name, but I don't know if there's any players that could do that. Play at origin level, wing center, and fullback.",
+      "true_person_id": 2,
+      "true_display_name": "Sandor Earl",
+      "speaker_type": "known",
+      "confidence": 0.9079,
+      "evidence_candidates": [
+        {
+          "person_id": 2,
+          "display_name": "Sandor Earl",
+          "confidence": 0.9079,
+          "evidence_types": [
+            "diarized_transcription",
+            "seed_provider_speaker_map"
+          ],
+          "duration_seconds": 6.99499,
+          "provenance": [
+            "deepgram:nova-3:deepgram_diarized_transcription",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_005.json"
+          ]
+        },
+        {
+          "person_id": 3,
+          "display_name": "Matthew Buxton",
+          "confidence": 0.0272,
+          "evidence_types": [
+            "diarized_transcription",
+            "seed_provider_speaker_map"
+          ],
+          "duration_seconds": 6.99499,
+          "provenance": [
+            "deepgram:nova-3:deepgram_diarized_transcription",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_005.json"
+          ]
+        },
+        {
+          "person_id": 1,
+          "display_name": "Denan Kemp",
+          "confidence": 0.0264,
+          "evidence_types": [
+            "diarized_transcription",
+            "seed_provider_speaker_map"
+          ],
+          "duration_seconds": 6.99499,
+          "provenance": [
+            "deepgram:nova-3:deepgram_diarized_transcription",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_005.json"
+          ]
+        }
+      ],
+      "notes": "Seed-proposed review segment; requires human confirmation. provider=deepgram_diarized_transcription provider_speaker=0 provider_utterance_id=09832eb6-4fdd-4b71-bbc6-1dd4866b9665 provider_word_range=67-97 mapping_status=mapped"
+    },
+    {
+      "segment_id": 40,
+      "start": 150.27,
+      "end": 152.19002,
+      "text": "And and kill it too. Dominate.",
+      "true_person_id": 1,
+      "true_display_name": "Denan Kemp",
+      "speaker_type": "known",
+      "confidence": 0.9556,
+      "evidence_candidates": [
+        {
+          "person_id": 1,
+          "display_name": "Denan Kemp",
+          "confidence": 0.9556,
+          "evidence_types": [
+            "diarized_transcription",
+            "seed_provider_speaker_map"
+          ],
+          "duration_seconds": 1.92002,
+          "provenance": [
+            "deepgram:nova-3:deepgram_diarized_transcription",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_005.json"
+          ]
+        },
+        {
+          "person_id": 2,
+          "display_name": "Sandor Earl",
+          "confidence": 0.0237,
+          "evidence_types": [
+            "diarized_transcription",
+            "seed_provider_speaker_map"
+          ],
+          "duration_seconds": 1.92002,
+          "provenance": [
+            "deepgram:nova-3:deepgram_diarized_transcription",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_005.json"
+          ]
+        },
+        {
+          "person_id": 3,
+          "display_name": "Matthew Buxton",
+          "confidence": 0.0004,
+          "evidence_types": [
+            "diarized_transcription",
+            "seed_provider_speaker_map"
+          ],
+          "duration_seconds": 1.92002,
+          "provenance": [
+            "deepgram:nova-3:deepgram_diarized_transcription",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_005.json"
+          ]
+        }
+      ],
+      "notes": "Seed-proposed review segment; requires human confirmation. provider=deepgram_diarized_transcription provider_speaker=1 provider_utterance_id=09832eb6-4fdd-4b71-bbc6-1dd4866b9665 provider_word_range=98-103 mapping_status=mapped"
+    },
+    {
+      "segment_id": 41,
+      "start": 152.35,
+      "end": 156.75,
+      "text": "Far out. Like, what how many tries he scored so far now? It's like some crazy number already. I'll find it.",
+      "true_person_id": 1,
+      "true_display_name": "Denan Kemp",
+      "speaker_type": "known",
+      "confidence": 0.9025,
+      "evidence_candidates": [
+        {
+          "person_id": 1,
+          "display_name": "Denan Kemp",
+          "confidence": 0.9025,
+          "evidence_types": [
+            "diarized_transcription",
+            "seed_provider_speaker_map"
+          ],
+          "duration_seconds": 4.4,
+          "provenance": [
+            "deepgram:nova-3:deepgram_diarized_transcription",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_005.json"
+          ]
+        },
+        {
+          "person_id": 2,
+          "display_name": "Sandor Earl",
+          "confidence": 0.0224,
+          "evidence_types": [
+            "diarized_transcription",
+            "seed_provider_speaker_map"
+          ],
+          "duration_seconds": 4.4,
+          "provenance": [
+            "deepgram:nova-3:deepgram_diarized_transcription",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_005.json"
+          ]
+        },
+        {
+          "person_id": 3,
+          "display_name": "Matthew Buxton",
+          "confidence": 0.0004,
+          "evidence_types": [
+            "diarized_transcription",
+            "seed_provider_speaker_map"
+          ],
+          "duration_seconds": 4.4,
+          "provenance": [
+            "deepgram:nova-3:deepgram_diarized_transcription",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_005.json"
+          ]
+        }
+      ],
+      "notes": "Seed-proposed review segment; requires human confirmation. provider=deepgram_diarized_transcription provider_speaker=1 provider_utterance_id=c286a714-f623-4a38-9568-f48b3e44ac39 provider_word_range=1-21 mapping_status=mapped"
+    },
+    {
+      "segment_id": 42,
+      "start": 157.535,
+      "end": 162.255,
+      "text": "Yeah. So I guess what the Queensland back line would be, I think at the moment, you'd go Walsh.",
+      "true_person_id": 1,
+      "true_display_name": "Denan Kemp",
+      "speaker_type": "known",
+      "confidence": 0.9066,
+      "evidence_candidates": [
+        {
+          "person_id": 1,
+          "display_name": "Denan Kemp",
+          "confidence": 0.9066,
+          "evidence_types": [
+            "diarized_transcription",
+            "seed_provider_speaker_map"
+          ],
+          "duration_seconds": 4.72,
+          "provenance": [
+            "deepgram:nova-3:deepgram_diarized_transcription",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_005.json"
+          ]
+        },
+        {
+          "person_id": 2,
+          "display_name": "Sandor Earl",
+          "confidence": 0.0225,
+          "evidence_types": [
+            "diarized_transcription",
+            "seed_provider_speaker_map"
+          ],
+          "duration_seconds": 4.72,
+          "provenance": [
+            "deepgram:nova-3:deepgram_diarized_transcription",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_005.json"
+          ]
+        },
+        {
+          "person_id": 3,
+          "display_name": "Matthew Buxton",
+          "confidence": 0.0004,
+          "evidence_types": [
+            "diarized_transcription",
+            "seed_provider_speaker_map"
+          ],
+          "duration_seconds": 4.72,
+          "provenance": [
+            "deepgram:nova-3:deepgram_diarized_transcription",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_005.json"
+          ]
+        }
+      ],
+      "notes": "Seed-proposed review segment; requires human confirmation. provider=deepgram_diarized_transcription provider_speaker=1 provider_utterance_id=76080df6-f5a2-48d5-96fb-f4b6226c2875 provider_word_range=1-19 mapping_status=mapped"
+    },
+    {
+      "segment_id": 43,
+      "start": 162.255,
+      "end": 163.455,
+      "text": "Mhmm. You'd go",
+      "true_person_id": 1,
+      "true_display_name": "Denan Kemp",
+      "speaker_type": "known",
+      "confidence": 0.9623,
+      "evidence_candidates": [
+        {
+          "person_id": 1,
+          "display_name": "Denan Kemp",
+          "confidence": 0.9623,
+          "evidence_types": [
+            "diarized_transcription",
+            "seed_provider_speaker_map"
+          ],
+          "duration_seconds": 1.2,
+          "provenance": [
+            "deepgram:nova-3:deepgram_diarized_transcription",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_005.json"
+          ]
+        },
+        {
+          "person_id": 2,
+          "display_name": "Sandor Earl",
+          "confidence": 0.0239,
+          "evidence_types": [
+            "diarized_transcription",
+            "seed_provider_speaker_map"
+          ],
+          "duration_seconds": 1.2,
+          "provenance": [
+            "deepgram:nova-3:deepgram_diarized_transcription",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_005.json"
+          ]
+        },
+        {
+          "person_id": 3,
+          "display_name": "Matthew Buxton",
+          "confidence": 0.0004,
+          "evidence_types": [
+            "diarized_transcription",
+            "seed_provider_speaker_map"
+          ],
+          "duration_seconds": 1.2,
+          "provenance": [
+            "deepgram:nova-3:deepgram_diarized_transcription",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_005.json"
+          ]
+        }
+      ],
+      "notes": "Seed-proposed review segment; requires human confirmation. provider=deepgram_diarized_transcription provider_speaker=1 provider_utterance_id=9c433b2f-3a62-436c-b08c-ed96e0813560 provider_word_range=1-3 mapping_status=mapped"
+    },
+    {
+      "segment_id": 44,
+      "start": 164.095,
+      "end": 165.85501,
+      "text": "Toya and Hammer in the centers,",
+      "true_person_id": 1,
+      "true_display_name": "Denan Kemp",
+      "speaker_type": "known",
+      "confidence": 0.8848,
+      "evidence_candidates": [
+        {
+          "person_id": 1,
+          "display_name": "Denan Kemp",
+          "confidence": 0.8848,
+          "evidence_types": [
+            "diarized_transcription",
+            "seed_provider_speaker_map"
+          ],
+          "duration_seconds": 1.76001,
+          "provenance": [
+            "deepgram:nova-3:deepgram_diarized_transcription",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_005.json"
+          ]
+        },
+        {
+          "person_id": 2,
+          "display_name": "Sandor Earl",
+          "confidence": 0.022,
+          "evidence_types": [
+            "diarized_transcription",
+            "seed_provider_speaker_map"
+          ],
+          "duration_seconds": 1.76001,
+          "provenance": [
+            "deepgram:nova-3:deepgram_diarized_transcription",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_005.json"
+          ]
+        },
+        {
+          "person_id": 3,
+          "display_name": "Matthew Buxton",
+          "confidence": 0.0004,
+          "evidence_types": [
+            "diarized_transcription",
+            "seed_provider_speaker_map"
+          ],
+          "duration_seconds": 1.76001,
+          "provenance": [
+            "deepgram:nova-3:deepgram_diarized_transcription",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_005.json"
+          ]
+        }
+      ],
+      "notes": "Seed-proposed review segment; requires human confirmation. provider=deepgram_diarized_transcription provider_speaker=1 provider_utterance_id=20325750-3f9f-415c-891d-4cb8af97f7e9 provider_word_range=1-6 mapping_status=mapped"
+    },
+    {
+      "segment_id": 45,
+      "start": 166.015,
+      "end": 167.85501,
+      "text": "probably Telangi on one wing,",
+      "true_person_id": 1,
+      "true_display_name": "Denan Kemp",
+      "speaker_type": "known",
+      "confidence": 0.8687,
+      "evidence_candidates": [
+        {
+          "person_id": 1,
+          "display_name": "Denan Kemp",
+          "confidence": 0.8687,
+          "evidence_types": [
+            "diarized_transcription",
+            "seed_provider_speaker_map"
+          ],
+          "duration_seconds": 1.84001,
+          "provenance": [
+            "deepgram:nova-3:deepgram_diarized_transcription",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_005.json"
+          ]
+        },
+        {
+          "person_id": 2,
+          "display_name": "Sandor Earl",
+          "confidence": 0.0216,
+          "evidence_types": [
+            "diarized_transcription",
+            "seed_provider_speaker_map"
+          ],
+          "duration_seconds": 1.84001,
+          "provenance": [
+            "deepgram:nova-3:deepgram_diarized_transcription",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_005.json"
+          ]
+        },
+        {
+          "person_id": 3,
+          "display_name": "Matthew Buxton",
+          "confidence": 0.0004,
+          "evidence_types": [
+            "diarized_transcription",
+            "seed_provider_speaker_map"
+          ],
+          "duration_seconds": 1.84001,
+          "provenance": [
+            "deepgram:nova-3:deepgram_diarized_transcription",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_005.json"
+          ]
+        }
+      ],
+      "notes": "Seed-proposed review segment; requires human confirmation. provider=deepgram_diarized_transcription provider_speaker=1 provider_utterance_id=a39d12dc-9924-4621-bf4c-0d140e8d2724 provider_word_range=1-5 mapping_status=mapped"
+    },
+    {
+      "segment_id": 46,
+      "start": 168.095,
+      "end": 168.815,
+      "text": "and then,",
+      "true_person_id": 1,
+      "true_display_name": "Denan Kemp",
+      "speaker_type": "known",
+      "confidence": 0.9728,
+      "evidence_candidates": [
+        {
+          "person_id": 1,
+          "display_name": "Denan Kemp",
+          "confidence": 0.9728,
+          "evidence_types": [
+            "diarized_transcription",
+            "seed_provider_speaker_map"
+          ],
+          "duration_seconds": 0.72,
+          "provenance": [
+            "deepgram:nova-3:deepgram_diarized_transcription",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_005.json"
+          ]
+        },
+        {
+          "person_id": 2,
+          "display_name": "Sandor Earl",
+          "confidence": 0.0241,
+          "evidence_types": [
+            "diarized_transcription",
+            "seed_provider_speaker_map"
+          ],
+          "duration_seconds": 0.72,
+          "provenance": [
+            "deepgram:nova-3:deepgram_diarized_transcription",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_005.json"
+          ]
+        },
+        {
+          "person_id": 3,
+          "display_name": "Matthew Buxton",
+          "confidence": 0.0004,
+          "evidence_types": [
+            "diarized_transcription",
+            "seed_provider_speaker_map"
+          ],
+          "duration_seconds": 0.72,
+          "provenance": [
+            "deepgram:nova-3:deepgram_diarized_transcription",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_005.json"
+          ]
+        }
+      ],
+      "notes": "Seed-proposed review segment; requires human confirmation. provider=deepgram_diarized_transcription provider_speaker=1 provider_utterance_id=2baaa11c-5a39-4adf-9739-1114193f6af0 provider_word_range=1-2 mapping_status=mapped"
+    },
+    {
+      "segment_id": 47,
+      "start": 169.05501,
+      "end": 174.45,
+      "text": "you know, there's Selwyn Cobo or there's like a Philip Sami, Jojo Fafida.",
+      "true_person_id": 1,
+      "true_display_name": "Denan Kemp",
+      "speaker_type": "known",
+      "confidence": 0.7843,
+      "evidence_candidates": [
+        {
+          "person_id": 1,
+          "display_name": "Denan Kemp",
+          "confidence": 0.7843,
+          "evidence_types": [
+            "diarized_transcription",
+            "seed_provider_speaker_map"
+          ],
+          "duration_seconds": 5.39499,
+          "provenance": [
+            "deepgram:nova-3:deepgram_diarized_transcription",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_005.json"
+          ]
+        },
+        {
+          "person_id": 2,
+          "display_name": "Sandor Earl",
+          "confidence": 0.0195,
+          "evidence_types": [
+            "diarized_transcription",
+            "seed_provider_speaker_map"
+          ],
+          "duration_seconds": 5.39499,
+          "provenance": [
+            "deepgram:nova-3:deepgram_diarized_transcription",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_005.json"
+          ]
+        },
+        {
+          "person_id": 3,
+          "display_name": "Matthew Buxton",
+          "confidence": 0.0003,
+          "evidence_types": [
+            "diarized_transcription",
+            "seed_provider_speaker_map"
+          ],
+          "duration_seconds": 5.39499,
+          "provenance": [
+            "deepgram:nova-3:deepgram_diarized_transcription",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_005.json"
+          ]
+        }
+      ],
+      "notes": "Seed-proposed review segment; requires human confirmation. provider=deepgram_diarized_transcription provider_speaker=1 provider_utterance_id=9443c25d-bb17-4bcb-b2f5-70594d0b0963 provider_word_range=1-13 mapping_status=mapped"
+    },
+    {
+      "segment_id": 48,
+      "start": 175.40999,
+      "end": 177.41,
+      "text": "He's got 11 tries in 10 games.",
+      "true_person_id": 1,
+      "true_display_name": "Denan Kemp",
+      "speaker_type": "known",
+      "confidence": 0.9714,
+      "evidence_candidates": [
+        {
+          "person_id": 1,
+          "display_name": "Denan Kemp",
+          "confidence": 0.9714,
+          "evidence_types": [
+            "diarized_transcription",
+            "seed_provider_speaker_map"
+          ],
+          "duration_seconds": 2.00001,
+          "provenance": [
+            "deepgram:nova-3:deepgram_diarized_transcription",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_005.json"
+          ]
+        },
+        {
+          "person_id": 2,
+          "display_name": "Sandor Earl",
+          "confidence": 0.0241,
+          "evidence_types": [
+            "diarized_transcription",
+            "seed_provider_speaker_map"
+          ],
+          "duration_seconds": 2.00001,
+          "provenance": [
+            "deepgram:nova-3:deepgram_diarized_transcription",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_005.json"
+          ]
+        },
+        {
+          "person_id": 3,
+          "display_name": "Matthew Buxton",
+          "confidence": 0.0004,
+          "evidence_types": [
+            "diarized_transcription",
+            "seed_provider_speaker_map"
+          ],
+          "duration_seconds": 2.00001,
+          "provenance": [
+            "deepgram:nova-3:deepgram_diarized_transcription",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_005.json"
+          ]
+        }
+      ],
+      "notes": "Seed-proposed review segment; requires human confirmation. provider=deepgram_diarized_transcription provider_speaker=1 provider_utterance_id=f1469dbf-cd29-4fdf-b69d-c5731833331a provider_word_range=1-7 mapping_status=mapped"
+    },
+    {
+      "segment_id": 49,
+      "start": 178.12999,
+      "end": 182.37,
+      "text": "Bro, this is original. And he's only got two in his last four, so he actually started real hot.",
+      "true_person_id": 1,
+      "true_display_name": "Denan Kemp",
+      "speaker_type": "known",
+      "confidence": 0.9494,
+      "evidence_candidates": [
+        {
+          "person_id": 1,
+          "display_name": "Denan Kemp",
+          "confidence": 0.9494,
+          "evidence_types": [
+            "diarized_transcription",
+            "seed_provider_speaker_map"
+          ],
+          "duration_seconds": 4.24001,
+          "provenance": [
+            "deepgram:nova-3:deepgram_diarized_transcription",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_005.json"
+          ]
+        },
+        {
+          "person_id": 2,
+          "display_name": "Sandor Earl",
+          "confidence": 0.0236,
+          "evidence_types": [
+            "diarized_transcription",
+            "seed_provider_speaker_map"
+          ],
+          "duration_seconds": 4.24001,
+          "provenance": [
+            "deepgram:nova-3:deepgram_diarized_transcription",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_005.json"
+          ]
+        },
+        {
+          "person_id": 3,
+          "display_name": "Matthew Buxton",
+          "confidence": 0.0004,
+          "evidence_types": [
+            "diarized_transcription",
+            "seed_provider_speaker_map"
+          ],
+          "duration_seconds": 4.24001,
+          "provenance": [
+            "deepgram:nova-3:deepgram_diarized_transcription",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_005.json"
+          ]
+        }
+      ],
+      "notes": "Seed-proposed review segment; requires human confirmation. provider=deepgram_diarized_transcription provider_speaker=1 provider_utterance_id=6f38effa-9fa2-433e-bbd7-3b7ea16675c2 provider_word_range=1-19 mapping_status=mapped"
+    },
+    {
+      "segment_id": 50,
+      "start": 182.84999,
+      "end": 183.40999,
+      "text": "Jesus.",
+      "true_person_id": 1,
+      "true_display_name": "Denan Kemp",
+      "speaker_type": "known",
+      "confidence": 0.9693,
+      "evidence_candidates": [
+        {
+          "person_id": 1,
+          "display_name": "Denan Kemp",
+          "confidence": 0.9693,
+          "evidence_types": [
+            "diarized_transcription",
+            "seed_provider_speaker_map"
+          ],
+          "duration_seconds": 0.56,
+          "provenance": [
+            "deepgram:nova-3:deepgram_diarized_transcription",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_005.json"
+          ]
+        },
+        {
+          "person_id": 2,
+          "display_name": "Sandor Earl",
+          "confidence": 0.024,
+          "evidence_types": [
+            "diarized_transcription",
+            "seed_provider_speaker_map"
+          ],
+          "duration_seconds": 0.56,
+          "provenance": [
+            "deepgram:nova-3:deepgram_diarized_transcription",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_005.json"
+          ]
+        },
+        {
+          "person_id": 3,
+          "display_name": "Matthew Buxton",
+          "confidence": 0.0004,
+          "evidence_types": [
+            "diarized_transcription",
+            "seed_provider_speaker_map"
+          ],
+          "duration_seconds": 0.56,
+          "provenance": [
+            "deepgram:nova-3:deepgram_diarized_transcription",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_005.json"
+          ]
+        }
+      ],
+      "notes": "Seed-proposed review segment; requires human confirmation. provider=deepgram_diarized_transcription provider_speaker=1 provider_utterance_id=fefb8fee-11b4-422a-8762-a85634f80f91 provider_word_range=1-1 mapping_status=mapped"
+    },
+    {
+      "segment_id": 51,
+      "start": 183.40999,
+      "end": 184.04999,
+      "text": "He got a hat",
+      "true_person_id": 2,
+      "true_display_name": "Sandor Earl",
+      "speaker_type": "known",
+      "confidence": 0.9242,
+      "evidence_candidates": [
+        {
+          "person_id": 2,
+          "display_name": "Sandor Earl",
+          "confidence": 0.9242,
+          "evidence_types": [
+            "diarized_transcription",
+            "seed_provider_speaker_map"
+          ],
+          "duration_seconds": 0.64,
+          "provenance": [
+            "deepgram:nova-3:deepgram_diarized_transcription",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_005.json"
+          ]
+        },
+        {
+          "person_id": 3,
+          "display_name": "Matthew Buxton",
+          "confidence": 0.0277,
+          "evidence_types": [
+            "diarized_transcription",
+            "seed_provider_speaker_map"
+          ],
+          "duration_seconds": 0.64,
+          "provenance": [
+            "deepgram:nova-3:deepgram_diarized_transcription",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_005.json"
+          ]
+        },
+        {
+          "person_id": 1,
+          "display_name": "Denan Kemp",
+          "confidence": 0.0269,
+          "evidence_types": [
+            "diarized_transcription",
+            "seed_provider_speaker_map"
+          ],
+          "duration_seconds": 0.64,
+          "provenance": [
+            "deepgram:nova-3:deepgram_diarized_transcription",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_005.json"
+          ]
+        }
+      ],
+      "notes": "Seed-proposed review segment; requires human confirmation. provider=deepgram_diarized_transcription provider_speaker=0 provider_utterance_id=fefb8fee-11b4-422a-8762-a85634f80f91 provider_word_range=2-5 mapping_status=mapped"
+    },
+    {
+      "segment_id": 52,
+      "start": 184.04999,
+      "end": 185.73,
+      "text": "trick there. He did get a hat trick.",
+      "true_person_id": 3,
+      "true_display_name": "Matthew Buxton",
+      "speaker_type": "known",
+      "confidence": 0.7604,
+      "evidence_candidates": [
+        {
+          "person_id": 3,
+          "display_name": "Matthew Buxton",
+          "confidence": 0.7604,
+          "evidence_types": [
+            "diarized_transcription",
+            "seed_provider_speaker_map"
+          ],
+          "duration_seconds": 1.68001,
+          "provenance": [
+            "deepgram:nova-3:deepgram_diarized_transcription",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_005.json"
+          ]
+        },
+        {
+          "person_id": 1,
+          "display_name": "Denan Kemp",
+          "confidence": 0.2112,
+          "evidence_types": [
+            "diarized_transcription",
+            "seed_provider_speaker_map"
+          ],
+          "duration_seconds": 1.68001,
+          "provenance": [
+            "deepgram:nova-3:deepgram_diarized_transcription",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_005.json"
+          ]
+        }
+      ],
+      "notes": "Seed-proposed review segment; requires human confirmation. provider=deepgram_diarized_transcription provider_speaker=2 provider_utterance_id=fefb8fee-11b4-422a-8762-a85634f80f91 provider_word_range=6-13 mapping_status=mapped"
+    },
+    {
+      "segment_id": 53,
+      "start": 185.73,
+      "end": 187.65,
+      "text": "What would what would your or Queensland back line be?",
+      "true_person_id": 1,
+      "true_display_name": "Denan Kemp",
+      "speaker_type": "known",
+      "confidence": 0.8752,
+      "evidence_candidates": [
+        {
+          "person_id": 1,
+          "display_name": "Denan Kemp",
+          "confidence": 0.8752,
+          "evidence_types": [
+            "diarized_transcription",
+            "seed_provider_speaker_map"
+          ],
+          "duration_seconds": 1.92,
+          "provenance": [
+            "deepgram:nova-3:deepgram_diarized_transcription",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_005.json"
+          ]
+        },
+        {
+          "person_id": 2,
+          "display_name": "Sandor Earl",
+          "confidence": 0.0217,
+          "evidence_types": [
+            "diarized_transcription",
+            "seed_provider_speaker_map"
+          ],
+          "duration_seconds": 1.92,
+          "provenance": [
+            "deepgram:nova-3:deepgram_diarized_transcription",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_005.json"
+          ]
+        },
+        {
+          "person_id": 3,
+          "display_name": "Matthew Buxton",
+          "confidence": 0.0004,
+          "evidence_types": [
+            "diarized_transcription",
+            "seed_provider_speaker_map"
+          ],
+          "duration_seconds": 1.92,
+          "provenance": [
+            "deepgram:nova-3:deepgram_diarized_transcription",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_005.json"
+          ]
+        }
+      ],
+      "notes": "Seed-proposed review segment; requires human confirmation. provider=deepgram_diarized_transcription provider_speaker=1 provider_utterance_id=fefb8fee-11b4-422a-8762-a85634f80f91 provider_word_range=14-23 mapping_status=mapped"
+    },
+    {
+      "segment_id": 54,
+      "start": 188.215,
+      "end": 190.215,
+      "text": "Well, it depends if Coach is back. That's very obvious.",
+      "true_person_id": 3,
+      "true_display_name": "Matthew Buxton",
+      "speaker_type": "known",
+      "confidence": 0.7253,
+      "evidence_candidates": [
+        {
+          "person_id": 3,
+          "display_name": "Matthew Buxton",
+          "confidence": 0.7253,
+          "evidence_types": [
+            "diarized_transcription",
+            "seed_provider_speaker_map"
+          ],
+          "duration_seconds": 2.0,
+          "provenance": [
+            "deepgram:nova-3:deepgram_diarized_transcription",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_005.json"
+          ]
+        },
+        {
+          "person_id": 1,
+          "display_name": "Denan Kemp",
+          "confidence": 0.2015,
+          "evidence_types": [
+            "diarized_transcription",
+            "seed_provider_speaker_map"
+          ],
+          "duration_seconds": 2.0,
+          "provenance": [
+            "deepgram:nova-3:deepgram_diarized_transcription",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_005.json"
+          ]
+        }
+      ],
+      "notes": "Seed-proposed review segment; requires human confirmation. provider=deepgram_diarized_transcription provider_speaker=2 provider_utterance_id=76b4f1b9-bb24-4a70-a237-5118e40bbb2d provider_word_range=1-10 mapping_status=mapped"
+    },
+    {
+      "segment_id": 55,
+      "start": 190.215,
+      "end": 191.895,
+      "text": "Well, yeah, Coats, obviously. Coats over there.",
+      "true_person_id": 1,
+      "true_display_name": "Denan Kemp",
+      "speaker_type": "known",
+      "confidence": 0.6807,
+      "evidence_candidates": [
+        {
+          "person_id": 1,
+          "display_name": "Denan Kemp",
+          "confidence": 0.6807,
+          "evidence_types": [
+            "diarized_transcription",
+            "seed_provider_speaker_map"
+          ],
+          "duration_seconds": 1.68,
+          "provenance": [
+            "deepgram:nova-3:deepgram_diarized_transcription",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_005.json"
+          ]
+        },
+        {
+          "person_id": 2,
+          "display_name": "Sandor Earl",
+          "confidence": 0.0169,
+          "evidence_types": [
+            "diarized_transcription",
+            "seed_provider_speaker_map"
+          ],
+          "duration_seconds": 1.68,
+          "provenance": [
+            "deepgram:nova-3:deepgram_diarized_transcription",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_005.json"
+          ]
+        },
+        {
+          "person_id": 3,
+          "display_name": "Matthew Buxton",
+          "confidence": 0.0003,
+          "evidence_types": [
+            "diarized_transcription",
+            "seed_provider_speaker_map"
+          ],
+          "duration_seconds": 1.68,
+          "provenance": [
+            "deepgram:nova-3:deepgram_diarized_transcription",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_005.json"
+          ]
+        }
+      ],
+      "notes": "Seed-proposed review segment; requires human confirmation. provider=deepgram_diarized_transcription provider_speaker=1 provider_utterance_id=76b4f1b9-bb24-4a70-a237-5118e40bbb2d provider_word_range=11-17 mapping_status=mapped"
+    },
+    {
+      "segment_id": 56,
+      "start": 191.895,
+      "end": 195.815,
+      "text": "Will he? Don't don't know. Because he's not playing this week, and then they get",
+      "true_person_id": 3,
+      "true_display_name": "Matthew Buxton",
+      "speaker_type": "known",
+      "confidence": 0.7562,
+      "evidence_candidates": [
+        {
+          "person_id": 3,
+          "display_name": "Matthew Buxton",
+          "confidence": 0.7562,
+          "evidence_types": [
+            "diarized_transcription",
+            "seed_provider_speaker_map"
+          ],
+          "duration_seconds": 3.92,
+          "provenance": [
+            "deepgram:nova-3:deepgram_diarized_transcription",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_005.json"
+          ]
+        },
+        {
+          "person_id": 1,
+          "display_name": "Denan Kemp",
+          "confidence": 0.2101,
+          "evidence_types": [
+            "diarized_transcription",
+            "seed_provider_speaker_map"
+          ],
+          "duration_seconds": 3.92,
+          "provenance": [
+            "deepgram:nova-3:deepgram_diarized_transcription",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_005.json"
+          ]
+        }
+      ],
+      "notes": "Seed-proposed review segment; requires human confirmation. provider=deepgram_diarized_transcription provider_speaker=2 provider_utterance_id=76b4f1b9-bb24-4a70-a237-5118e40bbb2d provider_word_range=18-32 mapping_status=mapped"
+    },
+    {
+      "segment_id": 57,
+      "start": 195.895,
+      "end": 202.55,
+      "text": "the team is picked up. Also, I don't think Melbourne would be that stoked for him if made, what, one or two games in here. Go to Queensland.",
+      "true_person_id": 2,
+      "true_display_name": "Sandor Earl",
+      "speaker_type": "known",
+      "confidence": 0.8258,
+      "evidence_candidates": [
+        {
+          "person_id": 2,
+          "display_name": "Sandor Earl",
+          "confidence": 0.8258,
+          "evidence_types": [
+            "diarized_transcription",
+            "seed_provider_speaker_map"
+          ],
+          "duration_seconds": 6.655,
+          "provenance": [
+            "deepgram:nova-3:deepgram_diarized_transcription",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_005.json"
+          ]
+        },
+        {
+          "person_id": 3,
+          "display_name": "Matthew Buxton",
+          "confidence": 0.0248,
+          "evidence_types": [
+            "diarized_transcription",
+            "seed_provider_speaker_map"
+          ],
+          "duration_seconds": 6.655,
+          "provenance": [
+            "deepgram:nova-3:deepgram_diarized_transcription",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_005.json"
+          ]
+        },
+        {
+          "person_id": 1,
+          "display_name": "Denan Kemp",
+          "confidence": 0.0241,
+          "evidence_types": [
+            "diarized_transcription",
+            "seed_provider_speaker_map"
+          ],
+          "duration_seconds": 6.655,
+          "provenance": [
+            "deepgram:nova-3:deepgram_diarized_transcription",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_005.json"
+          ]
+        }
+      ],
+      "notes": "Seed-proposed review segment; requires human confirmation. provider=deepgram_diarized_transcription provider_speaker=0 provider_utterance_id=76b4f1b9-bb24-4a70-a237-5118e40bbb2d provider_word_range=33-60 mapping_status=mapped"
+    },
+    {
+      "segment_id": 58,
+      "start": 202.55,
+      "end": 203.67,
+      "text": "With that desperate layout too.",
+      "true_person_id": 1,
+      "true_display_name": "Denan Kemp",
+      "speaker_type": "known",
+      "confidence": 0.6869,
+      "evidence_candidates": [
+        {
+          "person_id": 1,
+          "display_name": "Denan Kemp",
+          "confidence": 0.6869,
+          "evidence_types": [
+            "diarized_transcription",
+            "seed_provider_speaker_map"
+          ],
+          "duration_seconds": 1.12,
+          "provenance": [
+            "deepgram:nova-3:deepgram_diarized_transcription",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_005.json"
+          ]
+        },
+        {
+          "person_id": 2,
+          "display_name": "Sandor Earl",
+          "confidence": 0.017,
+          "evidence_types": [
+            "diarized_transcription",
+            "seed_provider_speaker_map"
+          ],
+          "duration_seconds": 1.12,
+          "provenance": [
+            "deepgram:nova-3:deepgram_diarized_transcription",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_005.json"
+          ]
+        },
+        {
+          "person_id": 3,
+          "display_name": "Matthew Buxton",
+          "confidence": 0.0003,
+          "evidence_types": [
+            "diarized_transcription",
+            "seed_provider_speaker_map"
+          ],
+          "duration_seconds": 1.12,
+          "provenance": [
+            "deepgram:nova-3:deepgram_diarized_transcription",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_005.json"
+          ]
+        }
+      ],
+      "notes": "Seed-proposed review segment; requires human confirmation. provider=deepgram_diarized_transcription provider_speaker=1 provider_utterance_id=76b4f1b9-bb24-4a70-a237-5118e40bbb2d provider_word_range=61-65 mapping_status=mapped"
+    },
+    {
+      "segment_id": 59,
+      "start": 203.67,
+      "end": 204.07,
+      "text": "I I",
+      "true_person_id": 2,
+      "true_display_name": "Sandor Earl",
+      "speaker_type": "known",
+      "confidence": 0.7859,
+      "evidence_candidates": [
+        {
+          "person_id": 2,
+          "display_name": "Sandor Earl",
+          "confidence": 0.7859,
+          "evidence_types": [
+            "diarized_transcription",
+            "seed_provider_speaker_map"
+          ],
+          "duration_seconds": 0.4,
+          "provenance": [
+            "deepgram:nova-3:deepgram_diarized_transcription",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_005.json"
+          ]
+        },
+        {
+          "person_id": 3,
+          "display_name": "Matthew Buxton",
+          "confidence": 0.0236,
+          "evidence_types": [
+            "diarized_transcription",
+            "seed_provider_speaker_map"
+          ],
+          "duration_seconds": 0.4,
+          "provenance": [
+            "deepgram:nova-3:deepgram_diarized_transcription",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_005.json"
+          ]
+        },
+        {
+          "person_id": 1,
+          "display_name": "Denan Kemp",
+          "confidence": 0.0229,
+          "evidence_types": [
+            "diarized_transcription",
+            "seed_provider_speaker_map"
+          ],
+          "duration_seconds": 0.4,
+          "provenance": [
+            "deepgram:nova-3:deepgram_diarized_transcription",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_005.json"
+          ]
+        }
+      ],
+      "notes": "Seed-proposed review segment; requires human confirmation. provider=deepgram_diarized_transcription provider_speaker=0 provider_utterance_id=76b4f1b9-bb24-4a70-a237-5118e40bbb2d provider_word_range=66-67 mapping_status=mapped"
+    },
+    {
+      "segment_id": 60,
+      "start": 204.07,
+      "end": 208.71,
+      "text": "actually reckon four of the five positions are almost locked. You go Walsh fullback, Talani wing,",
+      "true_person_id": 3,
+      "true_display_name": "Matthew Buxton",
+      "speaker_type": "known",
+      "confidence": 0.6935,
+      "evidence_candidates": [
+        {
+          "person_id": 3,
+          "display_name": "Matthew Buxton",
+          "confidence": 0.6935,
+          "evidence_types": [
+            "diarized_transcription",
+            "seed_provider_speaker_map"
+          ],
+          "duration_seconds": 4.64,
+          "provenance": [
+            "deepgram:nova-3:deepgram_diarized_transcription",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_005.json"
+          ]
+        },
+        {
+          "person_id": 1,
+          "display_name": "Denan Kemp",
+          "confidence": 0.1926,
+          "evidence_types": [
+            "diarized_transcription",
+            "seed_provider_speaker_map"
+          ],
+          "duration_seconds": 4.64,
+          "provenance": [
+            "deepgram:nova-3:deepgram_diarized_transcription",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_005.json"
+          ]
+        }
+      ],
+      "notes": "Seed-proposed review segment; requires human confirmation. provider=deepgram_diarized_transcription provider_speaker=2 provider_utterance_id=76b4f1b9-bb24-4a70-a237-5118e40bbb2d provider_word_range=68-83 mapping_status=mapped"
+    },
+    {
+      "segment_id": 61,
+      "start": 209.35,
+      "end": 212.63,
+      "text": "Hammer and Toya as the centers, and then just the wing spot's up for grabs.",
+      "true_person_id": 3,
+      "true_display_name": "Matthew Buxton",
+      "speaker_type": "known",
+      "confidence": 0.6672,
+      "evidence_candidates": [
+        {
+          "person_id": 3,
+          "display_name": "Matthew Buxton",
+          "confidence": 0.6672,
+          "evidence_types": [
+            "diarized_transcription",
+            "seed_provider_speaker_map"
+          ],
+          "duration_seconds": 3.28,
+          "provenance": [
+            "deepgram:nova-3:deepgram_diarized_transcription",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_005.json"
+          ]
+        },
+        {
+          "person_id": 1,
+          "display_name": "Denan Kemp",
+          "confidence": 0.1853,
+          "evidence_types": [
+            "diarized_transcription",
+            "seed_provider_speaker_map"
+          ],
+          "duration_seconds": 3.28,
+          "provenance": [
+            "deepgram:nova-3:deepgram_diarized_transcription",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_005.json"
+          ]
+        }
+      ],
+      "notes": "Seed-proposed review segment; requires human confirmation. provider=deepgram_diarized_transcription provider_speaker=2 provider_utterance_id=c50820d7-3da8-461f-b508-ae971cd3398b provider_word_range=1-15 mapping_status=mapped"
+    },
+    {
+      "segment_id": 62,
+      "start": 212.63,
+      "end": 214.79001,
+      "text": "Yeah. That that other wing spot is up for grabs.",
+      "true_person_id": 2,
+      "true_display_name": "Sandor Earl",
+      "speaker_type": "known",
+      "confidence": 0.9148,
+      "evidence_candidates": [
+        {
+          "person_id": 2,
+          "display_name": "Sandor Earl",
+          "confidence": 0.9148,
+          "evidence_types": [
+            "diarized_transcription",
+            "seed_provider_speaker_map"
+          ],
+          "duration_seconds": 2.16001,
+          "provenance": [
+            "deepgram:nova-3:deepgram_diarized_transcription",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_005.json"
+          ]
+        },
+        {
+          "person_id": 3,
+          "display_name": "Matthew Buxton",
+          "confidence": 0.0274,
+          "evidence_types": [
+            "diarized_transcription",
+            "seed_provider_speaker_map"
+          ],
+          "duration_seconds": 2.16001,
+          "provenance": [
+            "deepgram:nova-3:deepgram_diarized_transcription",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_005.json"
+          ]
+        },
+        {
+          "person_id": 1,
+          "display_name": "Denan Kemp",
+          "confidence": 0.0266,
+          "evidence_types": [
+            "diarized_transcription",
+            "seed_provider_speaker_map"
+          ],
+          "duration_seconds": 2.16001,
+          "provenance": [
+            "deepgram:nova-3:deepgram_diarized_transcription",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_005.json"
+          ]
+        }
+      ],
+      "notes": "Seed-proposed review segment; requires human confirmation. provider=deepgram_diarized_transcription provider_speaker=0 provider_utterance_id=c50820d7-3da8-461f-b508-ae971cd3398b provider_word_range=16-25 mapping_status=mapped"
+    },
+    {
+      "segment_id": 63,
+      "start": 215.655,
+      "end": 215.97499,
+      "text": "I",
+      "true_person_id": 3,
+      "true_display_name": "Matthew Buxton",
+      "speaker_type": "known",
+      "confidence": 0.7818,
+      "evidence_candidates": [
+        {
+          "person_id": 3,
+          "display_name": "Matthew Buxton",
+          "confidence": 0.7818,
+          "evidence_types": [
+            "diarized_transcription",
+            "seed_provider_speaker_map"
+          ],
+          "duration_seconds": 0.31999,
+          "provenance": [
+            "deepgram:nova-3:deepgram_diarized_transcription",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_005.json"
+          ]
+        },
+        {
+          "person_id": 1,
+          "display_name": "Denan Kemp",
+          "confidence": 0.2172,
+          "evidence_types": [
+            "diarized_transcription",
+            "seed_provider_speaker_map"
+          ],
+          "duration_seconds": 0.31999,
+          "provenance": [
+            "deepgram:nova-3:deepgram_diarized_transcription",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_005.json"
+          ]
+        }
+      ],
+      "notes": "Seed-proposed review segment; requires human confirmation. provider=deepgram_diarized_transcription provider_speaker=2 provider_utterance_id=4eb89779-7bc2-4935-8560-4571313a0524 provider_word_range=1-1 mapping_status=mapped"
+    },
+    {
+      "segment_id": 64,
+      "start": 215.97499,
+      "end": 221.17499,
+      "text": "I I don't think they'll go sell one. I think they'll go I think they'll go somewhere else. I think they'll go somewhere else.",
+      "true_person_id": 1,
+      "true_display_name": "Denan Kemp",
+      "speaker_type": "known",
+      "confidence": 0.9611,
+      "evidence_candidates": [
+        {
+          "person_id": 1,
+          "display_name": "Denan Kemp",
+          "confidence": 0.9611,
+          "evidence_types": [
+            "diarized_transcription",
+            "seed_provider_speaker_map"
+          ],
+          "duration_seconds": 5.2,
+          "provenance": [
+            "deepgram:nova-3:deepgram_diarized_transcription",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_005.json"
+          ]
+        },
+        {
+          "person_id": 2,
+          "display_name": "Sandor Earl",
+          "confidence": 0.0238,
+          "evidence_types": [
+            "diarized_transcription",
+            "seed_provider_speaker_map"
+          ],
+          "duration_seconds": 5.2,
+          "provenance": [
+            "deepgram:nova-3:deepgram_diarized_transcription",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_005.json"
+          ]
+        },
+        {
+          "person_id": 3,
+          "display_name": "Matthew Buxton",
+          "confidence": 0.0004,
+          "evidence_types": [
+            "diarized_transcription",
+            "seed_provider_speaker_map"
+          ],
+          "duration_seconds": 5.2,
+          "provenance": [
+            "deepgram:nova-3:deepgram_diarized_transcription",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_005.json"
+          ]
+        }
+      ],
+      "notes": "Seed-proposed review segment; requires human confirmation. provider=deepgram_diarized_transcription provider_speaker=1 provider_utterance_id=4eb89779-7bc2-4935-8560-4571313a0524 provider_word_range=2-25 mapping_status=mapped"
+    },
+    {
+      "segment_id": 65,
+      "start": 221.17499,
+      "end": 222.775,
+      "text": "I'm feeling I think of inform",
+      "true_person_id": 2,
+      "true_display_name": "Sandor Earl",
+      "speaker_type": "known",
+      "confidence": 0.6723,
+      "evidence_candidates": [
+        {
+          "person_id": 2,
+          "display_name": "Sandor Earl",
+          "confidence": 0.6723,
+          "evidence_types": [
+            "diarized_transcription",
+            "seed_provider_speaker_map"
+          ],
+          "duration_seconds": 1.60001,
+          "provenance": [
+            "deepgram:nova-3:deepgram_diarized_transcription",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_005.json"
+          ]
+        },
+        {
+          "person_id": 3,
+          "display_name": "Matthew Buxton",
+          "confidence": 0.0201,
+          "evidence_types": [
+            "diarized_transcription",
+            "seed_provider_speaker_map"
+          ],
+          "duration_seconds": 1.60001,
+          "provenance": [
+            "deepgram:nova-3:deepgram_diarized_transcription",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_005.json"
+          ]
+        },
+        {
+          "person_id": 1,
+          "display_name": "Denan Kemp",
+          "confidence": 0.0196,
+          "evidence_types": [
+            "diarized_transcription",
+            "seed_provider_speaker_map"
+          ],
+          "duration_seconds": 1.60001,
+          "provenance": [
+            "deepgram:nova-3:deepgram_diarized_transcription",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_005.json"
+          ]
+        }
+      ],
+      "notes": "Seed-proposed review segment; requires human confirmation. provider=deepgram_diarized_transcription provider_speaker=0 provider_utterance_id=4eb89779-7bc2-4935-8560-4571313a0524 provider_word_range=26-31 mapping_status=mapped"
+    },
+    {
+      "segment_id": 66,
+      "start": 222.935,
+      "end": 223.495,
+      "text": "Mhmm.",
+      "true_person_id": 1,
+      "true_display_name": "Denan Kemp",
+      "speaker_type": "known",
+      "confidence": 0.9128,
+      "evidence_candidates": [
+        {
+          "person_id": 1,
+          "display_name": "Denan Kemp",
+          "confidence": 0.9128,
+          "evidence_types": [
+            "diarized_transcription",
+            "seed_provider_speaker_map"
+          ],
+          "duration_seconds": 0.56,
+          "provenance": [
+            "deepgram:nova-3:deepgram_diarized_transcription",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_005.json"
+          ]
+        },
+        {
+          "person_id": 2,
+          "display_name": "Sandor Earl",
+          "confidence": 0.0226,
+          "evidence_types": [
+            "diarized_transcription",
+            "seed_provider_speaker_map"
+          ],
+          "duration_seconds": 0.56,
+          "provenance": [
+            "deepgram:nova-3:deepgram_diarized_transcription",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_005.json"
+          ]
+        },
+        {
+          "person_id": 3,
+          "display_name": "Matthew Buxton",
+          "confidence": 0.0004,
+          "evidence_types": [
+            "diarized_transcription",
+            "seed_provider_speaker_map"
+          ],
+          "duration_seconds": 0.56,
+          "provenance": [
+            "deepgram:nova-3:deepgram_diarized_transcription",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_005.json"
+          ]
+        }
+      ],
+      "notes": "Seed-proposed review segment; requires human confirmation. provider=deepgram_diarized_transcription provider_speaker=1 provider_utterance_id=4eb89779-7bc2-4935-8560-4571313a0524 provider_word_range=32-32 mapping_status=mapped"
+    },
+    {
+      "segment_id": 67,
+      "start": 224.375,
+      "end": 226.535,
+      "text": "Phil Sam Sami feels right, doesn't it?",
+      "true_person_id": 3,
+      "true_display_name": "Matthew Buxton",
+      "speaker_type": "known",
+      "confidence": 0.7144,
+      "evidence_candidates": [
+        {
+          "person_id": 3,
+          "display_name": "Matthew Buxton",
+          "confidence": 0.7144,
+          "evidence_types": [
+            "diarized_transcription",
+            "seed_provider_speaker_map"
+          ],
+          "duration_seconds": 2.16,
+          "provenance": [
+            "deepgram:nova-3:deepgram_diarized_transcription",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_005.json"
+          ]
+        },
+        {
+          "person_id": 1,
+          "display_name": "Denan Kemp",
+          "confidence": 0.1984,
+          "evidence_types": [
+            "diarized_transcription",
+            "seed_provider_speaker_map"
+          ],
+          "duration_seconds": 2.16,
+          "provenance": [
+            "deepgram:nova-3:deepgram_diarized_transcription",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_005.json"
+          ]
+        }
+      ],
+      "notes": "Seed-proposed review segment; requires human confirmation. provider=deepgram_diarized_transcription provider_speaker=2 provider_utterance_id=3021fd8b-b35e-435b-8f9d-cdc1a7a5293c provider_word_range=1-7 mapping_status=mapped"
+    },
+    {
+      "segment_id": 68,
+      "start": 226.69499,
+      "end": 235.66,
+      "text": "Him or Jojo Fafida. I rate Jojo Fafida so hard. I know Jojo Fafida plays center at club, but, yeah, Phillips, Samuel, Jojo Fafida, I'll be more than happy for them to be on the in the back line.",
+      "true_person_id": 1,
+      "true_display_name": "Denan Kemp",
+      "speaker_type": "known",
+      "confidence": 0.9331,
+      "evidence_candidates": [
+        {
+          "person_id": 1,
+          "display_name": "Denan Kemp",
+          "confidence": 0.9331,
+          "evidence_types": [
+            "diarized_transcription",
+            "seed_provider_speaker_map"
+          ],
+          "duration_seconds": 8.96501,
+          "provenance": [
+            "deepgram:nova-3:deepgram_diarized_transcription",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_005.json"
+          ]
+        },
+        {
+          "person_id": 2,
+          "display_name": "Sandor Earl",
+          "confidence": 0.0231,
+          "evidence_types": [
+            "diarized_transcription",
+            "seed_provider_speaker_map"
+          ],
+          "duration_seconds": 8.96501,
+          "provenance": [
+            "deepgram:nova-3:deepgram_diarized_transcription",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_005.json"
+          ]
+        },
+        {
+          "person_id": 3,
+          "display_name": "Matthew Buxton",
+          "confidence": 0.0004,
+          "evidence_types": [
+            "diarized_transcription",
+            "seed_provider_speaker_map"
+          ],
+          "duration_seconds": 8.96501,
+          "provenance": [
+            "deepgram:nova-3:deepgram_diarized_transcription",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_005.json"
+          ]
+        }
+      ],
+      "notes": "Seed-proposed review segment; requires human confirmation. provider=deepgram_diarized_transcription provider_speaker=1 provider_utterance_id=3021fd8b-b35e-435b-8f9d-cdc1a7a5293c provider_word_range=8-46 mapping_status=mapped"
+    },
+    {
+      "segment_id": 69,
+      "start": 236.78,
+      "end": 237.5,
+      "text": "It's",
+      "true_person_id": 3,
+      "true_display_name": "Matthew Buxton",
+      "speaker_type": "known",
+      "confidence": 0.7803,
+      "evidence_candidates": [
+        {
+          "person_id": 3,
+          "display_name": "Matthew Buxton",
+          "confidence": 0.7803,
+          "evidence_types": [
+            "diarized_transcription",
+            "seed_provider_speaker_map"
+          ],
+          "duration_seconds": 0.72,
+          "provenance": [
+            "deepgram:nova-3:deepgram_diarized_transcription",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_005.json"
+          ]
+        },
+        {
+          "person_id": 1,
+          "display_name": "Denan Kemp",
+          "confidence": 0.2168,
+          "evidence_types": [
+            "diarized_transcription",
+            "seed_provider_speaker_map"
+          ],
+          "duration_seconds": 0.72,
+          "provenance": [
+            "deepgram:nova-3:deepgram_diarized_transcription",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_005.json"
+          ]
+        }
+      ],
+      "notes": "Seed-proposed review segment; requires human confirmation. provider=deepgram_diarized_transcription provider_speaker=2 provider_utterance_id=fc710d5f-fa73-4e2a-9e7f-8aaf1ba64aa4 provider_word_range=1-1 mapping_status=mapped"
+    },
+    {
+      "segment_id": 70,
+      "start": 238.21999,
+      "end": 240.14,
+      "text": "Are they gonna pick are they gonna pick Monster?",
+      "true_person_id": 3,
+      "true_display_name": "Matthew Buxton",
+      "speaker_type": "known",
+      "confidence": 0.7558,
+      "evidence_candidates": [
+        {
+          "person_id": 3,
+          "display_name": "Matthew Buxton",
+          "confidence": 0.7558,
+          "evidence_types": [
+            "diarized_transcription",
+            "seed_provider_speaker_map"
+          ],
+          "duration_seconds": 1.92001,
+          "provenance": [
+            "deepgram:nova-3:deepgram_diarized_transcription",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_005.json"
+          ]
+        },
+        {
+          "person_id": 1,
+          "display_name": "Denan Kemp",
+          "confidence": 0.2099,
+          "evidence_types": [
+            "diarized_transcription",
+            "seed_provider_speaker_map"
+          ],
+          "duration_seconds": 1.92001,
+          "provenance": [
+            "deepgram:nova-3:deepgram_diarized_transcription",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_005.json"
+          ]
+        }
+      ],
+      "notes": "Seed-proposed review segment; requires human confirmation. provider=deepgram_diarized_transcription provider_speaker=2 provider_utterance_id=e7e269f9-b501-4dd2-836e-38f655537ebc provider_word_range=1-9 mapping_status=mapped"
+    },
+    {
+      "segment_id": 71,
+      "start": 240.37999,
+      "end": 241.5,
+      "text": "Yeah. Yes.",
+      "true_person_id": 1,
+      "true_display_name": "Denan Kemp",
+      "speaker_type": "known",
+      "confidence": 0.9749,
+      "evidence_candidates": [
+        {
+          "person_id": 1,
+          "display_name": "Denan Kemp",
+          "confidence": 0.9749,
+          "evidence_types": [
+            "diarized_transcription",
+            "seed_provider_speaker_map"
+          ],
+          "duration_seconds": 1.12001,
+          "provenance": [
+            "deepgram:nova-3:deepgram_diarized_transcription",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_005.json"
+          ]
+        },
+        {
+          "person_id": 2,
+          "display_name": "Sandor Earl",
+          "confidence": 0.0242,
+          "evidence_types": [
+            "diarized_transcription",
+            "seed_provider_speaker_map"
+          ],
+          "duration_seconds": 1.12001,
+          "provenance": [
+            "deepgram:nova-3:deepgram_diarized_transcription",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_005.json"
+          ]
+        },
+        {
+          "person_id": 3,
+          "display_name": "Matthew Buxton",
+          "confidence": 0.0004,
+          "evidence_types": [
+            "diarized_transcription",
+            "seed_provider_speaker_map"
+          ],
+          "duration_seconds": 1.12001,
+          "provenance": [
+            "deepgram:nova-3:deepgram_diarized_transcription",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_005.json"
+          ]
+        }
+      ],
+      "notes": "Seed-proposed review segment; requires human confirmation. provider=deepgram_diarized_transcription provider_speaker=1 provider_utterance_id=38103824-2769-4f2f-a6d1-27aa1cbfb396 provider_word_range=1-2 mapping_status=mapped"
+    },
+    {
+      "segment_id": 72,
+      "start": 241.9,
+      "end": 242.29999,
+      "text": "Well,",
+      "true_person_id": 2,
+      "true_display_name": "Sandor Earl",
+      "speaker_type": "known",
+      "confidence": 0.9433,
+      "evidence_candidates": [
+        {
+          "person_id": 2,
+          "display_name": "Sandor Earl",
+          "confidence": 0.9433,
+          "evidence_types": [
+            "diarized_transcription",
+            "seed_provider_speaker_map"
+          ],
+          "duration_seconds": 0.39999,
+          "provenance": [
+            "deepgram:nova-3:deepgram_diarized_transcription",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_005.json"
+          ]
+        },
+        {
+          "person_id": 3,
+          "display_name": "Matthew Buxton",
+          "confidence": 0.0283,
+          "evidence_types": [
+            "diarized_transcription",
+            "seed_provider_speaker_map"
+          ],
+          "duration_seconds": 0.39999,
+          "provenance": [
+            "deepgram:nova-3:deepgram_diarized_transcription",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_005.json"
+          ]
+        },
+        {
+          "person_id": 1,
+          "display_name": "Denan Kemp",
+          "confidence": 0.0275,
+          "evidence_types": [
+            "diarized_transcription",
+            "seed_provider_speaker_map"
+          ],
+          "duration_seconds": 0.39999,
+          "provenance": [
+            "deepgram:nova-3:deepgram_diarized_transcription",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_005.json"
+          ]
+        }
+      ],
+      "notes": "Seed-proposed review segment; requires human confirmation. provider=deepgram_diarized_transcription provider_speaker=0 provider_utterance_id=1f92719a-e9f5-4aec-b2ee-3b40b9692e58 provider_word_range=1-1 mapping_status=mapped"
+    },
+    {
+      "segment_id": 73,
+      "start": 242.29999,
+      "end": 242.45999,
+      "text": "the",
+      "true_person_id": 1,
+      "true_display_name": "Denan Kemp",
+      "speaker_type": "known",
+      "confidence": 0.9734,
+      "evidence_candidates": [
+        {
+          "person_id": 1,
+          "display_name": "Denan Kemp",
+          "confidence": 0.9734,
+          "evidence_types": [
+            "diarized_transcription",
+            "seed_provider_speaker_map"
+          ],
+          "duration_seconds": 0.16,
+          "provenance": [
+            "deepgram:nova-3:deepgram_diarized_transcription",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_005.json"
+          ]
+        },
+        {
+          "person_id": 2,
+          "display_name": "Sandor Earl",
+          "confidence": 0.0242,
+          "evidence_types": [
+            "diarized_transcription",
+            "seed_provider_speaker_map"
+          ],
+          "duration_seconds": 0.16,
+          "provenance": [
+            "deepgram:nova-3:deepgram_diarized_transcription",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_005.json"
+          ]
+        },
+        {
+          "person_id": 3,
+          "display_name": "Matthew Buxton",
+          "confidence": 0.0004,
+          "evidence_types": [
+            "diarized_transcription",
+            "seed_provider_speaker_map"
+          ],
+          "duration_seconds": 0.16,
+          "provenance": [
+            "deepgram:nova-3:deepgram_diarized_transcription",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_005.json"
+          ]
+        }
+      ],
+      "notes": "Seed-proposed review segment; requires human confirmation. provider=deepgram_diarized_transcription provider_speaker=1 provider_utterance_id=1f92719a-e9f5-4aec-b2ee-3b40b9692e58 provider_word_range=2-2 mapping_status=mapped"
+    },
+    {
+      "segment_id": 74,
+      "start": 242.45999,
+      "end": 243.26,
+      "text": "Blues are gonna have",
+      "true_person_id": 2,
+      "true_display_name": "Sandor Earl",
+      "speaker_type": "known",
+      "confidence": 0.8881,
+      "evidence_candidates": [
+        {
+          "person_id": 2,
+          "display_name": "Sandor Earl",
+          "confidence": 0.8881,
+          "evidence_types": [
+            "diarized_transcription",
+            "seed_provider_speaker_map"
+          ],
+          "duration_seconds": 0.80001,
+          "provenance": [
+            "deepgram:nova-3:deepgram_diarized_transcription",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_005.json"
+          ]
+        },
+        {
+          "person_id": 3,
+          "display_name": "Matthew Buxton",
+          "confidence": 0.0266,
+          "evidence_types": [
+            "diarized_transcription",
+            "seed_provider_speaker_map"
+          ],
+          "duration_seconds": 0.80001,
+          "provenance": [
+            "deepgram:nova-3:deepgram_diarized_transcription",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_005.json"
+          ]
+        },
+        {
+          "person_id": 1,
+          "display_name": "Denan Kemp",
+          "confidence": 0.0259,
+          "evidence_types": [
+            "diarized_transcription",
+            "seed_provider_speaker_map"
+          ],
+          "duration_seconds": 0.80001,
+          "provenance": [
+            "deepgram:nova-3:deepgram_diarized_transcription",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_005.json"
+          ]
+        }
+      ],
+      "notes": "Seed-proposed review segment; requires human confirmation. provider=deepgram_diarized_transcription provider_speaker=0 provider_utterance_id=1f92719a-e9f5-4aec-b2ee-3b40b9692e58 provider_word_range=3-6 mapping_status=mapped"
+    },
+    {
+      "segment_id": 75,
+      "start": 243.26,
+      "end": 243.9,
+      "text": "a few",
+      "true_person_id": 1,
+      "true_display_name": "Denan Kemp",
+      "speaker_type": "known",
+      "confidence": 0.9754,
+      "evidence_candidates": [
+        {
+          "person_id": 1,
+          "display_name": "Denan Kemp",
+          "confidence": 0.9754,
+          "evidence_types": [
+            "diarized_transcription",
+            "seed_provider_speaker_map"
+          ],
+          "duration_seconds": 0.64,
+          "provenance": [
+            "deepgram:nova-3:deepgram_diarized_transcription",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_005.json"
+          ]
+        },
+        {
+          "person_id": 2,
+          "display_name": "Sandor Earl",
+          "confidence": 0.0242,
+          "evidence_types": [
+            "diarized_transcription",
+            "seed_provider_speaker_map"
+          ],
+          "duration_seconds": 0.64,
+          "provenance": [
+            "deepgram:nova-3:deepgram_diarized_transcription",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_005.json"
+          ]
+        },
+        {
+          "person_id": 3,
+          "display_name": "Matthew Buxton",
+          "confidence": 0.0004,
+          "evidence_types": [
+            "diarized_transcription",
+            "seed_provider_speaker_map"
+          ],
+          "duration_seconds": 0.64,
+          "provenance": [
+            "deepgram:nova-3:deepgram_diarized_transcription",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_005.json"
+          ]
+        }
+      ],
+      "notes": "Seed-proposed review segment; requires human confirmation. provider=deepgram_diarized_transcription provider_speaker=1 provider_utterance_id=1f92719a-e9f5-4aec-b2ee-3b40b9692e58 provider_word_range=7-8 mapping_status=mapped"
+    },
+    {
+      "segment_id": 76,
+      "start": 244.29999,
+      "end": 245.81999,
+      "text": "they got a few injuries too, don't they?",
+      "true_person_id": 2,
+      "true_display_name": "Sandor Earl",
+      "speaker_type": "known",
+      "confidence": 0.9328,
+      "evidence_candidates": [
+        {
+          "person_id": 2,
+          "display_name": "Sandor Earl",
+          "confidence": 0.9328,
+          "evidence_types": [
+            "diarized_transcription",
+            "seed_provider_speaker_map"
+          ],
+          "duration_seconds": 1.52,
+          "provenance": [
+            "deepgram:nova-3:deepgram_diarized_transcription",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_005.json"
+          ]
+        },
+        {
+          "person_id": 3,
+          "display_name": "Matthew Buxton",
+          "confidence": 0.028,
+          "evidence_types": [
+            "diarized_transcription",
+            "seed_provider_speaker_map"
+          ],
+          "duration_seconds": 1.52,
+          "provenance": [
+            "deepgram:nova-3:deepgram_diarized_transcription",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_005.json"
+          ]
+        },
+        {
+          "person_id": 1,
+          "display_name": "Denan Kemp",
+          "confidence": 0.0272,
+          "evidence_types": [
+            "diarized_transcription",
+            "seed_provider_speaker_map"
+          ],
+          "duration_seconds": 1.52,
+          "provenance": [
+            "deepgram:nova-3:deepgram_diarized_transcription",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_005.json"
+          ]
+        }
+      ],
+      "notes": "Seed-proposed review segment; requires human confirmation. provider=deepgram_diarized_transcription provider_speaker=0 provider_utterance_id=40a764d4-b431-47b1-9fe5-d571834f2870 provider_word_range=1-8 mapping_status=mapped"
+    },
+    {
+      "segment_id": 77,
+      "start": 246.915,
+      "end": 248.19499,
+      "text": "There's injuries everywhere.",
+      "true_person_id": 2,
+      "true_display_name": "Sandor Earl",
+      "speaker_type": "known",
+      "confidence": 0.9389,
+      "evidence_candidates": [
+        {
+          "person_id": 2,
+          "display_name": "Sandor Earl",
+          "confidence": 0.9389,
+          "evidence_types": [
+            "diarized_transcription",
+            "seed_provider_speaker_map"
+          ],
+          "duration_seconds": 1.27999,
+          "provenance": [
+            "deepgram:nova-3:deepgram_diarized_transcription",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_005.json"
+          ]
+        },
+        {
+          "person_id": 3,
+          "display_name": "Matthew Buxton",
+          "confidence": 0.0281,
+          "evidence_types": [
+            "diarized_transcription",
+            "seed_provider_speaker_map"
+          ],
+          "duration_seconds": 1.27999,
+          "provenance": [
+            "deepgram:nova-3:deepgram_diarized_transcription",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_005.json"
+          ]
+        },
+        {
+          "person_id": 1,
+          "display_name": "Denan Kemp",
+          "confidence": 0.0273,
+          "evidence_types": [
+            "diarized_transcription",
+            "seed_provider_speaker_map"
+          ],
+          "duration_seconds": 1.27999,
+          "provenance": [
+            "deepgram:nova-3:deepgram_diarized_transcription",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_005.json"
+          ]
+        }
+      ],
+      "notes": "Seed-proposed review segment; requires human confirmation. provider=deepgram_diarized_transcription provider_speaker=0 provider_utterance_id=41a3cc67-aad3-4f76-aef6-0820933b0fb9 provider_word_range=1-3 mapping_status=mapped"
+    },
+    {
+      "segment_id": 78,
+      "start": 248.19499,
+      "end": 252.115,
+      "text": "Yeah. Injuries everywhere. But in regards to Munsell, like, who who else would you pick over Munster?",
+      "true_person_id": 1,
+      "true_display_name": "Denan Kemp",
+      "speaker_type": "known",
+      "confidence": 0.9333,
+      "evidence_candidates": [
+        {
+          "person_id": 1,
+          "display_name": "Denan Kemp",
+          "confidence": 0.9333,
+          "evidence_types": [
+            "diarized_transcription",
+            "seed_provider_speaker_map"
+          ],
+          "duration_seconds": 3.92001,
+          "provenance": [
+            "deepgram:nova-3:deepgram_diarized_transcription",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_005.json"
+          ]
+        },
+        {
+          "person_id": 2,
+          "display_name": "Sandor Earl",
+          "confidence": 0.0232,
+          "evidence_types": [
+            "diarized_transcription",
+            "seed_provider_speaker_map"
+          ],
+          "duration_seconds": 3.92001,
+          "provenance": [
+            "deepgram:nova-3:deepgram_diarized_transcription",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_005.json"
+          ]
+        },
+        {
+          "person_id": 3,
+          "display_name": "Matthew Buxton",
+          "confidence": 0.0004,
+          "evidence_types": [
+            "diarized_transcription",
+            "seed_provider_speaker_map"
+          ],
+          "duration_seconds": 3.92001,
+          "provenance": [
+            "deepgram:nova-3:deepgram_diarized_transcription",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_005.json"
+          ]
+        }
+      ],
+      "notes": "Seed-proposed review segment; requires human confirmation. provider=deepgram_diarized_transcription provider_speaker=1 provider_utterance_id=41a3cc67-aad3-4f76-aef6-0820933b0fb9 provider_word_range=4-20 mapping_status=mapped"
+    },
+    {
+      "segment_id": 79,
+      "start": 252.19499,
+      "end": 258.915,
+      "text": "I would pick Munster. I'm just asking the question. Yeah. Because, like, there's there's the opportunity to have Deedon and Ma'am together. There's opportunity to have",
+      "true_person_id": 3,
+      "true_display_name": "Matthew Buxton",
+      "speaker_type": "known",
+      "confidence": 0.7478,
+      "evidence_candidates": [
+        {
+          "person_id": 3,
+          "display_name": "Matthew Buxton",
+          "confidence": 0.7478,
+          "evidence_types": [
+            "diarized_transcription",
+            "seed_provider_speaker_map"
+          ],
+          "duration_seconds": 6.72001,
+          "provenance": [
+            "deepgram:nova-3:deepgram_diarized_transcription",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_005.json"
+          ]
+        },
+        {
+          "person_id": 1,
+          "display_name": "Denan Kemp",
+          "confidence": 0.2077,
+          "evidence_types": [
+            "diarized_transcription",
+            "seed_provider_speaker_map"
+          ],
+          "duration_seconds": 6.72001,
+          "provenance": [
+            "deepgram:nova-3:deepgram_diarized_transcription",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_005.json"
+          ]
+        }
+      ],
+      "notes": "Seed-proposed review segment; requires human confirmation. provider=deepgram_diarized_transcription provider_speaker=2 provider_utterance_id=41a3cc67-aad3-4f76-aef6-0820933b0fb9 provider_word_range=21-46 mapping_status=mapped"
+    },
+    {
+      "segment_id": 80,
+      "start": 259.41,
+      "end": 261.09003,
+      "text": "Deaton and Sam Walker.",
+      "true_person_id": 3,
+      "true_display_name": "Matthew Buxton",
+      "speaker_type": "known",
+      "confidence": 0.781,
+      "evidence_candidates": [
+        {
+          "person_id": 3,
+          "display_name": "Matthew Buxton",
+          "confidence": 0.781,
+          "evidence_types": [
+            "diarized_transcription",
+            "seed_provider_speaker_map"
+          ],
+          "duration_seconds": 1.68003,
+          "provenance": [
+            "deepgram:nova-3:deepgram_diarized_transcription",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_005.json"
+          ]
+        },
+        {
+          "person_id": 1,
+          "display_name": "Denan Kemp",
+          "confidence": 0.217,
+          "evidence_types": [
+            "diarized_transcription",
+            "seed_provider_speaker_map"
+          ],
+          "duration_seconds": 1.68003,
+          "provenance": [
+            "deepgram:nova-3:deepgram_diarized_transcription",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_005.json"
+          ]
+        }
+      ],
+      "notes": "Seed-proposed review segment; requires human confirmation. provider=deepgram_diarized_transcription provider_speaker=2 provider_utterance_id=48ad2a36-b15c-41cd-a270-08970bf96101 provider_word_range=1-4 mapping_status=mapped"
+    },
+    {
+      "segment_id": 81,
+      "start": 261.33002,
+      "end": 263.33002,
+      "text": "You threw up Clifford the other day.",
+      "true_person_id": 3,
+      "true_display_name": "Matthew Buxton",
+      "speaker_type": "known",
+      "confidence": 0.7621,
+      "evidence_candidates": [
+        {
+          "person_id": 3,
+          "display_name": "Matthew Buxton",
+          "confidence": 0.7621,
+          "evidence_types": [
+            "diarized_transcription",
+            "seed_provider_speaker_map"
+          ],
+          "duration_seconds": 2.0,
+          "provenance": [
+            "deepgram:nova-3:deepgram_diarized_transcription",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_005.json"
+          ]
+        },
+        {
+          "person_id": 1,
+          "display_name": "Denan Kemp",
+          "confidence": 0.2117,
+          "evidence_types": [
+            "diarized_transcription",
+            "seed_provider_speaker_map"
+          ],
+          "duration_seconds": 2.0,
+          "provenance": [
+            "deepgram:nova-3:deepgram_diarized_transcription",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_005.json"
+          ]
+        }
+      ],
+      "notes": "Seed-proposed review segment; requires human confirmation. provider=deepgram_diarized_transcription provider_speaker=2 provider_utterance_id=41f2c31e-0580-45b0-8d33-72a30ebe05ef provider_word_range=1-7 mapping_status=mapped"
+    },
+    {
+      "segment_id": 82,
+      "start": 264.61002,
+      "end": 266.37003,
+      "text": "It's a has a very, very high score.",
+      "true_person_id": 3,
+      "true_display_name": "Matthew Buxton",
+      "speaker_type": "known",
+      "confidence": 0.6557,
+      "evidence_candidates": [
+        {
+          "person_id": 3,
+          "display_name": "Matthew Buxton",
+          "confidence": 0.6557,
+          "evidence_types": [
+            "diarized_transcription",
+            "seed_provider_speaker_map"
+          ],
+          "duration_seconds": 1.76001,
+          "provenance": [
+            "deepgram:nova-3:deepgram_diarized_transcription",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_005.json"
+          ]
+        },
+        {
+          "person_id": 1,
+          "display_name": "Denan Kemp",
+          "confidence": 0.1822,
+          "evidence_types": [
+            "diarized_transcription",
+            "seed_provider_speaker_map"
+          ],
+          "duration_seconds": 1.76001,
+          "provenance": [
+            "deepgram:nova-3:deepgram_diarized_transcription",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_005.json"
+          ]
+        }
+      ],
+      "notes": "Seed-proposed review segment; requires human confirmation. provider=deepgram_diarized_transcription provider_speaker=2 provider_utterance_id=0587566e-24ad-489d-a81a-fa0aab82b94f provider_word_range=1-8 mapping_status=mapped"
+    },
+    {
+      "segment_id": 83,
+      "start": 266.37003,
+      "end": 271.17,
+      "text": "I think you give Munster the first game. A bit similar to DC last year. You got the first game. If it works",
+      "true_person_id": 1,
+      "true_display_name": "Denan Kemp",
+      "speaker_type": "known",
+      "confidence": 0.9071,
+      "evidence_candidates": [
+        {
+          "person_id": 1,
+          "display_name": "Denan Kemp",
+          "confidence": 0.9071,
+          "evidence_types": [
+            "diarized_transcription",
+            "seed_provider_speaker_map"
+          ],
+          "duration_seconds": 4.79997,
+          "provenance": [
+            "deepgram:nova-3:deepgram_diarized_transcription",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_005.json"
+          ]
+        },
+        {
+          "person_id": 2,
+          "display_name": "Sandor Earl",
+          "confidence": 0.0225,
+          "evidence_types": [
+            "diarized_transcription",
+            "seed_provider_speaker_map"
+          ],
+          "duration_seconds": 4.79997,
+          "provenance": [
+            "deepgram:nova-3:deepgram_diarized_transcription",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_005.json"
+          ]
+        },
+        {
+          "person_id": 3,
+          "display_name": "Matthew Buxton",
+          "confidence": 0.0004,
+          "evidence_types": [
+            "diarized_transcription",
+            "seed_provider_speaker_map"
+          ],
+          "duration_seconds": 4.79997,
+          "provenance": [
+            "deepgram:nova-3:deepgram_diarized_transcription",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_005.json"
+          ]
+        }
+      ],
+      "notes": "Seed-proposed review segment; requires human confirmation. provider=deepgram_diarized_transcription provider_speaker=1 provider_utterance_id=0587566e-24ad-489d-a81a-fa0aab82b94f provider_word_range=9-31 mapping_status=mapped"
+    },
+    {
+      "segment_id": 84,
+      "start": 271.25,
+      "end": 276.075,
+      "text": "I actually work back Munster to go into the Queensland camp, feel rejuvenated,",
+      "true_person_id": 2,
+      "true_display_name": "Sandor Earl",
+      "speaker_type": "known",
+      "confidence": 0.8877,
+      "evidence_candidates": [
+        {
+          "person_id": 2,
+          "display_name": "Sandor Earl",
+          "confidence": 0.8877,
+          "evidence_types": [
+            "diarized_transcription",
+            "seed_provider_speaker_map"
+          ],
+          "duration_seconds": 4.825,
+          "provenance": [
+            "deepgram:nova-3:deepgram_diarized_transcription",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_005.json"
+          ]
+        },
+        {
+          "person_id": 3,
+          "display_name": "Matthew Buxton",
+          "confidence": 0.0266,
+          "evidence_types": [
+            "diarized_transcription",
+            "seed_provider_speaker_map"
+          ],
+          "duration_seconds": 4.825,
+          "provenance": [
+            "deepgram:nova-3:deepgram_diarized_transcription",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_005.json"
+          ]
+        },
+        {
+          "person_id": 1,
+          "display_name": "Denan Kemp",
+          "confidence": 0.0259,
+          "evidence_types": [
+            "diarized_transcription",
+            "seed_provider_speaker_map"
+          ],
+          "duration_seconds": 4.825,
+          "provenance": [
+            "deepgram:nova-3:deepgram_diarized_transcription",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_005.json"
+          ]
+        }
+      ],
+      "notes": "Seed-proposed review segment; requires human confirmation. provider=deepgram_diarized_transcription provider_speaker=0 provider_utterance_id=0587566e-24ad-489d-a81a-fa0aab82b94f provider_word_range=32-44 mapping_status=mapped"
+    },
+    {
+      "segment_id": 85,
+      "start": 276.075,
+      "end": 276.875,
+      "text": "and just",
+      "true_person_id": 2,
+      "true_display_name": "Sandor Earl",
+      "speaker_type": "known",
+      "confidence": 0.9442,
+      "evidence_candidates": [
+        {
+          "person_id": 2,
+          "display_name": "Sandor Earl",
+          "confidence": 0.9442,
+          "evidence_types": [
+            "diarized_transcription",
+            "seed_provider_speaker_map"
+          ],
+          "duration_seconds": 0.8,
+          "provenance": [
+            "deepgram:nova-3:deepgram_diarized_transcription",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_005.json"
+          ]
+        },
+        {
+          "person_id": 3,
+          "display_name": "Matthew Buxton",
+          "confidence": 0.0283,
+          "evidence_types": [
+            "diarized_transcription",
+            "seed_provider_speaker_map"
+          ],
+          "duration_seconds": 0.8,
+          "provenance": [
+            "deepgram:nova-3:deepgram_diarized_transcription",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_005.json"
+          ]
+        },
+        {
+          "person_id": 1,
+          "display_name": "Denan Kemp",
+          "confidence": 0.0275,
+          "evidence_types": [
+            "diarized_transcription",
+            "seed_provider_speaker_map"
+          ],
+          "duration_seconds": 0.8,
+          "provenance": [
+            "deepgram:nova-3:deepgram_diarized_transcription",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_005.json"
+          ]
+        }
+      ],
+      "notes": "Seed-proposed review segment; requires human confirmation. provider=deepgram_diarized_transcription provider_speaker=0 provider_utterance_id=cca135cb-20d5-45cd-a0f5-47c9d479a271 provider_word_range=1-2 mapping_status=mapped"
+    },
+    {
+      "segment_id": 86,
+      "start": 277.275,
+      "end": 278.155,
+      "text": "tear it up.",
+      "true_person_id": 2,
+      "true_display_name": "Sandor Earl",
+      "speaker_type": "known",
+      "confidence": 0.9435,
+      "evidence_candidates": [
+        {
+          "person_id": 2,
+          "display_name": "Sandor Earl",
+          "confidence": 0.9435,
+          "evidence_types": [
+            "diarized_transcription",
+            "seed_provider_speaker_map"
+          ],
+          "duration_seconds": 0.88,
+          "provenance": [
+            "deepgram:nova-3:deepgram_diarized_transcription",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_005.json"
+          ]
+        },
+        {
+          "person_id": 3,
+          "display_name": "Matthew Buxton",
+          "confidence": 0.0283,
+          "evidence_types": [
+            "diarized_transcription",
+            "seed_provider_speaker_map"
+          ],
+          "duration_seconds": 0.88,
+          "provenance": [
+            "deepgram:nova-3:deepgram_diarized_transcription",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_005.json"
+          ]
+        },
+        {
+          "person_id": 1,
+          "display_name": "Denan Kemp",
+          "confidence": 0.0275,
+          "evidence_types": [
+            "diarized_transcription",
+            "seed_provider_speaker_map"
+          ],
+          "duration_seconds": 0.88,
+          "provenance": [
+            "deepgram:nova-3:deepgram_diarized_transcription",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_005.json"
+          ]
+        }
+      ],
+      "notes": "Seed-proposed review segment; requires human confirmation. provider=deepgram_diarized_transcription provider_speaker=0 provider_utterance_id=530efb31-5f18-46ba-83cb-93fa674a5220 provider_word_range=1-3 mapping_status=mapped"
+    },
+    {
+      "segment_id": 87,
+      "start": 278.155,
+      "end": 281.355,
+      "text": "Yeah. I'm I I would absolutely be picking Munster no matter what.",
+      "true_person_id": 1,
+      "true_display_name": "Denan Kemp",
+      "speaker_type": "known",
+      "confidence": 0.9524,
+      "evidence_candidates": [
+        {
+          "person_id": 1,
+          "display_name": "Denan Kemp",
+          "confidence": 0.9524,
+          "evidence_types": [
+            "diarized_transcription",
+            "seed_provider_speaker_map"
+          ],
+          "duration_seconds": 3.2,
+          "provenance": [
+            "deepgram:nova-3:deepgram_diarized_transcription",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_005.json"
+          ]
+        },
+        {
+          "person_id": 2,
+          "display_name": "Sandor Earl",
+          "confidence": 0.0236,
+          "evidence_types": [
+            "diarized_transcription",
+            "seed_provider_speaker_map"
+          ],
+          "duration_seconds": 3.2,
+          "provenance": [
+            "deepgram:nova-3:deepgram_diarized_transcription",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_005.json"
+          ]
+        },
+        {
+          "person_id": 3,
+          "display_name": "Matthew Buxton",
+          "confidence": 0.0004,
+          "evidence_types": [
+            "diarized_transcription",
+            "seed_provider_speaker_map"
+          ],
+          "duration_seconds": 3.2,
+          "provenance": [
+            "deepgram:nova-3:deepgram_diarized_transcription",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_005.json"
+          ]
+        }
+      ],
+      "notes": "Seed-proposed review segment; requires human confirmation. provider=deepgram_diarized_transcription provider_speaker=1 provider_utterance_id=530efb31-5f18-46ba-83cb-93fa674a5220 provider_word_range=4-15 mapping_status=mapped"
+    },
+    {
+      "segment_id": 88,
+      "start": 281.355,
+      "end": 284.715,
+      "text": "You have to just based on like, he's not at a point where,",
+      "true_person_id": 2,
+      "true_display_name": "Sandor Earl",
+      "speaker_type": "known",
+      "confidence": 0.9283,
+      "evidence_candidates": [
+        {
+          "person_id": 2,
+          "display_name": "Sandor Earl",
+          "confidence": 0.9283,
+          "evidence_types": [
+            "diarized_transcription",
+            "seed_provider_speaker_map"
+          ],
+          "duration_seconds": 3.36,
+          "provenance": [
+            "deepgram:nova-3:deepgram_diarized_transcription",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_005.json"
+          ]
+        },
+        {
+          "person_id": 3,
+          "display_name": "Matthew Buxton",
+          "confidence": 0.0278,
+          "evidence_types": [
+            "diarized_transcription",
+            "seed_provider_speaker_map"
+          ],
+          "duration_seconds": 3.36,
+          "provenance": [
+            "deepgram:nova-3:deepgram_diarized_transcription",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_005.json"
+          ]
+        },
+        {
+          "person_id": 1,
+          "display_name": "Denan Kemp",
+          "confidence": 0.027,
+          "evidence_types": [
+            "diarized_transcription",
+            "seed_provider_speaker_map"
+          ],
+          "duration_seconds": 3.36,
+          "provenance": [
+            "deepgram:nova-3:deepgram_diarized_transcription",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_005.json"
+          ]
+        }
+      ],
+      "notes": "Seed-proposed review segment; requires human confirmation. provider=deepgram_diarized_transcription provider_speaker=0 provider_utterance_id=530efb31-5f18-46ba-83cb-93fa674a5220 provider_word_range=16-28 mapping_status=mapped"
+    },
+    {
+      "segment_id": 89,
+      "start": 285.275,
+      "end": 294.29,
+      "text": "you know, you're picking him, and there's been previous experiences where, oh, it's been on the, Munster is Munster at origin. Yeah. Like, we're way off not picking him just because of that.",
+      "true_person_id": 2,
+      "true_display_name": "Sandor Earl",
+      "speaker_type": "known",
+      "confidence": 0.8928,
+      "evidence_candidates": [
+        {
+          "person_id": 2,
+          "display_name": "Sandor Earl",
+          "confidence": 0.8928,
+          "evidence_types": [
+            "diarized_transcription",
+            "seed_provider_speaker_map"
+          ],
+          "duration_seconds": 9.015,
+          "provenance": [
+            "deepgram:nova-3:deepgram_diarized_transcription",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_005.json"
+          ]
+        },
+        {
+          "person_id": 3,
+          "display_name": "Matthew Buxton",
+          "confidence": 0.0268,
+          "evidence_types": [
+            "diarized_transcription",
+            "seed_provider_speaker_map"
+          ],
+          "duration_seconds": 9.015,
+          "provenance": [
+            "deepgram:nova-3:deepgram_diarized_transcription",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_005.json"
+          ]
+        },
+        {
+          "person_id": 1,
+          "display_name": "Denan Kemp",
+          "confidence": 0.026,
+          "evidence_types": [
+            "diarized_transcription",
+            "seed_provider_speaker_map"
+          ],
+          "duration_seconds": 9.015,
+          "provenance": [
+            "deepgram:nova-3:deepgram_diarized_transcription",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_005.json"
+          ]
+        }
+      ],
+      "notes": "Seed-proposed review segment; requires human confirmation. provider=deepgram_diarized_transcription provider_speaker=0 provider_utterance_id=b83da644-0022-4a47-9b09-3940fe9d0b98 provider_word_range=1-33 mapping_status=mapped"
+    },
+    {
+      "segment_id": 90,
+      "start": 294.29,
+      "end": 294.61002,
+      "text": "Yeah.",
+      "true_person_id": 1,
+      "true_display_name": "Denan Kemp",
+      "speaker_type": "known",
+      "confidence": 0.9749,
+      "evidence_candidates": [
+        {
+          "person_id": 1,
+          "display_name": "Denan Kemp",
+          "confidence": 0.9749,
+          "evidence_types": [
+            "diarized_transcription",
+            "seed_provider_speaker_map"
+          ],
+          "duration_seconds": 0.32002,
+          "provenance": [
+            "deepgram:nova-3:deepgram_diarized_transcription",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_005.json"
+          ]
+        },
+        {
+          "person_id": 2,
+          "display_name": "Sandor Earl",
+          "confidence": 0.0242,
+          "evidence_types": [
+            "diarized_transcription",
+            "seed_provider_speaker_map"
+          ],
+          "duration_seconds": 0.32002,
+          "provenance": [
+            "deepgram:nova-3:deepgram_diarized_transcription",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_005.json"
+          ]
+        },
+        {
+          "person_id": 3,
+          "display_name": "Matthew Buxton",
+          "confidence": 0.0004,
+          "evidence_types": [
+            "diarized_transcription",
+            "seed_provider_speaker_map"
+          ],
+          "duration_seconds": 0.32002,
+          "provenance": [
+            "deepgram:nova-3:deepgram_diarized_transcription",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_005.json"
+          ]
+        }
+      ],
+      "notes": "Seed-proposed review segment; requires human confirmation. provider=deepgram_diarized_transcription provider_speaker=1 provider_utterance_id=b83da644-0022-4a47-9b09-3940fe9d0b98 provider_word_range=34-34 mapping_status=mapped"
+    },
+    {
+      "segment_id": 91,
+      "start": 294.61002,
+      "end": 295.89,
+      "text": "As a Blues fan,",
+      "true_person_id": 3,
+      "true_display_name": "Matthew Buxton",
+      "speaker_type": "known",
+      "confidence": 0.7586,
+      "evidence_candidates": [
+        {
+          "person_id": 3,
+          "display_name": "Matthew Buxton",
+          "confidence": 0.7586,
+          "evidence_types": [
+            "diarized_transcription",
+            "seed_provider_speaker_map"
+          ],
+          "duration_seconds": 1.27998,
+          "provenance": [
+            "deepgram:nova-3:deepgram_diarized_transcription",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_005.json"
+          ]
+        },
+        {
+          "person_id": 1,
+          "display_name": "Denan Kemp",
+          "confidence": 0.2107,
+          "evidence_types": [
+            "diarized_transcription",
+            "seed_provider_speaker_map"
+          ],
+          "duration_seconds": 1.27998,
+          "provenance": [
+            "deepgram:nova-3:deepgram_diarized_transcription",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_005.json"
+          ]
+        }
+      ],
+      "notes": "Seed-proposed review segment; requires human confirmation. provider=deepgram_diarized_transcription provider_speaker=2 provider_utterance_id=b83da644-0022-4a47-9b09-3940fe9d0b98 provider_word_range=35-38 mapping_status=mapped"
+    },
+    {
+      "segment_id": 92,
+      "start": 296.05002,
+      "end": 298.21002,
+      "text": "I'd be very happy to not see Munster there.",
+      "true_person_id": 3,
+      "true_display_name": "Matthew Buxton",
+      "speaker_type": "known",
+      "confidence": 0.7374,
+      "evidence_candidates": [
+        {
+          "person_id": 3,
+          "display_name": "Matthew Buxton",
+          "confidence": 0.7374,
+          "evidence_types": [
+            "diarized_transcription",
+            "seed_provider_speaker_map"
+          ],
+          "duration_seconds": 2.16,
+          "provenance": [
+            "deepgram:nova-3:deepgram_diarized_transcription",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_005.json"
+          ]
+        },
+        {
+          "person_id": 1,
+          "display_name": "Denan Kemp",
+          "confidence": 0.2049,
+          "evidence_types": [
+            "diarized_transcription",
+            "seed_provider_speaker_map"
+          ],
+          "duration_seconds": 2.16,
+          "provenance": [
+            "deepgram:nova-3:deepgram_diarized_transcription",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_005.json"
+          ]
+        }
+      ],
+      "notes": "Seed-proposed review segment; requires human confirmation. provider=deepgram_diarized_transcription provider_speaker=2 provider_utterance_id=4425b9f3-d9f3-46ca-b3b7-cf0c86e2b271 provider_word_range=1-9 mapping_status=mapped"
+    },
+    {
+      "segment_id": 93,
+      "start": 298.29,
+      "end": 301.01,
+      "text": "Of course. Mhmm. Right. You just",
+      "true_person_id": 1,
+      "true_display_name": "Denan Kemp",
+      "speaker_type": "known",
+      "confidence": 0.7871,
+      "evidence_candidates": [
+        {
+          "person_id": 1,
+          "display_name": "Denan Kemp",
+          "confidence": 0.7871,
+          "evidence_types": [
+            "diarized_transcription",
+            "seed_provider_speaker_map"
+          ],
+          "duration_seconds": 2.72,
+          "provenance": [
+            "deepgram:nova-3:deepgram_diarized_transcription",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_005.json"
+          ]
+        },
+        {
+          "person_id": 2,
+          "display_name": "Sandor Earl",
+          "confidence": 0.0195,
+          "evidence_types": [
+            "diarized_transcription",
+            "seed_provider_speaker_map"
+          ],
+          "duration_seconds": 2.72,
+          "provenance": [
+            "deepgram:nova-3:deepgram_diarized_transcription",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_005.json"
+          ]
+        },
+        {
+          "person_id": 3,
+          "display_name": "Matthew Buxton",
+          "confidence": 0.0003,
+          "evidence_types": [
+            "diarized_transcription",
+            "seed_provider_speaker_map"
+          ],
+          "duration_seconds": 2.72,
+          "provenance": [
+            "deepgram:nova-3:deepgram_diarized_transcription",
+            "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_005.json"
+          ]
+        }
+      ],
+      "notes": "Seed-proposed review segment; requires human confirmation. provider=deepgram_diarized_transcription provider_speaker=1 provider_utterance_id=4425b9f3-d9f3-46ca-b3b7-cf0c86e2b271 provider_word_range=10-15 mapping_status=mapped"
+    }
+  ],
+  "annotation": {
+    "status": "seeded_review",
+    "reviewed_by": "",
+    "review_level": "machine_seeded",
+    "notes": "Generated from provider word-level speaker changes and the seed_gold profile. Requires human review before promotion.",
+    "provider": "deepgram_diarized_transcription",
+    "provider_model": "nova-3",
+    "provider_output": "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM_part_005.json",
+    "human_review_required": true,
+    "provider_diarize_model": "latest",
+    "source_case": "youtube_gG1Lq2pIgGM_part_005.json",
+    "seed_profile": "datasets/seed_gold/calibration/seed_gold_profile.json"
+  }
+}

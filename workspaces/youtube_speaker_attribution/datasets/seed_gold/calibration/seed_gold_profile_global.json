@@ -1,0 +1,640 @@
+{
+  "schema_version": 1,
+  "seed_cases": [
+    "datasets/seed_gold/cases/youtube_gG1Lq2pIgGM_part_000.json",
+    "datasets/seed_gold/cases/youtube_gG1Lq2pIgGM_part_001.json",
+    "datasets/seed_gold/cases/youtube_gG1Lq2pIgGM_part_002.json"
+  ],
+  "provider_outputs": [
+    "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM.json"
+  ],
+  "provider": "deepgram_diarized_transcription",
+  "mapping_basis": "global_seed_gold_word_overlap_duration",
+  "provider_case_name": "youtube_gG1Lq2pIgGM.json",
+  "min_mapping_share": 0.55,
+  "known_people": [
+    {
+      "person_id": 1,
+      "display_name": "Denan Kemp",
+      "speaker_type": "known",
+      "aliases": [
+        "deepgram:1"
+      ],
+      "notes": "Machine diarized provisional speaker. Human review required before promotion."
+    },
+    {
+      "person_id": 2,
+      "display_name": "Sandor Earl",
+      "speaker_type": "known",
+      "aliases": [
+        "deepgram:0"
+      ],
+      "notes": "Machine diarized provisional speaker. Human review required before promotion."
+    },
+    {
+      "person_id": 3,
+      "display_name": "Matthew Buxton",
+      "speaker_type": "known",
+      "aliases": [],
+      "notes": "Human-identified speaker added during draft review."
+    }
+  ],
+  "provider_speaker_votes": {
+    "0": [
+      {
+        "person_id": 2,
+        "display_name": "Sandor Earl",
+        "duration_seconds": 3.28003,
+        "share": 0.5125
+      },
+      {
+        "person_id": 1,
+        "display_name": "Denan Kemp",
+        "duration_seconds": 3.12,
+        "share": 0.4875
+      }
+    ],
+    "1": [
+      {
+        "person_id": 1,
+        "display_name": "Denan Kemp",
+        "duration_seconds": 528.160337,
+        "share": 0.9791
+      },
+      {
+        "person_id": 2,
+        "display_name": "Sandor Earl",
+        "duration_seconds": 11.28013,
+        "share": 0.0209
+      }
+    ],
+    "2": [
+      {
+        "person_id": 2,
+        "display_name": "Sandor Earl",
+        "duration_seconds": 260.400099,
+        "share": 0.9798
+      },
+      {
+        "person_id": 1,
+        "display_name": "Denan Kemp",
+        "duration_seconds": 5.360075,
+        "share": 0.0202
+      }
+    ],
+    "3": [
+      {
+        "person_id": 3,
+        "display_name": "Matthew Buxton",
+        "duration_seconds": 11.36002,
+        "share": 0.8161
+      },
+      {
+        "person_id": 2,
+        "display_name": "Sandor Earl",
+        "duration_seconds": 2.16001,
+        "share": 0.1552
+      },
+      {
+        "person_id": 1,
+        "display_name": "Denan Kemp",
+        "duration_seconds": 0.4,
+        "share": 0.0287
+      }
+    ]
+  },
+  "provider_speaker_map": {
+    "0": {
+      "person_id": 2,
+      "display_name": "Sandor Earl",
+      "duration_seconds": 3.28003,
+      "total_duration_seconds": 6.40003,
+      "share": 0.5125,
+      "status": "ambiguous"
+    },
+    "1": {
+      "person_id": 1,
+      "display_name": "Denan Kemp",
+      "duration_seconds": 528.160337,
+      "total_duration_seconds": 539.440467,
+      "share": 0.9791,
+      "status": "mapped"
+    },
+    "2": {
+      "person_id": 2,
+      "display_name": "Sandor Earl",
+      "duration_seconds": 260.400099,
+      "total_duration_seconds": 265.760174,
+      "share": 0.9798,
+      "status": "mapped"
+    },
+    "3": {
+      "person_id": 3,
+      "display_name": "Matthew Buxton",
+      "duration_seconds": 11.36002,
+      "total_duration_seconds": 13.92003,
+      "share": 0.8161,
+      "status": "mapped"
+    }
+  },
+  "reference_spans": [
+    {
+      "person_id": 1,
+      "display_name": "Denan Kemp",
+      "case_id": "youtube_gG1Lq2pIgGM_part_001",
+      "segment_id": 6,
+      "start": 14.514999,
+      "end": 42.155,
+      "absolute_start": 314.529999,
+      "absolute_end": 342.17,
+      "duration_seconds": 27.640001,
+      "text": "So, like, that's that's the concern I have. I have no issue. I think it's actually really good of Luke to go and say, okay. What's the plan forward? Like, I think it's a little bit premature. Like, it's only been four weeks or so since you've been back. But my concern is the fact that it's even getting out. Like, it it you know, the intention behind it getting out and I don't I don't we don't know which party released it, but the intention, if it's from management side, is to put pressure on the warriors. And if it's from the warriors side, it's to make Metcalfe look bad, which I don't think why would they do why would the warriors do that? Doesn't help them at all.",
+      "provider_speakers": [
+        {
+          "provider_speaker": "1",
+          "duration_seconds": 25.60002
+        },
+        {
+          "provider_speaker": "2",
+          "duration_seconds": 0.4
+        }
+      ]
+    },
+    {
+      "person_id": 1,
+      "display_name": "Denan Kemp",
+      "case_id": "youtube_gG1Lq2pIgGM_part_002",
+      "segment_id": 8,
+      "start": 39.559998,
+      "end": 65.57,
+      "absolute_start": 639.574998,
+      "absolute_end": 665.585,
+      "duration_seconds": 26.010002,
+      "text": "you know, what about them? Like, what if they do want Tanaboy to Metcalfe in their squad? You know? He signed the deal, and he was happy with the deal when he signed it. And, you know, they did, you know, put a jetpack on his career. Like, he was he was struggling, couldn't really get a cement a spot, goes to the warriors, hits crazy form. So there is a a sense of, like, you know, the warriors would be sitting there going, you know, why can't we have you know, we've managed our salary cap so well that we can afford to have you and Tanaboyd in this this this squad.",
+      "provider_speakers": [
+        {
+          "provider_speaker": "1",
+          "duration_seconds": 25.27995
+        }
+      ]
+    },
+    {
+      "person_id": 1,
+      "display_name": "Denan Kemp",
+      "case_id": "youtube_gG1Lq2pIgGM_part_000",
+      "segment_id": 4,
+      "start": 13.68,
+      "end": 37.17,
+      "absolute_start": 13.68,
+      "absolute_end": 37.17,
+      "duration_seconds": 23.49,
+      "text": "We'll never do this design again. And, also, the Magic Round meetup, we do it every single year. It's in the Caxton Car Park. We're doing a live show. We're doing NRL hottest one hundred with the roasty, with NRL roast. So that'll be a live show. It'll be awesome. Get down there. Everyone's gonna be there. Come down and say hi. It's a good way for us to say thank you for all the support. We're so lucky to do what we do. But the big door, how you going, mate? We cut a bit of fatty. We've cut some fatty.",
+      "provider_speakers": [
+        {
+          "provider_speaker": "1",
+          "duration_seconds": 21.92
+        }
+      ]
+    },
+    {
+      "person_id": 1,
+      "display_name": "Denan Kemp",
+      "case_id": "youtube_gG1Lq2pIgGM_part_002",
+      "segment_id": 21,
+      "start": 111.94,
+      "end": 130.21501,
+      "absolute_start": 711.955,
+      "absolute_end": 730.23001,
+      "duration_seconds": 18.27501,
+      "text": "that we've experienced. Okay. Dragons players are operating under a new nine to five work training schedule where squad members learn their plan for the day only upon arrival. Wow. Unlike most of their rival clubs whose daily programs are detailed down to the minute, the Dragons' interim coaches implemented a workday philosophy where players arrive at 8AM, and only then do they learn what the day ahead entails.",
+      "provider_speakers": [
+        {
+          "provider_speaker": "1",
+          "duration_seconds": 18.48003
+        }
+      ]
+    },
+    {
+      "person_id": 1,
+      "display_name": "Denan Kemp",
+      "case_id": "youtube_gG1Lq2pIgGM_part_002",
+      "segment_id": 39,
+      "start": 179.31999,
+      "end": 196.095,
+      "absolute_start": 779.33499,
+      "absolute_end": 796.11,
+      "duration_seconds": 16.77501,
+      "text": "I guess that can actually add anxiety to that playing player because they're, like, constantly worried about, like, what's, you know, are we getting toured up today? Are we not getting toured up? Whereas sometimes on the flip side, if you know what's coming, you can just get yourself in the right mind. Okay. I just gotta get through Tuesday. Yeah. And then Wednesday is the, you know, massage, and then Thursday's skills.",
+      "provider_speakers": [
+        {
+          "provider_speaker": "1",
+          "duration_seconds": 16.31996
+        }
+      ]
+    },
+    {
+      "person_id": 1,
+      "display_name": "Denan Kemp",
+      "case_id": "youtube_gG1Lq2pIgGM_part_002",
+      "segment_id": 61,
+      "start": 279.255,
+      "end": 295.78903,
+      "absolute_start": 879.27,
+      "absolute_end": 895.80403,
+      "duration_seconds": 16.53403,
+      "text": "like okay. So, okay, you rock up at training seven in the morning. Yep. Eight in the morning. You strap up everyone like that. You're out in the field by nine. You shouldn't be training longer than two hours, two, three hours. Otherwise, you'd you know, you know better than anyone. You're just killing yourself there. So you're you're back in about by eleven,",
+      "provider_speakers": [
+        {
+          "provider_speaker": "1",
+          "duration_seconds": 15.36007
+        }
+      ]
+    },
+    {
+      "person_id": 1,
+      "display_name": "Denan Kemp",
+      "case_id": "youtube_gG1Lq2pIgGM_part_002",
+      "segment_id": 34,
+      "start": 156.435,
+      "end": 170.275,
+      "absolute_start": 756.45,
+      "absolute_end": 770.29,
+      "duration_seconds": 13.84,
+      "text": "weights, contact. You know? And you start wigging out, and you you're stressing about it. I wonder if they're just going, you know what? Like, we just need to get these boys as happy as possible, and everything else, don't worry about it because, like, they're they're like, at the moment, when's their next win gonna come?",
+      "provider_speakers": [
+        {
+          "provider_speaker": "1",
+          "duration_seconds": 12.95993
+        }
+      ]
+    },
+    {
+      "person_id": 1,
+      "display_name": "Denan Kemp",
+      "case_id": "youtube_gG1Lq2pIgGM_part_001",
+      "segment_id": 57,
+      "start": 245.02501,
+      "end": 258.37,
+      "absolute_start": 545.04001,
+      "absolute_end": 558.385,
+      "duration_seconds": 13.34499,
+      "text": "I could understand Metcalf going now, obviously, you always wanna play to, you know, see out their contract, but I could understand McCaff going, okay. Well, you know, he's the main seven. I believe I'm an inaugural player. Can I have permission to to speak elsewhere, to speak to other clubs?",
+      "provider_speakers": [
+        {
+          "provider_speaker": "1",
+          "duration_seconds": 13.35993
+        }
+      ]
+    },
+    {
+      "person_id": 1,
+      "display_name": "Denan Kemp",
+      "case_id": "youtube_gG1Lq2pIgGM_part_000",
+      "segment_id": 22,
+      "start": 114.97,
+      "end": 127.505005,
+      "absolute_start": 114.97,
+      "absolute_end": 127.505005,
+      "duration_seconds": 12.535005,
+      "text": "Well, tell me another forward before Payne Haas that was that did what Tamela looks as him. No. They wasn't. They just they haven't been like it. You know, Webke wasn't putting up those numbers. Don't get me wrong. There's more to rugby league than just the numbers. And, also, they're type than Webke. I'm just saying.",
+      "provider_speakers": [
+        {
+          "provider_speaker": "1",
+          "duration_seconds": 11.199974
+        },
+        {
+          "provider_speaker": "2",
+          "duration_seconds": 0.960025
+        }
+      ]
+    },
+    {
+      "person_id": 1,
+      "display_name": "Denan Kemp",
+      "case_id": "youtube_gG1Lq2pIgGM_part_000",
+      "segment_id": 28,
+      "start": 143.68001,
+      "end": 154.655,
+      "absolute_start": 143.68001,
+      "absolute_end": 154.655,
+      "duration_seconds": 10.97499,
+      "text": "So, yeah, he will be the most capped. I think also because he's formed at least this year has been great, but the last couple of years hasn't been great. So, like, we're recently bias gets a little bit. But if you were there around the days where he was flying, like, bro,",
+      "provider_speakers": [
+        {
+          "provider_speaker": "1",
+          "duration_seconds": 11.20002
+        }
+      ]
+    },
+    {
+      "person_id": 1,
+      "display_name": "Denan Kemp",
+      "case_id": "youtube_gG1Lq2pIgGM_part_001",
+      "segment_id": 47,
+      "start": 205.335,
+      "end": 216.29501,
+      "absolute_start": 505.35,
+      "absolute_end": 516.31001,
+      "duration_seconds": 10.96001,
+      "text": "a great season at the moment for the for the warriors. So I understand him going to have a chat, but at the same time, I just I wish it wouldn't get out because they're going so well, the warriors. I don't need any negative, no contro no controversy,",
+      "provider_speakers": [
+        {
+          "provider_speaker": "1",
+          "duration_seconds": 10.88
+        }
+      ]
+    },
+    {
+      "person_id": 1,
+      "display_name": "Denan Kemp",
+      "case_id": "youtube_gG1Lq2pIgGM_part_000",
+      "segment_id": 47,
+      "start": 223.95,
+      "end": 234.055,
+      "absolute_start": 223.95,
+      "absolute_end": 234.055,
+      "duration_seconds": 10.105,
+      "text": "Despite previously being regarded as the premier playmaker, you know, we know the drill. Tanner Boy's been going great. According to Code Sports, those close to Metcalf claim he wants primarily to play halfback, not five eight.",
+      "provider_speakers": [
+        {
+          "provider_speaker": "1",
+          "duration_seconds": 9.76
+        }
+      ]
+    },
+    {
+      "person_id": 2,
+      "display_name": "Sandor Earl",
+      "case_id": "youtube_gG1Lq2pIgGM_part_002",
+      "segment_id": 1,
+      "start": 0.08,
+      "end": 20.425,
+      "absolute_start": 600.095,
+      "absolute_end": 620.44,
+      "duration_seconds": 20.345,
+      "text": "The broader picture. I just think it's a conversation that actually might be timely just to see, like, hey. What's going on? Where are we at? And if we are staying, like, I don't wanna be competing with an inform Harris and then also these two young guns who are up and coming. So if it is me, like, let's go. Yep. But to say that it's all geared around, like, I wanna be half back, I'm just not convinced.",
+      "provider_speakers": [
+        {
+          "provider_speaker": "2",
+          "duration_seconds": 20.56014
+        }
+      ]
+    },
+    {
+      "person_id": 2,
+      "display_name": "Sandor Earl",
+      "case_id": "youtube_gG1Lq2pIgGM_part_000",
+      "segment_id": 55,
+      "start": 283.99,
+      "end": 301.855,
+      "absolute_start": 283.99,
+      "absolute_end": 301.855,
+      "duration_seconds": 17.865,
+      "text": "I am watching this very closely. I'm not saying he's gonna leave, but at end of the day, you've got a warriors that are absolutely humming. I just think it would be a pretty uncomfortable moment for him right now coming off the ACL, coming back. He's he's being judged heavily on every performance. And it's just like",
+      "provider_speakers": [
+        {
+          "provider_speaker": "2",
+          "duration_seconds": 17.52
+        }
+      ]
+    },
+    {
+      "person_id": 2,
+      "display_name": "Sandor Earl",
+      "case_id": "youtube_gG1Lq2pIgGM_part_002",
+      "segment_id": 42,
+      "start": 199.7,
+      "end": 215.875,
+      "absolute_start": 799.715,
+      "absolute_end": 815.89,
+      "duration_seconds": 16.175,
+      "text": "I really liked having a structured plan and program, but I do get if the focus is like, hey. We just need to shake things up, get the boys coming in. It's a little bit like, oh, what's going on today? If even if that was all that it takes for the boys to be on their toes, then so be it.",
+      "provider_speakers": [
+        {
+          "provider_speaker": "2",
+          "duration_seconds": 15.51999
+        }
+      ]
+    },
+    {
+      "person_id": 2,
+      "display_name": "Sandor Earl",
+      "case_id": "youtube_gG1Lq2pIgGM_part_000",
+      "segment_id": 54,
+      "start": 270.975,
+      "end": 283.67,
+      "absolute_start": 270.975,
+      "absolute_end": 283.67,
+      "duration_seconds": 12.695,
+      "text": "and it has actually changed in terms of there is a bit of leverage. Like, players can find other opportunities a lot easier than they could five, ten years ago. Yeah. I mean, we've spoken about it before, but if I'm the Perth Bears,",
+      "provider_speakers": [
+        {
+          "provider_speaker": "2",
+          "duration_seconds": 13.36001
+        }
+      ]
+    },
+    {
+      "person_id": 2,
+      "display_name": "Sandor Earl",
+      "case_id": "youtube_gG1Lq2pIgGM_part_002",
+      "segment_id": 10,
+      "start": 67.33,
+      "end": 79.875,
+      "absolute_start": 667.345,
+      "absolute_end": 679.89,
+      "duration_seconds": 12.545,
+      "text": "again, not saying this has come from anyone or anything, but is it also like, I'm a bit out of form. I'm a I actually should be a halfback. Then I'm not saying it's an excuse, but it's a bit of a diversion for, you know, the current situation.",
+      "provider_speakers": [
+        {
+          "provider_speaker": "2",
+          "duration_seconds": 11.76
+        },
+        {
+          "provider_speaker": "1",
+          "duration_seconds": 0.56
+        }
+      ]
+    },
+    {
+      "person_id": 2,
+      "display_name": "Sandor Earl",
+      "case_id": "youtube_gG1Lq2pIgGM_part_000",
+      "segment_id": 19,
+      "start": 92.42,
+      "end": 102.295006,
+      "absolute_start": 92.42,
+      "absolute_end": 102.295006,
+      "duration_seconds": 9.875006,
+      "text": "Yeah. Like, he he's such a gun player. He definitely had a period of time there where he was one of the most or if not the most dominant forward. It's",
+      "provider_speakers": [
+        {
+          "provider_speaker": "2",
+          "duration_seconds": 10.4
+        }
+      ]
+    },
+    {
+      "person_id": 2,
+      "display_name": "Sandor Earl",
+      "case_id": "youtube_gG1Lq2pIgGM_part_002",
+      "segment_id": 52,
+      "start": 244.925,
+      "end": 254.125,
+      "absolute_start": 844.94,
+      "absolute_end": 854.14,
+      "duration_seconds": 9.2,
+      "text": "The the whole working hard thing was probably ingrained in them through Flano at at some point towards the end there. So if it's also a shift away from that, then that also makes sense.",
+      "provider_speakers": [
+        {
+          "provider_speaker": "2",
+          "duration_seconds": 9.12
+        }
+      ]
+    },
+    {
+      "person_id": 2,
+      "display_name": "Sandor Earl",
+      "case_id": "youtube_gG1Lq2pIgGM_part_000",
+      "segment_id": 53,
+      "start": 262.575,
+      "end": 270.655,
+      "absolute_start": 262.575,
+      "absolute_end": 270.655,
+      "duration_seconds": 8.08,
+      "text": "I I don't know. I I don't know how I feel about it, but this is just the reality of the game at the moment. There's so much movement. We've got new teams popping up every year,",
+      "provider_speakers": [
+        {
+          "provider_speaker": "2",
+          "duration_seconds": 8.08
+        }
+      ]
+    },
+    {
+      "person_id": 2,
+      "display_name": "Sandor Earl",
+      "case_id": "youtube_gG1Lq2pIgGM_part_000",
+      "segment_id": 21,
+      "start": 107.53001,
+      "end": 114.97,
+      "absolute_start": 107.53001,
+      "absolute_end": 114.97,
+      "duration_seconds": 7.43999,
+      "text": "like, since he's been the guy. Mhmm. So that kinda throws me off a little bit. But if we're looking at all time generationally. Mhmm. He's gotta be in the 17. ",
+      "provider_speakers": [
+        {
+          "provider_speaker": "2",
+          "duration_seconds": 7.360006
+        }
+      ]
+    },
+    {
+      "person_id": 2,
+      "display_name": "Sandor Earl",
+      "case_id": "youtube_gG1Lq2pIgGM_part_000",
+      "segment_id": 15,
+      "start": 81.895,
+      "end": 89.060005,
+      "absolute_start": 81.895,
+      "absolute_end": 89.060005,
+      "duration_seconds": 7.165005,
+      "text": "Bro, it's so weird this conversation. Don't you feel like whenever these chats come up, why does Tom O'Lello get why does he get overlooked kind of?",
+      "provider_speakers": [
+        {
+          "provider_speaker": "2",
+          "duration_seconds": 7.12
+        }
+      ]
+    },
+    {
+      "person_id": 2,
+      "display_name": "Sandor Earl",
+      "case_id": "youtube_gG1Lq2pIgGM_part_000",
+      "segment_id": 30,
+      "start": 160.015,
+      "end": 167.05,
+      "absolute_start": 160.015,
+      "absolute_end": 167.05,
+      "duration_seconds": 7.035,
+      "text": "There'll be a moment in time where he gets his flowers for, you know, what he did for the Pacific Nations movement, which I think is That's another thing. That's a legacy.",
+      "provider_speakers": [
+        {
+          "provider_speaker": "2",
+          "duration_seconds": 7.28
+        }
+      ]
+    },
+    {
+      "person_id": 2,
+      "display_name": "Sandor Earl",
+      "case_id": "youtube_gG1Lq2pIgGM_part_001",
+      "segment_id": 9,
+      "start": 44.955,
+      "end": 51.035,
+      "absolute_start": 344.97,
+      "absolute_end": 351.05,
+      "duration_seconds": 6.08,
+      "text": "But if it was management and just just to, like, plant the seed with everyone, hey. Let's let's keep an eye on this because",
+      "provider_speakers": [
+        {
+          "provider_speaker": "2",
+          "duration_seconds": 5.84002
+        }
+      ]
+    },
+    {
+      "person_id": 3,
+      "display_name": "Matthew Buxton",
+      "case_id": "youtube_gG1Lq2pIgGM_part_000",
+      "segment_id": 41,
+      "start": 193.73,
+      "end": 201.56999,
+      "absolute_start": 193.73,
+      "absolute_end": 201.56999,
+      "duration_seconds": 7.83999,
+      "text": "Yeah. Like, if you're not counting Camp Smith like Hookers, Gavin Miller in 1989, it's also at 30 six, thirty seven years ago, and Ray Price won as well, but, yeah, not many.",
+      "provider_speakers": [
+        {
+          "provider_speaker": "3",
+          "duration_seconds": 7.92
+        }
+      ]
+    },
+    {
+      "person_id": 3,
+      "display_name": "Matthew Buxton",
+      "case_id": "youtube_gG1Lq2pIgGM_part_001",
+      "segment_id": 20,
+      "start": 113.7,
+      "end": 115.46,
+      "absolute_start": 413.715,
+      "absolute_end": 415.475,
+      "duration_seconds": 1.76,
+      "text": "No. He's 27. He's off now.",
+      "provider_speakers": [
+        {
+          "provider_speaker": "3",
+          "duration_seconds": 1.76002
+        }
+      ]
+    },
+    {
+      "person_id": 3,
+      "display_name": "Matthew Buxton",
+      "case_id": "youtube_gG1Lq2pIgGM_part_001",
+      "segment_id": 62,
+      "start": 280.11002,
+      "end": 281.23,
+      "absolute_start": 580.12502,
+      "absolute_end": 581.245,
+      "duration_seconds": 1.11998,
+      "text": "Hansen was the",
+      "provider_speakers": [
+        {
+          "provider_speaker": "3",
+          "duration_seconds": 1.2
+        }
+      ]
+    }
+  ]
+}

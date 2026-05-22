@@ -1,0 +1,15 @@
+{
+  "name": "seeded_review",
+  "description": "Machine-generated review drafts seeded from seed_gold cases. These are not gold labels.",
+  "seed_profile": "datasets/seed_gold/calibration/seed_gold_profile.json",
+  "cases": [
+    "youtube_gG1Lq2pIgGM_part_003.json",
+    "youtube_gG1Lq2pIgGM_part_004.json",
+    "youtube_gG1Lq2pIgGM_part_005.json",
+    "youtube_gG1Lq2pIgGM_part_006.json",
+    "youtube_gG1Lq2pIgGM_part_007.json",
+    "youtube_gG1Lq2pIgGM_part_008.json",
+    "youtube_gG1Lq2pIgGM_part_009.json",
+    "youtube_gG1Lq2pIgGM_part_010.json"
+  ]
+}
