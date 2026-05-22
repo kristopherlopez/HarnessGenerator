@@ -18,6 +18,7 @@ artifacts/
 traces/
 reports/generated/
 workspaces/**/runs/**
+!workspaces/**/runs/
 !workspaces/**/runs/.gitkeep
 workspaces/**/reports/*.json
 !workspaces/**/reports/.gitkeep
