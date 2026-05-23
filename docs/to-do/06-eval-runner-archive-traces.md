@@ -44,6 +44,14 @@ Generalize the execution loop so every workspace can run candidates under contro
 - [ ] Support deterministic and stochastic candidate runs.
 - [ ] Add report links from latest reports to archived evidence.
 
+## Initial Slice Completed
+
+- `evals.run_eval` now delegates dataset loading, strategy lookup, scoring, prediction serialization, and failure reporting to workspace adapters.
+- `evals.compare_strategies` now delegates strategy comparison eligibility and winner selection to workspace adapters.
+- Reports now include `task_type` so mixed workspace output is easier to audit.
+
+Remaining work includes run configs, archives, traces, budget enforcement, output-contract validation, and dataset fingerprints.
+
 ## Acceptance Criteria
 
 - Every eval run can be reproduced from a saved config and candidate snapshot.

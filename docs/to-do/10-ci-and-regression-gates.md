@@ -11,8 +11,8 @@ Add automated checks that keep generic engine work and workspace-specific behavi
   - the fake workspace
   - the YouTube workspace
   - an intentionally incomplete workspace
-- [ ] Add tests that run baseline eval on the fake workspace.
-- [ ] Add tests that confirm YouTube evals still use speaker-attribution metrics.
+- [x] Add tests that run baseline eval on the fake workspace.
+- [x] Add tests that confirm YouTube evals still use speaker-attribution metrics.
 - [ ] Add tests that candidate proposal generation is task-specific.
 - [ ] Add tests that generated tasks include required policy fields.
 - [ ] Add tests that hidden labels are not present in candidate-visible traces.
@@ -41,7 +41,7 @@ Add automated checks that keep generic engine work and workspace-specific behavi
 
 - Added `tests/fixtures/workspaces/simple_qa` as a non-YouTube readiness fixture.
 - Confirmed the fake workspace can pass readiness with a generic `output_schema` and without speaker/identity output fields.
-- Kept full fake-workspace eval support for the later adapter-interface work.
+- Added baseline eval and strategy-comparison tests for the fake workspace through the adapter spine.
 
 ## Suggested Verification
 
