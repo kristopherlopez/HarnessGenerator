@@ -1,6 +1,6 @@
 # HarnessGenerator
 
-HarnessGenerator is a planned framework for automatically designing, evaluating, and improving AI task harnesses. The goal is to build a practical, open implementation of a "meta-system" style workflow: given a task family, examples, constraints, and evaluation data, the system proposes candidate harnesses, runs them, scores them, studies failures, and iterates toward a better task-specific agent wrapper.
+HarnessGenerator is a framework-in-progress for designing, evaluating, and improving AI task harnesses. The goal is to build a practical, open implementation of a "meta-system" style workflow: given a task family, examples, constraints, and evaluation data, the system proposes candidate harnesses, runs them, scores them, studies failures, and iterates toward a better task-specific agent wrapper.
 
 This project is inspired by Poetiq's public descriptions of its Meta-System, but it is not affiliated with Poetiq and should not be treated as a reproduction of their private implementation.
 
@@ -8,9 +8,13 @@ This project is inspired by Poetiq's public descriptions of its Meta-System, but
 
 HarnessGenerator is the reusable engine. `workspaces/youtube_speaker_attribution` is the first task workspace and MVP benchmark.
 
-The current runnable loop is seeded around YouTube speaker attribution, so some root-level contracts and modules still contain first-workspace assumptions. The target architecture is a generic engine with task adapters, workspace-specific contracts, workspace-specific metrics, and workspace-specific candidate templates.
+The current runnable loop is seeded around YouTube speaker attribution, so some root-level contracts and modules still contain first-workspace assumptions. Task adapters now exist for YouTube speaker attribution and a small `simple_qa` fixture, and the eval/strategy-comparison entrypoints use that adapter layer. Candidate generation and generated-task templates still need to be fully generalized.
 
-See [docs/project_boundaries.md](docs/project_boundaries.md) for the generic vs workspace-specific map and the list of pieces a workspace must provide before optimization should run.
+See [docs/architecture/project_boundaries.md](docs/architecture/project_boundaries.md) for the generic vs workspace-specific map and the list of pieces a workspace must provide before optimization should run.
+
+Project-level HarnessGenerator docs are indexed at [docs/README.md](docs/README.md). Workspace
+docs are kept with each workspace; the YouTube speaker-attribution docs are indexed at
+[workspaces/youtube_speaker_attribution/docs/README.md](workspaces/youtube_speaker_attribution/docs/README.md).
 
 ## Why This Exists
 
@@ -82,7 +86,9 @@ The first benchmark family is YouTube podcast speaker attribution:
 - Primary metric: speaker-attribution accuracy against a human-labeled reference transcript.
 - Secondary metrics: word error rate, diarization error rate, segment boundary quality, cost, latency, and manual-review burden.
 
-See [docs/task-family-youtube-speaker-attribution.md](docs/task-family-youtube-speaker-attribution.md) for the benchmark design.
+See
+[workspaces/youtube_speaker_attribution/docs/task-family.md](workspaces/youtube_speaker_attribution/docs/task-family.md)
+for the benchmark design.
 
 This is the first workspace, not the permanent shape of every HarnessGenerator task. Future workspaces should supply their own input/output contracts, dataset adapter, scoring logic, failure taxonomy, candidate templates, tool policy, and readiness checks.
 
@@ -93,6 +99,16 @@ This is the first workspace, not the permanent shape of every HarnessGenerator t
 ├── AGENTS.md
 ├── README.md
 ├── CONTRIBUTING.md
+├── app/
+│   ├── adapters/
+│   ├── bootstrap/
+│   ├── calibration/
+│   ├── harness_optimizer/
+│   ├── identity/
+│   ├── intake/
+│   ├── media/
+│   ├── transcription/
+│   └── workspaces/
 ├── bootstrap/
 │   ├── codex_task_policy.yaml
 │   ├── dataset_manifest.yaml
@@ -105,36 +121,35 @@ This is the first workspace, not the permanent shape of every HarnessGenerator t
 │   ├── strategy_space.yaml
 │   └── tool_registry.yaml
 ├── docs/
-│   ├── architecture.md
-│   ├── codex_workflow.md
-│   ├── data_contracts.md
-│   ├── evaluation-protocol.md
-│   ├── failure_modes.md
-│   ├── harness_optimization_space.md
-│   ├── product-requirements.md
-│   ├── project_boundaries.md
-│   ├── research-notes.md
-│   ├── registry_design.md
-│   ├── resolver_strategies.md
-│   ├── roadmap.md
-│   ├── security-and-safety.md
-│   ├── task-family-youtube-speaker-attribution.md
-│   ├── workspace_layout.md
-│   └── templates/
-│       ├── experiment-report.md
-│       ├── harness-spec.yaml
-│       └── youtube-speaker-attribution-spec.yaml
+│   ├── README.md
+│   ├── architecture/
+│   ├── artifacts/
+│   ├── contracts/
+│   ├── evaluation/
+│   ├── operations/
+│   ├── planning/
+│   ├── purpose/
+│   ├── research/
+│   ├── safety/
+│   ├── templates/
+│   └── to-do/
 ├── workspaces/
 │   └── youtube_speaker_attribution/
 │       ├── task.yaml
 │       ├── intake/
 │       ├── contracts/
 │       ├── datasets/
-│       ├── harnesses/
+│       ├── docs/
+│       │   ├── README.md
+│       │   ├── task-family.md
+│       │   ├── resolver_strategies.md
+│       │   ├── failure_modes.md
+│       │   └── registry_design.md
 │       ├── experiments/
-│       ├── runs/
+│       ├── harnesses/
 │       ├── codex_tasks/
-│       └── reports/
+│       ├── reports/
+│       └── runs/
 └── .gitignore
 ```
 
@@ -151,10 +166,16 @@ This repository currently contains the first runnable bootstrap loop:
 - regression checks
 - generated Codex task output
 - workspace-first organization for task-specific artifacts
+- workspace readiness validation
+- a generic task-adapter protocol with YouTube speaker-attribution and `simple_qa` adapters
+- YouTube intake seeding and draft-case creation
+- local or YouTube media preparation into review chunks using `yt-dlp` and `ffmpeg`
+- Deepgram and OpenAI diarized transcription adapters that populate draft cases from cached provider output
+- seed-gold calibration and seeded review-case generation for human cleanup
 
 This loop should be treated as the first workspace implementation, not proof that the generic engine is fully task-agnostic yet. The extraction work is tracked in `docs/to-do/`.
 
-It does not yet ingest real YouTube, audio, or video media.
+Live media/provider tooling is opt-in. Tests use local fixtures and mocked provider responses; do not use live external APIs in tests.
 
 ## Quick Start
 
@@ -184,6 +205,21 @@ uv run python -m app.harness_optimizer.candidates --workspace workspaces/youtube
 uv run python -m app.harness_optimizer.next_task --workspace workspaces/youtube_speaker_attribution
 ```
 
+Optional draft-media workflow for the YouTube workspace:
+
+```powershell
+uv run python -m app.intake.youtube_seed "https://www.youtube.com/watch?v=gG1Lq2pIgGM" --workspace workspaces/youtube_speaker_attribution
+uv run python -m app.media.prepare --workspace workspaces/youtube_speaker_attribution --youtube-url "https://www.youtube.com/watch?v=gG1Lq2pIgGM" --segment-seconds 300
+uv run python -m app.media.draft_cases --workspace workspaces/youtube_speaker_attribution --parent-case workspaces/youtube_speaker_attribution/datasets/drafts/cases/youtube_gG1Lq2pIgGM.json --segments-manifest workspaces/youtube_speaker_attribution/datasets/drafts/media/youtube_gG1Lq2pIgGM/segments_manifest.json
+```
+
+Provider population commands require credentials and should be run only outside tests:
+
+```powershell
+uv run python -m app.transcription.deepgram --workspace workspaces/youtube_speaker_attribution --case-glob "youtube_gG1Lq2pIgGM_part_*.json"
+uv run python -m app.transcription.openai_diarized --workspace workspaces/youtube_speaker_attribution --case-glob "youtube_gG1Lq2pIgGM_part_*.json"
+```
+
 ## Suggested Build Order
 
 1. Build the bootstrap contract loader and validation tests.
@@ -192,17 +228,26 @@ uv run python -m app.harness_optimizer.next_task --workspace workspaces/youtube_
 4. Add failure mining and generated Codex tasks.
 5. Add a first-class workspace scaffold and readiness gate.
 6. Add a fake non-YouTube workspace fixture to prove generic behavior.
-7. Introduce task adapters for dataset loading, harness lookup, scoring, failure mining, and candidate templates.
-8. Add trace capture and experiment reports.
-9. Add real media ingestion and provider adapters behind mocked tests.
-10. Expand the search space to resolver strategies, threshold search, verification, and model routing.
+7. Introduce task adapters for dataset loading, harness lookup, scoring, and failure mining.
+8. Add real media ingestion and provider adapters behind mocked tests.
+9. Generalize candidate templates and generated-task logic behind adapters.
+10. Add trace capture, archives, and experiment reports.
+11. Expand the search space to resolver strategies, threshold search, verification, and model routing.
 
 The harness change surfaces are defined in
-[docs/harness_optimization_space.md](docs/harness_optimization_space.md) and
+[docs/operations/harness_optimization_space.md](docs/operations/harness_optimization_space.md) and
 `bootstrap/harness_search_space.yaml`.
 
 The workspace-first layout is described in
-[docs/workspace_layout.md](docs/workspace_layout.md).
+[docs/architecture/workspace_layout.md](docs/architecture/workspace_layout.md).
+
+HarnessGenerator artifacts, exported harness packages, provider authentication, and run archives
+are described in:
+
+- [docs/artifacts/catalog.md](docs/artifacts/catalog.md)
+- [docs/artifacts/exported_harnesses.md](docs/artifacts/exported_harnesses.md)
+- [docs/operations/provider_auth.md](docs/operations/provider_auth.md)
+- [docs/artifacts/run_archive.md](docs/artifacts/run_archive.md)
 
 Gold dataset output for speaker attribution is described in
 `workspaces/youtube_speaker_attribution/docs/gold_dataset_output.md`.
@@ -212,4 +257,4 @@ Starting from YouTube links without gold labels is described in
 
 ## Research Sources
 
-See [docs/research-notes.md](docs/research-notes.md) for the research summary and source links used to shape this plan.
+See [docs/research/research-notes.md](docs/research/research-notes.md) for the research summary and source links used to shape this plan.

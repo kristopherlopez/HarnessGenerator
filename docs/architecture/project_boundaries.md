@@ -36,7 +36,11 @@ The current first workspace is `workspaces/youtube_speaker_attribution`. It owns
 - resolver strategies such as `baseline_unknown` and `review_heavy_low_false_assignment`
 - speaker-attribution datasets, fixtures, reports, harnesses, and generated tasks
 
-The current implementation is intentionally seeded around this workspace. Future work should keep it working while extracting generic interfaces from the first task-specific implementation.
+The current implementation is intentionally seeded around this workspace. A task-adapter layer now
+exists, with adapters for YouTube speaker attribution and a tiny `simple_qa` fixture. The eval and
+strategy-comparison entrypoints use that adapter layer, while candidate generation and generated
+task templates still use first-workspace assumptions directly. Future work should keep the YouTube
+workspace working while finishing the extraction.
 
 ## Currently Mixed Areas
 
@@ -45,11 +49,11 @@ Some root-level files are reusable in shape but still encode first-workspace ass
 | Area | Current State | Target State |
 | --- | --- | --- |
 | `bootstrap/*.yaml` | Includes speaker-attribution defaults such as identity policy and false-assignment metrics | Generic defaults plus workspace-specific overrides |
-| `app.identity` | Contains the runnable first-workspace models and strategies | Wrapped by a YouTube task adapter |
-| `evals.dataset` | Loads `app.identity.models.EvalCase` | Calls a workspace dataset adapter |
-| `evals.metrics` | Scores identity-resolution predictions | Calls a workspace scorer |
-| `evals.run_eval` | Imports identity strategies directly | Runs a selected workspace adapter |
-| `evals.compare_strategies` | Compares identity strategies directly | Compares registered workspace harnesses or strategies |
+| `app.identity` | Contains the runnable first-workspace models and strategies; wrapped by `YouTubeSpeakerAttributionAdapter` for eval and comparison | Fully hidden behind a YouTube task adapter or workspace package |
+| `evals.dataset` | Loads `app.identity.models.EvalCase`; called through the YouTube adapter | Replaced by workspace dataset adapters |
+| `evals.metrics` | Scores identity-resolution predictions; called through the YouTube adapter | Replaced by workspace scorers |
+| `evals.run_eval` | Resolves a task adapter, then runs adapter-provided strategies | Adds generic run config, output validation, budgets, traces, and archives |
+| `evals.compare_strategies` | Resolves a task adapter, then compares adapter-provided strategies | Compares registered workspace harnesses or strategies for every workspace |
 | `app.harness_optimizer.candidates` | Uses speaker-attribution proposal templates | Gets templates from a workspace candidate provider |
 | Root `AGENTS.md` | Contains speaker-attribution safety rules | Generic repo rules at root; task-specific rules under the workspace |
 
@@ -90,22 +94,35 @@ An evaluation set alone is not enough. A workspace must provide:
 Generic project docs should describe reusable engine concepts:
 
 - `README.md`
-- `docs/architecture.md`
-- `docs/product-requirements.md`
-- `docs/workspace_layout.md`
-- `docs/data_contracts.md`
-- `docs/evaluation-protocol.md`
-- `docs/security-and-safety.md`
-- `docs/codex_workflow.md`
-- `docs/project_boundaries.md`
+- `docs/README.md`
+- `docs/architecture/overview.md`
+- `docs/architecture/workspace_layout.md`
+- `docs/architecture/project_boundaries.md`
+- `docs/planning/product-requirements.md`
+- `docs/planning/roadmap.md`
+- `docs/contracts/data_contracts.md`
+- `docs/evaluation/protocol.md`
+- `docs/artifacts/catalog.md`
+- `docs/artifacts/exported_harnesses.md`
+- `docs/artifacts/run_archive.md`
+- `docs/safety/security-and-safety.md`
+- `docs/operations/provider_auth.md`
+- `docs/operations/codex_workflow.md`
+- `docs/operations/harness_optimization_space.md`
+- `docs/purpose/*`
+- `docs/research/research-notes.md`
+- `docs/templates/*`
 - `docs/to-do/*`
 
-These current root docs are specific to the YouTube speaker-attribution workspace and should eventually move under `workspaces/youtube_speaker_attribution/docs/` or be clearly kept as first-workspace examples:
+Workspace docs should describe a single task workspace's domain, data, resolver behavior, and
+operator workflows. The YouTube speaker-attribution workspace docs live under
+`workspaces/youtube_speaker_attribution/docs/`:
 
-- `docs/task-family-youtube-speaker-attribution.md`
-- `docs/resolver_strategies.md`
-- `docs/failure_modes.md`
-- `docs/registry_design.md`
+- `workspaces/youtube_speaker_attribution/docs/README.md`
+- `workspaces/youtube_speaker_attribution/docs/task-family.md`
+- `workspaces/youtube_speaker_attribution/docs/resolver_strategies.md`
+- `workspaces/youtube_speaker_attribution/docs/failure_modes.md`
+- `workspaces/youtube_speaker_attribution/docs/registry_design.md`
 
 ## Glossary
 

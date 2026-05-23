@@ -21,6 +21,10 @@ Every task family should include:
 - Best archived generated harness.
 - Current candidate harness.
 
+The current YouTube speaker-attribution workspace implements `baseline_unknown`,
+`risky_top_candidate`, and `review_heavy_low_false_assignment`. Strategy comparison rejects high
+raw identity accuracy when configured false-assignment or review-rate constraints are violated.
+
 ## Required Metrics
 
 - Task score: exact match, pass rate, F1, judge score, or benchmark-specific score.
@@ -29,6 +33,11 @@ Every task family should include:
 - Reliability: variance across repeated runs.
 - Efficiency: number of model calls, tool calls, retries, and generated candidates.
 - Constraint violations: timeout, memory, policy, unsafe tool use, malformed output.
+
+The current fixture metrics include `identity_accuracy`, `false_assignment_rate`,
+`known_person_precision`, `known_person_recall`, `unknown_detection_recall`,
+`needs_review_rate`, `false_merge_rate`, `false_split_rate`, and
+`latency_seconds_per_media_hour`. Cost and real latency accounting are still placeholders.
 
 ## Comparison Rules
 
@@ -48,5 +57,4 @@ Every task family should include:
 
 ## Report Template
 
-Use [templates/experiment-report.md](templates/experiment-report.md) for each completed run.
-
+Use [templates/experiment-report.md](../templates/experiment-report.md) for each completed run.

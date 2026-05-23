@@ -4,6 +4,10 @@ Machine-readable defaults live in `bootstrap/`. Workspace-specific contracts liv
 
 The long-term contract system is task-agnostic. The current defaults are seeded from the YouTube speaker-attribution workspace and should be treated as first-workspace defaults until generic defaults and task adapters are introduced.
 
+Workspace overrides are active today. The YouTube workspace overrides the root defaults with
+speaker-attribution-specific contracts, and the `tests/fixtures/workspaces/simple_qa` workspace
+uses the generic output-schema path to prove non-identity contracts can load.
+
 ## Contract Files
 
 - `domain_contract.yaml`: task family, domain assumptions, and task-specific risk policy.

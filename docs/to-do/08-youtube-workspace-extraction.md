@@ -6,7 +6,7 @@ Keep the first workspace fully supported while removing its assumptions from gen
 
 ## Checklist
 
-- [ ] Move or clearly scope YouTube-specific docs:
+- [x] Move or clearly scope YouTube-specific docs:
   - task family description
   - resolver strategies
   - speaker-attribution failure modes
@@ -31,6 +31,18 @@ Keep the first workspace fully supported while removing its assumptions from gen
 - A generic workspace does not inherit speaker-attribution fields by default.
 - The YouTube workspace still passes readiness, eval, comparison, and regression checks.
 - Docs make it obvious which YouTube assets are examples and which are required engine concepts.
+
+## Current Progress
+
+- `app.adapters` now includes `YouTubeSpeakerAttributionAdapter` and `SimpleQaAdapter`.
+- `evals.run_eval` and `evals.compare_strategies` use adapter resolution and can run the
+  `simple_qa` fixture.
+- YouTube-specific task-family, resolver, failure-mode, and registry docs now live under
+  `workspaces/youtube_speaker_attribution/docs/`.
+- Candidate proposal templates, next-task generation, and several root contract defaults still
+  carry YouTube speaker-attribution assumptions.
+- Root docs now describe current media/provider tooling as workspace-specific or first-workspace
+  implementation detail, not as generic engine behavior.
 
 ## Suggested Verification
 

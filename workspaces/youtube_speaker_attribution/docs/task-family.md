@@ -59,11 +59,14 @@ The harness must produce structured output:
 }
 ```
 
-The authoritative machine-readable output requirements live in `bootstrap/output_contract.yaml`.
+The authoritative machine-readable output requirements come from the merged contract set:
+`bootstrap/output_contract.yaml` plus
+`workspaces/youtube_speaker_attribution/contracts/output_contract.yaml` when the workspace is
+selected.
 
-## Baseline Harness
+## Current Baseline And Ingestion State
 
-The first baseline should be deliberately simple and safe:
+The first runnable baseline is deliberately simple and safe:
 
 1. Load labelled transcript fixtures.
 2. Return diarized speaker labels with `unknown` real-person identity.
@@ -71,15 +74,22 @@ The first baseline should be deliberately simple and safe:
 4. Compare against conservative resolver strategies.
 5. Generate one narrow Codex task from the highest-impact failure.
 
-Real media ingestion should come after the eval loop is working:
+The workspace also has an opt-in draft-media workflow:
 
 1. Ingest local audio/video or an authorized caption source.
 2. Extract normalized audio.
 3. Run transcription with diarization.
 4. Normalize diarized segments into the project output schema.
-5. Resolve identities only when supported by non-LLM evidence.
-6. Use an LLM only to explain conflicts, summarize review items, or generate Codex tasks.
-7. Score against the reference transcript.
+5. Treat provider speakers as anonymous provisional labels until reviewed.
+6. Promote only human-reviewed cases into gold or seed-gold datasets.
+7. Resolve identities only when supported by non-LLM evidence.
+8. Use an LLM only to explain conflicts, summarize review items, or generate Codex tasks.
+9. Score reviewed cases against the reference transcript.
+
+Implemented tooling currently includes YouTube intake seeding, media chunking with `ffmpeg`,
+optional YouTube media preparation through `yt-dlp`, draft-case generation from media chunks,
+Deepgram and OpenAI diarized transcription adapters, and seed-gold calibration for review-case
+generation. Live provider calls are outside the normal test path and require explicit credentials.
 
 The first generated candidates should optimize only the speaker-name resolution and transcript reconciliation steps. Raw generated code search should wait until ingestion, scoring, and trace capture are stable.
 
@@ -132,8 +142,11 @@ YouTube ingestion must respect platform permissions and content rights. The syst
 - User-provided caption files.
 - Authorized YouTube Data API caption access where the user has permission.
 - Metadata-only YouTube URL handling when media/caption access is not available.
+- User-authorized media preparation helpers for local review workflows.
 
-The project should not depend on unofficial downloading as its default path.
+The project should not depend on unofficial downloading as its default unattended path. Any
+YouTube media download workflow is opt-in and should be used only when the user has the right to
+process that media.
 
 ## Harness Search Space
 

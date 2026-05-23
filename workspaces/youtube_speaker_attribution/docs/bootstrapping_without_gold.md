@@ -27,11 +27,39 @@ Gold means reviewed truth. Silver means model-generated or mechanically converte
 
    This writes media under `datasets/drafts/media/<source_id>/` and creates `segments_manifest.json`.
 
-3. Convert provider output into `datasets/silver/cases/<case_id>.json`.
+3. Create one draft case per media chunk:
 
-4. Use the silver case to find likely speakers, rough timestamps, and ambiguous spans.
+   ```powershell
+   uv run python -m app.media.draft_cases `
+     --workspace workspaces/youtube_speaker_attribution `
+     --parent-case workspaces/youtube_speaker_attribution/datasets/drafts/cases/youtube_gG1Lq2pIgGM.json `
+     --segments-manifest workspaces/youtube_speaker_attribution/datasets/drafts/media/youtube_gG1Lq2pIgGM/segments_manifest.json
+   ```
 
-5. Promote only reviewed cases into `datasets/small_gold/cases/`.
+4. Populate draft cases from a diarized transcription provider, or use an existing cached provider
+   output. Provider commands require credentials and must not run in tests:
+
+   ```powershell
+   uv run python -m app.transcription.deepgram `
+     --workspace workspaces/youtube_speaker_attribution `
+     --case-glob "youtube_gG1Lq2pIgGM_part_*.json"
+   ```
+
+   The OpenAI diarized adapter has the same shape:
+
+   ```powershell
+   uv run python -m app.transcription.openai_diarized `
+     --workspace workspaces/youtube_speaker_attribution `
+     --case-glob "youtube_gG1Lq2pIgGM_part_*.json"
+   ```
+
+   These adapters update `datasets/drafts/cases/` and cache raw provider responses under
+   `datasets/drafts/provider_outputs/<provider>/`.
+
+5. Use the provider-populated draft cases to find likely speakers, rough timestamps, and ambiguous
+   spans.
+
+6. Promote only reviewed cases into `datasets/small_gold/cases/` or `datasets/seed_gold/cases/`.
 
 ## What Automation Can Do
 

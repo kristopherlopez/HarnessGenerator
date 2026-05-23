@@ -5,14 +5,23 @@ HarnessGenerator uses a workspace-first layout. Reusable meta-system code stays 
 ## Root-Level Engine
 
 ```text
-app/        reusable engine modules plus current first-workspace implementation code
-bootstrap/  global default contracts and first-workspace-seeded defaults to extract
-evals/      reusable eval entrypoints plus current first-workspace scorer glue
-docs/       project-level documentation and first-workspace docs pending relocation
-tests/      engine and workspace behavior tests
+app/adapters/        task adapter protocols plus YouTube and simple_qa adapters
+app/bootstrap/       contract readiness CLI
+app/calibration/     seed-gold and review-case generation helpers
+app/harness_optimizer/ candidate proposal and generated-task helpers
+app/identity/        current YouTube speaker-attribution models and strategies
+app/intake/          YouTube intake seeding
+app/media/           media preparation and draft-case generation
+app/transcription/   Deepgram and OpenAI diarized transcription adapters
+bootstrap/           global default contracts and first-workspace-seeded defaults to extract
+evals/               eval entrypoints plus current first-workspace scorer glue
+docs/                project-level HarnessGenerator documentation
+tests/               engine and workspace behavior tests
 ```
 
-Root code should move toward generic contracts, adapters, runners, optimizers, reports, and safety gates. Current identity-resolution modules are part of the first runnable workspace implementation until they are wrapped by a task adapter.
+Root code should move toward generic contracts, adapters, runners, optimizers, reports, and safety
+gates. Current identity-resolution modules are wrapped by a YouTube task adapter for eval and
+strategy-comparison flows, but they are still rooted in the first workspace's schema and metrics.
 
 ## Task Workspace
 
@@ -22,6 +31,7 @@ workspaces/youtube_speaker_attribution/
 ├── intake/
 ├── contracts/
 ├── datasets/
+├── docs/
 ├── harnesses/
 ├── experiments/
 ├── runs/
@@ -35,11 +45,20 @@ workspaces/youtube_speaker_attribution/
 
 `contracts/` contains task-specific overrides for global defaults. The loader reads `bootstrap/` first, then applies matching workspace contract files.
 
-`datasets/` contains labelled fixtures and future train, validation, test, regression, and adversarial sets. Use `datasets/drafts/` for partial annotations and `datasets/small_gold/` only for reviewed ground truth.
+`datasets/` contains labelled fixtures, draft media-derived cases, seed-gold review cases, and
+future train, validation, test, regression, and adversarial sets. Use `datasets/drafts/` for
+partial annotations and provider-populated review material. Use `datasets/small_gold/` only for
+reviewed ground truth. `datasets/seed_gold/` contains human-cleaned seed cases used to calibrate
+review drafts; generated seeded review datasets are not gold.
+
+`docs/` contains workspace-specific docs, including task-family design, resolver strategies,
+failure modes, registry assumptions, bootstrapping without gold labels, gold output shape,
+progressive dataset workflow, and seeded cleanup workflow.
 
 `harnesses/` contains promoted, reviewable harnesses. Failed or temporary candidates should stay in `runs/` or `experiments/` unless promoted.
 
-`experiments/` will contain ablation plans and comparison reports.
+`experiments/` is reserved for ablation plans and comparison reports that are not the current
+latest report.
 
 `runs/` is for immutable run evidence: harness snapshots, metrics, failures, traces, and reports.
 
@@ -90,3 +109,6 @@ uv run python -m evals.run_eval --workspace workspaces/youtube_speaker_attributi
 ```
 
 This keeps future workspaces self-contained and prevents reports, generated tasks, and run evidence from being scattered across global folders.
+
+Current workspace report defaults write into `workspaces/<workspace_id>/reports/`. Generated Codex
+tasks write into `workspaces/<workspace_id>/codex_tasks/generated/`.

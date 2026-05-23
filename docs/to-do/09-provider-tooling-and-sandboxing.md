@@ -48,6 +48,16 @@ Make model providers, external tools, and generated candidate code safe and conf
 - Generated code cannot access hidden labels, secrets, or arbitrary filesystem paths.
 - Tool usage and provider cost are visible in reports.
 
+## Current Progress
+
+- `app.media.prepare` provides local media chunking and opt-in YouTube media preparation through
+  external `ffmpeg`/`yt-dlp` commands.
+- `app.transcription.deepgram` and `app.transcription.openai_diarized` populate draft cases from
+  diarized provider responses and cache raw provider output under `datasets/drafts/provider_outputs/`.
+- Tests exercise provider-response normalization without live external API calls.
+- Generic provider interfaces, cost metadata, trace redaction, and generated-code sandboxing remain
+  open.
+
 ## Suggested Verification
 
 ```powershell

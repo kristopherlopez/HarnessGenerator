@@ -11,6 +11,23 @@ The outer loop must never rely on hidden test answers. It should optimize on dev
 
 ## Components
 
+### Current Implementation Notes
+
+The current repo implements the outer-loop skeleton for the YouTube speaker-attribution workspace:
+contract loading, workspace readiness, fixture dataset loading, identity strategies, metrics,
+failure reports, strategy comparison, regression checks, candidate proposal generation, and
+generated Codex tasks.
+
+`app.adapters` defines the generic task-adapter boundary and currently includes adapters for
+YouTube speaker attribution and a tiny `simple_qa` fixture. `evals.run_eval` and
+`evals.compare_strategies` use this adapter boundary. Candidate proposal templates and next-task
+generation still retain first-workspace assumptions and are tracked in `docs/to-do/`.
+
+Media ingestion is available as an opt-in draft-data workflow, not as a fully optimized harness
+surface. `app.media` prepares local or user-authorized YouTube media chunks, `app.transcription`
+normalizes Deepgram/OpenAI diarized provider output into draft cases, and `app.calibration`
+generates seed-gold review material.
+
 ### Task Spec
 
 Defines the problem family:
@@ -24,7 +41,9 @@ Defines the problem family:
 
 ### Dataset Adapter
 
-Loads examples into a common task-instance format. It should support JSONL first, then benchmark-specific adapters later.
+Loads examples into task-specific case objects behind a common adapter protocol. Current adapters
+load manifest-backed fixture directories; future adapters can add JSONL or benchmark-specific
+formats without changing the eval entrypoints.
 
 ### Candidate Harness
 
@@ -135,4 +154,3 @@ Creates an experiment package:
 - Cost blowups from retries or ensembles.
 - Improvements that transfer to one model but not another.
 - Trace volume becoming too large for useful analysis.
-

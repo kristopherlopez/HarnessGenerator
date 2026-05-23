@@ -28,4 +28,3 @@ Each identity decision must be traceable to evidence:
 - Do not auto-create a new known person without review.
 - Do not overwrite human-reviewed registry entries.
 - Prefer `unknown` or `needs_review` when evidence is weak or conflicting.
-

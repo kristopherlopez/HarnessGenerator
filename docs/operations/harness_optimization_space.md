@@ -1,6 +1,10 @@
 # Harness Optimization Space
 
-Poetiq's public descriptions emphasize optimizing the harness around a model: question strategy, sequential process, answer assembly, model routing, verification, and cost. This project encodes those levers in `bootstrap/harness_search_space.yaml` so recursive improvement has explicit boundaries.
+Poetiq's public descriptions emphasize optimizing the harness around a model: question strategy,
+sequential process, answer assembly, model routing, verification, and cost. This project encodes
+those levers in the merged harness-search contract:
+`bootstrap/harness_search_space.yaml` plus a workspace override such as
+`workspaces/youtube_speaker_attribution/contracts/harness_search_space.yaml`.
 
 ## Change Surfaces
 
@@ -80,9 +84,12 @@ Controls where computation is spent:
 
 ## Staged Unlocks
 
-The first loop may only change fixture-level resolver logic: thresholds, evidence strategy, and verification.
+The current automated candidate loop is still limited to fixture-level resolver logic: thresholds,
+evidence strategy, and verification.
 
-Media provider routing, real transcription/diarization pipelines, and generated code search come later, after contracts, evals, and regression gates are stable.
+Media preparation and provider adapters now exist for draft dataset creation, but provider routing is
+not yet an optimization surface for generated candidates. Generated code search also remains locked
+until contracts, evals, trace capture, sandboxing, and regression gates are stronger.
 
 ## Generated Task Requirements
 

@@ -18,7 +18,7 @@ Make contract loading and validation task-agnostic while preserving workspace-sp
 - [ ] Validate that workspace overrides do not silently omit required sections.
 - [ ] Add a generic contract fixture for a non-YouTube task, such as structured QA or math word problems.
 - [ ] Keep compatibility tests for the YouTube workspace contracts.
-- [ ] Update `docs/data_contracts.md` to separate:
+- [ ] Update `docs/contracts/data_contracts.md` to separate:
   - engine-level contract requirements
   - task-family contract requirements
   - workspace override behavior

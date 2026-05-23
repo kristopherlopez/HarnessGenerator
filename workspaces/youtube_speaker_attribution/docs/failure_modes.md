@@ -31,4 +31,3 @@ Raw embeddings, face crops, raw frames, or other sensitive internals are exposed
 ## Metric Gaming
 
 A strategy improves raw identity accuracy or recall while increasing false assignments, false merges, or unsafe automatic identity decisions.
-
