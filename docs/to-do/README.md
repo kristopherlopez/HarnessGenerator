@@ -18,6 +18,7 @@ The lists are split so each part can be completed independently. Some lists will
 | [08-youtube-workspace-extraction.md](08-youtube-workspace-extraction.md) | Move YouTube-specific assumptions out of generic defaults | Yes |
 | [09-provider-tooling-and-sandboxing.md](09-provider-tooling-and-sandboxing.md) | Generalize provider/tool policy and generated-code safety | Yes |
 | [10-ci-and-regression-gates.md](10-ci-and-regression-gates.md) | Add test and CI gates for generic and workspace-specific behavior | Yes |
+| [11-harness-hypothesis-and-api.md](11-harness-hypothesis-and-api.md) | Define generated harness hypotheses and the stable Harness API | Yes |
 
 ## Shared Definition Of Done
 
