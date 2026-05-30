@@ -1,6 +1,7 @@
 {
   "name": "silver",
   "description": "Auto-generated or model-assisted labels that are not yet reviewed gold.",
+  "status": "archive",
+  "role": "silver_labels",
   "cases": []
 }
-

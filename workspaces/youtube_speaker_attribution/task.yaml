@@ -6,6 +6,17 @@ description: Generate timestamped podcast transcripts with conservative real-per
 default_dataset: small_gold
 default_strategy: review_heavy_low_false_assignment
 
+active_artifacts:
+  gold_dataset: seed_gold
+  active_review_dataset: seeded_review_global
+  active_review_case: datasets/seeded_review_global/cases/youtube_gG1Lq2pIgGM_part_004.json
+  debug_review_dataset: seeded_review
+  draft_dataset: drafts
+  eval_dataset: small_gold
+  seed_profile: datasets/seed_gold/calibration/seed_gold_profile_global.json
+  provider_output: datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM.json
+  provider_case_name: youtube_gG1Lq2pIgGM.json
+
 paths:
   intake: intake
   contracts: contracts

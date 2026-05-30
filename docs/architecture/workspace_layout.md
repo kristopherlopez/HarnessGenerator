@@ -45,11 +45,11 @@ workspaces/youtube_speaker_attribution/
 
 `contracts/` contains task-specific overrides for global defaults. The loader reads `bootstrap/` first, then applies matching workspace contract files.
 
-`datasets/` contains labelled fixtures, draft media-derived cases, seed-gold review cases, and
-future train, validation, test, regression, and adversarial sets. Use `datasets/drafts/` for
-partial annotations and provider-populated review material. Use `datasets/small_gold/` only for
-reviewed ground truth. `datasets/seed_gold/` contains human-cleaned seed cases used to calibrate
-review drafts; generated seeded review datasets are not gold.
+`datasets/` contains prepared task cases: labelled fixtures, draft/review cases, seed-gold or other
+calibration cases, and future train, validation, test, regression, and adversarial sets. Use
+`datasets/drafts/` for partial annotations and provider-populated review material. Use gold splits
+only for reviewed ground truth. Generated or calibrated review datasets are not gold until a
+workspace's review policy promotes them.
 
 `docs/` contains workspace-specific docs, including task-family design, resolver strategies,
 failure modes, registry assumptions, bootstrapping without gold labels, gold output shape,
@@ -72,6 +72,7 @@ A workspace needs more than an evaluation set before HarnessGenerator should opt
 
 - `task.yaml` with workspace id, task family, default dataset, default baseline or strategy, and paths
 - task-specific contracts for input, output, metrics, safety, datasets, tools, strategy space, harness search space, and generated-task policy
+- data-provisioning workflow for raw inputs, permissions, source-to-case transformation, cache policy, and review/gold promotion
 - dataset manifests and split policy
 - at least one tiny labelled fixture
 - a safe baseline harness or strategy

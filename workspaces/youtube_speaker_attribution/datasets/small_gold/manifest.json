@@ -1,6 +1,8 @@
 {
   "name": "small_gold",
   "description": "Synthetic bootstrap fixtures for safe identity-resolution evaluation.",
+  "status": "gold",
+  "role": "bootstrap_eval_gold",
   "cases": [
     "audio_clean_known.json",
     "video_two_visible.json",

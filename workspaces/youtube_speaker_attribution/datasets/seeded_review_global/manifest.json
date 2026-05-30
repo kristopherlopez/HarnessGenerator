@@ -1,6 +1,8 @@
 {
   "name": "seeded_review_global",
   "description": "Machine-generated review drafts seeded from seed_gold cases. These are not gold labels.",
+  "status": "active_review",
+  "role": "review_queue",
   "seed_profile": "datasets/seed_gold/calibration/seed_gold_profile_global.json",
   "provider_case_name": "youtube_gG1Lq2pIgGM.json",
   "cases": [

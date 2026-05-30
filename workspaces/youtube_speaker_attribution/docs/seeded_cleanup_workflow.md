@@ -11,19 +11,22 @@ chunks. Generated output is review material, not gold.
   - Human-cleaned seed case promoted from `datasets/seeded_review/cases/`.
 - `datasets/seed_gold/cases/youtube_gG1Lq2pIgGM_part_002.json`
   - Human-cleaned seed case promoted from `datasets/seeded_review/cases/`.
+- `datasets/seed_gold/cases/youtube_gG1Lq2pIgGM_part_003.json`
+  - Human-cleaned seed case promoted from `datasets/seeded_review_global/cases/`.
 - `datasets/seed_gold/calibration/seed_gold_profile.json`
   - Combined known speaker roster, Deepgram speaker mapping, and reference spans.
-- `datasets/seeded_review/cases/youtube_gG1Lq2pIgGM_part_003.json` through
+- `datasets/seeded_review_global/cases/youtube_gG1Lq2pIgGM_part_004.json` through
   `youtube_gG1Lq2pIgGM_part_010.json`
-  - Machine-generated review drafts for the remaining chunks.
+  - Active machine-generated review drafts for the remaining chunks.
 
 ## Current Calibration
 
-From the cleaned seeds, the provider-speaker mapping is:
+From the cleaned seeds and global Deepgram pass, the active provider-speaker mapping is:
 
-- Deepgram speaker `0` -> Sandor Earl, high confidence; remaining errors are mostly overlap or fast handoff spans.
-- Deepgram speaker `1` -> Denan Kemp, high confidence; remaining errors are mostly overlap or fast handoff spans.
-- Deepgram speaker `2` -> Matthew Buxton, based on the promoted `part_001` seed.
+- Deepgram speaker `1` -> Denan Kemp, high confidence.
+- Deepgram speaker `2` -> Sandor Earl, high confidence.
+- Deepgram speaker `3` -> Matthew Buxton, based on promoted seed examples.
+- Deepgram speaker `0` -> ambiguous; treat as review-required rather than a stable identity assignment.
 
 ## Review Findings
 
@@ -104,7 +107,7 @@ To promote a reviewed global generated case:
 uv run python -m app.calibration.seed_gold promote-review `
   --workspace workspaces/youtube_speaker_attribution `
   --source-dataset seeded_review_global `
-  youtube_gG1Lq2pIgGM_part_003.json
+  youtube_gG1Lq2pIgGM_part_004.json
 ```
 
 To rebuild from all current seed cases:
@@ -120,7 +123,7 @@ uv run python -m app.calibration.seed_gold generate-review `
 
 ## Review Loop
 
-1. Review the next generated case in `datasets/seeded_review_global/cases/`.
+1. Review the next generated case from `active_artifacts.active_review_case` in `task.yaml`.
 2. Correct speaker attribution and word-boundary splits.
 3. Promote the cleaned file into `seed_gold` when it is reliable.
 4. Regenerate the profile and review drafts.

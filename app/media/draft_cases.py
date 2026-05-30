@@ -94,8 +94,12 @@ def _ensure_manifest_cases(path: Path, case_filenames: list[str]) -> None:
         manifest = {
             "name": "drafts",
             "description": "Partially prepared cases that are not yet gold-labelled.",
+            "status": "draft",
+            "role": "source_drafts",
             "cases": [],
         }
+    manifest.setdefault("status", "draft")
+    manifest.setdefault("role", "source_drafts")
     cases = manifest.setdefault("cases", [])
     for case_filename in case_filenames:
         if case_filename not in cases:

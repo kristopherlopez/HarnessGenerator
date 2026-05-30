@@ -333,6 +333,12 @@ def generate_seeded_review_cases(
                 "Machine-generated review drafts seeded from seed_gold cases. These are "
                 "not gold labels."
             ),
+            "status": "active_review"
+            if output_dataset.endswith("_global")
+            else "debug_only",
+            "role": "review_queue"
+            if output_dataset.endswith("_global")
+            else "comparison_review_queue",
             "seed_profile": _workspace_relative(workspace, profile_path),
             "provider_case_name": provider_case_name,
             "cases": [path.name for path in created_paths],
@@ -887,6 +893,8 @@ def _append_manifest_case(path: Path, dataset_name: str, case_name: str) -> None
 
     manifest["name"] = dataset_name
     manifest["description"] = "Human-cleaned seed cases used for calibration before broader review."
+    manifest.setdefault("status", "gold")
+    manifest.setdefault("role", "calibration_gold")
     cases = manifest.setdefault("cases", [])
     if not isinstance(cases, list):
         raise ValueError(f"{path} must contain a 'cases' list")

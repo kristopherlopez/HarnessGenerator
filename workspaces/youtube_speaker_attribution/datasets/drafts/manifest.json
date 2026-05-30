@@ -1,6 +1,8 @@
 {
   "name": "drafts",
   "description": "Partially prepared cases that are not yet gold-labelled.",
+  "status": "draft",
+  "role": "source_drafts",
   "cases": [
     "youtube_gG1Lq2pIgGM.json",
     "youtube_gG1Lq2pIgGM_part_000.json",

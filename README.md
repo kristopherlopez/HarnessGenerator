@@ -229,7 +229,7 @@ uv run python -m app.transcription.openai_diarized --workspace workspaces/youtub
 5. Add a first-class workspace scaffold and readiness gate.
 6. Add a fake non-YouTube workspace fixture to prove generic behavior.
 7. Introduce task adapters for dataset loading, harness lookup, scoring, and failure mining.
-8. Add real media ingestion and provider adapters behind mocked tests.
+8. Add workspace data-provisioning workflows and provider adapters behind mocked tests.
 9. Generalize candidate templates and generated-task logic behind adapters.
 10. Add trace capture, archives, and experiment reports.
 11. Expand the search space to resolver strategies, threshold search, verification, and model routing.
