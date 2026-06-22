@@ -33,7 +33,17 @@ Use this order for local context:
 - `datasets/seeded_review/` is the older per-part Deepgram pass and is retained for comparison/debugging only.
 - `datasets/drafts/` contains rough machine-generated or intake artifacts.
 - `task.yaml` is the source of truth for `active_artifacts`.
+- `task.yaml` is also the source of truth for named `workspace_loops`.
 - Generated review cases are not gold until explicitly promoted.
+- Longitudinal harness metadata is tracked in `experiments/harness_history.jsonl`.
+
+Use these loop names in user-facing discussion and task execution:
+
+- `refresh_gold_loop`: rebuild calibration and generated review drafts from existing `seed_gold`.
+- `evaluate_harness_loop`: run tests, lint, type checks, eval, strategy comparison, and regression; eval and comparison append to harness history.
+- `propose_harness_loop`: generate optimizer task, candidate proposals, and runnable candidate harness configs from latest reports.
+- `test_generated_harness_loop`: run generated candidate harness configs through eval, regression, comparison, and outcome explanation artifacts.
+- `expand_gold_loop`: manually review one generated case, promote it, then refresh and evaluate.
 
 For the current YouTube source, review should continue from the
 `active_artifacts.active_review_case` path in `task.yaml`:

@@ -100,8 +100,11 @@ The project prefers conservative, measurable improvements over broad rewrites.
 
 ## What The Harness API Should Provide
 
-The current code has a small `HarnessStrategy` shape for early fixtures. A fuller Harness API should
-eventually provide:
+The current code has a small compatibility Harness API around registered strategies. It serializes
+`HarnessHypothesis`, `HarnessRunRequest`, and `HarnessRunResult` artifacts so eval reports can keep
+task output separate from execution metadata. Candidate generation can also materialize config-only
+generated harnesses under workspace experiments and run them with `evals.run_eval --harness` before
+promotion. A fuller Harness API should eventually provide:
 
 - a stable `run(case, context)` entrypoint
 - declared harness metadata, version, and supported contract versions

@@ -9,8 +9,11 @@ venv/
 __pycache__/
 *.py[cod]
 .pytest_cache/
+.pytest-tmp/
 .ruff_cache/
 .mypy_cache/
+.uv-cache/
+.uv-python/
 
 # Generated experiment artifacts
 runs/
@@ -23,6 +26,7 @@ workspaces/**/runs/**
 !workspaces/**/runs/
 !workspaces/**/runs/.gitkeep
 workspaces/**/reports/*.json
+workspaces/**/reports/*.md
 !workspaces/**/reports/.gitkeep
 workspaces/**/codex_tasks/generated/**
 !workspaces/**/codex_tasks/generated/.gitkeep

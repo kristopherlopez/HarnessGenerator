@@ -73,6 +73,14 @@ class SimpleQaAdapter:
     def available_strategies(self) -> dict[str, Any]:
         return {"baseline_context_answer": BaselineContextAnswerStrategy()}
 
+    def strategy_from_harness_config(self, harness_config: dict[str, Any]) -> Any:
+        strategy_key = str(harness_config.get("strategy") or harness_config.get("strategy_type"))
+        if strategy_key != "baseline_context_answer":
+            raise ValueError(f"Unsupported simple_qa harness strategy '{strategy_key}'")
+        return BaselineContextAnswerStrategy(
+            name=str(harness_config.get("harness_id") or strategy_key)
+        )
+
     def score_predictions(
         self,
         cases: list[Any],

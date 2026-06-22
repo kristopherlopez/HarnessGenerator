@@ -135,3 +135,77 @@ The older `datasets/seeded_review/` directory is retained as the original
 per-part Deepgram pass for comparison. Continue new review work from
 `datasets/seeded_review_global/` unless specifically investigating per-part
 diarization drift.
+
+## Named Loops
+
+The canonical loop names live in `task.yaml` under `workspace_loops`. Use the
+names below when asking Codex to continue work.
+
+### `refresh_gold_loop`
+
+Use this after a case has already been promoted to `seed_gold`, before spending
+more time on manual review. It consumes the current gold set, rebuilds the global
+profile, regenerates `seeded_review_global`, and runs focused dataset checks.
+
+```powershell
+uv run python -m app.calibration.seed_gold profile `
+  --workspace workspaces/youtube_speaker_attribution `
+  --provider-case youtube_gG1Lq2pIgGM.json `
+  --output-profile datasets/seed_gold/calibration/seed_gold_profile_global.json
+
+uv run python -m app.calibration.seed_gold generate-review `
+  --workspace workspaces/youtube_speaker_attribution `
+  --provider-case youtube_gG1Lq2pIgGM.json `
+  --profile datasets/seed_gold/calibration/seed_gold_profile_global.json `
+  --target-glob "youtube_gG1Lq2pIgGM_part_*.json" `
+  --output-dataset seeded_review_global
+
+uv run pytest tests/test_seed_gold.py tests/test_draft_cases.py
+```
+
+### `evaluate_harness_loop`
+
+Use this after code, config, or calibration changes. The eval and strategy
+comparison commands append immutable run metadata to
+`experiments/harness_history.jsonl`.
+
+```powershell
+uv run pytest
+uv run ruff check .
+uv run mypy app evals
+uv run python -m evals.run_eval --workspace workspaces/youtube_speaker_attribution --dataset small_gold
+uv run python -m evals.compare_strategies --workspace workspaces/youtube_speaker_attribution --dataset small_gold
+uv run python -m evals.check_regression --workspace workspaces/youtube_speaker_attribution
+```
+
+The history ledger captures the loop name, timestamp, git state, dataset hash,
+gold cases, seed profile hash, harness config hash, metrics, and failure counts.
+
+### `propose_harness_loop`
+
+Use this after `evaluate_harness_loop` has fresh reports.
+
+```powershell
+uv run python -m app.harness_optimizer.next_task --workspace workspaces/youtube_speaker_attribution
+uv run python -m app.harness_optimizer.candidates --workspace workspaces/youtube_speaker_attribution
+```
+
+### `expand_gold_loop`
+
+Use this only when it is worth the manual labeling time. Review
+`active_artifacts.active_review_case`, promote it, then run `refresh_gold_loop`
+and `evaluate_harness_loop`.
+
+```powershell
+uv run python -m app.calibration.seed_gold promote-review `
+  --workspace workspaces/youtube_speaker_attribution `
+  --source-dataset seeded_review_global `
+  youtube_gG1Lq2pIgGM_part_004.json
+```
+
+To inspect the available loop names from `task.yaml`:
+
+```powershell
+uv run python -m app.workspaces.loops --workspace workspaces/youtube_speaker_attribution list
+uv run python -m app.workspaces.loops --workspace workspaces/youtube_speaker_attribution show refresh_gold_loop
+```

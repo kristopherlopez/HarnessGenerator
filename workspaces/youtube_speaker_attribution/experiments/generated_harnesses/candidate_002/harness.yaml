@@ -1,0 +1,43 @@
+schema_version: 0.1
+harness_id: candidate_002
+workspace_id: youtube_speaker_attribution
+status: generated_candidate
+strategy: review_heavy_low_false_assignment
+strategy_type: conservative_evidence
+parent: review_heavy_low_false_assignment
+change_surface: verification
+change_option: registry_conflict_check
+description: Separate ambiguous voice evidence from weak evidence
+resolver_config:
+  assignment_threshold: 0.85
+  voice_only_assignment_threshold: 0.8
+  review_threshold: 0.6
+  max_review_rate: 0.25
+  minimum_review_slots: 1
+  overlap_handling_policy: require_corroborating_signal_on_high_overlap
+  high_overlap_levels:
+  - high
+  margin_threshold: 0.08
+  voice_only_margin_threshold: 0.15
+  min_voice_duration_seconds: 2.5
+  min_voice_only_duration_seconds: 5.0
+  ambiguous_voice_conflict_status: needs_review
+candidate:
+  failure_type: missed_known_identity
+  rationale: Similar-voice and overlap cases are both becoming unknown, but they represent
+    different failures. The harness needs clearer verification outcomes.
+  required_change: Classify close top-candidate margins as needs_review with conflict
+    provenance instead of dropping them into generic unknown.
+  affected_cases:
+  - panel_overlap 1
+  - similar_voices 1
+  risk_notes:
+  - Review rate can rise if too many ambiguous spans are escalated.
+contracts:
+  output: ../../contracts/output_contract.yaml
+  safety: ../../contracts/safety_contract.yaml
+  metrics: ../../contracts/metric_contract.yaml
+expected_behavior:
+  known_person_recall: unchanged or slight increase
+  needs_review_rate: may increase within limit
+  failure_report_quality: increase

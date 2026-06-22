@@ -918,6 +918,12 @@ def _workspace_relative(workspace: Path, path: Path) -> str:
         return path.as_posix()
 
 
+def _workspace_path(workspace: Path, path: Path) -> Path:
+    if path.is_absolute():
+        return path
+    return workspace / path
+
+
 def _read_json(path: Path) -> dict[str, Any]:
     raw = json.loads(path.read_text(encoding="utf-8"))
     if not isinstance(raw, dict):
@@ -965,11 +971,13 @@ def main() -> None:
     profile = subparsers.add_parser("profile", help="Build a calibration profile from seed_gold.")
     profile.add_argument("--workspace", default=DEFAULT_WORKSPACE, type=Path)
     profile.add_argument("--provider-case")
+    profile.add_argument("--output-profile", type=Path)
 
     generate = subparsers.add_parser("generate-review", help="Generate seeded review cases.")
     generate.add_argument("--workspace", default=DEFAULT_WORKSPACE, type=Path)
     generate.add_argument("--target-glob", default=DEFAULT_TARGET_GLOB)
     generate.add_argument("--provider-case")
+    generate.add_argument("--profile", type=Path)
     generate.add_argument("--output-dataset", default="seeded_review")
 
     args = parser.parse_args()
@@ -993,9 +1001,12 @@ def main() -> None:
         print(path)
         return
 
-    profile_path = _default_profile_path(workspace)
-
     if command == "profile":
+        profile_path = (
+            _workspace_path(workspace, args.output_profile)
+            if args.output_profile
+            else _default_profile_path(workspace)
+        )
         build_seed_profile_from_manifest(
             workspace,
             output_path=profile_path,
@@ -1003,6 +1014,12 @@ def main() -> None:
         )
         print(profile_path)
         return
+
+    profile_path = (
+        _workspace_path(workspace, args.profile)
+        if command == "generate-review" and args.profile
+        else _default_profile_path(workspace)
+    )
 
     if command == "generate-review":
         if not profile_path.exists():

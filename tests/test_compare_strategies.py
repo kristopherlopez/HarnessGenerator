@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import json
 from pathlib import Path
 
 from app.identity.models import EvalCase, EvidenceCandidate, SegmentCase
@@ -29,6 +30,39 @@ def test_strategy_comparison_rejects_risky_high_accuracy_strategy(tmp_path: Path
         "needs_review_rate"
     ] == 0.25
     assert report["winner"] == "review_heavy_low_false_assignment"
+    assert report["harness_hypotheses"]["review_heavy_low_false_assignment"][
+        "declared_change_surface"
+    ] == "registered_strategy"
+    assert report["harness_run_summaries"]["review_heavy_low_false_assignment"][
+        "run_count"
+    ] == 12
+
+
+def test_strategy_comparison_can_append_workspace_history(tmp_path: Path) -> None:
+    history_path = tmp_path / "harness_history.jsonl"
+    report = compare_strategies(
+        WORKSPACE / "datasets" / "small_gold",
+        workspace=WORKSPACE,
+        output_path=tmp_path / "strategy_comparison.json",
+        record_history=True,
+        history_path=history_path,
+    )
+
+    assert report["history_entry_path"] == str(history_path)
+    entries = [
+        json.loads(line)
+        for line in history_path.read_text(encoding="utf-8").splitlines()
+    ]
+    assert len(entries) == 1
+    entry = entries[0]
+    assert entry["run_type"] == "strategy_comparison"
+    assert entry["harness"]["winner"] == "review_heavy_low_false_assignment"
+    assert entry["strategy_results"]
+    assert entry["dataset"]["content_sha256"]
+    assert "review_heavy_low_false_assignment" in entry["harness_hypotheses"]
+    assert entry["harness_run_summaries"]["review_heavy_low_false_assignment"][
+        "model_call_count"
+    ] == 0
 
 
 def test_conservative_strategy_resolves_only_safe_voice_only_evidence() -> None:

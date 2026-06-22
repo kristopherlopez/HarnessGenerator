@@ -1,0 +1,44 @@
+schema_version: 0.1
+harness_id: candidate_003
+workspace_id: youtube_speaker_attribution
+status: generated_candidate
+strategy: review_heavy_low_false_assignment
+strategy_type: conservative_evidence
+parent: review_heavy_low_false_assignment
+change_surface: thresholds_and_policies
+change_option: assignment_threshold
+description: Tune assignment and review thresholds for fixture loop
+resolver_config:
+  assignment_threshold: 0.9
+  voice_only_assignment_threshold: 0.8
+  review_threshold: 0.6
+  max_review_rate: 0.25
+  minimum_review_slots: 1
+  overlap_handling_policy: require_corroborating_signal_on_high_overlap
+  high_overlap_levels:
+  - high
+  margin_threshold: 0.1
+  voice_only_margin_threshold: 0.1
+  min_voice_duration_seconds: 2.5
+  min_voice_only_duration_seconds: 5.0
+  ambiguous_voice_conflict_status: needs_review
+candidate:
+  failure_type: missed_known_identity
+  rationale: The conservative strategy leaves known speakers unresolved even when
+    evidence is strong enough to evaluate threshold tradeoffs.
+  required_change: Move resolver thresholds into a config object and test a tighter
+    policy for voice duration, confidence, and margin.
+  affected_cases:
+  - panel_overlap 1
+  - similar_voices 1
+  risk_notes:
+  - Threshold tuning can overfit synthetic fixtures.
+  - Thresholds must stay documented and configurable.
+contracts:
+  output: ../../contracts/output_contract.yaml
+  safety: ../../contracts/safety_contract.yaml
+  metrics: ../../contracts/metric_contract.yaml
+expected_behavior:
+  known_person_recall: increase
+  known_person_precision: must remain 1.0 on small_gold
+  false_assignment_rate: must remain 0.0 on small_gold

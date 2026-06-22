@@ -8,7 +8,7 @@ metadata, analyze failures, and propose the next hypothesis.
 
 ## Checklist
 
-- [ ] Define the artifact vocabulary:
+- [x] Define the artifact vocabulary:
   - task input
   - gold output
   - predicted task output
@@ -17,7 +17,7 @@ metadata, analyze failures, and propose the next hypothesis.
   - harness run result
   - evaluation output
   - optimizer output
-- [ ] Define a `HarnessHypothesis` schema with fields for:
+- [x] Define a `HarnessHypothesis` schema with fields for:
   - harness id and version
   - task type and contract versions
   - declared change surface
@@ -29,7 +29,7 @@ metadata, analyze failures, and propose the next hypothesis.
   - retry and stopping rules
   - confidence, abstention, or review policy
   - expected budget impact
-- [ ] Define a `HarnessRunRequest` schema with:
+- [x] Define a `HarnessRunRequest` schema with:
   - workspace id
   - dataset split or case id
   - task input
@@ -37,7 +37,7 @@ metadata, analyze failures, and propose the next hypothesis.
   - run config
   - budget limits
   - allowed tools/providers
-- [ ] Define a `HarnessRunResult` schema with:
+- [x] Define a `HarnessRunResult` schema with:
   - predicted task output
   - output validation status
   - safety validation status
@@ -48,28 +48,46 @@ metadata, analyze failures, and propose the next hypothesis.
   - errors
   - cost and latency
   - reproducibility metadata
-- [ ] Define an `EvaluationResult` schema with:
+- [x] Define an `EvaluationResult` schema with:
   - gold comparison
   - per-case metrics
   - aggregate metrics
   - constraint violations
   - failure categories
   - scorer version
-- [ ] Define an `OptimizerDecision` schema with:
+- [x] Define an `OptimizerDecision` schema with:
   - accept, reject, revise, or generate task
   - rationale
   - target failure types
   - proposed change surface
   - next harness hypothesis or Codex task
   - risk notes
-- [ ] Update the runner so adapters return harness run results, not only raw predictions.
-- [ ] Update reports to store the harness hypothesis, run result metadata, evaluation output, and optimizer decision separately.
-- [ ] Update candidate generation so generated candidates are explicit harness hypotheses rather than only natural-language task suggestions.
-- [ ] Add tests that prove:
+- [x] Update the runner so adapters return harness run results, not only raw predictions.
+- [x] Update reports to store the harness hypothesis and run result metadata separately.
+- [x] Update candidate generation so generated candidates are explicit harness hypotheses rather than only natural-language task suggestions.
+- [x] Add tests that prove:
   - the Harness API is not confused with task output
   - hidden gold outputs are not visible during harness execution
   - run metadata is archived separately from predicted task outputs
   - a simple non-YouTube workspace can run through the same API
+
+## Current Implementation Notes
+
+The first implementation is a compatibility layer around registered strategies:
+
+- `app/harness/models.py` defines the serializable artifact schemas.
+- `app/harness/runner.py` builds registered-strategy hypotheses and run results.
+- `evals/run_eval.py` now writes `harness_hypothesis`, `harness_run_results`, and
+  `harness_run_summary` alongside existing task predictions and metrics.
+- `evals/compare_strategies.py` records per-strategy hypotheses and run summaries without changing
+  the existing comparison result shape.
+- Candidate proposal output includes a structured `harness_hypothesis` for each proposed change and
+  materializes runnable config-only harness candidates under `experiments/generated_harnesses/`.
+- `evals/run_eval.py --harness <path-or-id>` can run a generated harness config without promoting it.
+
+Remaining work: replace the compatibility runner with provider-aware execution contexts, add output
+and safety validators inside the runner, implement `LlmReasoner` provider bindings, and store full
+optimizer decisions as first-class report artifacts.
 
 ## Acceptance Criteria
 

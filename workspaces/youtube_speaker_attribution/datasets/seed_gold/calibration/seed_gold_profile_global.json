@@ -3,7 +3,8 @@
   "seed_cases": [
     "datasets/seed_gold/cases/youtube_gG1Lq2pIgGM_part_000.json",
     "datasets/seed_gold/cases/youtube_gG1Lq2pIgGM_part_001.json",
-    "datasets/seed_gold/cases/youtube_gG1Lq2pIgGM_part_002.json"
+    "datasets/seed_gold/cases/youtube_gG1Lq2pIgGM_part_002.json",
+    "datasets/seed_gold/cases/youtube_gG1Lq2pIgGM_part_003.json"
   ],
   "provider_outputs": [
     "datasets/drafts/provider_outputs/deepgram_diarized_transcription/youtube_gG1Lq2pIgGM.json"
@@ -42,44 +43,44 @@
   "provider_speaker_votes": {
     "0": [
       {
-        "person_id": 2,
-        "display_name": "Sandor Earl",
-        "duration_seconds": 3.28003,
-        "share": 0.5125
-      },
-      {
         "person_id": 1,
         "display_name": "Denan Kemp",
-        "duration_seconds": 3.12,
-        "share": 0.4875
+        "duration_seconds": 4.79995,
+        "share": 0.5263
+      },
+      {
+        "person_id": 2,
+        "display_name": "Sandor Earl",
+        "duration_seconds": 4.31993,
+        "share": 0.4737
       }
     ],
     "1": [
       {
         "person_id": 1,
         "display_name": "Denan Kemp",
-        "duration_seconds": 528.160337,
-        "share": 0.9791
+        "duration_seconds": 692.798477,
+        "share": 0.9836
       },
       {
         "person_id": 2,
         "display_name": "Sandor Earl",
-        "duration_seconds": 11.28013,
-        "share": 0.0209
+        "duration_seconds": 11.52013,
+        "share": 0.0164
       }
     ],
     "2": [
       {
         "person_id": 2,
         "display_name": "Sandor Earl",
-        "duration_seconds": 260.400099,
-        "share": 0.9798
+        "duration_seconds": 368.800299,
+        "share": 0.9857
       },
       {
         "person_id": 1,
         "display_name": "Denan Kemp",
         "duration_seconds": 5.360075,
-        "share": 0.0202
+        "share": 0.0143
       }
     ],
     "3": [
@@ -87,53 +88,53 @@
         "person_id": 3,
         "display_name": "Matthew Buxton",
         "duration_seconds": 11.36002,
-        "share": 0.8161
+        "share": 0.6893
       },
       {
         "person_id": 2,
         "display_name": "Sandor Earl",
-        "duration_seconds": 2.16001,
-        "share": 0.1552
+        "duration_seconds": 4.72011,
+        "share": 0.2864
       },
       {
         "person_id": 1,
         "display_name": "Denan Kemp",
         "duration_seconds": 0.4,
-        "share": 0.0287
+        "share": 0.0243
       }
     ]
   },
   "provider_speaker_map": {
     "0": {
-      "person_id": 2,
-      "display_name": "Sandor Earl",
-      "duration_seconds": 3.28003,
-      "total_duration_seconds": 6.40003,
-      "share": 0.5125,
+      "person_id": 1,
+      "display_name": "Denan Kemp",
+      "duration_seconds": 4.79995,
+      "total_duration_seconds": 9.11988,
+      "share": 0.5263,
       "status": "ambiguous"
     },
     "1": {
       "person_id": 1,
       "display_name": "Denan Kemp",
-      "duration_seconds": 528.160337,
-      "total_duration_seconds": 539.440467,
-      "share": 0.9791,
+      "duration_seconds": 692.798477,
+      "total_duration_seconds": 704.318607,
+      "share": 0.9836,
       "status": "mapped"
     },
     "2": {
       "person_id": 2,
       "display_name": "Sandor Earl",
-      "duration_seconds": 260.400099,
-      "total_duration_seconds": 265.760174,
-      "share": 0.9798,
+      "duration_seconds": 368.800299,
+      "total_duration_seconds": 374.160374,
+      "share": 0.9857,
       "status": "mapped"
     },
     "3": {
       "person_id": 3,
       "display_name": "Matthew Buxton",
       "duration_seconds": 11.36002,
-      "total_duration_seconds": 13.92003,
-      "share": 0.8161,
+      "total_duration_seconds": 16.48013,
+      "share": 0.6893,
       "status": "mapped"
     }
   },
@@ -175,6 +176,24 @@
         {
           "provider_speaker": "1",
           "duration_seconds": 25.27995
+        }
+      ]
+    },
+    {
+      "person_id": 1,
+      "display_name": "Denan Kemp",
+      "case_id": "youtube_gG1Lq2pIgGM_part_003",
+      "segment_id": 47,
+      "start": 213.03,
+      "end": 237.765,
+      "absolute_start": 1113.045,
+      "absolute_end": 1137.78,
+      "duration_seconds": 24.735,
+      "text": "And then I so they made us set up camp, like, on this hill. So, like, me, I think it was Jack Reed. Like, we fuck. We're up there. We're setting the camp up going mad. We were the ones that set the whole camp up. Anyway, the whole team just, like, comes in and sets all their shit down so much so that there was no room left in the camp. We had to sleep outside on the hill in the rain, and we were the ones that set it up. Yes. Oh. So we're on this hill in this mud and this drops in our eyes just going, this is fucking the worst thing ever.",
+      "provider_speakers": [
+        {
+          "provider_speaker": "1",
+          "duration_seconds": 24.1597
         }
       ]
     },
@@ -235,6 +254,24 @@
     {
       "person_id": 1,
       "display_name": "Denan Kemp",
+      "case_id": "youtube_gG1Lq2pIgGM_part_003",
+      "segment_id": 46,
+      "start": 195.78,
+      "end": 212.5349,
+      "absolute_start": 1095.795,
+      "absolute_end": 1112.5499,
+      "duration_seconds": 16.7549,
+      "text": "being one of the younger guys, like, you know, when you're keen as, like, you're just, like, you're you're always first to everything. Like, your your attitude is, like, top notch. Like, you because you're you're not on the big money. You're you're still trying to make it and everything. Anyway, so there was this they're like, alright, guys. Set up camp. Could we will you walk, like, 30 or 40 kilometers?",
+      "provider_speakers": [
+        {
+          "provider_speaker": "1",
+          "duration_seconds": 15.9196
+        }
+      ]
+    },
+    {
+      "person_id": 1,
+      "display_name": "Denan Kemp",
       "case_id": "youtube_gG1Lq2pIgGM_part_002",
       "segment_id": 61,
       "start": 279.255,
@@ -247,6 +284,24 @@
         {
           "provider_speaker": "1",
           "duration_seconds": 15.36007
+        }
+      ]
+    },
+    {
+      "person_id": 1,
+      "display_name": "Denan Kemp",
+      "case_id": "youtube_gG1Lq2pIgGM_part_003",
+      "segment_id": 35,
+      "start": 118.225,
+      "end": 133.1399,
+      "absolute_start": 1018.24,
+      "absolute_end": 1033.1549,
+      "duration_seconds": 14.9149,
+      "text": "But, yeah, in regards to, like I mean, I've told the story a million times, so I won't go into it. But the craziest thing is obviously being told as a rookie, come to the first grade. We're going away. Bring your board shorts. We're going to Sunshine Coast to get to know the the squad. So I thought it was a holiday.",
+      "provider_speakers": [
+        {
+          "provider_speaker": "1",
+          "duration_seconds": 14.63987
         }
       ]
     },
@@ -309,60 +364,6 @@
       ]
     },
     {
-      "person_id": 1,
-      "display_name": "Denan Kemp",
-      "case_id": "youtube_gG1Lq2pIgGM_part_000",
-      "segment_id": 28,
-      "start": 143.68001,
-      "end": 154.655,
-      "absolute_start": 143.68001,
-      "absolute_end": 154.655,
-      "duration_seconds": 10.97499,
-      "text": "So, yeah, he will be the most capped. I think also because he's formed at least this year has been great, but the last couple of years hasn't been great. So, like, we're recently bias gets a little bit. But if you were there around the days where he was flying, like, bro,",
-      "provider_speakers": [
-        {
-          "provider_speaker": "1",
-          "duration_seconds": 11.20002
-        }
-      ]
-    },
-    {
-      "person_id": 1,
-      "display_name": "Denan Kemp",
-      "case_id": "youtube_gG1Lq2pIgGM_part_001",
-      "segment_id": 47,
-      "start": 205.335,
-      "end": 216.29501,
-      "absolute_start": 505.35,
-      "absolute_end": 516.31001,
-      "duration_seconds": 10.96001,
-      "text": "a great season at the moment for the for the warriors. So I understand him going to have a chat, but at the same time, I just I wish it wouldn't get out because they're going so well, the warriors. I don't need any negative, no contro no controversy,",
-      "provider_speakers": [
-        {
-          "provider_speaker": "1",
-          "duration_seconds": 10.88
-        }
-      ]
-    },
-    {
-      "person_id": 1,
-      "display_name": "Denan Kemp",
-      "case_id": "youtube_gG1Lq2pIgGM_part_000",
-      "segment_id": 47,
-      "start": 223.95,
-      "end": 234.055,
-      "absolute_start": 223.95,
-      "absolute_end": 234.055,
-      "duration_seconds": 10.105,
-      "text": "Despite previously being regarded as the premier playmaker, you know, we know the drill. Tanner Boy's been going great. According to Code Sports, those close to Metcalf claim he wants primarily to play halfback, not five eight.",
-      "provider_speakers": [
-        {
-          "provider_speaker": "1",
-          "duration_seconds": 9.76
-        }
-      ]
-    },
-    {
       "person_id": 2,
       "display_name": "Sandor Earl",
       "case_id": "youtube_gG1Lq2pIgGM_part_002",
@@ -413,6 +414,42 @@
         {
           "provider_speaker": "2",
           "duration_seconds": 15.51999
+        }
+      ]
+    },
+    {
+      "person_id": 2,
+      "display_name": "Sandor Earl",
+      "case_id": "youtube_gG1Lq2pIgGM_part_003",
+      "segment_id": 24,
+      "start": 75.425,
+      "end": 91.435,
+      "absolute_start": 975.44,
+      "absolute_end": 991.45,
+      "duration_seconds": 16.01,
+      "text": "you're training at the crack of dawn. Yep. You have session, session, session, and then every night, you're in the meeting room, and you're, like, you're planning for the next year. You're deciding on themes. You're doing all this stuff. So it does feel like a month of training in two weeks, but it it is valuable, but it's full on. Yeah.",
+      "provider_speakers": [
+        {
+          "provider_speaker": "2",
+          "duration_seconds": 17.04003
+        }
+      ]
+    },
+    {
+      "person_id": 2,
+      "display_name": "Sandor Earl",
+      "case_id": "youtube_gG1Lq2pIgGM_part_003",
+      "segment_id": 43,
+      "start": 173.1951,
+      "end": 186.5551,
+      "absolute_start": 1073.2101,
+      "absolute_end": 1086.5701,
+      "duration_seconds": 13.36,
+      "text": "all of us, and they hand walk you, like, say, 20 meters stop. Yeah. And then you don't know what's going on. Walk you up another 20 meters. Eventually, ten minutes in, now you're knee deep in water, and you're blindfolded the whole time. This goes on for, like, two hours. Like, what are we doing?",
+      "provider_speakers": [
+        {
+          "provider_speaker": "2",
+          "duration_seconds": 12.9598
         }
       ]
     },
@@ -477,6 +514,24 @@
     {
       "person_id": 2,
       "display_name": "Sandor Earl",
+      "case_id": "youtube_gG1Lq2pIgGM_part_003",
+      "segment_id": 13,
+      "start": 36.81496,
+      "end": 46.175,
+      "absolute_start": 936.82996,
+      "absolute_end": 946.19,
+      "duration_seconds": 9.36004,
+      "text": "It's the best. It works. But Yeah. Waits at 5AM, seven till 02:30 as a laborer, and then you trained on the field from four. Oh, that's the only time I've trained past 05:00.",
+      "provider_speakers": [
+        {
+          "provider_speaker": "2",
+          "duration_seconds": 9.19999
+        }
+      ]
+    },
+    {
+      "person_id": 2,
+      "display_name": "Sandor Earl",
       "case_id": "youtube_gG1Lq2pIgGM_part_002",
       "segment_id": 52,
       "start": 244.925,
@@ -495,6 +550,24 @@
     {
       "person_id": 2,
       "display_name": "Sandor Earl",
+      "case_id": "youtube_gG1Lq2pIgGM_part_003",
+      "segment_id": 40,
+      "start": 160.8999,
+      "end": 169.94,
+      "absolute_start": 1060.9149,
+      "absolute_end": 1069.955,
+      "duration_seconds": 9.0401,
+      "text": "Yeah. We got I got stitched out one year at the raiders. We I I actually don't think we knew what we were doing. So we drove out on a bus to the middle of nowhere, and then boom,",
+      "provider_speakers": [
+        {
+          "provider_speaker": "2",
+          "duration_seconds": 8.5601
+        }
+      ]
+    },
+    {
+      "person_id": 2,
+      "display_name": "Sandor Earl",
       "case_id": "youtube_gG1Lq2pIgGM_part_000",
       "segment_id": 53,
       "start": 262.575,
@@ -507,78 +580,6 @@
         {
           "provider_speaker": "2",
           "duration_seconds": 8.08
-        }
-      ]
-    },
-    {
-      "person_id": 2,
-      "display_name": "Sandor Earl",
-      "case_id": "youtube_gG1Lq2pIgGM_part_000",
-      "segment_id": 21,
-      "start": 107.53001,
-      "end": 114.97,
-      "absolute_start": 107.53001,
-      "absolute_end": 114.97,
-      "duration_seconds": 7.43999,
-      "text": "like, since he's been the guy. Mhmm. So that kinda throws me off a little bit. But if we're looking at all time generationally. Mhmm. He's gotta be in the 17. ",
-      "provider_speakers": [
-        {
-          "provider_speaker": "2",
-          "duration_seconds": 7.360006
-        }
-      ]
-    },
-    {
-      "person_id": 2,
-      "display_name": "Sandor Earl",
-      "case_id": "youtube_gG1Lq2pIgGM_part_000",
-      "segment_id": 15,
-      "start": 81.895,
-      "end": 89.060005,
-      "absolute_start": 81.895,
-      "absolute_end": 89.060005,
-      "duration_seconds": 7.165005,
-      "text": "Bro, it's so weird this conversation. Don't you feel like whenever these chats come up, why does Tom O'Lello get why does he get overlooked kind of?",
-      "provider_speakers": [
-        {
-          "provider_speaker": "2",
-          "duration_seconds": 7.12
-        }
-      ]
-    },
-    {
-      "person_id": 2,
-      "display_name": "Sandor Earl",
-      "case_id": "youtube_gG1Lq2pIgGM_part_000",
-      "segment_id": 30,
-      "start": 160.015,
-      "end": 167.05,
-      "absolute_start": 160.015,
-      "absolute_end": 167.05,
-      "duration_seconds": 7.035,
-      "text": "There'll be a moment in time where he gets his flowers for, you know, what he did for the Pacific Nations movement, which I think is That's another thing. That's a legacy.",
-      "provider_speakers": [
-        {
-          "provider_speaker": "2",
-          "duration_seconds": 7.28
-        }
-      ]
-    },
-    {
-      "person_id": 2,
-      "display_name": "Sandor Earl",
-      "case_id": "youtube_gG1Lq2pIgGM_part_001",
-      "segment_id": 9,
-      "start": 44.955,
-      "end": 51.035,
-      "absolute_start": 344.97,
-      "absolute_end": 351.05,
-      "duration_seconds": 6.08,
-      "text": "But if it was management and just just to, like, plant the seed with everyone, hey. Let's let's keep an eye on this because",
-      "provider_speakers": [
-        {
-          "provider_speaker": "2",
-          "duration_seconds": 5.84002
         }
       ]
     },

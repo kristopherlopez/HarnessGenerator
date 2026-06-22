@@ -8,7 +8,13 @@ from typing import Any, Literal
 from pydantic import BaseModel, Field
 
 from app.bootstrap.contracts import load_bootstrap_contracts
-from app.workspaces import resolve_workspace, workspace_codex_task_path, workspace_report_path
+from app.harness import HarnessHypothesis, write_harness_config
+from app.workspaces import (
+    resolve_workspace,
+    workspace_codex_task_path,
+    workspace_experiment_path,
+    workspace_report_path,
+)
 from evals.reports import write_json
 
 ProposalStatus = Literal["proposed", "rejected"]
@@ -31,6 +37,8 @@ class HarnessCandidateProposal(BaseModel):
     acceptance_criteria: list[str]
     required_commands: list[str]
     safety_checks: list[str]
+    harness_hypothesis: HarnessHypothesis
+    harness_artifact: str | None = None
 
 
 class CandidateProposalReport(BaseModel):
@@ -47,6 +55,7 @@ def propose_candidates(
     failure_report_path: Path,
     output_path: Path | None = None,
     tasks_dir: Path | None = None,
+    harnesses_dir: Path | None = None,
     phase: str = "phase_1_fixture_loop",
     max_candidates: int = 3,
     workspace: Path | None = None,
@@ -92,7 +101,13 @@ def propose_candidates(
         "candidates",
         fallback=Path("prompts/codex_tasks/generated/candidates"),
     )
+    resolved_harnesses_dir = harnesses_dir or workspace_experiment_path(
+        workspace,
+        "generated_harnesses",
+        fallback=Path("experiments/generated_harnesses"),
+    )
 
+    _write_candidate_harnesses(report, resolved_harnesses_dir, workspace)
     write_json(resolved_output_path, report.model_dump())
     _write_candidate_tasks(report, resolved_tasks_dir)
     return report
@@ -130,15 +145,23 @@ def _build_proposals(
 
     affected_cases = [f"{item['case_id']} {item['segment_id']}" for item in failures[:5]]
     proposals: list[HarnessCandidateProposal] = []
+    task_type = _task_type(workspace)
     for template in templates:
         if template["change_surface"] not in allowed_surfaces:
             continue
         proposal_number = len(proposals) + 1
+        candidate_id = f"candidate_{proposal_number:03d}"
         proposals.append(
             HarnessCandidateProposal(
-                candidate_id=f"candidate_{proposal_number:03d}",
+                candidate_id=candidate_id,
                 failure_type=selected_failure_type,
                 affected_cases=affected_cases,
+                harness_hypothesis=_candidate_hypothesis(
+                    task_type=task_type,
+                    candidate_id=candidate_id,
+                    selected_failure_type=selected_failure_type,
+                    template=template,
+                ),
                 **template,
             )
         )
@@ -340,24 +363,39 @@ def _fallback_proposal(
     affected_cases: list[str],
     workspace: Path | None,
 ) -> HarnessCandidateProposal:
+    template: dict[str, Any] = {
+        "change_surface": "verification",
+        "change_option": "contract_compliance_check",
+        "required_change": (
+            "Add a regression test and failure classification for the selected failure type."
+        ),
+        "expected_metric_effect": {"regression_coverage": "increase"},
+        "risk_notes": ["No resolver behavior should change without a more specific task."],
+        "acceptance_criteria": ["All checks pass.", "Failure is represented in tests."],
+        "safety_checks": _standard_safety_checks(),
+    }
     return HarnessCandidateProposal(
         candidate_id="candidate_001",
         title="Add failure-specific regression coverage",
         failure_type=selected_failure_type,
-        change_surface="verification",
-        change_option="contract_compliance_check",
+        change_surface=str(template["change_surface"]),
+        change_option=str(template["change_option"]),
         rationale="No phase-compatible proposal template matched the selected failure.",
-        required_change=(
-            "Add a regression test and failure classification for the selected failure type."
-        ),
-        expected_metric_effect={"regression_coverage": "increase"},
-        risk_notes=["No resolver behavior should change without a more specific task."],
+        required_change=str(template["required_change"]),
+        expected_metric_effect=dict(template["expected_metric_effect"]),
+        risk_notes=list(template["risk_notes"]),
         affected_cases=affected_cases,
         files_likely_to_change=["tests/", "docs/failure_modes.md"],
         files_not_to_change=["contracts/output_contract.yaml", "contracts/safety_contract.yaml"],
-        acceptance_criteria=["All checks pass.", "Failure is represented in tests."],
+        acceptance_criteria=list(template["acceptance_criteria"]),
         required_commands=_standard_commands(workspace),
-        safety_checks=_standard_safety_checks(),
+        safety_checks=list(template["safety_checks"]),
+        harness_hypothesis=_candidate_hypothesis(
+            task_type=_task_type(workspace),
+            candidate_id="candidate_001",
+            selected_failure_type=selected_failure_type,
+            template=template,
+        ),
     )
 
 
@@ -409,6 +447,80 @@ def _write_candidate_tasks(report: CandidateProposalReport, tasks_dir: Path) -> 
         path.write_text(_render_candidate_task(proposal), encoding="utf-8")
 
 
+def _write_candidate_harnesses(
+    report: CandidateProposalReport,
+    harnesses_dir: Path,
+    workspace: Path | None,
+) -> None:
+    workspace_id = _task_type(workspace)
+    for proposal in report.proposals:
+        path = harnesses_dir / proposal.candidate_id / "harness.yaml"
+        payload = _harness_config_for_proposal(proposal, workspace_id)
+        write_harness_config(path, payload)
+        proposal.harness_artifact = path.as_posix()
+
+
+def _harness_config_for_proposal(
+    proposal: HarnessCandidateProposal,
+    workspace_id: str,
+) -> dict[str, Any]:
+    return {
+        "schema_version": 0.1,
+        "harness_id": proposal.candidate_id,
+        "workspace_id": workspace_id,
+        "status": "generated_candidate",
+        "strategy": "review_heavy_low_false_assignment",
+        "strategy_type": "conservative_evidence",
+        "parent": "review_heavy_low_false_assignment",
+        "change_surface": proposal.change_surface,
+        "change_option": proposal.change_option,
+        "description": proposal.title,
+        "resolver_config": _resolver_config_for_proposal(proposal),
+        "candidate": {
+            "failure_type": proposal.failure_type,
+            "rationale": proposal.rationale,
+            "required_change": proposal.required_change,
+            "affected_cases": proposal.affected_cases,
+            "risk_notes": proposal.risk_notes,
+        },
+        "contracts": {
+            "output": "../../contracts/output_contract.yaml",
+            "safety": "../../contracts/safety_contract.yaml",
+            "metrics": "../../contracts/metric_contract.yaml",
+        },
+        "expected_behavior": proposal.expected_metric_effect,
+    }
+
+
+def _resolver_config_for_proposal(proposal: HarnessCandidateProposal) -> dict[str, Any]:
+    config: dict[str, Any] = {
+        "assignment_threshold": 0.85,
+        "voice_only_assignment_threshold": 0.80,
+        "review_threshold": 0.60,
+        "max_review_rate": 0.25,
+        "minimum_review_slots": 1,
+        "overlap_handling_policy": "require_corroborating_signal_on_high_overlap",
+        "high_overlap_levels": ["high"],
+        "margin_threshold": 0.08,
+        "voice_only_margin_threshold": 0.10,
+        "min_voice_duration_seconds": 2.5,
+        "min_voice_only_duration_seconds": 5.0,
+        "ambiguous_voice_conflict_status": "needs_review",
+    }
+    if proposal.change_option == "voice_only_match":
+        config["voice_only_margin_threshold"] = 0.15
+        config["min_voice_only_duration_seconds"] = 3.0
+    elif proposal.change_option == "registry_conflict_check":
+        config["voice_only_margin_threshold"] = 0.15
+    elif proposal.change_option == "assignment_threshold":
+        config["assignment_threshold"] = 0.90
+        config["margin_threshold"] = 0.10
+    elif proposal.change_option == "short_utterance_guard":
+        config["min_voice_duration_seconds"] = 3.0
+        config["min_voice_only_duration_seconds"] = 6.0
+    return config
+
+
 def _render_candidate_task(proposal: HarnessCandidateProposal) -> str:
     return f"""# Codex Task: {proposal.title}
 
@@ -424,6 +536,13 @@ Selected failure type: `{proposal.failure_type}`.
 
 - Surface: `{proposal.change_surface}`
 - Option: `{proposal.change_option}`
+
+## Harness Hypothesis
+
+- Harness: `{proposal.harness_hypothesis.harness_id}`
+- Version: `{proposal.harness_hypothesis.version}`
+- Change surface: `{proposal.harness_hypothesis.declared_change_surface}`
+- Runnable config: `{proposal.harness_artifact or "not materialized"}`
 
 ## Rationale
 
@@ -477,6 +596,46 @@ def _format_code_bullets(items: list[str]) -> str:
     return "\n".join(f"- `{item}`" for item in items)
 
 
+def _candidate_hypothesis(
+    *,
+    task_type: str,
+    candidate_id: str,
+    selected_failure_type: str,
+    template: dict[str, Any],
+) -> HarnessHypothesis:
+    return HarnessHypothesis(
+        harness_id=f"{task_type}:{candidate_id}",
+        version="candidate-hypothesis-v1",
+        task_type=task_type,
+        declared_change_surface=str(template["change_surface"]),
+        decomposition_steps=[
+            "apply_candidate_change",
+            "run_harness_api",
+            "validate_output",
+            "score_against_gold",
+        ],
+        verification_checks=list(template["acceptance_criteria"]),
+        retry_policy={"max_retries": 0},
+        stopping_rules=["stop_after_scored_eval"],
+        confidence_policy={"expected_metric_effect": template["expected_metric_effect"]},
+        review_policy={"safety_checks": template["safety_checks"]},
+        expected_budget_impact={
+            "model_calls": "unchanged unless candidate explicitly changes provider routing",
+            "tool_calls": "unchanged unless candidate explicitly changes tool policy",
+        },
+        config={
+            "failure_type": selected_failure_type,
+            "change_option": template["change_option"],
+            "required_change": template["required_change"],
+            "risk_notes": template["risk_notes"],
+        },
+    )
+
+
+def _task_type(workspace: Path | None) -> str:
+    return workspace.name if workspace is not None else "generic"
+
+
 def main() -> None:
     parser = argparse.ArgumentParser(description="Propose bounded harness candidate changes.")
     parser.add_argument("--workspace", type=Path)
@@ -488,6 +647,10 @@ def main() -> None:
     )
     parser.add_argument(
         "--tasks-dir",
+        type=Path,
+    )
+    parser.add_argument(
+        "--harnesses-dir",
         type=Path,
     )
     parser.add_argument("--phase", default="phase_1_fixture_loop")
@@ -510,6 +673,7 @@ def main() -> None:
         failure_report_path=failure_report,
         output_path=args.output,
         tasks_dir=args.tasks_dir,
+        harnesses_dir=args.harnesses_dir,
         phase=args.phase,
         max_candidates=args.max_candidates,
         workspace=workspace,

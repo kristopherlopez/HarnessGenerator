@@ -20,6 +20,9 @@ class TaskAdapter(Protocol):
     def available_strategies(self) -> dict[str, HarnessStrategy]:
         """Return runnable strategies for this task family."""
 
+    def strategy_from_harness_config(self, harness_config: dict[str, Any]) -> HarnessStrategy:
+        """Build a runnable strategy from a serialized harness config."""
+
     def score_predictions(
         self,
         cases: list[Any],

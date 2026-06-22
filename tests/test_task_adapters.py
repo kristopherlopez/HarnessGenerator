@@ -25,6 +25,8 @@ def test_simple_qa_eval_runs_without_identity_metrics(tmp_path: Path) -> None:
     )
 
     assert report["task_type"] == "simple_qa"
+    assert report["harness_hypothesis"]["task_type"] == "simple_qa"
+    assert report["harness_run_summary"]["run_count"] == 1
     assert report["metrics"]["exact_match"] == 1.0
     assert report["metrics"]["malformed_output_rate"] == 0.0
     assert "false_assignment_rate" not in report["metrics"]
@@ -47,6 +49,7 @@ def test_simple_qa_strategy_comparison_selects_baseline(tmp_path: Path) -> None:
 
     assert report["task_type"] == "simple_qa"
     assert report["winner"] == "baseline_context_answer"
+    assert "baseline_context_answer" in report["harness_hypotheses"]
     assert report["results"] == [
         {
             "strategy": "baseline_context_answer",

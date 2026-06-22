@@ -1,0 +1,44 @@
+schema_version: 0.1
+harness_id: candidate_001
+workspace_id: youtube_speaker_attribution
+status: generated_candidate
+strategy: review_heavy_low_false_assignment
+strategy_type: conservative_evidence
+parent: review_heavy_low_false_assignment
+change_surface: evidence_strategy
+change_option: voice_only_match
+description: Allow high-margin long voice evidence for known speakers
+resolver_config:
+  assignment_threshold: 0.85
+  voice_only_assignment_threshold: 0.8
+  review_threshold: 0.6
+  max_review_rate: 0.25
+  minimum_review_slots: 1
+  overlap_handling_policy: require_corroborating_signal_on_high_overlap
+  high_overlap_levels:
+  - high
+  margin_threshold: 0.08
+  voice_only_margin_threshold: 0.15
+  min_voice_duration_seconds: 2.5
+  min_voice_only_duration_seconds: 3.0
+  ambiguous_voice_conflict_status: needs_review
+candidate:
+  failure_type: missed_known_identity
+  rationale: Known-person recall is 0.7777777777777778. Several missed identities
+    have usable voice evidence but no reliable face signal.
+  required_change: Add a conservative voice-only assignment path for known speakers
+    when voice confidence, duration, and candidate margin are all strong.
+  affected_cases:
+  - panel_overlap 1
+  - similar_voices 1
+  risk_notes:
+  - Could falsely assign unknown speakers with similar voices.
+  - Must keep short utterances blocked from auto-assignment.
+contracts:
+  output: ../../contracts/output_contract.yaml
+  safety: ../../contracts/safety_contract.yaml
+  metrics: ../../contracts/metric_contract.yaml
+expected_behavior:
+  known_person_recall: increase
+  false_assignment_rate: must remain <= configured limit
+  needs_review_rate: may decrease slightly

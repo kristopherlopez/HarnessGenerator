@@ -32,3 +32,91 @@ promotion_policy:
   require_regression_pass: true
   require_output_contract_preserved: true
   require_safety_contract_preserved: true
+
+workspace_loops:
+  refresh_gold_loop:
+    description: Rebuild calibration and generated review drafts from the existing seed_gold cases.
+    when_to_use: After promoting gold, before spending time on another manual review case.
+    commands:
+      - >-
+        uv run python -m app.calibration.seed_gold profile --workspace
+        workspaces/youtube_speaker_attribution --provider-case youtube_gG1Lq2pIgGM.json
+        --output-profile datasets/seed_gold/calibration/seed_gold_profile_global.json
+      - >-
+        uv run python -m app.calibration.seed_gold generate-review --workspace
+        workspaces/youtube_speaker_attribution --provider-case youtube_gG1Lq2pIgGM.json
+        --profile datasets/seed_gold/calibration/seed_gold_profile_global.json
+        --target-glob "youtube_gG1Lq2pIgGM_part_*.json" --output-dataset seeded_review_global
+      - >-
+        uv run pytest tests/test_seed_gold.py tests/test_draft_cases.py
+  evaluate_harness_loop:
+    description: Run checks and append evaluation metadata to experiments/harness_history.jsonl.
+    when_to_use: After code, config, or gold/calibration changes.
+    commands:
+      - uv run pytest
+      - uv run ruff check .
+      - uv run mypy app evals
+      - >-
+        uv run python -m evals.run_eval --workspace workspaces/youtube_speaker_attribution
+        --dataset small_gold
+      - >-
+        uv run python -m evals.compare_strategies --workspace
+        workspaces/youtube_speaker_attribution --dataset small_gold
+      - >-
+        uv run python -m evals.check_regression --workspace
+        workspaces/youtube_speaker_attribution
+  propose_harness_loop:
+    description: Generate the next optimizer task, bounded candidate changes, and runnable candidate harness configs.
+    when_to_use: After evaluate_harness_loop has produced fresh reports.
+    commands:
+      - >-
+        uv run python -m app.harness_optimizer.next_task --workspace
+        workspaces/youtube_speaker_attribution
+      - >-
+        uv run python -m app.harness_optimizer.candidates --workspace
+        workspaces/youtube_speaker_attribution
+  test_generated_harness_loop:
+    description: Run generated candidate harness configs through eval, regression, comparison, and outcome explanation artifacts.
+    when_to_use: After propose_harness_loop has materialized experiments/generated_harnesses/candidate_001/harness.yaml.
+    commands:
+      - >-
+        uv run python -m evals.run_eval --workspace workspaces/youtube_speaker_attribution
+        --dataset small_gold --harness candidate_001
+        --output workspaces/youtube_speaker_attribution/reports/generated_candidate_001.json
+        --failure-output workspaces/youtube_speaker_attribution/reports/generated_candidate_001_failures.json
+      - >-
+        uv run python -m evals.check_regression --workspace
+        workspaces/youtube_speaker_attribution --report
+        workspaces/youtube_speaker_attribution/reports/generated_candidate_001.json
+      - >-
+        uv run python -m evals.run_eval --workspace workspaces/youtube_speaker_attribution
+        --dataset small_gold --harness candidate_002
+        --output workspaces/youtube_speaker_attribution/reports/generated_candidate_002.json
+        --failure-output workspaces/youtube_speaker_attribution/reports/generated_candidate_002_failures.json
+      - >-
+        uv run python -m evals.check_regression --workspace
+        workspaces/youtube_speaker_attribution --report
+        workspaces/youtube_speaker_attribution/reports/generated_candidate_002.json
+      - >-
+        uv run python -m evals.run_eval --workspace workspaces/youtube_speaker_attribution
+        --dataset small_gold --harness candidate_003
+        --output workspaces/youtube_speaker_attribution/reports/generated_candidate_003.json
+        --failure-output workspaces/youtube_speaker_attribution/reports/generated_candidate_003_failures.json
+      - >-
+        uv run python -m evals.check_regression --workspace
+        workspaces/youtube_speaker_attribution --report
+        workspaces/youtube_speaker_attribution/reports/generated_candidate_003.json
+      - >-
+        uv run python -m app.harness_optimizer.compare_generated --workspace
+        workspaces/youtube_speaker_attribution
+  expand_gold_loop:
+    description: Review one generated case, promote it to seed_gold, then refresh calibration.
+    when_to_use: Only when more human-reviewed gold is worth the time cost.
+    commands:
+      - Review active_artifacts.active_review_case manually.
+      - >-
+        uv run python -m app.calibration.seed_gold promote-review --workspace
+        workspaces/youtube_speaker_attribution --source-dataset seeded_review_global
+        youtube_gG1Lq2pIgGM_part_004.json
+      - Run refresh_gold_loop.
+      - Run evaluate_harness_loop.

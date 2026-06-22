@@ -65,12 +65,12 @@
       "true_person_id": 1,
       "true_display_name": "Denan Kemp",
       "speaker_type": "known",
-      "confidence": 0.8895,
+      "confidence": 0.8936,
       "evidence_candidates": [
         {
           "person_id": 1,
           "display_name": "Denan Kemp",
-          "confidence": 0.8895,
+          "confidence": 0.8936,
           "evidence_types": [
             "diarized_transcription",
             "seed_provider_speaker_map"
@@ -84,7 +84,7 @@
         {
           "person_id": 2,
           "display_name": "Sandor Earl",
-          "confidence": 0.019,
+          "confidence": 0.0149,
           "evidence_types": [
             "diarized_transcription",
             "seed_provider_speaker_map"
@@ -106,12 +106,12 @@
       "true_person_id": 1,
       "true_display_name": "Denan Kemp",
       "speaker_type": "known",
-      "confidence": 0.9324,
+      "confidence": 0.9367,
       "evidence_candidates": [
         {
           "person_id": 1,
           "display_name": "Denan Kemp",
-          "confidence": 0.9324,
+          "confidence": 0.9367,
           "evidence_types": [
             "diarized_transcription",
             "seed_provider_speaker_map"
@@ -125,7 +125,7 @@
         {
           "person_id": 2,
           "display_name": "Sandor Earl",
-          "confidence": 0.0199,
+          "confidence": 0.0156,
           "evidence_types": [
             "diarized_transcription",
             "seed_provider_speaker_map"
@@ -147,12 +147,12 @@
       "true_person_id": 1,
       "true_display_name": "Denan Kemp",
       "speaker_type": "known",
-      "confidence": 0.8004,
+      "confidence": 0.8041,
       "evidence_candidates": [
         {
           "person_id": 1,
           "display_name": "Denan Kemp",
-          "confidence": 0.8004,
+          "confidence": 0.8041,
           "evidence_types": [
             "diarized_transcription",
             "seed_provider_speaker_map"
@@ -166,7 +166,7 @@
         {
           "person_id": 2,
           "display_name": "Sandor Earl",
-          "confidence": 0.0171,
+          "confidence": 0.0134,
           "evidence_types": [
             "diarized_transcription",
             "seed_provider_speaker_map"
@@ -188,12 +188,12 @@
       "true_person_id": 2,
       "true_display_name": "Sandor Earl",
       "speaker_type": "known",
-      "confidence": 0.9765,
+      "confidence": 0.9823,
       "evidence_candidates": [
         {
           "person_id": 2,
           "display_name": "Sandor Earl",
-          "confidence": 0.9765,
+          "confidence": 0.9823,
           "evidence_types": [
             "diarized_transcription",
             "seed_provider_speaker_map"
@@ -207,7 +207,7 @@
         {
           "person_id": 1,
           "display_name": "Denan Kemp",
-          "confidence": 0.0201,
+          "confidence": 0.0143,
           "evidence_types": [
             "diarized_transcription",
             "seed_provider_speaker_map"
@@ -232,9 +232,9 @@
       "confidence": 0.3877,
       "evidence_candidates": [
         {
-          "person_id": 2,
-          "display_name": "Sandor Earl",
-          "confidence": 0.1987,
+          "person_id": 1,
+          "display_name": "Denan Kemp",
+          "confidence": 0.204,
           "evidence_types": [
             "diarized_transcription",
             "seed_provider_speaker_map"
@@ -246,9 +246,9 @@
           ]
         },
         {
-          "person_id": 1,
-          "display_name": "Denan Kemp",
-          "confidence": 0.189,
+          "person_id": 2,
+          "display_name": "Sandor Earl",
+          "confidence": 0.1837,
           "evidence_types": [
             "diarized_transcription",
             "seed_provider_speaker_map"
@@ -270,12 +270,12 @@
       "true_person_id": 2,
       "true_display_name": "Sandor Earl",
       "speaker_type": "known",
-      "confidence": 0.9134,
+      "confidence": 0.9189,
       "evidence_candidates": [
         {
           "person_id": 2,
           "display_name": "Sandor Earl",
-          "confidence": 0.9134,
+          "confidence": 0.9189,
           "evidence_types": [
             "diarized_transcription",
             "seed_provider_speaker_map"
@@ -289,7 +289,7 @@
         {
           "person_id": 1,
           "display_name": "Denan Kemp",
-          "confidence": 0.0188,
+          "confidence": 0.0133,
           "evidence_types": [
             "diarized_transcription",
             "seed_provider_speaker_map"
@@ -311,12 +311,12 @@
       "true_person_id": 1,
       "true_display_name": "Denan Kemp",
       "speaker_type": "known",
-      "confidence": 0.9442,
+      "confidence": 0.9486,
       "evidence_candidates": [
         {
           "person_id": 1,
           "display_name": "Denan Kemp",
-          "confidence": 0.9442,
+          "confidence": 0.9486,
           "evidence_types": [
             "diarized_transcription",
             "seed_provider_speaker_map"
@@ -330,7 +330,7 @@
         {
           "person_id": 2,
           "display_name": "Sandor Earl",
-          "confidence": 0.0202,
+          "confidence": 0.0158,
           "evidence_types": [
             "diarized_transcription",
             "seed_provider_speaker_map"
@@ -352,12 +352,12 @@
       "true_person_id": 1,
       "true_display_name": "Denan Kemp",
       "speaker_type": "known",
-      "confidence": 0.9044,
+      "confidence": 0.9086,
       "evidence_candidates": [
         {
           "person_id": 1,
           "display_name": "Denan Kemp",
-          "confidence": 0.9044,
+          "confidence": 0.9086,
           "evidence_types": [
             "diarized_transcription",
             "seed_provider_speaker_map"
@@ -371,7 +371,7 @@
         {
           "person_id": 2,
           "display_name": "Sandor Earl",
-          "confidence": 0.0193,
+          "confidence": 0.0151,
           "evidence_types": [
             "diarized_transcription",
             "seed_provider_speaker_map"
@@ -393,12 +393,12 @@
       "true_person_id": 1,
       "true_display_name": "Denan Kemp",
       "speaker_type": "known",
-      "confidence": 0.9064,
+      "confidence": 0.9105,
       "evidence_candidates": [
         {
           "person_id": 1,
           "display_name": "Denan Kemp",
-          "confidence": 0.9064,
+          "confidence": 0.9105,
           "evidence_types": [
             "diarized_transcription",
             "seed_provider_speaker_map"
@@ -412,7 +412,7 @@
         {
           "person_id": 2,
           "display_name": "Sandor Earl",
-          "confidence": 0.0193,
+          "confidence": 0.0152,
           "evidence_types": [
             "diarized_transcription",
             "seed_provider_speaker_map"
@@ -434,12 +434,12 @@
       "true_person_id": 1,
       "true_display_name": "Denan Kemp",
       "speaker_type": "known",
-      "confidence": 0.946,
+      "confidence": 0.9504,
       "evidence_candidates": [
         {
           "person_id": 1,
           "display_name": "Denan Kemp",
-          "confidence": 0.946,
+          "confidence": 0.9504,
           "evidence_types": [
             "diarized_transcription",
             "seed_provider_speaker_map"
@@ -453,7 +453,7 @@
         {
           "person_id": 2,
           "display_name": "Sandor Earl",
-          "confidence": 0.0202,
+          "confidence": 0.0158,
           "evidence_types": [
             "diarized_transcription",
             "seed_provider_speaker_map"
@@ -475,12 +475,12 @@
       "true_person_id": 2,
       "true_display_name": "Sandor Earl",
       "speaker_type": "known",
-      "confidence": 0.8964,
+      "confidence": 0.9018,
       "evidence_candidates": [
         {
           "person_id": 2,
           "display_name": "Sandor Earl",
-          "confidence": 0.8964,
+          "confidence": 0.9018,
           "evidence_types": [
             "diarized_transcription",
             "seed_provider_speaker_map"
@@ -494,7 +494,7 @@
         {
           "person_id": 1,
           "display_name": "Denan Kemp",
-          "confidence": 0.0185,
+          "confidence": 0.0131,
           "evidence_types": [
             "diarized_transcription",
             "seed_provider_speaker_map"
@@ -516,12 +516,12 @@
       "true_person_id": 2,
       "true_display_name": "Sandor Earl",
       "speaker_type": "known",
-      "confidence": 0.928,
+      "confidence": 0.9336,
       "evidence_candidates": [
         {
           "person_id": 2,
           "display_name": "Sandor Earl",
-          "confidence": 0.928,
+          "confidence": 0.9336,
           "evidence_types": [
             "diarized_transcription",
             "seed_provider_speaker_map"
@@ -535,7 +535,7 @@
         {
           "person_id": 1,
           "display_name": "Denan Kemp",
-          "confidence": 0.0191,
+          "confidence": 0.0135,
           "evidence_types": [
             "diarized_transcription",
             "seed_provider_speaker_map"
@@ -557,12 +557,12 @@
       "true_person_id": 3,
       "true_display_name": "Matthew Buxton",
       "speaker_type": "known",
-      "confidence": 0.8067,
+      "confidence": 0.6814,
       "evidence_candidates": [
         {
           "person_id": 3,
           "display_name": "Matthew Buxton",
-          "confidence": 0.8067,
+          "confidence": 0.6814,
           "evidence_types": [
             "diarized_transcription",
             "seed_provider_speaker_map"
@@ -576,7 +576,7 @@
         {
           "person_id": 2,
           "display_name": "Sandor Earl",
-          "confidence": 0.1534,
+          "confidence": 0.2831,
           "evidence_types": [
             "diarized_transcription",
             "seed_provider_speaker_map"
@@ -590,7 +590,7 @@
         {
           "person_id": 1,
           "display_name": "Denan Kemp",
-          "confidence": 0.0284,
+          "confidence": 0.024,
           "evidence_types": [
             "diarized_transcription",
             "seed_provider_speaker_map"
@@ -612,12 +612,12 @@
       "true_person_id": 1,
       "true_display_name": "Denan Kemp",
       "speaker_type": "known",
-      "confidence": 0.9045,
+      "confidence": 0.9086,
       "evidence_candidates": [
         {
           "person_id": 1,
           "display_name": "Denan Kemp",
-          "confidence": 0.9045,
+          "confidence": 0.9086,
           "evidence_types": [
             "diarized_transcription",
             "seed_provider_speaker_map"
@@ -631,7 +631,7 @@
         {
           "person_id": 2,
           "display_name": "Sandor Earl",
-          "confidence": 0.0193,
+          "confidence": 0.0152,
           "evidence_types": [
             "diarized_transcription",
             "seed_provider_speaker_map"
@@ -653,12 +653,12 @@
       "true_person_id": 3,
       "true_display_name": "Matthew Buxton",
       "speaker_type": "known",
-      "confidence": 0.7924,
+      "confidence": 0.6692,
       "evidence_candidates": [
         {
           "person_id": 3,
           "display_name": "Matthew Buxton",
-          "confidence": 0.7924,
+          "confidence": 0.6692,
           "evidence_types": [
             "diarized_transcription",
             "seed_provider_speaker_map"
@@ -672,7 +672,7 @@
         {
           "person_id": 2,
           "display_name": "Sandor Earl",
-          "confidence": 0.1507,
+          "confidence": 0.2781,
           "evidence_types": [
             "diarized_transcription",
             "seed_provider_speaker_map"
@@ -686,7 +686,7 @@
         {
           "person_id": 1,
           "display_name": "Denan Kemp",
-          "confidence": 0.0279,
+          "confidence": 0.0236,
           "evidence_types": [
             "diarized_transcription",
             "seed_provider_speaker_map"
@@ -708,12 +708,12 @@
       "true_person_id": 1,
       "true_display_name": "Denan Kemp",
       "speaker_type": "known",
-      "confidence": 0.9757,
+      "confidence": 0.9802,
       "evidence_candidates": [
         {
           "person_id": 1,
           "display_name": "Denan Kemp",
-          "confidence": 0.9757,
+          "confidence": 0.9802,
           "evidence_types": [
             "diarized_transcription",
             "seed_provider_speaker_map"
@@ -727,7 +727,7 @@
         {
           "person_id": 2,
           "display_name": "Sandor Earl",
-          "confidence": 0.0208,
+          "confidence": 0.0163,
           "evidence_types": [
             "diarized_transcription",
             "seed_provider_speaker_map"
@@ -749,12 +749,12 @@
       "true_person_id": 1,
       "true_display_name": "Denan Kemp",
       "speaker_type": "known",
-      "confidence": 0.9791,
+      "confidence": 0.9836,
       "evidence_candidates": [
         {
           "person_id": 1,
           "display_name": "Denan Kemp",
-          "confidence": 0.9791,
+          "confidence": 0.9836,
           "evidence_types": [
             "diarized_transcription",
             "seed_provider_speaker_map"
@@ -768,7 +768,7 @@
         {
           "person_id": 2,
           "display_name": "Sandor Earl",
-          "confidence": 0.0209,
+          "confidence": 0.0164,
           "evidence_types": [
             "diarized_transcription",
             "seed_provider_speaker_map"
@@ -790,12 +790,12 @@
       "true_person_id": 1,
       "true_display_name": "Denan Kemp",
       "speaker_type": "known",
-      "confidence": 0.9433,
+      "confidence": 0.9476,
       "evidence_candidates": [
         {
           "person_id": 1,
           "display_name": "Denan Kemp",
-          "confidence": 0.9433,
+          "confidence": 0.9476,
           "evidence_types": [
             "diarized_transcription",
             "seed_provider_speaker_map"
@@ -809,7 +809,7 @@
         {
           "person_id": 2,
           "display_name": "Sandor Earl",
-          "confidence": 0.0201,
+          "confidence": 0.0158,
           "evidence_types": [
             "diarized_transcription",
             "seed_provider_speaker_map"
@@ -831,12 +831,12 @@
       "true_person_id": 1,
       "true_display_name": "Denan Kemp",
       "speaker_type": "known",
-      "confidence": 0.9157,
+      "confidence": 0.9199,
       "evidence_candidates": [
         {
           "person_id": 1,
           "display_name": "Denan Kemp",
-          "confidence": 0.9157,
+          "confidence": 0.9199,
           "evidence_types": [
             "diarized_transcription",
             "seed_provider_speaker_map"
@@ -850,7 +850,7 @@
         {
           "person_id": 2,
           "display_name": "Sandor Earl",
-          "confidence": 0.0195,
+          "confidence": 0.0153,
           "evidence_types": [
             "diarized_transcription",
             "seed_provider_speaker_map"
@@ -872,12 +872,12 @@
       "true_person_id": 1,
       "true_display_name": "Denan Kemp",
       "speaker_type": "known",
-      "confidence": 0.938,
+      "confidence": 0.9423,
       "evidence_candidates": [
         {
           "person_id": 1,
           "display_name": "Denan Kemp",
-          "confidence": 0.938,
+          "confidence": 0.9423,
           "evidence_types": [
             "diarized_transcription",
             "seed_provider_speaker_map"
@@ -891,7 +891,7 @@
         {
           "person_id": 2,
           "display_name": "Sandor Earl",
-          "confidence": 0.02,
+          "confidence": 0.0157,
           "evidence_types": [
             "diarized_transcription",
             "seed_provider_speaker_map"
@@ -913,12 +913,12 @@
       "true_person_id": 2,
       "true_display_name": "Sandor Earl",
       "speaker_type": "known",
-      "confidence": 0.9226,
+      "confidence": 0.9281,
       "evidence_candidates": [
         {
           "person_id": 2,
           "display_name": "Sandor Earl",
-          "confidence": 0.9226,
+          "confidence": 0.9281,
           "evidence_types": [
             "diarized_transcription",
             "seed_provider_speaker_map"
@@ -932,7 +932,7 @@
         {
           "person_id": 1,
           "display_name": "Denan Kemp",
-          "confidence": 0.019,
+          "confidence": 0.0135,
           "evidence_types": [
             "diarized_transcription",
             "seed_provider_speaker_map"
@@ -957,9 +957,9 @@
       "confidence": 0.956,
       "evidence_candidates": [
         {
-          "person_id": 2,
-          "display_name": "Sandor Earl",
-          "confidence": 0.4899,
+          "person_id": 1,
+          "display_name": "Denan Kemp",
+          "confidence": 0.5031,
           "evidence_types": [
             "diarized_transcription",
             "seed_provider_speaker_map"
@@ -971,9 +971,9 @@
           ]
         },
         {
-          "person_id": 1,
-          "display_name": "Denan Kemp",
-          "confidence": 0.466,
+          "person_id": 2,
+          "display_name": "Sandor Earl",
+          "confidence": 0.4529,
           "evidence_types": [
             "diarized_transcription",
             "seed_provider_speaker_map"
@@ -995,12 +995,12 @@
       "true_person_id": 1,
       "true_display_name": "Denan Kemp",
       "speaker_type": "known",
-      "confidence": 0.9714,
+      "confidence": 0.9758,
       "evidence_candidates": [
         {
           "person_id": 1,
           "display_name": "Denan Kemp",
-          "confidence": 0.9714,
+          "confidence": 0.9758,
           "evidence_types": [
             "diarized_transcription",
             "seed_provider_speaker_map"
@@ -1014,7 +1014,7 @@
         {
           "person_id": 2,
           "display_name": "Sandor Earl",
-          "confidence": 0.0207,
+          "confidence": 0.0163,
           "evidence_types": [
             "diarized_transcription",
             "seed_provider_speaker_map"
@@ -1036,12 +1036,12 @@
       "true_person_id": 2,
       "true_display_name": "Sandor Earl",
       "speaker_type": "known",
-      "confidence": 0.9795,
+      "confidence": 0.9854,
       "evidence_candidates": [
         {
           "person_id": 2,
           "display_name": "Sandor Earl",
-          "confidence": 0.9795,
+          "confidence": 0.9854,
           "evidence_types": [
             "diarized_transcription",
             "seed_provider_speaker_map"
@@ -1055,7 +1055,7 @@
         {
           "person_id": 1,
           "display_name": "Denan Kemp",
-          "confidence": 0.0202,
+          "confidence": 0.0143,
           "evidence_types": [
             "diarized_transcription",
             "seed_provider_speaker_map"
@@ -1077,12 +1077,12 @@
       "true_person_id": 2,
       "true_display_name": "Sandor Earl",
       "speaker_type": "known",
-      "confidence": 0.9407,
+      "confidence": 0.9464,
       "evidence_candidates": [
         {
           "person_id": 2,
           "display_name": "Sandor Earl",
-          "confidence": 0.9407,
+          "confidence": 0.9464,
           "evidence_types": [
             "diarized_transcription",
             "seed_provider_speaker_map"
@@ -1096,7 +1096,7 @@
         {
           "person_id": 1,
           "display_name": "Denan Kemp",
-          "confidence": 0.0194,
+          "confidence": 0.0137,
           "evidence_types": [
             "diarized_transcription",
             "seed_provider_speaker_map"
@@ -1118,12 +1118,12 @@
       "true_person_id": 1,
       "true_display_name": "Denan Kemp",
       "speaker_type": "known",
-      "confidence": 0.8672,
+      "confidence": 0.8712,
       "evidence_candidates": [
         {
           "person_id": 1,
           "display_name": "Denan Kemp",
-          "confidence": 0.8672,
+          "confidence": 0.8712,
           "evidence_types": [
             "diarized_transcription",
             "seed_provider_speaker_map"
@@ -1137,7 +1137,7 @@
         {
           "person_id": 2,
           "display_name": "Sandor Earl",
-          "confidence": 0.0185,
+          "confidence": 0.0145,
           "evidence_types": [
             "diarized_transcription",
             "seed_provider_speaker_map"
@@ -1159,12 +1159,12 @@
       "true_person_id": 2,
       "true_display_name": "Sandor Earl",
       "speaker_type": "known",
-      "confidence": 0.9778,
+      "confidence": 0.9837,
       "evidence_candidates": [
         {
           "person_id": 2,
           "display_name": "Sandor Earl",
-          "confidence": 0.9778,
+          "confidence": 0.9837,
           "evidence_types": [
             "diarized_transcription",
             "seed_provider_speaker_map"
@@ -1178,7 +1178,7 @@
         {
           "person_id": 1,
           "display_name": "Denan Kemp",
-          "confidence": 0.0202,
+          "confidence": 0.0143,
           "evidence_types": [
             "diarized_transcription",
             "seed_provider_speaker_map"
@@ -1200,12 +1200,12 @@
       "true_person_id": 2,
       "true_display_name": "Sandor Earl",
       "speaker_type": "known",
-      "confidence": 0.9765,
+      "confidence": 0.9823,
       "evidence_candidates": [
         {
           "person_id": 2,
           "display_name": "Sandor Earl",
-          "confidence": 0.9765,
+          "confidence": 0.9823,
           "evidence_types": [
             "diarized_transcription",
             "seed_provider_speaker_map"
@@ -1219,7 +1219,7 @@
         {
           "person_id": 1,
           "display_name": "Denan Kemp",
-          "confidence": 0.0201,
+          "confidence": 0.0143,
           "evidence_types": [
             "diarized_transcription",
             "seed_provider_speaker_map"
@@ -1241,12 +1241,12 @@
       "true_person_id": 2,
       "true_display_name": "Sandor Earl",
       "speaker_type": "known",
-      "confidence": 0.7597,
+      "confidence": 0.7643,
       "evidence_candidates": [
         {
           "person_id": 2,
           "display_name": "Sandor Earl",
-          "confidence": 0.7597,
+          "confidence": 0.7643,
           "evidence_types": [
             "diarized_transcription",
             "seed_provider_speaker_map"
@@ -1260,7 +1260,7 @@
         {
           "person_id": 1,
           "display_name": "Denan Kemp",
-          "confidence": 0.0157,
+          "confidence": 0.0111,
           "evidence_types": [
             "diarized_transcription",
             "seed_provider_speaker_map"
@@ -1282,12 +1282,12 @@
       "true_person_id": 1,
       "true_display_name": "Denan Kemp",
       "speaker_type": "known",
-      "confidence": 0.9213,
+      "confidence": 0.9256,
       "evidence_candidates": [
         {
           "person_id": 1,
           "display_name": "Denan Kemp",
-          "confidence": 0.9213,
+          "confidence": 0.9256,
           "evidence_types": [
             "diarized_transcription",
             "seed_provider_speaker_map"
@@ -1301,7 +1301,7 @@
         {
           "person_id": 2,
           "display_name": "Sandor Earl",
-          "confidence": 0.0197,
+          "confidence": 0.0154,
           "evidence_types": [
             "diarized_transcription",
             "seed_provider_speaker_map"
@@ -1323,12 +1323,12 @@
       "true_person_id": 1,
       "true_display_name": "Denan Kemp",
       "speaker_type": "known",
-      "confidence": 0.9249,
+      "confidence": 0.9291,
       "evidence_candidates": [
         {
           "person_id": 1,
           "display_name": "Denan Kemp",
-          "confidence": 0.9249,
+          "confidence": 0.9291,
           "evidence_types": [
             "diarized_transcription",
             "seed_provider_speaker_map"
@@ -1342,7 +1342,7 @@
         {
           "person_id": 2,
           "display_name": "Sandor Earl",
-          "confidence": 0.0197,
+          "confidence": 0.0155,
           "evidence_types": [
             "diarized_transcription",
             "seed_provider_speaker_map"
@@ -1364,12 +1364,12 @@
       "true_person_id": 2,
       "true_display_name": "Sandor Earl",
       "speaker_type": "known",
-      "confidence": 0.9042,
+      "confidence": 0.9096,
       "evidence_candidates": [
         {
           "person_id": 2,
           "display_name": "Sandor Earl",
-          "confidence": 0.9042,
+          "confidence": 0.9096,
           "evidence_types": [
             "diarized_transcription",
             "seed_provider_speaker_map"
@@ -1383,7 +1383,7 @@
         {
           "person_id": 1,
           "display_name": "Denan Kemp",
-          "confidence": 0.0186,
+          "confidence": 0.0132,
           "evidence_types": [
             "diarized_transcription",
             "seed_provider_speaker_map"
@@ -1405,12 +1405,12 @@
       "true_person_id": 2,
       "true_display_name": "Sandor Earl",
       "speaker_type": "known",
-      "confidence": 0.9434,
+      "confidence": 0.949,
       "evidence_candidates": [
         {
           "person_id": 2,
           "display_name": "Sandor Earl",
-          "confidence": 0.9434,
+          "confidence": 0.949,
           "evidence_types": [
             "diarized_transcription",
             "seed_provider_speaker_map"
@@ -1424,7 +1424,7 @@
         {
           "person_id": 1,
           "display_name": "Denan Kemp",
-          "confidence": 0.0194,
+          "confidence": 0.0138,
           "evidence_types": [
             "diarized_transcription",
             "seed_provider_speaker_map"
@@ -1446,12 +1446,12 @@
       "true_person_id": 1,
       "true_display_name": "Denan Kemp",
       "speaker_type": "known",
-      "confidence": 0.9009,
+      "confidence": 0.905,
       "evidence_candidates": [
         {
           "person_id": 1,
           "display_name": "Denan Kemp",
-          "confidence": 0.9009,
+          "confidence": 0.905,
           "evidence_types": [
             "diarized_transcription",
             "seed_provider_speaker_map"
@@ -1465,7 +1465,7 @@
         {
           "person_id": 2,
           "display_name": "Sandor Earl",
-          "confidence": 0.0192,
+          "confidence": 0.0151,
           "evidence_types": [
             "diarized_transcription",
             "seed_provider_speaker_map"
@@ -1487,12 +1487,12 @@
       "true_person_id": 2,
       "true_display_name": "Sandor Earl",
       "speaker_type": "known",
-      "confidence": 0.7384,
+      "confidence": 0.7428,
       "evidence_candidates": [
         {
           "person_id": 2,
           "display_name": "Sandor Earl",
-          "confidence": 0.7384,
+          "confidence": 0.7428,
           "evidence_types": [
             "diarized_transcription",
             "seed_provider_speaker_map"
@@ -1506,7 +1506,7 @@
         {
           "person_id": 1,
           "display_name": "Denan Kemp",
-          "confidence": 0.0152,
+          "confidence": 0.0108,
           "evidence_types": [
             "diarized_transcription",
             "seed_provider_speaker_map"
@@ -1528,12 +1528,12 @@
       "true_person_id": 1,
       "true_display_name": "Denan Kemp",
       "speaker_type": "known",
-      "confidence": 0.9079,
+      "confidence": 0.9121,
       "evidence_candidates": [
         {
           "person_id": 1,
           "display_name": "Denan Kemp",
-          "confidence": 0.9079,
+          "confidence": 0.9121,
           "evidence_types": [
             "diarized_transcription",
             "seed_provider_speaker_map"
@@ -1547,7 +1547,7 @@
         {
           "person_id": 2,
           "display_name": "Sandor Earl",
-          "confidence": 0.0194,
+          "confidence": 0.0152,
           "evidence_types": [
             "diarized_transcription",
             "seed_provider_speaker_map"
@@ -1569,12 +1569,12 @@
       "true_person_id": 1,
       "true_display_name": "Denan Kemp",
       "speaker_type": "known",
-      "confidence": 0.9189,
+      "confidence": 0.9231,
       "evidence_candidates": [
         {
           "person_id": 1,
           "display_name": "Denan Kemp",
-          "confidence": 0.9189,
+          "confidence": 0.9231,
           "evidence_types": [
             "diarized_transcription",
             "seed_provider_speaker_map"
@@ -1588,7 +1588,7 @@
         {
           "person_id": 2,
           "display_name": "Sandor Earl",
-          "confidence": 0.0196,
+          "confidence": 0.0154,
           "evidence_types": [
             "diarized_transcription",
             "seed_provider_speaker_map"
@@ -1610,12 +1610,12 @@
       "true_person_id": 1,
       "true_display_name": "Denan Kemp",
       "speaker_type": "known",
-      "confidence": 0.9597,
+      "confidence": 0.9641,
       "evidence_candidates": [
         {
           "person_id": 1,
           "display_name": "Denan Kemp",
-          "confidence": 0.9597,
+          "confidence": 0.9641,
           "evidence_types": [
             "diarized_transcription",
             "seed_provider_speaker_map"
@@ -1629,7 +1629,7 @@
         {
           "person_id": 2,
           "display_name": "Sandor Earl",
-          "confidence": 0.0205,
+          "confidence": 0.0161,
           "evidence_types": [
             "diarized_transcription",
             "seed_provider_speaker_map"
@@ -1651,12 +1651,12 @@
       "true_person_id": 1,
       "true_display_name": "Denan Kemp",
       "speaker_type": "known",
-      "confidence": 0.9439,
+      "confidence": 0.9482,
       "evidence_candidates": [
         {
           "person_id": 1,
           "display_name": "Denan Kemp",
-          "confidence": 0.9439,
+          "confidence": 0.9482,
           "evidence_types": [
             "diarized_transcription",
             "seed_provider_speaker_map"
@@ -1670,7 +1670,7 @@
         {
           "person_id": 2,
           "display_name": "Sandor Earl",
-          "confidence": 0.0201,
+          "confidence": 0.0158,
           "evidence_types": [
             "diarized_transcription",
             "seed_provider_speaker_map"
@@ -1692,12 +1692,12 @@
       "true_person_id": 1,
       "true_display_name": "Denan Kemp",
       "speaker_type": "known",
-      "confidence": 0.9238,
+      "confidence": 0.928,
       "evidence_candidates": [
         {
           "person_id": 1,
           "display_name": "Denan Kemp",
-          "confidence": 0.9238,
+          "confidence": 0.928,
           "evidence_types": [
             "diarized_transcription",
             "seed_provider_speaker_map"
@@ -1711,7 +1711,7 @@
         {
           "person_id": 2,
           "display_name": "Sandor Earl",
-          "confidence": 0.0197,
+          "confidence": 0.0155,
           "evidence_types": [
             "diarized_transcription",
             "seed_provider_speaker_map"
@@ -1733,12 +1733,12 @@
       "true_person_id": 1,
       "true_display_name": "Denan Kemp",
       "speaker_type": "known",
-      "confidence": 0.925,
+      "confidence": 0.9292,
       "evidence_candidates": [
         {
           "person_id": 1,
           "display_name": "Denan Kemp",
-          "confidence": 0.925,
+          "confidence": 0.9292,
           "evidence_types": [
             "diarized_transcription",
             "seed_provider_speaker_map"
@@ -1752,7 +1752,7 @@
         {
           "person_id": 2,
           "display_name": "Sandor Earl",
-          "confidence": 0.0197,
+          "confidence": 0.0155,
           "evidence_types": [
             "diarized_transcription",
             "seed_provider_speaker_map"
@@ -1774,12 +1774,12 @@
       "true_person_id": 1,
       "true_display_name": "Denan Kemp",
       "speaker_type": "known",
-      "confidence": 0.9484,
+      "confidence": 0.9527,
       "evidence_candidates": [
         {
           "person_id": 1,
           "display_name": "Denan Kemp",
-          "confidence": 0.9484,
+          "confidence": 0.9527,
           "evidence_types": [
             "diarized_transcription",
             "seed_provider_speaker_map"
@@ -1793,7 +1793,7 @@
         {
           "person_id": 2,
           "display_name": "Sandor Earl",
-          "confidence": 0.0202,
+          "confidence": 0.0159,
           "evidence_types": [
             "diarized_transcription",
             "seed_provider_speaker_map"
@@ -1815,12 +1815,12 @@
       "true_person_id": 1,
       "true_display_name": "Denan Kemp",
       "speaker_type": "known",
-      "confidence": 0.9674,
+      "confidence": 0.9718,
       "evidence_candidates": [
         {
           "person_id": 1,
           "display_name": "Denan Kemp",
-          "confidence": 0.9674,
+          "confidence": 0.9718,
           "evidence_types": [
             "diarized_transcription",
             "seed_provider_speaker_map"
@@ -1834,7 +1834,7 @@
         {
           "person_id": 2,
           "display_name": "Sandor Earl",
-          "confidence": 0.0206,
+          "confidence": 0.0162,
           "evidence_types": [
             "diarized_transcription",
             "seed_provider_speaker_map"
@@ -1859,9 +1859,9 @@
       "confidence": 0.9768,
       "evidence_candidates": [
         {
-          "person_id": 2,
-          "display_name": "Sandor Earl",
-          "confidence": 0.5006,
+          "person_id": 1,
+          "display_name": "Denan Kemp",
+          "confidence": 0.5141,
           "evidence_types": [
             "diarized_transcription",
             "seed_provider_speaker_map"
@@ -1873,9 +1873,9 @@
           ]
         },
         {
-          "person_id": 1,
-          "display_name": "Denan Kemp",
-          "confidence": 0.4762,
+          "person_id": 2,
+          "display_name": "Sandor Earl",
+          "confidence": 0.4627,
           "evidence_types": [
             "diarized_transcription",
             "seed_provider_speaker_map"
@@ -1897,12 +1897,12 @@
       "true_person_id": 3,
       "true_display_name": "Matthew Buxton",
       "speaker_type": "known",
-      "confidence": 0.6126,
+      "confidence": 0.5175,
       "evidence_candidates": [
         {
           "person_id": 3,
           "display_name": "Matthew Buxton",
-          "confidence": 0.6126,
+          "confidence": 0.5175,
           "evidence_types": [
             "diarized_transcription",
             "seed_provider_speaker_map"
@@ -1916,7 +1916,7 @@
         {
           "person_id": 2,
           "display_name": "Sandor Earl",
-          "confidence": 0.1165,
+          "confidence": 0.215,
           "evidence_types": [
             "diarized_transcription",
             "seed_provider_speaker_map"
@@ -1930,7 +1930,7 @@
         {
           "person_id": 1,
           "display_name": "Denan Kemp",
-          "confidence": 0.0215,
+          "confidence": 0.0182,
           "evidence_types": [
             "diarized_transcription",
             "seed_provider_speaker_map"
@@ -1952,12 +1952,12 @@
       "true_person_id": 1,
       "true_display_name": "Denan Kemp",
       "speaker_type": "known",
-      "confidence": 0.8915,
+      "confidence": 0.8956,
       "evidence_candidates": [
         {
           "person_id": 1,
           "display_name": "Denan Kemp",
-          "confidence": 0.8915,
+          "confidence": 0.8956,
           "evidence_types": [
             "diarized_transcription",
             "seed_provider_speaker_map"
@@ -1971,7 +1971,7 @@
         {
           "person_id": 2,
           "display_name": "Sandor Earl",
-          "confidence": 0.019,
+          "confidence": 0.0149,
           "evidence_types": [
             "diarized_transcription",
             "seed_provider_speaker_map"
@@ -1993,12 +1993,12 @@
       "true_person_id": 2,
       "true_display_name": "Sandor Earl",
       "speaker_type": "known",
-      "confidence": 0.7863,
+      "confidence": 0.791,
       "evidence_candidates": [
         {
           "person_id": 2,
           "display_name": "Sandor Earl",
-          "confidence": 0.7863,
+          "confidence": 0.791,
           "evidence_types": [
             "diarized_transcription",
             "seed_provider_speaker_map"
@@ -2012,7 +2012,7 @@
         {
           "person_id": 1,
           "display_name": "Denan Kemp",
-          "confidence": 0.0162,
+          "confidence": 0.0115,
           "evidence_types": [
             "diarized_transcription",
             "seed_provider_speaker_map"
@@ -2034,12 +2034,12 @@
       "true_person_id": 2,
       "true_display_name": "Sandor Earl",
       "speaker_type": "known",
-      "confidence": 0.8857,
+      "confidence": 0.8911,
       "evidence_candidates": [
         {
           "person_id": 2,
           "display_name": "Sandor Earl",
-          "confidence": 0.8857,
+          "confidence": 0.8911,
           "evidence_types": [
             "diarized_transcription",
             "seed_provider_speaker_map"
@@ -2053,7 +2053,7 @@
         {
           "person_id": 1,
           "display_name": "Denan Kemp",
-          "confidence": 0.0183,
+          "confidence": 0.0129,
           "evidence_types": [
             "diarized_transcription",
             "seed_provider_speaker_map"
@@ -2075,12 +2075,12 @@
       "true_person_id": 1,
       "true_display_name": "Denan Kemp",
       "speaker_type": "known",
-      "confidence": 0.9786,
+      "confidence": 0.9831,
       "evidence_candidates": [
         {
           "person_id": 1,
           "display_name": "Denan Kemp",
-          "confidence": 0.9786,
+          "confidence": 0.9831,
           "evidence_types": [
             "diarized_transcription",
             "seed_provider_speaker_map"
@@ -2094,7 +2094,7 @@
         {
           "person_id": 2,
           "display_name": "Sandor Earl",
-          "confidence": 0.0209,
+          "confidence": 0.0164,
           "evidence_types": [
             "diarized_transcription",
             "seed_provider_speaker_map"
@@ -2116,12 +2116,12 @@
       "true_person_id": 2,
       "true_display_name": "Sandor Earl",
       "speaker_type": "known",
-      "confidence": 0.9352,
+      "confidence": 0.9409,
       "evidence_candidates": [
         {
           "person_id": 2,
           "display_name": "Sandor Earl",
-          "confidence": 0.9352,
+          "confidence": 0.9409,
           "evidence_types": [
             "diarized_transcription",
             "seed_provider_speaker_map"
@@ -2135,7 +2135,7 @@
         {
           "person_id": 1,
           "display_name": "Denan Kemp",
-          "confidence": 0.0193,
+          "confidence": 0.0136,
           "evidence_types": [
             "diarized_transcription",
             "seed_provider_speaker_map"
@@ -2157,12 +2157,12 @@
       "true_person_id": 2,
       "true_display_name": "Sandor Earl",
       "speaker_type": "known",
-      "confidence": 0.9426,
+      "confidence": 0.9482,
       "evidence_candidates": [
         {
           "person_id": 2,
           "display_name": "Sandor Earl",
-          "confidence": 0.9426,
+          "confidence": 0.9482,
           "evidence_types": [
             "diarized_transcription",
             "seed_provider_speaker_map"
@@ -2176,7 +2176,7 @@
         {
           "person_id": 1,
           "display_name": "Denan Kemp",
-          "confidence": 0.0194,
+          "confidence": 0.0138,
           "evidence_types": [
             "diarized_transcription",
             "seed_provider_speaker_map"
@@ -2198,12 +2198,12 @@
       "true_person_id": 2,
       "true_display_name": "Sandor Earl",
       "speaker_type": "known",
-      "confidence": 0.9394,
+      "confidence": 0.9451,
       "evidence_candidates": [
         {
           "person_id": 2,
           "display_name": "Sandor Earl",
-          "confidence": 0.9394,
+          "confidence": 0.9451,
           "evidence_types": [
             "diarized_transcription",
             "seed_provider_speaker_map"
@@ -2217,7 +2217,7 @@
         {
           "person_id": 1,
           "display_name": "Denan Kemp",
-          "confidence": 0.0194,
+          "confidence": 0.0137,
           "evidence_types": [
             "diarized_transcription",
             "seed_provider_speaker_map"
@@ -2239,12 +2239,12 @@
       "true_person_id": 2,
       "true_display_name": "Sandor Earl",
       "speaker_type": "known",
-      "confidence": 0.9678,
+      "confidence": 0.9737,
       "evidence_candidates": [
         {
           "person_id": 2,
           "display_name": "Sandor Earl",
-          "confidence": 0.9678,
+          "confidence": 0.9737,
           "evidence_types": [
             "diarized_transcription",
             "seed_provider_speaker_map"
@@ -2258,7 +2258,7 @@
         {
           "person_id": 1,
           "display_name": "Denan Kemp",
-          "confidence": 0.02,
+          "confidence": 0.0141,
           "evidence_types": [
             "diarized_transcription",
             "seed_provider_speaker_map"
@@ -2280,12 +2280,12 @@
       "true_person_id": 2,
       "true_display_name": "Sandor Earl",
       "speaker_type": "known",
-      "confidence": 0.9339,
+      "confidence": 0.9396,
       "evidence_candidates": [
         {
           "person_id": 2,
           "display_name": "Sandor Earl",
-          "confidence": 0.9339,
+          "confidence": 0.9396,
           "evidence_types": [
             "diarized_transcription",
             "seed_provider_speaker_map"
@@ -2299,7 +2299,7 @@
         {
           "person_id": 1,
           "display_name": "Denan Kemp",
-          "confidence": 0.0193,
+          "confidence": 0.0136,
           "evidence_types": [
             "diarized_transcription",
             "seed_provider_speaker_map"
@@ -2321,12 +2321,12 @@
       "true_person_id": 2,
       "true_display_name": "Sandor Earl",
       "speaker_type": "known",
-      "confidence": 0.9503,
+      "confidence": 0.956,
       "evidence_candidates": [
         {
           "person_id": 2,
           "display_name": "Sandor Earl",
-          "confidence": 0.9503,
+          "confidence": 0.956,
           "evidence_types": [
             "diarized_transcription",
             "seed_provider_speaker_map"
@@ -2340,7 +2340,7 @@
         {
           "person_id": 1,
           "display_name": "Denan Kemp",
-          "confidence": 0.0196,
+          "confidence": 0.0139,
           "evidence_types": [
             "diarized_transcription",
             "seed_provider_speaker_map"
@@ -2362,12 +2362,12 @@
       "true_person_id": 2,
       "true_display_name": "Sandor Earl",
       "speaker_type": "known",
-      "confidence": 0.9793,
+      "confidence": 0.9852,
       "evidence_candidates": [
         {
           "person_id": 2,
           "display_name": "Sandor Earl",
-          "confidence": 0.9793,
+          "confidence": 0.9852,
           "evidence_types": [
             "diarized_transcription",
             "seed_provider_speaker_map"
@@ -2381,7 +2381,7 @@
         {
           "person_id": 1,
           "display_name": "Denan Kemp",
-          "confidence": 0.0202,
+          "confidence": 0.0143,
           "evidence_types": [
             "diarized_transcription",
             "seed_provider_speaker_map"
@@ -2403,12 +2403,12 @@
       "true_person_id": 2,
       "true_display_name": "Sandor Earl",
       "speaker_type": "known",
-      "confidence": 0.9759,
+      "confidence": 0.9818,
       "evidence_candidates": [
         {
           "person_id": 2,
           "display_name": "Sandor Earl",
-          "confidence": 0.9759,
+          "confidence": 0.9818,
           "evidence_types": [
             "diarized_transcription",
             "seed_provider_speaker_map"
@@ -2422,7 +2422,7 @@
         {
           "person_id": 1,
           "display_name": "Denan Kemp",
-          "confidence": 0.0201,
+          "confidence": 0.0142,
           "evidence_types": [
             "diarized_transcription",
             "seed_provider_speaker_map"
@@ -2444,12 +2444,12 @@
       "true_person_id": 2,
       "true_display_name": "Sandor Earl",
       "speaker_type": "known",
-      "confidence": 0.9402,
+      "confidence": 0.9459,
       "evidence_candidates": [
         {
           "person_id": 2,
           "display_name": "Sandor Earl",
-          "confidence": 0.9402,
+          "confidence": 0.9459,
           "evidence_types": [
             "diarized_transcription",
             "seed_provider_speaker_map"
@@ -2463,7 +2463,7 @@
         {
           "person_id": 1,
           "display_name": "Denan Kemp",
-          "confidence": 0.0194,
+          "confidence": 0.0137,
           "evidence_types": [
             "diarized_transcription",
             "seed_provider_speaker_map"
@@ -2485,12 +2485,12 @@
       "true_person_id": 1,
       "true_display_name": "Denan Kemp",
       "speaker_type": "known",
-      "confidence": 0.937,
+      "confidence": 0.9413,
       "evidence_candidates": [
         {
           "person_id": 1,
           "display_name": "Denan Kemp",
-          "confidence": 0.937,
+          "confidence": 0.9413,
           "evidence_types": [
             "diarized_transcription",
             "seed_provider_speaker_map"
@@ -2504,7 +2504,7 @@
         {
           "person_id": 2,
           "display_name": "Sandor Earl",
-          "confidence": 0.02,
+          "confidence": 0.0157,
           "evidence_types": [
             "diarized_transcription",
             "seed_provider_speaker_map"
@@ -2526,12 +2526,12 @@
       "true_person_id": 1,
       "true_display_name": "Denan Kemp",
       "speaker_type": "known",
-      "confidence": 0.9303,
+      "confidence": 0.9346,
       "evidence_candidates": [
         {
           "person_id": 1,
           "display_name": "Denan Kemp",
-          "confidence": 0.9303,
+          "confidence": 0.9346,
           "evidence_types": [
             "diarized_transcription",
             "seed_provider_speaker_map"
@@ -2545,7 +2545,7 @@
         {
           "person_id": 2,
           "display_name": "Sandor Earl",
-          "confidence": 0.0199,
+          "confidence": 0.0156,
           "evidence_types": [
             "diarized_transcription",
             "seed_provider_speaker_map"
@@ -2567,12 +2567,12 @@
       "true_person_id": 2,
       "true_display_name": "Sandor Earl",
       "speaker_type": "known",
-      "confidence": 0.909,
+      "confidence": 0.9144,
       "evidence_candidates": [
         {
           "person_id": 2,
           "display_name": "Sandor Earl",
-          "confidence": 0.909,
+          "confidence": 0.9144,
           "evidence_types": [
             "diarized_transcription",
             "seed_provider_speaker_map"
@@ -2586,7 +2586,7 @@
         {
           "person_id": 1,
           "display_name": "Denan Kemp",
-          "confidence": 0.0187,
+          "confidence": 0.0133,
           "evidence_types": [
             "diarized_transcription",
             "seed_provider_speaker_map"
@@ -2608,12 +2608,12 @@
       "true_person_id": 1,
       "true_display_name": "Denan Kemp",
       "speaker_type": "known",
-      "confidence": 0.9325,
+      "confidence": 0.9368,
       "evidence_candidates": [
         {
           "person_id": 1,
           "display_name": "Denan Kemp",
-          "confidence": 0.9325,
+          "confidence": 0.9368,
           "evidence_types": [
             "diarized_transcription",
             "seed_provider_speaker_map"
@@ -2627,7 +2627,7 @@
         {
           "person_id": 2,
           "display_name": "Sandor Earl",
-          "confidence": 0.0199,
+          "confidence": 0.0156,
           "evidence_types": [
             "diarized_transcription",
             "seed_provider_speaker_map"
@@ -2649,12 +2649,12 @@
       "true_person_id": 2,
       "true_display_name": "Sandor Earl",
       "speaker_type": "known",
-      "confidence": 0.9439,
+      "confidence": 0.9496,
       "evidence_candidates": [
         {
           "person_id": 2,
           "display_name": "Sandor Earl",
-          "confidence": 0.9439,
+          "confidence": 0.9496,
           "evidence_types": [
             "diarized_transcription",
             "seed_provider_speaker_map"
@@ -2668,7 +2668,7 @@
         {
           "person_id": 1,
           "display_name": "Denan Kemp",
-          "confidence": 0.0195,
+          "confidence": 0.0138,
           "evidence_types": [
             "diarized_transcription",
             "seed_provider_speaker_map"
@@ -2690,12 +2690,12 @@
       "true_person_id": 2,
       "true_display_name": "Sandor Earl",
       "speaker_type": "known",
-      "confidence": 0.9687,
+      "confidence": 0.9746,
       "evidence_candidates": [
         {
           "person_id": 2,
           "display_name": "Sandor Earl",
-          "confidence": 0.9687,
+          "confidence": 0.9746,
           "evidence_types": [
             "diarized_transcription",
             "seed_provider_speaker_map"
@@ -2709,7 +2709,7 @@
         {
           "person_id": 1,
           "display_name": "Denan Kemp",
-          "confidence": 0.02,
+          "confidence": 0.0141,
           "evidence_types": [
             "diarized_transcription",
             "seed_provider_speaker_map"
@@ -2734,9 +2734,9 @@
       "confidence": 0.7612,
       "evidence_candidates": [
         {
-          "person_id": 2,
-          "display_name": "Sandor Earl",
-          "confidence": 0.3901,
+          "person_id": 1,
+          "display_name": "Denan Kemp",
+          "confidence": 0.4006,
           "evidence_types": [
             "diarized_transcription",
             "seed_provider_speaker_map"
@@ -2748,9 +2748,9 @@
           ]
         },
         {
-          "person_id": 1,
-          "display_name": "Denan Kemp",
-          "confidence": 0.3711,
+          "person_id": 2,
+          "display_name": "Sandor Earl",
+          "confidence": 0.3606,
           "evidence_types": [
             "diarized_transcription",
             "seed_provider_speaker_map"
@@ -2775,9 +2775,9 @@
       "confidence": 0.9456,
       "evidence_candidates": [
         {
-          "person_id": 2,
-          "display_name": "Sandor Earl",
-          "confidence": 0.4846,
+          "person_id": 1,
+          "display_name": "Denan Kemp",
+          "confidence": 0.4977,
           "evidence_types": [
             "diarized_transcription",
             "seed_provider_speaker_map"
@@ -2789,9 +2789,9 @@
           ]
         },
         {
-          "person_id": 1,
-          "display_name": "Denan Kemp",
-          "confidence": 0.461,
+          "person_id": 2,
+          "display_name": "Sandor Earl",
+          "confidence": 0.4479,
           "evidence_types": [
             "diarized_transcription",
             "seed_provider_speaker_map"
@@ -2813,12 +2813,12 @@
       "true_person_id": 1,
       "true_display_name": "Denan Kemp",
       "speaker_type": "known",
-      "confidence": 0.9081,
+      "confidence": 0.9123,
       "evidence_candidates": [
         {
           "person_id": 1,
           "display_name": "Denan Kemp",
-          "confidence": 0.9081,
+          "confidence": 0.9123,
           "evidence_types": [
             "diarized_transcription",
             "seed_provider_speaker_map"
@@ -2832,7 +2832,7 @@
         {
           "person_id": 2,
           "display_name": "Sandor Earl",
-          "confidence": 0.0194,
+          "confidence": 0.0152,
           "evidence_types": [
             "diarized_transcription",
             "seed_provider_speaker_map"
@@ -2854,12 +2854,12 @@
       "true_person_id": 2,
       "true_display_name": "Sandor Earl",
       "speaker_type": "known",
-      "confidence": 0.9634,
+      "confidence": 0.9692,
       "evidence_candidates": [
         {
           "person_id": 2,
           "display_name": "Sandor Earl",
-          "confidence": 0.9634,
+          "confidence": 0.9692,
           "evidence_types": [
             "diarized_transcription",
             "seed_provider_speaker_map"
@@ -2873,7 +2873,7 @@
         {
           "person_id": 1,
           "display_name": "Denan Kemp",
-          "confidence": 0.0199,
+          "confidence": 0.0141,
           "evidence_types": [
             "diarized_transcription",
             "seed_provider_speaker_map"
@@ -2895,12 +2895,12 @@
       "true_person_id": 1,
       "true_display_name": "Denan Kemp",
       "speaker_type": "known",
-      "confidence": 0.9447,
+      "confidence": 0.9491,
       "evidence_candidates": [
         {
           "person_id": 1,
           "display_name": "Denan Kemp",
-          "confidence": 0.9447,
+          "confidence": 0.9491,
           "evidence_types": [
             "diarized_transcription",
             "seed_provider_speaker_map"
@@ -2914,7 +2914,7 @@
         {
           "person_id": 2,
           "display_name": "Sandor Earl",
-          "confidence": 0.0202,
+          "confidence": 0.0158,
           "evidence_types": [
             "diarized_transcription",
             "seed_provider_speaker_map"
@@ -2936,12 +2936,12 @@
       "true_person_id": 1,
       "true_display_name": "Denan Kemp",
       "speaker_type": "known",
-      "confidence": 0.8771,
+      "confidence": 0.8811,
       "evidence_candidates": [
         {
           "person_id": 1,
           "display_name": "Denan Kemp",
-          "confidence": 0.8771,
+          "confidence": 0.8811,
           "evidence_types": [
             "diarized_transcription",
             "seed_provider_speaker_map"
@@ -2955,7 +2955,7 @@
         {
           "person_id": 2,
           "display_name": "Sandor Earl",
-          "confidence": 0.0187,
+          "confidence": 0.0147,
           "evidence_types": [
             "diarized_transcription",
             "seed_provider_speaker_map"
@@ -2977,12 +2977,12 @@
       "true_person_id": 3,
       "true_display_name": "Matthew Buxton",
       "speaker_type": "known",
-      "confidence": 0.7092,
+      "confidence": 0.599,
       "evidence_candidates": [
         {
           "person_id": 3,
           "display_name": "Matthew Buxton",
-          "confidence": 0.7092,
+          "confidence": 0.599,
           "evidence_types": [
             "diarized_transcription",
             "seed_provider_speaker_map"
@@ -2996,7 +2996,7 @@
         {
           "person_id": 2,
           "display_name": "Sandor Earl",
-          "confidence": 0.1349,
+          "confidence": 0.2489,
           "evidence_types": [
             "diarized_transcription",
             "seed_provider_speaker_map"
@@ -3010,7 +3010,7 @@
         {
           "person_id": 1,
           "display_name": "Denan Kemp",
-          "confidence": 0.0249,
+          "confidence": 0.0211,
           "evidence_types": [
             "diarized_transcription",
             "seed_provider_speaker_map"
@@ -3032,12 +3032,12 @@
       "true_person_id": 3,
       "true_display_name": "Matthew Buxton",
       "speaker_type": "known",
-      "confidence": 0.8092,
+      "confidence": 0.6834,
       "evidence_candidates": [
         {
           "person_id": 3,
           "display_name": "Matthew Buxton",
-          "confidence": 0.8092,
+          "confidence": 0.6834,
           "evidence_types": [
             "diarized_transcription",
             "seed_provider_speaker_map"
@@ -3051,7 +3051,7 @@
         {
           "person_id": 2,
           "display_name": "Sandor Earl",
-          "confidence": 0.1539,
+          "confidence": 0.284,
           "evidence_types": [
             "diarized_transcription",
             "seed_provider_speaker_map"
@@ -3065,7 +3065,7 @@
         {
           "person_id": 1,
           "display_name": "Denan Kemp",
-          "confidence": 0.0285,
+          "confidence": 0.0241,
           "evidence_types": [
             "diarized_transcription",
             "seed_provider_speaker_map"
@@ -3087,12 +3087,12 @@
       "true_person_id": 3,
       "true_display_name": "Matthew Buxton",
       "speaker_type": "known",
-      "confidence": 0.7483,
+      "confidence": 0.632,
       "evidence_candidates": [
         {
           "person_id": 3,
           "display_name": "Matthew Buxton",
-          "confidence": 0.7483,
+          "confidence": 0.632,
           "evidence_types": [
             "diarized_transcription",
             "seed_provider_speaker_map"
@@ -3106,7 +3106,7 @@
         {
           "person_id": 2,
           "display_name": "Sandor Earl",
-          "confidence": 0.1423,
+          "confidence": 0.2626,
           "evidence_types": [
             "diarized_transcription",
             "seed_provider_speaker_map"
@@ -3120,7 +3120,7 @@
         {
           "person_id": 1,
           "display_name": "Denan Kemp",
-          "confidence": 0.0263,
+          "confidence": 0.0223,
           "evidence_types": [
             "diarized_transcription",
             "seed_provider_speaker_map"
@@ -3142,12 +3142,12 @@
       "true_person_id": 3,
       "true_display_name": "Matthew Buxton",
       "speaker_type": "known",
-      "confidence": 0.7706,
+      "confidence": 0.6509,
       "evidence_candidates": [
         {
           "person_id": 3,
           "display_name": "Matthew Buxton",
-          "confidence": 0.7706,
+          "confidence": 0.6509,
           "evidence_types": [
             "diarized_transcription",
             "seed_provider_speaker_map"
@@ -3161,7 +3161,7 @@
         {
           "person_id": 2,
           "display_name": "Sandor Earl",
-          "confidence": 0.1466,
+          "confidence": 0.2704,
           "evidence_types": [
             "diarized_transcription",
             "seed_provider_speaker_map"
@@ -3175,7 +3175,7 @@
         {
           "person_id": 1,
           "display_name": "Denan Kemp",
-          "confidence": 0.0271,
+          "confidence": 0.0229,
           "evidence_types": [
             "diarized_transcription",
             "seed_provider_speaker_map"
@@ -3197,12 +3197,12 @@
       "true_person_id": 1,
       "true_display_name": "Denan Kemp",
       "speaker_type": "known",
-      "confidence": 0.8125,
+      "confidence": 0.8162,
       "evidence_candidates": [
         {
           "person_id": 1,
           "display_name": "Denan Kemp",
-          "confidence": 0.8125,
+          "confidence": 0.8162,
           "evidence_types": [
             "diarized_transcription",
             "seed_provider_speaker_map"
@@ -3216,7 +3216,7 @@
         {
           "person_id": 2,
           "display_name": "Sandor Earl",
-          "confidence": 0.0173,
+          "confidence": 0.0136,
           "evidence_types": [
             "diarized_transcription",
             "seed_provider_speaker_map"
@@ -3238,12 +3238,12 @@
       "true_person_id": 3,
       "true_display_name": "Matthew Buxton",
       "speaker_type": "known",
-      "confidence": 0.7946,
+      "confidence": 0.6712,
       "evidence_candidates": [
         {
           "person_id": 3,
           "display_name": "Matthew Buxton",
-          "confidence": 0.7946,
+          "confidence": 0.6712,
           "evidence_types": [
             "diarized_transcription",
             "seed_provider_speaker_map"
@@ -3257,7 +3257,7 @@
         {
           "person_id": 2,
           "display_name": "Sandor Earl",
-          "confidence": 0.1511,
+          "confidence": 0.2789,
           "evidence_types": [
             "diarized_transcription",
             "seed_provider_speaker_map"
@@ -3271,7 +3271,7 @@
         {
           "person_id": 1,
           "display_name": "Denan Kemp",
-          "confidence": 0.0279,
+          "confidence": 0.0237,
           "evidence_types": [
             "diarized_transcription",
             "seed_provider_speaker_map"
@@ -3293,12 +3293,12 @@
       "true_person_id": 2,
       "true_display_name": "Sandor Earl",
       "speaker_type": "known",
-      "confidence": 0.9791,
+      "confidence": 0.985,
       "evidence_candidates": [
         {
           "person_id": 2,
           "display_name": "Sandor Earl",
-          "confidence": 0.9791,
+          "confidence": 0.985,
           "evidence_types": [
             "diarized_transcription",
             "seed_provider_speaker_map"
@@ -3312,7 +3312,7 @@
         {
           "person_id": 1,
           "display_name": "Denan Kemp",
-          "confidence": 0.0202,
+          "confidence": 0.0143,
           "evidence_types": [
             "diarized_transcription",
             "seed_provider_speaker_map"
@@ -3334,12 +3334,12 @@
       "true_person_id": 2,
       "true_display_name": "Sandor Earl",
       "speaker_type": "known",
-      "confidence": 0.9217,
+      "confidence": 0.9272,
       "evidence_candidates": [
         {
           "person_id": 2,
           "display_name": "Sandor Earl",
-          "confidence": 0.9217,
+          "confidence": 0.9272,
           "evidence_types": [
             "diarized_transcription",
             "seed_provider_speaker_map"
@@ -3353,7 +3353,7 @@
         {
           "person_id": 1,
           "display_name": "Denan Kemp",
-          "confidence": 0.019,
+          "confidence": 0.0135,
           "evidence_types": [
             "diarized_transcription",
             "seed_provider_speaker_map"
@@ -3375,12 +3375,12 @@
       "true_person_id": 1,
       "true_display_name": "Denan Kemp",
       "speaker_type": "known",
-      "confidence": 0.9524,
+      "confidence": 0.9567,
       "evidence_candidates": [
         {
           "person_id": 1,
           "display_name": "Denan Kemp",
-          "confidence": 0.9524,
+          "confidence": 0.9567,
           "evidence_types": [
             "diarized_transcription",
             "seed_provider_speaker_map"
@@ -3394,7 +3394,7 @@
         {
           "person_id": 2,
           "display_name": "Sandor Earl",
-          "confidence": 0.0203,
+          "confidence": 0.016,
           "evidence_types": [
             "diarized_transcription",
             "seed_provider_speaker_map"
@@ -3416,12 +3416,12 @@
       "true_person_id": 2,
       "true_display_name": "Sandor Earl",
       "speaker_type": "known",
-      "confidence": 0.8689,
+      "confidence": 0.8741,
       "evidence_candidates": [
         {
           "person_id": 2,
           "display_name": "Sandor Earl",
-          "confidence": 0.8689,
+          "confidence": 0.8741,
           "evidence_types": [
             "diarized_transcription",
             "seed_provider_speaker_map"
@@ -3435,7 +3435,7 @@
         {
           "person_id": 1,
           "display_name": "Denan Kemp",
-          "confidence": 0.0179,
+          "confidence": 0.0127,
           "evidence_types": [
             "diarized_transcription",
             "seed_provider_speaker_map"
@@ -3457,12 +3457,12 @@
       "true_person_id": 3,
       "true_display_name": "Matthew Buxton",
       "speaker_type": "known",
-      "confidence": 0.7557,
+      "confidence": 0.6383,
       "evidence_candidates": [
         {
           "person_id": 3,
           "display_name": "Matthew Buxton",
-          "confidence": 0.7557,
+          "confidence": 0.6383,
           "evidence_types": [
             "diarized_transcription",
             "seed_provider_speaker_map"
@@ -3476,7 +3476,7 @@
         {
           "person_id": 2,
           "display_name": "Sandor Earl",
-          "confidence": 0.1437,
+          "confidence": 0.2652,
           "evidence_types": [
             "diarized_transcription",
             "seed_provider_speaker_map"
@@ -3490,7 +3490,7 @@
         {
           "person_id": 1,
           "display_name": "Denan Kemp",
-          "confidence": 0.0266,
+          "confidence": 0.0225,
           "evidence_types": [
             "diarized_transcription",
             "seed_provider_speaker_map"
@@ -3512,12 +3512,12 @@
       "true_person_id": 2,
       "true_display_name": "Sandor Earl",
       "speaker_type": "known",
-      "confidence": 0.9787,
+      "confidence": 0.9846,
       "evidence_candidates": [
         {
           "person_id": 2,
           "display_name": "Sandor Earl",
-          "confidence": 0.9787,
+          "confidence": 0.9846,
           "evidence_types": [
             "diarized_transcription",
             "seed_provider_speaker_map"
@@ -3531,7 +3531,7 @@
         {
           "person_id": 1,
           "display_name": "Denan Kemp",
-          "confidence": 0.0202,
+          "confidence": 0.0143,
           "evidence_types": [
             "diarized_transcription",
             "seed_provider_speaker_map"
@@ -3553,12 +3553,12 @@
       "true_person_id": 3,
       "true_display_name": "Matthew Buxton",
       "speaker_type": "known",
-      "confidence": 0.7672,
+      "confidence": 0.648,
       "evidence_candidates": [
         {
           "person_id": 3,
           "display_name": "Matthew Buxton",
-          "confidence": 0.7672,
+          "confidence": 0.648,
           "evidence_types": [
             "diarized_transcription",
             "seed_provider_speaker_map"
@@ -3572,7 +3572,7 @@
         {
           "person_id": 2,
           "display_name": "Sandor Earl",
-          "confidence": 0.1459,
+          "confidence": 0.2692,
           "evidence_types": [
             "diarized_transcription",
             "seed_provider_speaker_map"
@@ -3586,7 +3586,7 @@
         {
           "person_id": 1,
           "display_name": "Denan Kemp",
-          "confidence": 0.027,
+          "confidence": 0.0228,
           "evidence_types": [
             "diarized_transcription",
             "seed_provider_speaker_map"
@@ -3608,12 +3608,12 @@
       "true_person_id": 1,
       "true_display_name": "Denan Kemp",
       "speaker_type": "known",
-      "confidence": 0.7933,
+      "confidence": 0.7969,
       "evidence_candidates": [
         {
           "person_id": 1,
           "display_name": "Denan Kemp",
-          "confidence": 0.7933,
+          "confidence": 0.7969,
           "evidence_types": [
             "diarized_transcription",
             "seed_provider_speaker_map"
@@ -3627,7 +3627,7 @@
         {
           "person_id": 2,
           "display_name": "Sandor Earl",
-          "confidence": 0.0169,
+          "confidence": 0.0133,
           "evidence_types": [
             "diarized_transcription",
             "seed_provider_speaker_map"
@@ -3649,12 +3649,12 @@
       "true_person_id": 3,
       "true_display_name": "Matthew Buxton",
       "speaker_type": "known",
-      "confidence": 0.7297,
+      "confidence": 0.6163,
       "evidence_candidates": [
         {
           "person_id": 3,
           "display_name": "Matthew Buxton",
-          "confidence": 0.7297,
+          "confidence": 0.6163,
           "evidence_types": [
             "diarized_transcription",
             "seed_provider_speaker_map"
@@ -3668,7 +3668,7 @@
         {
           "person_id": 2,
           "display_name": "Sandor Earl",
-          "confidence": 0.1388,
+          "confidence": 0.2561,
           "evidence_types": [
             "diarized_transcription",
             "seed_provider_speaker_map"
@@ -3682,7 +3682,7 @@
         {
           "person_id": 1,
           "display_name": "Denan Kemp",
-          "confidence": 0.0257,
+          "confidence": 0.0217,
           "evidence_types": [
             "diarized_transcription",
             "seed_provider_speaker_map"
@@ -3704,12 +3704,12 @@
       "true_person_id": 3,
       "true_display_name": "Matthew Buxton",
       "speaker_type": "known",
-      "confidence": 0.8113,
+      "confidence": 0.6852,
       "evidence_candidates": [
         {
           "person_id": 3,
           "display_name": "Matthew Buxton",
-          "confidence": 0.8113,
+          "confidence": 0.6852,
           "evidence_types": [
             "diarized_transcription",
             "seed_provider_speaker_map"
@@ -3723,7 +3723,7 @@
         {
           "person_id": 2,
           "display_name": "Sandor Earl",
-          "confidence": 0.1543,
+          "confidence": 0.2847,
           "evidence_types": [
             "diarized_transcription",
             "seed_provider_speaker_map"
@@ -3737,7 +3737,7 @@
         {
           "person_id": 1,
           "display_name": "Denan Kemp",
-          "confidence": 0.0285,
+          "confidence": 0.0242,
           "evidence_types": [
             "diarized_transcription",
             "seed_provider_speaker_map"
@@ -3759,12 +3759,12 @@
       "true_person_id": 2,
       "true_display_name": "Sandor Earl",
       "speaker_type": "known",
-      "confidence": 0.8968,
+      "confidence": 0.9022,
       "evidence_candidates": [
         {
           "person_id": 2,
           "display_name": "Sandor Earl",
-          "confidence": 0.8968,
+          "confidence": 0.9022,
           "evidence_types": [
             "diarized_transcription",
             "seed_provider_speaker_map"
@@ -3778,7 +3778,7 @@
         {
           "person_id": 1,
           "display_name": "Denan Kemp",
-          "confidence": 0.0185,
+          "confidence": 0.0131,
           "evidence_types": [
             "diarized_transcription",
             "seed_provider_speaker_map"
@@ -3803,9 +3803,9 @@
       "confidence": 0.9303,
       "evidence_candidates": [
         {
-          "person_id": 2,
-          "display_name": "Sandor Earl",
-          "confidence": 0.4768,
+          "person_id": 1,
+          "display_name": "Denan Kemp",
+          "confidence": 0.4896,
           "evidence_types": [
             "diarized_transcription",
             "seed_provider_speaker_map"
@@ -3817,9 +3817,9 @@
           ]
         },
         {
-          "person_id": 1,
-          "display_name": "Denan Kemp",
-          "confidence": 0.4535,
+          "person_id": 2,
+          "display_name": "Sandor Earl",
+          "confidence": 0.4407,
           "evidence_types": [
             "diarized_transcription",
             "seed_provider_speaker_map"
@@ -3841,12 +3841,12 @@
       "true_person_id": 3,
       "true_display_name": "Matthew Buxton",
       "speaker_type": "known",
-      "confidence": 0.7805,
+      "confidence": 0.6592,
       "evidence_candidates": [
         {
           "person_id": 3,
           "display_name": "Matthew Buxton",
-          "confidence": 0.7805,
+          "confidence": 0.6592,
           "evidence_types": [
             "diarized_transcription",
             "seed_provider_speaker_map"
@@ -3860,7 +3860,7 @@
         {
           "person_id": 2,
           "display_name": "Sandor Earl",
-          "confidence": 0.1484,
+          "confidence": 0.2739,
           "evidence_types": [
             "diarized_transcription",
             "seed_provider_speaker_map"
@@ -3874,7 +3874,7 @@
         {
           "person_id": 1,
           "display_name": "Denan Kemp",
-          "confidence": 0.0274,
+          "confidence": 0.0232,
           "evidence_types": [
             "diarized_transcription",
             "seed_provider_speaker_map"
@@ -3896,12 +3896,12 @@
       "true_person_id": 3,
       "true_display_name": "Matthew Buxton",
       "speaker_type": "known",
-      "confidence": 0.7399,
+      "confidence": 0.6249,
       "evidence_candidates": [
         {
           "person_id": 3,
           "display_name": "Matthew Buxton",
-          "confidence": 0.7399,
+          "confidence": 0.6249,
           "evidence_types": [
             "diarized_transcription",
             "seed_provider_speaker_map"
@@ -3915,7 +3915,7 @@
         {
           "person_id": 2,
           "display_name": "Sandor Earl",
-          "confidence": 0.1407,
+          "confidence": 0.2597,
           "evidence_types": [
             "diarized_transcription",
             "seed_provider_speaker_map"
@@ -3929,7 +3929,7 @@
         {
           "person_id": 1,
           "display_name": "Denan Kemp",
-          "confidence": 0.026,
+          "confidence": 0.022,
           "evidence_types": [
             "diarized_transcription",
             "seed_provider_speaker_map"
@@ -3951,12 +3951,12 @@
       "true_person_id": 1,
       "true_display_name": "Denan Kemp",
       "speaker_type": "known",
-      "confidence": 0.9024,
+      "confidence": 0.9066,
       "evidence_candidates": [
         {
           "person_id": 1,
           "display_name": "Denan Kemp",
-          "confidence": 0.9024,
+          "confidence": 0.9066,
           "evidence_types": [
             "diarized_transcription",
             "seed_provider_speaker_map"
@@ -3970,7 +3970,7 @@
         {
           "person_id": 2,
           "display_name": "Sandor Earl",
-          "confidence": 0.0193,
+          "confidence": 0.0151,
           "evidence_types": [
             "diarized_transcription",
             "seed_provider_speaker_map"
@@ -3992,12 +3992,12 @@
       "true_person_id": 1,
       "true_display_name": "Denan Kemp",
       "speaker_type": "known",
-      "confidence": 0.9511,
+      "confidence": 0.9555,
       "evidence_candidates": [
         {
           "person_id": 1,
           "display_name": "Denan Kemp",
-          "confidence": 0.9511,
+          "confidence": 0.9555,
           "evidence_types": [
             "diarized_transcription",
             "seed_provider_speaker_map"
@@ -4011,7 +4011,7 @@
         {
           "person_id": 2,
           "display_name": "Sandor Earl",
-          "confidence": 0.0203,
+          "confidence": 0.0159,
           "evidence_types": [
             "diarized_transcription",
             "seed_provider_speaker_map"

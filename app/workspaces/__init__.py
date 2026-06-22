@@ -32,3 +32,30 @@ def workspace_codex_task_path(workspace: Path | None, *parts: str, fallback: Pat
     if workspace is None:
         return fallback
     return workspace / "codex_tasks" / Path(*parts)
+
+
+def workspace_experiment_path(workspace: Path | None, *parts: str, fallback: Path) -> Path:
+    if workspace is None:
+        return fallback
+    return workspace / "experiments" / Path(*parts)
+
+
+def resolve_harness_path(workspace: Path | None, harness: Path | str | None) -> Path | None:
+    if harness is None:
+        return None
+    path = Path(harness)
+    if path.exists():
+        return path
+    if workspace is None:
+        return path
+
+    harness_name = str(harness)
+    candidates = [
+        workspace / path,
+        workspace / "harnesses" / harness_name / "harness.yaml",
+        workspace / "experiments" / "generated_harnesses" / harness_name / "harness.yaml",
+    ]
+    for candidate in candidates:
+        if candidate.exists():
+            return candidate
+    return path
